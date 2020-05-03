@@ -2,11 +2,10 @@
   - [Perché questa guida](#perché-questa-guida)
   - [Come interrogarle](#come-interrogarle)
     - [Che strumenti usare](#che-strumenti-usare)
-    - [Scaricare i dati in blocco](#scaricare-i-dati-in-blocco)
     - [Accedere ai metadati](#accedere-ai-metadati)
     - [Accedere ai dati](#accedere-ai-dati)
   - [Qualche esempio](#qualche-esempio)
-    - [Scaricare i dati in blocco](#scaricare-i-dati-in-blocco-1)
+    - [Scaricare i dati in blocco](#scaricare-i-dati-in-blocco)
     - [Cambiare formato di output](#cambiare-formato-di-output)
     - [Applicare dei filtri](#applicare-dei-filtri)
 - [Note](#note)
@@ -30,10 +29,7 @@ Sono dati esposti secondo lo standard **SDMX**.
 
 ### Che strumenti usare
 
-Vista la modilità di accesso, basta un *browser*, `wget`, `cURL, in quanto disponibile e utilizzabile su qualsiasi sistema operativo.
-
-### Scaricare i dati in blocco
-` e/o qualsiasi modulo/funzione che in un linguaggio di scripting consenta l'accesso `HTTP` in `GET`.
+Vista la modilità di accesso, basta un *browser*, `wget`, `cURL` e/o qualsiasi modulo/funzione che in un linguaggio di scripting consenta l'accesso `HTTP` in `GET`.
 
 ### Accedere ai metadati
 
