@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v6.16.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF546</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2020-05-03T17:08:00.216944+02:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist id="CL_FREQ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IT1:CL_FREQ(1.0)" agencyID="IT1" version="1.0" isFinal="true">
+        <common:Name xml:lang="it">Frequenza</common:Name>
+        <common:Name xml:lang="en">Frequency</common:Name>
+        <structure:Code id="A" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_FREQ(1.0).A">
+          <common:Name xml:lang="it">annuale</common:Name>
+          <common:Name xml:lang="en">annual</common:Name>
+        </structure:Code>
+        <structure:Code id="B" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_FREQ(1.0).B">
+          <common:Name xml:lang="it">business (non supportato)</common:Name>
+          <common:Name xml:lang="en">business (not supported)</common:Name>
+        </structure:Code>
+        <structure:Code id="D" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_FREQ(1.0).D">
+          <common:Name xml:lang="it">giornaliero</common:Name>
+          <common:Name xml:lang="en">daily</common:Name>
+        </structure:Code>
+        <structure:Code id="E" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_FREQ(1.0).E">
+          <common:Name xml:lang="it">event (non supportato)</common:Name>
+          <common:Name xml:lang="en">event (not supported)</common:Name>
+        </structure:Code>
+        <structure:Code id="H" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_FREQ(1.0).H">
+          <common:Name xml:lang="it">semestrale</common:Name>
+          <common:Name xml:lang="en">half-yearly</common:Name>
+        </structure:Code>
+        <structure:Code id="M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_FREQ(1.0).M">
+          <common:Name xml:lang="it">mensile</common:Name>
+          <common:Name xml:lang="en">monthly</common:Name>
+        </structure:Code>
+        <structure:Code id="Q" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_FREQ(1.0).Q">
+          <common:Name xml:lang="it">trimestrale</common:Name>
+          <common:Name xml:lang="en">quarterly</common:Name>
+        </structure:Code>
+        <structure:Code id="W" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IT1:CL_FREQ(1.0).W">
+          <common:Name xml:lang="it">settimanale</common:Name>
+          <common:Name xml:lang="en">weekly</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+  </message:Structures>
+</message:Structure>

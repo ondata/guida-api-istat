@@ -1,0 +1,785 @@
+iddatastructure,descrizione
+DCAR_ATT_NOTAR,Notarial deeds
+DCAR_CONTECON_ASLAO,"Conto economico delle Aziende sanitarie locali, aziende ospedaliere, aziende ospedaliere universitarie, Policlinici e IRCCS - migliaia di euro"
+DCAR_CONTECON_CC,Conto economico delle camere di commercio - euro
+DCAR_DEC_AMM,Administrative justice decisions
+DCAR_ENTIST,Entrate delle unità istituzionali locali (euro)
+DCAR_ENTIST_PA,Entrate delle unità istituzionali centrali e locali
+DCAR_ENTPREVDIP,Numero dei dipendenti degli enti previdenziali
+DCAR_ENTPREVDIP_PA,Numero dei dipendenti degli enti nazionali previdenza e assistenza sociale - S13
+DCAR_ENTPREVENT,Enti previdenziali - entrate (migliaia di euro)
+DCAR_ENTPREVENT_PA,Enti nazionali di previdenza e assistenza sociale S13 - entrate (migliaia di euro)
+DCAR_ENTPREVSPE,Enti previdenziali - spese (migliaia di euro)
+DCAR_ENTPREVSPE_PA,Enti nazionali di previdenza e assistenza sociale S13 - spese (migliaia di euro)
+DCAR_INDBILPER,Indicatori di bilancio e dati sul personale delle unità istituzionali
+DCAR_INDCENS_PA,Attività e organizzazione delle unità istituzionali
+DCAR_NUM_PROC_CIV,Number of civil proceedings
+DCAR_PENSIONATI,Pensionati
+DCAR_PENSIONATI1,Pensionati
+DCAR_PENSIONATI2,Pensionati
+DCAR_PENSIONI,Pensioni
+DCAR_PENSIONI1,Pensioni
+DCAR_PENSIONI2,Pensioni
+DCAR_PROC_AMM,Administrative justice proceedings
+DCAR_PROC_CIV,"Procedimenti civili - lavoro, previdenza e assistenza obbligatorie"
+DCAR_PROTESTI,Protesti
+DCAR_SPEIST,Spese delle unità istituzionali locali (euro)
+DCAR_SPEIST_PA,Spese delle unità istituzionali centrali e locali
+DCAR_UI,Unità istituzionali
+DCAT_SERVBANC_COM,Servizi bancari - dati comunali
+DCCN_AGGREGBRANCANREV2,Annual national accounts breakdown by industry (NACE Rev.2) (millions of euro) - editions prior to October 2014
+DCCN_AGGREGBRANCAQREV2,Aggregati dei conti nazionali trimestrali per branca di attività economica (NACE Rev.2) (milioni di euro)
+DCCN_AGGREGBRANCATREV2,Aggregati dei conti territoriali per branca di attività economica (NACE Rev.2) (milioni di euro) - edizioni precedenti ottobre 2014
+DCCN_AGGRPIL,Principali aggregati del Prodotto interno lordo - dati nazionali annuali (milioni di euro)
+DCCN_ANA,Principali aggregati annuali di Contabilità Nazionale
+DCCN_ANA_B14,Principali aggregati annnuali di contabilità nazionale - edizioni ottobre 2014 - aprile 2019
+DCCN_CAPITALN,"Investimenti fissi lordi, stock di capitale e ammortamenti per branca proprietaria (Nace Rev 1.1) - dati nazionali annuali (milioni di euro)"
+DCCN_CAPITALNREV2,"Investimenti fissi lordi, stock di capitale e ammortamenti per branca proprietaria (Nace Rev. 2) - dati nazionali annuali (milioni di euro) - edizioni precedenti ottobre 2014"
+DCCN_CONSFAMN,Spesa per consumi finali delle famiglie
+DCCN_CONSFAMQ,Spesa per consumi finali delle famiglie
+DCCN_CONSFAMT,Spesa per consumi finali delle famiglie - dati territoriali (milioni di euro) - edizioni precedenti ottobre 2014
+DCCN_CONSPAT,Spesa per consumi finali della Pa
+DCCN_CONTIEMATM,Emissioni atmosferiche NAMEA (NACE Rev.1.1)
+DCCN_CONTIEMATMREV1,Emissioni atmosferiche NAMEA (NACE Rev. 2)
+DCCN_CONTIEMATMREV2,Emissioni atmosferiche NAMEA (NACE Rev.2)
+DCCN_CONTIEMATMREV2_B14,Emissioni atmosferiche NAMEA (NACE Rev. 2) versione 2014
+DCCN_CONTRIBQ,Contributi alla crescita del PIL (punti percentuali) - dati nazionali trimestrali - edizioni precedenti ottobre 2014
+DCCN_COSTMARGQ,Costi e margini per branca di attività (NACE Rev.1.1)
+DCCN_COSTMARGQREV2,Costi e margini per branca di attività economica (NACE Rev.2)
+DCCN_EGSS,Conti dei beni e servizi ambientali
+DCCN_EGSS_B14,Conti dei beni e servizi ambientali versione 2014
+DCCN_FLUMAT,Conti dei flussi di materia
+DCCN_FLUMAT_B14,Conti dei flussi di materia versione 2014
+DCCN_FPA,Conto annuale
+DCCN_FPA_B14,Conto annuale - edizioni fino ad aprile 2019
+DCCN_FPQ,Quarterly non-financial accounts
+DCCN_IMPAMB0,Gettito delle imposte ambientali
+DCCN_IMPAMB1,Gettito delle imposte ambientali
+DCCN_IMPAMB1_B14,Gettito delle imposte ambientali versione 2014
+DCCN_INVESTIN,Investimenti fissi lordi (P51) - dati nazionali annuali (milioni di euro)
+DCCN_INVESTIQ,Investimenti fissi lordi (P51) - dati nazionali trimestrali (milioni di euro)
+DCCN_ISTITUZ_ANA,"Sequence of accounts and non-financial assets, by institutional sector"
+DCCN_ISTITUZ_ANA1,Stock  di attività non finanziarie  e sequenza dei conti per settore istituzionale
+DCCN_ISTITUZ_ANA_B14,"Sequenza dei conti e stock di attività non finanziarie, per settore istituzionale - edizioni ottobre 2015 - aprile 2019"
+DCCN_ISTITUZ_QNA,Sequenza dei conti trimestrali per settore istituzionale
+DCCN_ISTITUZ_QNA1,Sequenza  dei conti trimestrali per settore istituzionale
+DCCN_ISTITUZ_QNA_B14,Sequenza dei conti trimestrali per settore istituzionale - Conti versione 2014
+DCCN_ISTITUZ_TNA,Reddito disponibile delle famiglie nelle regioni italiane
+DCCN_ISTITUZ_TNA1,Reddito disponibile delle famiglie  nelle regioni italiane
+DCCN_ISTITUZ_TNA_B14,Reddito disponibile delle famiglie nelle regioni italiane - edizioni novembre 2015 - dicembre 2018
+DCCN_OCCNSEC2010,Occupazione regolare e irregolare
+DCCN_OCCNSEC2010_B14,"Occupazione regolare, irregolare e popolazione - edizioni ottobre 2014 - aprile 2019"
+DCCN_OCCQSEC2010,Occupazione per branca di attività
+DCCN_OCCQSEC2010_B14,Occupazione per branca di attività - edizioni ottobre 2014 - agosto 2019
+DCCN_OCCSISEC2010,Occupazione per branca di attività
+DCCN_OCCSISEC2010_B14,Occupazione per branca di attività - edizioni ottobre 2014 - aprile 2019
+DCCN_OCCTSEC2010,Occupazione regolare ed irregolare
+DCCN_OCCTSEC2010_B14,"Occupazione regolare, irregolare e popolazione - edizioni ottobre 2014 - dicembre 2018"
+DCCN_OCCUPIREV2,Occupazione per branca di attività
+DCCN_OCCUPNREV2,Occupazione regolare ed irregolare
+DCCN_OCCUPQ,Occupazione per branca di attività (NACE Rev.1.1)
+DCCN_OCCUPQREV2,Occupazione per branca di attività (NACE Rev.2)
+DCCN_OCCUPT,Occupazione per branca di attività economica (NACE Rev.1.1) - dati territoriali (migliaia)
+DCCN_OCCUPTREV2,Occupazione per branca di attività (NACE Rev.2)
+DCCN_OTEPPA,Uscite annuali per funzione e sottosettore
+DCCN_OTEPPA_B14,Uscite annuali per sottosettore - edizioni fino ad aprile 2019
+DCCN_PEFA,Conti dei flussi fisici di energia (PEFA)
+DCCN_PEFA_B14,Conti dei flussi fisici di energia (PEFA) versione 2014
+DCCN_PILN,Prodotto interno lordo e principali componenti
+DCCN_PILN_B14,Prodotto interno lordo e principali componenti - edizioni ottobre 2014 - aprile 2019
+DCCN_PILPRODQ,Prodotto interno lordo lato produzione - dati nazionali trimestrali (milioni di euro)
+DCCN_PILPRODT,Prodotto interno lordo lato produzione - dati territoriali (milioni di euro) - edizioni precedenti ottobre 2014
+DCCN_PILQ,Gross Domestic Product  and main components
+DCCN_PILQ_B14,Prodotto interno lordo e principali componenti - edizioni ottobre 2014 - agosto 2019
+DCCN_PILT,Gross domestic product supply side (millions of euro)
+DCCN_PILT_B14,Prodotto interno lordo lato produzione - edizioni ottobre 2014 - dicembre 2018
+DCCN_PRODENER,Energy use accounts
+DCCN_PRODUTTIVITA,Misure di produttività
+DCCN_PRODUTTIVITA_B11,Misure di produttività - Conti versione 2011
+DCCN_PRODUTTIVITA_B14,Misure di produttività - Conti versione 2014
+DCCN_PROTSOC,Conti della Protezione sociale
+DCCN_PROTSOC_B11,Conti della Protezione sociale versione 2011
+DCCN_PROTSOC_B14,Conti della Protezione sociale versione 2014
+DCCN_QNA,"Value added, Compensation of employees, Gross fixed capital formation breakdown, Households final consumption expenditure, Costs and margins"
+DCCN_QNA_B14,Principali aggregati trimestrali di Contabilità Nazionale - edizioni ottobre 2014 - agosto 2019
+DCCN_SEQCONTIASA,Sequenza dei conti
+DCCN_SEQCONTIASQ,Sequenza dei conti
+DCCN_SEQCONTIRFT,Reddito disponibile delle famiglie
+DCCN_SEQZCONTIN,Sequenza dei conti
+DCCN_SEQZCONTIQ,Conto economico delle risorse e degli impieghi - dati nazionali trimestrali (milioni di euro)
+DCCN_SEQZCONTIT,Sequenza dei conti - dati territoriali (milioni di euro) - edizioni precedenti ottobre 2014
+DCCN_SHA,Conti della sanità
+DCCN_SPESAPROTAMB,Spese per la protezione dell'ambiente
+DCCN_SPESAPROTAMB_B14,Spese per la protezione dell'ambiente versione 2014
+DCCN_SQCN,Sequenza dei conti
+DCCN_SQCN_B14,Sequenza dei conti - edizioni ottobre 2014 - aprile 2019
+DCCN_SQCQ,Conto economico delle risorse e degli impieghi  e contributi alla crescita del Pil
+DCCN_SQCQ_B14,Conto economico delle risorse e degli impieghi  e contributi alla crescita del Pil - edizioni ottobre 2014 - agosto 2019
+DCCN_SQCT,Sequence of accounts (millions of euro)
+DCCN_SQCT_B14,Sequenza dei conti - edizioni ottobre 2014 - dicembre 2018
+DCCN_TNA,"Value added, Compensation of employees, Final consumption expenditure (households and general government), Gross fixed capital formation breakdown, Per capita values"
+DCCN_TNA_B14,Principali aggregati territoriali di Contabilità nazionale - edizioni ottobre 2014 - dicembre 2018
+DCCN_VAAGSIPET,"Conti della branca agricoltura, silvicoltura e pesca"
+DCCN_VALPROCAPN,Valori pro capite - dati nazionali annuali (euro) - edizioni precedenti ottobre 2014
+DCCN_VALPROCAPT,Valori pro capite - dati territoriali (euro) - edizioni precedenti ottobre 2014
+DCCV_1522_UTENTI,Utenti che si rivolgono al 1522 (numero antiviolenza e stalking)
+DCCV_1522_VITTIME,Vittime che si rivolgono al 1522 (numero antiviolenza e stalking)
+DCCV_ABITAFFOLL,Affollamento nell'abitazione
+DCCV_ABITPROBL,"Abitazione danneggiata, umida o poco luminosa"
+DCCV_ABITSPESA,Housing costs
+DCCV_AMBURB,Green and other environmental data
+DCCV_ARRETRATI,Famiglie con pagamaneti arretrati
+DCCV_ASIMMETRIA,Distribuzione del carico di lavoro nelle coppie
+DCCV_ATTPRINC,Attività quotidiane
+DCCV_AUTVITTPS,Autori e vittime dei delitti denunciati dalle forze di polizia all' autorità giudiziaria
+DCCV_AVQ_FAMIGLIE,Aspetti della vita quotidiana - Famiglie
+DCCV_AVQ_PERSONE,Aspetti della vita quotidiana
+DCCV_AVQ_PERSONE1,Aspetti della vita quotidiana - Persone
+DCCV_CARGEOMOR_COM,Superfici esposte a rischio idrogeologico
+DCCV_CARGEOMOR_ST_COM,Superfici territoriali
+DCCV_CARICOPES,Carico delle spese pesante
+DCCV_CAVE_MIN,Cave e miniere
+DCCV_CENERG,Consumi energetici delle famiglie
+DCCV_CNSENRG,Consumo di energia per i comuni capoluogo di provincia
+DCCV_COMPL,Supplementary indicators to unemployment
+DCCV_COMPL1,Indicatori  complementari
+DCCV_CONCHI,Tempo trascorso da solo o con altri
+DCCV_CONDCRIM1,Condannati con sentenza irrevocabile - Caratteristiche delle sentenze
+DCCV_CONDGEO1,Condannati con sentenza irrevocabile - Caratteristiche demografiche
+DCCV_CONSACQUA,Distribuzione di acqua potabile
+DCCV_COPPIE,Attività quotidiane - persone in coppia
+DCCV_COPPIECOND,Coppie - condizione occupazionale
+DCCV_DETENUTI,Prison population held in institutions for adults in Italy
+DCCV_DIFFBENDUR,Famiglie che non possono permettersi alcuni beni durevoli
+DCCV_DIPL_DEM_FORM,Diplomati - caratteristiche socio-demografiche e curriculum
+DCCV_DIPL_OCCUP_REDD,"Occupazione, retribuzione e orario di lavoro"
+DCCV_DIPL_RIC,Ricerca di lavoro
+DCCV_DISOCCUPT,Disoccupati
+DCCV_DISOCCUPT1,Disoccupati
+DCCV_DISOCCUPTDE,Unemployed - seasonally adjusted data
+DCCV_DISOCCUPTDE1,Disoccupati  - dati destagionalizzati
+DCCV_DISOCCUPTMENS,Unemployed - monthly data
+DCCV_DISOCCUPTMENS1,Disoccupati  - dati mensili
+DCCV_ESC_CAPI,Visite in giornata (escursioni)
+DCCV_ESL,Giovani dai 18 ai 24 anni  d¿età che abbandonano prematuramente gli studi
+DCCV_FAMCOND1,Famiglie - condizione occupazionale
+DCCV_FAMNOVOCISPESA,Famiglie che non possono permettersi alcune spese
+DCCV_FIDUCIA,Interpersonal trust
+DCCV_FINMESE,Households that make ends meet with great difficulty or with difficulty - Percentage
+DCCV_FONTEPRED,Famiglie per fonte di reddito
+DCCV_FORZLV,Forze di lavoro
+DCCV_FORZLV1,Forze di  lavoro
+DCCV_FORZLVDE,Labour force - seasonally adjusted data
+DCCV_FORZLVDE1,Forze di lavoro - dati trimestrali destagionalizzati
+DCCV_FORZLVMENS,Labour force - monthly data
+DCCV_FORZLVMENS1,Forze lavoro  - dati mensili
+DCCV_GINIREDD,Net family income distribution indicators
+DCCV_ICT,Internet - Attività ed accesso
+DCCV_IMPDEP,Impianti di depurazione delle acque reflue urbane
+DCCV_IMPREV,Famiglie che non riescono  a risparmiare o a far fronte a spese impreviste
+DCCV_IMPUTATI_A,Persone indagate presso le procure - adulti
+DCCV_IMPUTATI_M,Persone indagate presso le procure - minori
+DCCV_INATTIV,Inattivi
+DCCV_INATTIV1,Inattivi
+DCCV_INATTIVDE,Inactive population - seasonally adjusted data
+DCCV_INATTIVDE1,Inattivi - dati trimestrali destagionalizzati
+DCCV_INATTIVMENS,Inactive population - monthly data
+DCCV_INATTIVMENS1,Inattivi  - dati mensili
+DCCV_INCPOVAFAM,Incidenza di povertà assoluta familiare
+DCCV_INCPOVRFAM,Incidenza di povertà relativa familiare
+DCCV_INDPOVASS,Indicatori di povertà assoluta
+DCCV_INDPOVREL,Indicatori di povertà relativa
+DCCV_INTBONRUM,Interventi di bonifica del rumore
+DCCV_INTPOVAFAM,Intensità di povertà assoluta familiare
+DCCV_INTPOVRFAM,Intensità di povertà relativa familiare
+DCCV_LAU_DEM_FORM,Caratteristiche socio-demografiche e  curriculum
+DCCV_LAU_OCCUP_RED,Laureati - condizione occupazionale
+DCCV_LAU_RIC,Laureati - ricerca di lavoro
+DCCV_LUOGHI,Luoghi frequentati
+DCCV_NEET,"Young people not in employment, education or training"
+DCCV_NEET1,Neet  (giovani  non occupati e non in istruzione e formazione)
+DCCV_NON_TURISTI,Persone che non hanno viaggiato per vacanza (dati trimestrali)
+DCCV_NOSOLDI,Famiglie che hanno  difficoltà nel pagamento di alcune spese
+DCCV_OCCUPATIMENS,Employed - monthly data
+DCCV_OCCUPATIMENS1,Occupati -  dati mensili
+DCCV_OCCUPATIT,Occupati
+DCCV_OCCUPATIT1,Occupati  (migliaia)
+DCCV_OCCUPATITDE,Employed - seasonally adjusted data
+DCCV_OCCUPATITDE1,Occupati -  dati destagionalizzati
+DCCV_ORELAVMED,Occupati per ore settimanali lavorate e numero di ore settimanali lavorate procapite
+DCCV_POPCOND,Population by labour status
+DCCV_POPCOND1,Popolazione  per condizione professionale
+DCCV_POPTIT,Population 15 years and over by highest level of education
+DCCV_POPTIT1,Popolazione 15 anni e oltre per titolo di studio
+DCCV_POVERTA,Povertà nuove serie
+DCCV_PRELACQ,Prelievo di acqua per uso potabile
+DCCV_PROBLZONRES_2,"Inquinamento, criminalità e rumore nella zona in cui si vive"
+DCCV_PROCEEDCRIME_A,Procedimenti e reati al momento della decisione del PM - adulti
+DCCV_PROCEEDCRIME_M,Procedimenti e reati al momento della decisione del PM - minori
+DCCV_PRODENERG,Electricity from renewable energy sources
+DCCV_QUINTOREDD,Household income quintile
+DCCV_REDDFINMES,Minimum income needed to make ends meet
+DCCV_REDNETFAMFONTERED,Reddito netto
+DCCV_RELIG,Frequenza luogo di culto
+DCCV_RISKPOV,Persone a rischio povertà o esclusione sociale
+DCCV_RUOLOFAMCOND,Individui per ruolo in famiglia - condizione occupazionale
+DCCV_SODDLAV,Percentuale di persone occupate per livello di soddisfazione per il lavoro
+DCCV_SODDVITA,Persons aged 14 and over by level of satisfaction for some aspects of their daily life - Percentage
+DCCV_SODVV,Life satisfaction
+DCCV_SPEMEFAM,Spese per consumi
+DCCV_SPEMMFAM,Spesa media mensile familiare
+DCCV_SPQUINTO,Quinto di spesa della famiglia
+DCCV_TAXATVT,Tasso di attività
+DCCV_TAXATVT1,Tasso di  attività
+DCCV_TAXATVTDE,Activity rate - seasonally adjusted data
+DCCV_TAXATVTDE1,Activity rate  - seasonally adjusted data
+DCCV_TAXATVTMENS,Activity rate - monthly data
+DCCV_TAXATVTMENS1,Tasso di attività  - dati mensili
+DCCV_TAXDISOCCU,Tasso di disoccupazione
+DCCV_TAXDISOCCU1,Tasso di  disoccupazione
+DCCV_TAXDISOCCUDE,Unemployment rate - seasonally adjusted data
+DCCV_TAXDISOCCUDE1,Tasso di disoccupazione - dati trimestrali destagionalizzati
+DCCV_TAXDISOCCUMENS,Unemployment rate - monthly data
+DCCV_TAXDISOCCUMENS1,Tasso di disoccupazione  - dati mensili
+DCCV_TAXINATT,Tasso di inattività
+DCCV_TAXINATT1,Tasso di  inattività
+DCCV_TAXINATTDE,Inactivity rate - seasonally adjusted data
+DCCV_TAXINATTDE1,Tasso di inattività - dati trimestrali destagionalizzati
+DCCV_TAXINATTMENS,Inactivity rate - monthly data
+DCCV_TAXINATTMENS1,Tasso di inattività  - dati mensili
+DCCV_TAXOCCU,Tasso di occupazione
+DCCV_TAXOCCU1,Tasso di  occupazione
+DCCV_TAXOCCUDE,Employment rate - seasonally adjusted data
+DCCV_TAXOCCUDE1,Tasso di occupazione - dati trimestrali destagionalizzati
+DCCV_TAXOCCUMENS,Employment rate - monthly data
+DCCV_TAXOCCUMENS1,Tasso di occupazione  - dati mensili
+DCCV_TITGODABIT,Titolo di godimento dell'abitazione (in affitto o di proprietà)
+DCCV_TRANSIZ_DOTT_ASPIR_SODDIS,Job expectations and satisfaction
+DCCV_TRANSIZ_DOTT_DEM,Socio-demographic characteristics and curriculum
+DCCV_TRANSIZ_DOTT_MOBILITA,Territorial mobility
+DCCV_TRANSIZ_DOTT_OCCUPAZ,Dottorati - condizione occupazionale
+DCCV_TRANSIZ_DOTT_REDDITO,Wage and hours worked
+DCCV_TRASPRIV,Private transportation
+DCCV_TURANN_NO_TURAN_CAPI,Persone andate o non andate in vacanza
+DCCV_TURISTI,Persone che hanno viaggiato (dati trimestrali)
+DCCV_TURISTI_CAPI,Persons who made trips
+DCCV_TURNOT,Pernottamenti in viaggio
+DCCV_TURNOT_CAPI,Overnight stays  for trips
+DCCV_TUR_RIC_CAPI,Viaggi e pernottamenti - Serie ricostruite 1997-2013
+DCCV_VIAGGI,Viaggi per motivo del viaggio
+DCCV_VIAGGI_CAPI,Trips by purpose
+DCCV_VIAGGI_CHARACT,Viaggi per caratteristiche del viaggio
+DCCV_VIAGGI_CHARACT_CAPI,Viaggi per caratteristiche del viaggio
+DCCV_VIAGGI_RES,Viaggi per caratteristiche del viaggiatore
+DCCV_VIAGGI_RES_CAPI,Viaggi per caratteristiche del viaggiatore
+DCCV_VIAGGI_SPESE_CAPI,Spesa per viaggi in alloggi a pagamento
+DCCV_VIOLENZADONNE,Donne che hanno subito violenza da un uomo
+DCCV_VIOLENZADONNEPART,Donne che hanno subito violenza dal partner o ex-partner
+DCIS_ABORTISPONTL,Aborti spontanei - dimissioni rispetto al luogo dell'evento
+DCIS_ABORTISPONTR,Discharges for miscarriage with reference to the place of  residence
+DCIS_ACQCITIZ,Acquisizioni di cittadinanza
+DCIS_ALUNNIDIS,Disabled pupils
+DCIS_ARCH_FEC,Tavole di fecondità per ordine di nascita
+DCIS_ASSBASE,Assistenza sanitaria di base
+DCIS_ASSB_SSDISTR,Assistenza sanitaria di base e strutture sanitarie residenziali e semiresidenziali
+DCIS_BIBLIOT,Biblioteche pubbliche statali
+DCIS_CMORTE1_EV,Mortalità per territorio di evento
+DCIS_CMORTE1_RES,Mortalità per territorio di residenza
+DCIS_CMORTEINF2,Mortalità  infantile
+DCIS_CMORTEINF2_EV,Mortalità infantile per territorio di evento
+DCIS_CMORTEINF2_RES,Mortalità infantile per territorio di residenza
+DCIS_CMORTEM,Cause multiple di morte
+DCIS_CV_STRA,Stranieri residenti e condizioni di vita
+DCIS_DECESSI,Deaths
+DCIS_DIVFIG,Divorzi - Caratteristiche e figli minori affidati
+DCIS_DIVFIG1,Divorzi -  Caratteristiche e figli minori affidati
+DCIS_DIVORDEMCONG,Divorzi - Caratteristiche dei coniugi
+DCIS_DIVORDEMCONG1,Divorzi -  Caratteristiche demografiche
+DCIS_DIVORZIND,Divorces - Indicators
+DCIS_DIVORZIND1,Divorzi  -  Indicatori
+DCIS_DIVSOC,Divorces - Social characteristics of spouses
+DCIS_DIVSOC1,Divorzi -  Caratteristiche socio-professionali
+DCIS_DOCENTI1,Docenti  universitari
+DCIS_FECONDITA1,Indicatori  di fecondità
+DCIS_IMMATRIC,Immatricolati
+DCIS_INCIDENTISTR1,Incidenti  stradali con lesioni alle persone
+DCIS_INCIDMORFER_COM,"Incidenti, morti e feriti - comuni"
+DCIS_INDDEMOG1,Indicatori  demografici
+DCIS_INDINCIDENT,Indicatori di incidentalità stradale
+DCIS_INFANZIA,Scuola dell infanzia
+DCIS_ISCRITTI,Iscritti all'università
+DCIS_ISCRITTI_COM,Iscritti all'università - comuni
+DCIS_ISCRITTI_COM_A,Iscritti all'università - comune dell'ateneo
+DCIS_ISCRITTI_COM_R,Iscritti all'università - comune di residenza
+DCIS_IVG_CARATTDON,Interruzioni volontarie della gravidanza - Caratteristiche della donna
+DCIS_IVG_CARATTEV,Interruzioni volontarie della gravidanza caratteristiche dell'evento
+DCIS_IVG_CARATTEV1,Interruzioni volontarie della gravidanza  caratteristiche dell'evento
+DCIS_IVG_MIGRAZIONE,Interruzioni volontarie della gravidanza - Migrazione
+DCIS_LAUREATI,Laureati
+DCIS_MATRDEMO,Matrimoni
+DCIS_MATRIMONICIT,Cittadinanza degli sposi
+DCIS_MATRIMONI_SOC,Caratteristiche professionali e territoriali degli sposi
+DCIS_MATRIND,Matrimoni - Indicatori
+DCIS_MIGRAZIONI,Migrazioni (Trasferimenti di residenza)
+DCIS_MORTALITA1,Life  tables
+DCIS_MORTIFERITISTR1,Morti e feriti in incidenti stradali
+DCIS_MUSEI,Musei e istituti similari
+DCIS_MUSVIS,Musei ed istituzioni similari
+DCIS_MUSVIS_COM,Musei ed istituzioni similari - comuni
+DCIS_NATI1,Nati vivi
+DCIS_OSPDISTPSICHRES,Ospedalizzazione per disturbi psichici rispetto al luogo di residenza
+DCIS_OSPDISTPSICHRIC,Dimissioni per disturbi psichici rispetto al luogo di dimissione
+DCIS_OSPED,Istituti di cura
+DCIS_OSPEDSSN,Istituti di cura - serie interrotte
+DCIS_OSPED_COM,Istituti di cura  - comuni
+DCIS_OSPITIPRESIDI1,Ospiti dei presidi residenziali socio-assistenziali e socio-sanitari
+DCIS_OSPSTRA,Dimissioni per acuti e per cittadinanza del paziente
+DCIS_PERMSOGG1,Residence permits of non-EU citizens
+DCIS_PERS_SANIT,Personale sanitario
+DCIS_POPORESBIL1,Popolazione residente  - bilancio
+DCIS_POPRES1,Popolazione residente  al 1° gennaio
+DCIS_POPSTRBIL1,Stranieri residenti - Bilancio
+DCIS_POPSTRCIT1,Stranieri residenti al 1° gennaio - Cittadinanza
+DCIS_POPSTRRES1,Stranieri residenti al 1° gennaio
+DCIS_POSTILETTOPRESIDI,Presidi residenziali socio-assistenziali (serie interrotte)
+DCIS_PRESIDI1,Presidi residenziali socio-assistenziali e socio-sanitari
+DCIS_PREVDEM,Projections - Years 2011-2065 - precensal data
+DCIS_PREVDEM1,Demographic projections - Years 2018-2065
+DCIS_RICPOPRES1971,Ricostruzione intercensuaria della popolazione residente - Anni 1952-1971
+DCIS_RICPOPRES1981,Ricostruzione intercensuaria della popolazione residente - Anni 1972-1981
+DCIS_RICPOPRES1991,Popolazione residente ricostruita - Anni 1982-1991
+DCIS_RICPOPRES2001,Ricostruzione intercensuaria della popolazione residente - Anni 1991-2001
+DCIS_RICPOPRES2011,Ricostruzione intercensuaria della popolazione residente - Anni 2001-2011
+DCIS_RICSTAT,Ricostruzione statistica delle serie regionali di popolazione del periodo 1/1/2002-1/1/2014
+DCIS_RPOP_C2011,Estimated resident population within the borders of the time - Years 2001-2011
+DCIS_RSERVSAN,Visite mediche e accertamenti diagnostici
+DCIS_SANSCUOLE,Servizi per gli alunni con disabilità
+DCIS_SCUOLE,Scuole
+DCIS_SCUOLEDIS,Scuole con alunni con disabilità e figure per l'integrazione
+DCIS_SCUOLESORDI,Scuole con alunni con sordità e presenza comunicatori
+DCIS_SEPARAZDEMCONG,Separazioni - Caratteristiche dei coniugi
+DCIS_SEPARAZDEMCONG1,Separazioni -  Caratteristiche demografiche
+DCIS_SEPARAZFIG,Separations - Characteristics and minor children in custody
+DCIS_SEPARAZFIG1,Separazioni -  Caratteristiche e figli minori affidati
+DCIS_SEPARAZIND,Separations - Indicators
+DCIS_SEPARAZIND1,Separazioni -  Indicatori
+DCIS_SEPARAZSOC,Separations - Social characteristics of spouses
+DCIS_SEPARAZSOC1,Separazioni -  Caratteristiche socio-professionali
+DCIS_SERVSOCEDU1,Servizi  socio-educativi per la prima infanzia
+DCIS_SPESESERSOC1,Interventi e servizi sociali dei comuni
+DCIS_SPOSI,Caratteristiche demografiche degli sposi
+DCIS_STRSANDISTR,Strutture sanitarie distrettuali
+DCIS_SUICIDI,Suicidi - popolazione di 15 anni e oltre
+DCIS_VEICOLIINCID1,Veicoli  coinvolti in incidenti stradali
+DCIS_VEICOLIPRA,Veicoli - Pubblico registro automobilistico
+DCIS_VEICOLIPRA_COM,Veicoli - Pubblico registro automobilistico - comuni
+DCIS_VISITMUSEI,Totale visitatori di musei e istituti similari
+DCSA_VOLON,Volontariato con o senza organizzazioni
+DCSA_VOLON_ORG,Attività gratuite a beneficio di altri svolte tramite gruppi o organizzazioni nelle 4 settimane precedenti l'intervista dalla popolazione di 14 anni e più
+DCSC_COMMDET_1,Indice del valore delle vendite del commercio fisso al dettaglio - dati mensili
+DCSC_COSTLAVSTRUT_1,Struttura del costo del lavoro (indagine quadriennale)
+DCSC_COSTLAVULAOROS_1,Indicatori - Imprese con dipendenti
+DCSC_FABBRESID_1,Costi di costruzione
+DCSC_FATTSERVIZ_1,Indice del fatturato dei servizi
+DCSC_FIDCOMM,Fiducia delle imprese del commercio
+DCSC_FIDCONS,Fiducia dei consumatori
+DCSC_FIDIMPRCOSTR,Fiducia delle imprese costruzioni
+DCSC_FIDIMPRMAN,Business confidence in the manufacturing sector
+DCSC_FIDIMPRSERV,Fiducia delle imprese servizi
+DCSC_GI_COS,Imprese con almeno 500 dipendenti
+DCSC_GI_OCC,Posizioni lavorative - Imprese con almeno 500 dipendenti
+DCSC_GI_ORE,Ore lavorate - Imprese con almeno 500 dipendenti
+DCSC_GI_RE,Retribuzioni lorde - Imprese con almeno 500 dipendenti
+DCSC_IESI,Clima di fiducia delle imprese
+DCSC_INDPREPROCOSTR,Indici dei prezzi alla produzione delle costruzioni
+DCSC_INDTRAEREO,Trasporto aereo
+DCSC_INDXPRODCOSTR_1,Indice della produzione nelle costruzioni
+DCSC_INDXPRODIND_1,Indice della produzione industriale
+DCSC_ORDFATT,Indice dei nuovi ordinativi e del fatturato dei prodotti industriali
+DCSC_ORE10_1,Ore lavorate - Imprese con almeno 10 dipendenti
+DCSC_ORE10_2,Ore lavorate - Imprese con dipendenti
+DCSC_OROS_1,Posizioni lavorative alle dipendenze
+DCSC_PERM_RAP,Indicatori permessi di costruire
+DCSC_PERM_RAP1,Indicatori  permessi di costruire
+DCSC_POSTIVAC_1,Job vacancy rate - quarterly data
+DCSC_POSTIVAC_2,Posti vacanti - Imprese con dipendenti
+DCSC_PREIMPIND,Indice dei prezzi all'importazione - dati mensili
+DCSC_PREZPRODSERV_1,Prezzi alla produzione dei servizi
+DCSC_PREZZPIND_1,Prezzi alla produzione dell'industria
+DCSC_RACLI,Retribuzioni orarie  dei dipendenti del settore privato
+DCSC_RETRATECO1,Retribuzioni contrattuali per settore economico (Ateco)
+DCSC_RETRCASSCOMPPA,Retribuzioni contrattuali nella Pubblica amministrazione
+DCSC_RETRCONTR1C,Retribuzioni contrattuali per tipo di contratto
+DCSC_RETRCONTR1O,"Annual gross, net hours, holiday pay and other hours reduction according to collective labour agreements"
+DCSC_RETRCONTR1T,Tensione contrattuale
+DCSC_RETRULAOROS_1,Retribuzioni lorde - Imprese con dipendenti
+DCSC_TRAFERR,Trasporto ferroviario
+DCSC_TRAMAR,Trasporto marittimo
+DCSC_TRAMERCIS1,Trasporto merci su strada
+DCSC_TUR,Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi
+DCSP_AGRITURISMO,Agriturismo
+DCSP_AGRITURISMO_COM,Agriturismo - comuni
+DCSP_ALLEV,Numero di aziende e capi
+DCSP_COEIMPEX1,Importazioni ed esportazioni per paese e merce Ateco 2007
+DCSP_COLTIVAZIONI,Coltivazioni
+DCSP_COLTIVSPA,Numero di aziende e superficie agricola
+DCSP_CONSISTENZE,Consistenze degli allevamenti
+DCSP_DOPIGP,Prodotti agroalimentari di qualità DOP/IGP e STG
+DCSP_DOPIGP_COM,Prodotti di qualità DOP/IGP e STG: operatori - dati comunali
+DCSP_FERTILIZZANTI,Fertilizzanti
+DCSP_FITOSANITARI,Fitosanitari
+DCSP_FOI1,FOI - Dati mensili sino al 2010
+DCSP_FOI1B2010,FOI - Dati mensili dal 2011
+DCSP_FOI1B2015,FOI - Dati mensili dal 2016
+DCSP_FOI2,FOI - Medie annue sino al 2010
+DCSP_FOI2B2010,FOI - Medie annue dal 2011
+DCSP_FOI2B2015,Foi - medie annue dal 2016 (base 2015)
+DCSP_FOI3,FOI - Pesi sino al 2010
+DCSP_FOI3B2010,FOI - Pesi  dal 2011
+DCSP_FOI3B2015,FOI - Pesi  dal 2016
+DCSP_ICT,ICT nelle imprese con almeno 10 addetti
+DCSP_IPAB,Prezzi delle abitazioni
+DCSP_IPCA1,IPCA - Dati mensili dal 2001 (base 2005=100)
+DCSP_IPCA1B2015,Ipca - mensili dal 2001 (base 2015)
+DCSP_IPCA2,IPCA - Medie annue dal 2001 (base 2005=100)
+DCSP_IPCA2B2015,Ipca - medie annue dal 2001 (base 2015)
+DCSP_IPCA3,HICP - Weights from 2001 onwards
+DCSP_IPCATC1,IPCA a tassazione costante - Dati mensili dal 2002 al 2015 (base 2005=100)
+DCSP_IPCATC1B2015,HICP at constant tax rates - Monthly data from 2002 onwards (base 2015=100)
+DCSP_IPCATC2,HICP at constant tax rates - Annual average from 2002 onwards (base 2005=100)
+DCSP_IPCATC2B2015,IPCA a tassazione costante - Medie annue dal 2002 (base 2015=100)
+DCSP_LACIS,Innovazione nelle imprese con almeno 10 addetti
+DCSP_LATTE,Latte e prodotti lattiero caseari
+DCSP_LIVESTIMPEXP,Import export di bestiame
+DCSP_MACELLAZIONI,Macellazioni
+DCSP_NIC1B2015,Nic - mensili dal 2016 (base 2015)
+DCSP_NIC2B2015,Nic - medie annue dal 2016 (base 2015)
+DCSP_NIC3B2015,Nic - pesi dal 2016
+DCSP_NICDUE,NIC - Medie annue sino al 2010
+DCSP_NICDUEB2010,NIC - Medie annue dal 2011
+DCSP_NICTREB2010,NIC - Pesi dal 2011
+DCSP_NICUNOB,Nic - mensili sino al  2010
+DCSP_NICUNOBB2010,NIC - Dati mensili dal 2011
+DCSP_PREZZIAGR,Prezzi dei prodotti agricoli
+DCSP_PRODCOM,Produzione industriale in quantità e valore
+DCSP_RICAREA,Risultati economici delle aziende agricole
+DCSP_RS,Ricerca e Sviluppo
+DCSP_SBSNAZ,Risultati economici delle imprese
+DCSP_SBSNAZ2002,Statistiche nazionali sulla struttura delle imprese (dati sino al 2007)
+DCSP_SBSREG,Risultati economici delle imprese - reg.
+DCSP_SBSREG2002,Statistiche regionali sulla struttura delle imprese (dati sino al 2007)
+DCSP_SPA,Struttura delle aziende agricole
+DICA_ACDP,Imprese - occupati
+DICA_ADIPPP,Imprese - lavoratori dipendenti beneficiari di sgravi contributivi
+DICA_ADIPWP,Imprese - lavoratori dipendenti
+DICA_AESTCP,Imprese - lavoratori esterni per compensi percepiti e periodo di attività
+DICA_AESTLP,Imprese - lavoratori esterni
+DICA_AINDP,Imprese - lavoratori indipendenti
+DICA_AINTP,Imprese - lavoratori temporanei
+DICA_ASIAUE1P,Imprese e addetti
+DICA_ASIAULOCCP,Local units of enterprises - persons employed
+DICA_ASIAULP,Unità locali e addetti
+DICA_COMPOP,Number of municipalities and resident population - Provisional data
+DICA_COMPOPDEF,Number of municipalities and resident population - Final data
+DICA_FAM_ABITBS,Private households by conventional dwelling characteristics and goods and services
+DICA_POPALED,"Resident population, dwellings and buildings - Provisional data"
+DICA_POPLEGALE,Resident population - Final data
+DICA_POP_RS_DMP1,Resident population: place of birth and previous place of usual residence
+DICA_TISTUDIO,Imprese - occupati per titolo di studio
+INDUNIV,Indicatori sull'università
+MEF_REDDITIIRPEF_COM,Reddito delle persone fisiche (Irpef)  - comuni
+SEP_AGRI_ALLE_NUM,Agricoltura - Allevamenti e produzioni animali
+SEP_AGRI_COLT_NUM,Agricoltura - Coltivazioni
+SEP_AGRI_COLT_SUP,Agricoltura - Coltivazioni
+SEP_AMBIENTE_ACQ_ACQDOM,Ambiente ed energia - Acqua
+SEP_AMBIENTE_ACQ_DISTRACQ,Ambiente ed energia - Acqua
+SEP_AMBIENTE_ACQ_ENER_INDAMB,Interventi di bonifica del rumore
+SEP_AMBIENTE_ACQ_IMPDEP,Ambiente ed energia - Acqua
+SEP_AMBIENTE_ACQ_PRELACQ,Ambiente ed energia - Acqua
+SEP_AMBIENTE_ARIA_MONARIA,Ambiente ed energia - Aria
+SEP_AMBIENTE_ENER_BILENER,Ambiente ed energia - Energia
+SEP_AMBIENTE_ENER_CONSENER,Ambiente ed energia - Energia
+SEP_AMBIENTE_ENER_INDAMB,Verde urbano - dati fino al 2009
+SEP_AMBIENTE_ENER_PRODENER,Ambiente ed energia - Energia
+SEP_AMBIENTE_INDAMB_MONINQAC,Inquinamento acustico
+SEP_AMBIENTE_INDAMB_TRASPRIV,Ambiente ed energia - Indicatori ambientali
+SEP_AMBIENTE_RIF_INDRACDIFF,Ambiente ed energia - Rifiuti
+SEP_AMBIENTE_RIF_INDRIFURB,Ambiente ed energia - Rifiuti
+SEP_CCTL_INTRA_SPETT,"Cultura, comunicazione, tempo libero - Spettacoli"
+SEP_CCTL_LETTURA_LIBRI,"Cultura, comunicazione, tempo libero - Lettura"
+SEP_CCTL_MEDIA_MASSMEDIA_PC_USO,"Cultura, comunicazione, tempo libero - Stampa, mass-media, nuovi media; Personal computer, telefonia mobile, Internet"
+SEP_CCTL_MEDIA_PUBBLICATE,"Cultura, comunicazione, tempo libero - Stampa, mass-media, nuovi media"
+SEP_CCTL_MUSEI_ARCHIST,"Cultura, comunicazione, tempo libero - Musei, mostre, biblioteche, archivi"
+SEP_CCTL_MUSEI_BIBLIO,"Cultura, comunicazione, tempo libero - Musei, mostre, biblioteche, archivi"
+SEP_CCTL_MUSEI_MUSEI,"Cultura, comunicazione, tempo libero - Musei, mostre, biblioteche, archivi"
+SEP_CCTL_MUSEI_MUSEIVISIT,"Cultura, comunicazione, tempo libero - Musei, mostre, biblioteche, archivi"
+SEP_CCTL_MUSEI_SERVMUSEI,"Cultura, comunicazione, tempo libero - Musei, mostre, biblioteche, archivi"
+SEP_CCTL_MUSEI_VISIT,"Cultura, comunicazione, tempo libero - Musei, mostre, biblioteche, archivi"
+SEP_CCTL_MUSICA_BALLO,"Cultura, comunicazione, tempo libero - Musica"
+SEP_CCTL_SPORT_PRATSPRT,"Cultura, comunicazione, tempo libero - Attività fisiche e sportive"
+SEP_CCTL_USOT_ASIM,"Cultura, Comunicazione, Tempo libero, Uso del tempo - Uso del tempo"
+SEP_CCTL_USOT_CONCHI,"Cultura, Comunicazione, Tempo libero, Uso del tempo - Uso del tempo"
+SEP_CCTL_USOT_COPPIE,"Cultura, Comunicazione, Tempo libero, Uso del tempo - Uso del tempo"
+SEP_CCTL_USOT_LUOGHI,"Cultura, Comunicazione, Tempo libero, Uso del tempo - Uso del tempo"
+SEP_CCTL_VIAGGI_TURISMORES,"Cultura, comunicazione, tempo libero - Viaggi e vacanze"
+SEP_COMMEST_IMPEXP,Importazioni ed esportazioni per paese e merce Ateco 2007
+SEP_COMMEST_IMPEXP_ATECO07,Importazioni ed esportazioni per paese e merce Ateco 2007
+SEP_COMMEST_IMPEXP_ATECO07_DEST,Importazioni ed esportazioni per paese e merce Ateco 2007
+SEP_CONDFAM_ABITAZ_ABITPROBL,Condizioni economiche delle famiglie e disuguaglianze - Condizioni abitative
+SEP_CONDFAM_ABITAZ_AFFOLL,Condizioni economiche delle famiglie e disuguaglianze - Condizioni abitative
+SEP_CONDFAM_ABITAZ_PROBLZONRES,Condizioni economiche delle famiglie e disuguaglianze - Condizioni abitative
+SEP_CONDFAM_ABITAZ_SPESAM,Condizioni economiche delle famiglie e disuguaglianze - Condizioni abitative
+SEP_CONDFAM_ABITAZ_SPESA_STRA,Condizioni economiche delle famiglie e disuguaglianze - Condizioni abitative
+SEP_CONDFAM_ABITAZ_TITGODABIT,Condizioni economiche delle famiglie e disuguaglianze - Condizioni abitative
+SEP_CONDFAM_CONSUMI_COMPORT,Condizioni economiche delle famiglie e disuguaglianze - consumi
+SEP_CONDFAM_CONSUMI_COMP_SPEFF,Condizioni economiche delle famiglie e disuguaglianze - consumi
+SEP_CONDFAM_CONSUMI_DETT_SPEFF,Condizioni economiche delle famiglie e disuguaglianze - consumi
+SEP_CONDFAM_CONSUMI_INDCONS,Condizioni economiche delle famiglie e disuguaglianze - consumi
+SEP_CONDFAM_CONSUMI_QUINTO,Condizioni economiche delle famiglie e disuguaglianze - consumi
+SEP_CONDFAM_CONSUMI_SPEMM,Condizioni economiche delle famiglie e disuguaglianze - consumi
+SEP_CONDFAM_FIDUCIA_CLIMA,Condizioni economiche delle famiglie e disuguaglianze - Fiducia dei consumatori
+SEP_CONDFAM_FIDUCIA_SALDI,Condizioni economiche delle famiglie e disuguaglianze - Fiducia dei consumatori
+SEP_CONDFAM_POVER_ARRETRATI,Condizioni economiche delle famiglie e disuguaglianze - Povertà
+SEP_CONDFAM_POVER_CARICOPES,Condizioni economiche delle famiglie e disuguaglianze - Povertà
+SEP_CONDFAM_POVER_DIFFBENDUR,Condizioni economiche delle famiglie e disuguaglianze - Povertà
+SEP_CONDFAM_POVER_FAMNOVOCISPESA,Condizioni economiche delle famiglie e disuguaglianze - Povertà
+SEP_CONDFAM_POVER_FINEMESE,Condizioni economiche delle famiglie e disuguaglianze - Povertà
+SEP_CONDFAM_POVER_IMPREV,Condizioni economiche delle famiglie e disuguaglianze - Povertà
+SEP_CONDFAM_POVER_IND_POV,Condizioni economiche delle famiglie e disuguaglianze - Povertà
+SEP_CONDFAM_POVER_INT_POV_FAM,Condizioni economiche delle famiglie e disuguaglianze - Povertà
+SEP_CONDFAM_POVER_NOSOLDI,Condizioni economiche delle famiglie e disuguaglianze - Povertà
+SEP_CONDFAM_POVER_PERCEPIT,Condizioni economiche delle famiglie e disuguaglianze - Povertà
+SEP_CONDFAM_POVER_POV_FAM,Condizioni economiche delle famiglie e disuguaglianze - Povertà
+SEP_CONDFAM_POVER_REDDFINEMESE,Condizioni economiche delle famiglie e disuguaglianze - Povertà
+SEP_CONDFAM_POVER_SOGLIAREL,Condizioni economiche delle famiglie e disuguaglianze - Povertà
+SEP_CONDFAM_POVER_SOGLIASS,Condizioni economiche delle famiglie e disuguaglianze - Povertà
+SEP_CONDFAM_REDD_FONTEPRINC,Condizioni economiche delle famiglie e disuguaglianze - Reddito
+SEP_CONDFAM_REDD_INDGINI,Condizioni economiche delle famiglie e disuguaglianze - Reddito
+SEP_CONDFAM_REDD_NETTOFAM,Condizioni economiche delle famiglie e disuguaglianze - Reddito
+SEP_CONDFAM_REDD_QUINTO,Condizioni economiche delle famiglie e disuguaglianze - Reddito
+SEP_CONDFAM_REDD_RISEC,Condizioni economiche delle famiglie e disuguaglianze - redddito
+SEP_CONDFAM_REDD_SITEC,Condizioni economiche delle famiglie e disuguaglianze - redddito
+SEP_CONTINAZ_ANN_PRINCAGGREG,Conti e aggregati economici nazionali annuali
+SEP_CONTINAZ_ANN_QUA_INVEST_P51,Conti e aggregati economici nazionali annuali + Conti e aggregati economici nazionali trimestrali
+SEP_CONTINAZ_ANN_QUA_TER_AGGREG,Conti e aggregati economici nazionali annuali + Conti e aggregati economici nazionali trimestrali + Conti e aggregati economici territoriali
+SEP_CONTINAZ_ANN_QUA_TER_AGGREGREV2,Conti e aggregati economici nazionali annuali + Conti e aggregati economici nazionali trimestrali + Conti e aggregati economici territoriali
+SEP_CONTINAZ_ANN_QUA_TER_SEQNZ,Conti e aggregati economici nazionali annuali + Conti e aggregati economici nazionali trimestrali + Conti e aggregati economici territoriali
+SEP_CONTINAZ_ANN_QUA_TER_SPESA,Conti e aggregati economici nazionali annuali + Conti e aggregati economici nazionali trimestrali+Conti e aggregati economici territoriali
+SEP_CONTINAZ_ANN_TER_INVEST,Conti e aggregati economici nazionali annuali + Conti e aggregati economici territoriali
+SEP_CONTINAZ_ANN_TER_VALPRON,Conti e aggregati economici nazionali annuali + Conti e aggregati economici territoriali
+SEP_CONTINAZ_AN_AGGRPIL,Conti nazionali - Conti e aggregati economici nazionali annuali
+SEP_CONTINAZ_AN_CONSFAM,Conti nazionali - Conti e aggregati economici nazionali annuali
+SEP_CONTINAZ_AQTI_OCCUPREV2,Conti nazionali - Conti e aggregati economici nazionali annuali/trimestrali/territoriali/settori istituzionali
+SEP_CONTINAZ_AQT_AGGRBRANCAREV2,Conti nazionali - Conti e aggregati economici nazionali \ territoriali annuali \ trimestrali
+SEP_CONTINAZ_AQT_SEQZCONTI,Conti nazionali - Conti e aggregati economici nazionali annuali \ trimestrali \ territoriali
+SEP_CONTINAZ_AQ_INVESTI,Conti nazionali - Conti e aggregati economici nazionali annuali \ trimestrali
+SEP_CONTINAZ_AT_VALPROCAP,Conti nazionali - Conti e aggregati economici nazionali annuali \ territoriali
+SEP_CONTINAZ_IAIQ_SQZCNT,Conti nazionali - Conti e aggregati economici dei settori istituzionali annuali \ tirimestrali
+SEP_CONTINAZ_IAIQ_SQZCNT_ASA,Conti nazionali - Conti e aggregati economici dei settori istituzionali annuali \ tirimestrali
+SEP_CONTINAZ_IAIQ_SQZCNT_ASQ,Conti nazionali - Conti e aggregati economici dei settori istituzionali annuali \ tirimestrali
+SEP_CONTINAZ_IAIQ_SQZCNT_RTF,Conti nazionali - Conti e aggregati economici dei settori istituzionali annuali \ tirimestrali
+SEP_CONTINAZ_QT_PILPROD,Conti nazionali - Conti e aggregati economici nazionali trimestrali \ territoriali
+SEP_CONTINAZ_QUA_CONTRIBUTI_CRESCITAPIL,Conti e aggregati economici nazionali trimestrali
+SEP_CONTINAZ_QUA_COSTIMARGINI,Conti e aggregati economici nazionali trimestrali
+SEP_CONTINAZ_QUA_COSTIMARGINIREV2,Conti e aggregati economici nazionali trimestrali
+SEP_CONTINAZ_QUA_TER_OCCXBRANCA,Conti e aggregati economici nazionali trimestrali + Conti e aggregati economici territoriali
+SEP_CONTINAZ_QUA_TER_PIL,Conti e aggregati economici nazionali trimestrali + Conti e aggregati economici territoriali
+SEP_CONTINAZ_Q_CONTRIBQ,Conti nazionali - Conti e aggregati economici nazionali trimestrali
+SEP_CONTINAZ_Q_COSTMARGQREV2,Conti nazionali - Conti e aggregati economici nazionali trimestrali
+SEP_CONTINAZ_SAT_EMAT,Conti ambientali e altri conti satellite
+SEP_CONTINAZ_SAT_IMPAMB,Conti nazionali - Conti ambientali e altri conti satellite
+SEP_CONTINAZ_SETANN_SEQNZ,Conti e aggregati economici dei settori istituzionali annuali
+SEP_CONTINAZ_SETQUA_SEQNZ,Conti e aggregati economici dei settori istituzionali trimestrali
+SEP_CONTINAZ_SET_SEQNZ,Conti e aggregati economici dei settori istituzionali
+SEP_CONTINAZ_TER_CONSPA,Conti e aggregati economici territoriali
+SEP_CONTINAZ_TER_INVESTREV2,Conti e aggregati economici territoriali
+SEP_GIUSTSIC_AMM_DEC,Giustizia e Sicurezza - Giustizia amministrativa
+SEP_GIUSTSIC_AMM_PROC,Giustizia e Sicurezza - Giustizia amministrativa
+SEP_GIUSTSIC_CIV_PROC,Giustizia e Sicurezza - Giustizia civile
+SEP_GIUSTSIC_CIV_PROC_LSW,Giustizia e Sicurezza - Giustizia civile
+SEP_GIUSTSIC_NOT_ATTI,Giustizia e Sicurezza - Attività notarile
+SEP_GIUSTSIC_NOT_CONV,Giustizia e Sicurezza - Attività notarile
+SEP_GIUSTSIC_PEN_AUTVIT,Giustizia e Sicurezza - Giustizia penale
+SEP_GIUSTSIC_PEN_CONDCRIM,Giustizia e sicurezza - Giustizia penale
+SEP_GIUSTSIC_PEN_CONDDEM,Giustizia e sicurezza - Giustizia penale
+SEP_GIUSTSIC_PEN_DELITTI,Giustizia e Sicurezza - Giustizia penale
+SEP_GIUSTSIC_PEN_DETENUTI,Giustizia e sicurezza - Giustizia penale
+SEP_GIUSTSIC_PEN_PROC,Giustizia e Sicurezza - Giustizia penale
+SEP_GIUSTSIC_PEN_SEGNAL,Giustizia e Sicurezza - Giustizia penale
+SEP_GIUSTSIC_PROT,Giustizia e Sicurezza - Protesti
+SEP_GIUSTSIC_VIOL_PART,Giustizia e Sicurezza - Violenza contro le donne
+SEP_GIUSTSIC_VIOL_UOMO,Giustizia e Sicurezza - Violenza contro le donne
+SEP_IMPRESE_INFO_ICT,Imprese - Società dell'informazione
+SEP_INDCOSTR_FID_CO,Industria e Costruzioni - Fiducia delle imprese costruzioni
+SEP_INDCOSTR_FO,Industria e costruzioni - Fatturato e ordinativi
+SEP_INDCOSTR_PROD_CO,Industria e costruzioni - Produzione
+SEP_INDCOSTR_PROD_IND,Industria e costruzioni - Produzione
+SEP_INDCOSTR_PROD_PRODCOM,Industria e costruzioni - Produzione
+SEP_IND_COSTR_FIDUCIA,Industria e costruzioni
+SEP_IND_COSTR_FID_CO,Industria e costruzioni: Fiducia delle imprese costruzioni
+SEP_IND_COSTR_FID_MA,Industria e costruzioni: Fiducia delle imprese manifatturiere
+SEP_IND_COSTR_FID_MA_NI,Industria e costruzioni: Fiducia delle imprese manifatturiere
+SEP_IND_COSTR_FO,Industria e costruzioni - Fatturato e ordinativi
+SEP_IND_COSTR_FO_GENERIC,Industria e costruzioni: fatturato e ordinativi
+SEP_IND_COSTR_PR,Industria e costruzioni - Produzione
+SEP_IND_COSTR_PR_GENERIC,Industria e costruzioni: produzione
+SEP_ISTFORM_DISAB_ALUNNIDIS,Istruzione e formazione - Disabilità e scuole
+SEP_ISTFORM_DISAB_SCUOLE,Istruzione e formazione - Disabilità e scuola
+SEP_ISTFORM_DISAB_SCUOLEDIS,Istruzione e formazione - Disabilità e scuola
+SEP_ISTFORM_DISAB_SCUOLESORDI,Istruzione e formazione - Disabilità e scuola
+SEP_ISTFORM_POP_POPIT,Istruzione e formazione - Popolazione 15 anni e oltre per titolo di studio
+SEP_ISTFORM_SCUOLA_INFAN_PRIM_SEC,Istruzione e formazione - Scuola
+SEP_ISTFORM_SCUOLA_SEC_II,Istruzione e formazione - Scuola
+SEP_ISTFORM_UNIV_DOCENTI,Istruzione e formazione - Università
+SEP_ISTFORM_UNIV_IMM_LAUR,Istruzione e formazione - Università
+SEP_ISTFORM_UNIV_INDUNIV,Istruzione e formazione - Università
+SEP_ISTFORM_UNIV_ISCR,Istruzione e formazione - Università
+SEP_LAVORO_COSTO,Costo del lavoro nelle imprese con almeno 500 dipendenti - dati mensili
+SEP_LAVORO_COSTOULA,Indicatori del costo del lavoro per Ula - dati trimestrali
+SEP_LAVORO_COSTO_GI,Lavoro - Costo del lavoro
+SEP_LAVORO_DISOCCUPAZIONE_DISOC,Disoccupazione
+SEP_LAVORO_DISOCCUPAZIONE_DISOC_DEST,Disoccupazione
+SEP_LAVORO_DISOCCUPAZIONE_TD,Disoccupazione
+SEP_LAVORO_DISOCCUPAZIONE_TD_DEST,Disoccupazione
+SEP_LAVORO_DISOC_DISOCCUPTMENS,Lavoro - Disoccupazione
+SEP_LAVORO_FL,Occupazione
+SEP_LAVORO_INATTIVITA_INAT,Inattività
+SEP_LAVORO_INATTIVITA_INAT_DEST,Inattività
+SEP_LAVORO_INATTIVITA_TI_DEST,Inattività
+SEP_LAVORO_OCCUPATI_MENS,Lavoro - Occupazione
+SEP_LAVORO_OCCUPATI_ORELAV,Occupati per ore settimanali lavorate e numero di ore settimanali lavorate procapite
+SEP_LAVORO_OCCUPATI_ORELAV_NO,Occupati per ore settimanali lavorate e numero di ore settimanali lavorate procapite
+SEP_LAVORO_OCCUPAZIONEDIP,Occupazione
+SEP_LAVORO_OCCUPAZIONE_GI,Lavoro - Occupazione
+SEP_LAVORO_OCCUPAZIONE_OCCUP,Lavoro - Occupazione
+SEP_LAVORO_OCCUPAZIONE_OCCUP_DEST,Occupazione
+SEP_LAVORO_OCCUPAZIONE_PT,Occupazione
+SEP_LAVORO_OCCUPAZIONE_TASSIGI,Lavoro - Occupazione
+SEP_LAVORO_OCCUPAZIONE_TASSI_DEST,Occupazione
+SEP_LAVORO_OCCUPAZIONE_TI,Occupazione
+SEP_LAVORO_ORE_10,Ore lavorate nelle imprese con almeno 10 dipendenti - dati trimestrali
+SEP_LAVORO_ORE_10STRCIG,Ore lavorate nelle imprese con almeno 10 dipendenti - dati trimestrali
+SEP_LAVORO_ORE_500,Ore lavorate nelle imprese con almeno 500 dipendenti - dati mensili
+SEP_LAVORO_ORE_500STRCIG,Ore lavorate nelle imprese con almeno 500 dipendenti - dati mensili
+SEP_LAVORO_ORE_GI,Lavoro
+SEP_LAVORO_POSTI_VACANTI,Posti vacanti
+SEP_LAVORO_RETRIB_CASSACONTR,Retribuzione contrattuale di cassa e di competenza per dipendente per contratto - dati annuali - euro
+SEP_LAVORO_RETRIB_CASSATECO,Retribuzione contrattuale di cassa per dipendente per Ateco - dati trimestrali e annuali - euro
+SEP_LAVORO_RETRIB_CONTRAT,Indice delle retribuzioni contrattuali per contratto - dati mensili e annuali
+SEP_LAVORO_RETRIB_CONTRATECO,Indice delle retribuzioni contrattuali per Ateco
+SEP_LAVORO_RETRIB_GI,Lavoro - Retribuzione
+SEP_LAVORO_RETRIB_IMPRESE,Retribuzione lorda nelle imprese con almeno 500 dipendenti
+SEP_LAVORO_RETRIB_RELAZ_ORARIO_RETRCONTR,Lavoro - Retribuzioni
+SEP_LAVORO_RETRIB_RETRATECOB,Lavoro - Retribuzioni
+SEP_LAVORO_RETRIB_ULA,Indice delle retribuzioni lorde per Ula - dati trimestrali
+SEP_LAVORO_TENSCONTRAT,Indicatori di tensione contrattuale - dati mensili e annuali
+SEP_LAVORO_TO_TA_TI,"Tassi di occupazione, attività e inattività"
+SEP_OPINIONI_ACCSERV,Opinioni dei cittadini e soddisfazione per la vita - Soddisfazione per i servizi di pubblica utilità
+SEP_OPINIONI_DURFILA,Opinioni dei cittadini e soddisfazione per la vita - Soddisfazione per i servizi di pubblica utilità
+SEP_OPINIONI_OPI_FIDUCIA,Opinioni dei cittadini e soddisfazione per la vita - Opinioni dei cittadini
+SEP_OPINIONI_SODDAPT,Opinioni dei cittadini e soddisfazione per la vita - Soddisfazione per i servizi di pubblica utilità
+SEP_OPINIONI_SODD_SODDVV,Opinioni dei cittadini e soddisfazione per la vita - Soddisfazione per la vita
+SEP_OPINIONI_ZONA,Opinioni dei cittadini e soddisfazione per la vita - Problemi dell'abitazione e della zona in cui si vive
+SEP_PARTSO_AMICI_FQAMICI,Partecipazione sociale - Reti di amici
+SEP_PARTSO_ASSOC_PARTECIPSO,Partecipazione sociale - Associazionismo
+SEP_PARTSO_GRATU_VOLON,Partecipazione sociale - Attività gratuite a beneficio di altri
+SEP_PARTSO_GRATU_VOLONORG,Partecipazione sociale - Attività gratuite a beneficio di altri
+SEP_PARTSO_PARTPOL_POLITICA,Partecipazione sociale - Partecipazione politica
+SEP_PARTSO_PRATREL_RELIG,Partecipazione sociale - Pratica religiosa
+SEP_PA_CONTI_ENTRATE,Pubbliche amministrazioni e istituzioni private - Conti delle Pubbliche Amministrazioni
+SEP_PA_CONTI_FASECONTO,Pubbliche amministrazioni e istituzioni private - Conti delle Pubbliche Amministrazioni
+SEP_PA_CONTI_SPESE,Pubbliche amministrazioni e istituzioni private - Conti delle Pubbliche Amministrazioni
+SEP_PA_CONTI_STATOPATR,Pubbliche amministrazioni e istituzioni private - Conti delle Pubbliche Amministrazioni
+SEP_PA_ENTIPREV_ENTRATE,Pubbliche amministrazioni e istituzioni private - Enti previdenziali
+SEP_PA_ENTIPREV_SPESE,Pubbliche amministrazioni e istituzioni private - Enti previdenziali
+SEP_POP_DIVOR_COPPIA,Separazioni e divorzi: Divorzi per caratteristiche del matrimonio e della coppia
+SEP_POP_DIVOR_ECON,Separazioni e divorzi: Divorzi con provvedimenti economici
+SEP_POP_DIVOR_FIGLI,Separazioni e divorzi: Divorzi con figli
+SEP_POP_DIVOR_RITO,Separazioni e divorzi: Domande di divorzio e divorzi concessi per rito
+SEP_POP_FECONDITA,Natalità: Indicatori di fecondità
+SEP_POP_INTERCENS,"Ricostruzione intercensuaria: Ricostruzione intercensuaria della popolazione residente - Anni 1982-1991,Ricostruzione intercensuaria della popolazione residente - Anni 1991-2001"
+SEP_POP_MIGR_CANC,Migrazioni: Cancellazioni per trasferimento di residenza
+SEP_POP_MIGR_ISCR,Migrazioni: Iscrizioni per trasferimento di residenza
+SEP_POP_MIGR_SALDI,Migrazioni: Saldi migratori interregionali
+SEP_POP_MORTALITA,Mortalità: Tavole di mortalità
+SEP_POP_NATI,Natalità: Nati vivi
+SEP_POP_NAT_FECONDITA,Natalità: Indicatori di fecondità
+SEP_POP_NAT_NATI,Natalità: Nati vivi
+SEP_POP_NUZ_IND,Nuzialità: Indicatori di nuzialità
+SEP_POP_NUZ_MATRIM,Nuzialità: Matrimoni
+SEP_POP_NUZ_MATRIND,Popolazione e famiglie - Nuzialità
+SEP_POP_POP_INDDEM,Popolazione: popolazione
+SEP_POP_POP_RES1GEN,Popolazione: Popolazione residente al 1° gennaio
+SEP_POP_POP_RESBIL,Popolazione: Popolazione residente - bilancio
+SEP_POP_PREDEM,Previsioni: Previsioni demografiche - Anni 2011-2065
+SEP_POP_SEPARIND,Separazioni e divorzi: Separazioni dei coniugi - indicatori
+SEP_POP_SEPAR_COPPIA,Separazioni e divorzi: Separazioni per caratteristiche del matrimonio e della coppia
+SEP_POP_SEPAR_ECON,Separazioni e divorzi: Separazioni con provvedimenti economic
+SEP_POP_SEPAR_FIGLI,Separazioni e divorzi: Separazioni con figli
+SEP_POP_SEPAR_RITO,"Separazioni e divorzi: Domande di separazione, separazioni concesse e procedimenti di revisione per rito"
+SEP_POP_STRA_CANC,Stranieri e immigrati: Stranieri cancellati per trasferimento di residenza
+SEP_POP_STRA_CIT,Stranieri e immigrati: Popolazione straniera residente al 1° gennaio- focus sulla cittadinanza
+SEP_POP_STRA_ISCR,Stranieri e immigrati: Stranieri iscritti per trasferimento di residenza
+SEP_POP_STRA_MATRIM,Stranieri e immigrati: Matrimoni con almeno uno sposo straniero
+SEP_POP_STRA_PERMSOGG,Stranieri e immigrati:Permessi di soggiorno dei cittadini non comunitari
+SEP_POP_STRA_RES1GEN,Stranieri e immigrati: Popolazione straniera residente al 1° gennaio
+SEP_POP_STRA_RESBIL,Stranieri e immigrati: Popolazione straniera residente - bilancio
+SEP_PREV_INTER_DOM,Assistenza e previdenza - Interventi e servizi sociali dei Comuni
+SEP_PREV_INTER_SOCEDU,Assistenza e previdenza - Interventi e servizi sociali dei Comuni
+SEP_PREV_INTER_SPESA,Assistenza e previdenza - Interventi e servizi sociali dei Comuni
+SEP_PREV_RESID_OSPITI,Assistenza e previdenza -Assistenza residenziale e socio-assistenziale
+SEP_PREV_RESID_POSTILETTO,Assistenza e previdenza - Assistenza residenziale e socio-assistenziale
+SEP_PREV_RESID_PRESIDI,Assistenza e previdenza - Assistenza residenziale e socio-assistenziale
+SEP_PREV_TRATT_PENS,Assistenza e previdenza - Trattamenti pensionistici e beneficiari
+SEP_PREZZI_IPCA1,Prezzi - Prezzi al consumo
+SEP_PREZZI_IPCA2,Prezzi - Prezzi al consumo
+SEP_PREZZI_IPCA3,Prezzi - Prezzi al consumo
+SEP_PREZZI_IPCATC1,Prezzi - Prezzi al consumo
+SEP_PREZZI_IPCATC2,Prezzi - Prezzi al consumo
+SEP_PREZZI_NIC_FOI_2010,Indice dei prezzi al consumo per l'intera collettività (NIC - sino al 2010) - Indice dei prezzi al consumo per le famiglie di operai e impiegati (FOI - sino al 2010)
+SEP_PREZZI_NIC_FOI_2011,Indice dei  prezzi al consumo per l'intera collettività (NIC - dal 2011) - Indice dei prezzi al consumo per le famiglie di operai e impiegati (FOI - dal 2011)
+SEP_PREZZI_NIC_FOI_WEIGHT_2010,Indice dei prezzi al consumo - pesi (NIC - sino al 2010) - Indice dei prezzi al consumo per le famiglie di operai ed impiegati - pesi (FOI)
+SEP_PREZZI_NIC_FOI_WEIGHT_2011,Indice dei prezzi al consumo per l'intera collettività  -  pesi (NIC) - Indice dei prezzi al consumo per le famiglie di operai ed  impiegati  -  pesi (FOI)
+SEP_PREZZI_PROD_FABRES,Prezzi - Prezzi alla produzione
+SEP_PREZZI_PROD_PRODIND,Prezzi - Prezzi alla produzione
+SEP_PREZZI_PROD_SERV,Prezzi - Prezzi alla produzione
+SEP_SALUTESAN_CAUSE_CMORTEINF2,Salute e sanità - Cause di morte
+SEP_SALUTESAN_CAUSE_CMORTEM,Salute e sanità - Cause di morte
+SEP_SALUTESAN_CAUSE_MORTALITAE,Salute e sanità - Cause di morte
+SEP_SALUTESAN_CAUSE_MORTALITAINFE,Salute e sanità - Cause di morte
+SEP_SALUTESAN_CAUSE_MORTALITAINFR,Salute e sanità - Cause di morte
+SEP_SALUTESAN_CAUSE_MORTALITAR,Salute e sanità - Cause di morte
+SEP_SALUTESAN_CONDSAL_STATOSAL,Salute e sanità - Condizioni di salute
+SEP_SALUTESAN_CONSA_CNSFARM,Salute e sanità - Condizioni di salute
+SEP_SALUTESAN_DONNA_ABSPONTE,Salute e sanità - Salute riproduttiva della donna
+SEP_SALUTESAN_DONNA_ABSPONTN,Salute e sanità - Salute riproduttiva della donna
+SEP_SALUTESAN_DONNA_ABSPONTR,Salute e sanità - Salute riproduttiva della donna
+SEP_SALUTESAN_INCIDSTRAD_INCIDSTRAD,Salute e sanità - Incidenti stradali
+SEP_SALUTESAN_INCIDSTRAD_INDINCID,Salute e sanità - Incidenti stradali
+SEP_SALUTESAN_INCIDSTRAD_MFSTRAD,Salute e sanità - Incidenti stradali
+SEP_SALUTESAN_INCIDSTRAD_VEICOLI,Salute e sanità - Incidenti stradali
+SEP_SALUTESAN_INCIDSTRAD_VEICOLINCID,Salute e sanità - Incidenti stradali
+SEP_SALUTESAN_SALUTEDONNA,Salute e sanità - Salute riproduttiva della donna
+SEP_SALUTESAN_SERVSAN_ASSBASE,Salute e sanità - Ricorso ai servizi sanitari
+SEP_SALUTESAN_SERVSAN_OSPDISTPSICDIM,Salute e sanità - Ricorso ai servizi sanitari
+SEP_SALUTESAN_SERVSAN_OSPDISTPSICRES,Salute e sanità - Ricorso ai servizi sanitari
+SEP_SALUTESAN_SERVSAN_STRSANDISTR,Salute e sanità - Ricorso ai servizi sanitari
+SEP_SALUTESAN_STILI_CONDSAL,Salute e sanità - Stili di vita e fattori di rischio / Condizioni di salute
+SEP_SERVICE_FATT,Servizi - Fatturato
+SEP_SERVICE_FIDUCIA,Servizi - Fiducia delle imprese servizi
+SEP_SERVICE_FIDUCIA_COMM,Servizi - Fiducia delle imprese del commercio (senza numeri indice)
+SEP_SERVICE_FIDUCIA_COMM_NI,Servizi - Fiducia delle imprese del commercio (con numeri indice)
+SEP_SERVICE_FIDUCIA_SERV,Servizi - Fiducia delle imprese servizi
+SEP_SERVICE_TRASP_SPLAVORO,"Servizi - Trasporto aereo, ferroviario, marittimo, su strada"
+SEP_SERVICE_TRASP_SPSCUOLA,"Servizi - Trasporto aereo, ferroviario, marittimo, su strada"
+SEP_SERVICE_TRASP_TRAMERCIS1,Servizi - Fatturato
+SEP_SERVICE_TRASP_TRAMERCIS2,Servizi - Fatturato
+SEP_SERVICE_TUR,Servizi - Turismo
+SEP_SERVICE_TUR_CAPA,Servizi - Turismo
+SEP_SERVICE_VEND,Servizi - Vendite del commercio
+SEP_SISTIMPR_RE_STRIMPR,Risultati economici
+SEP_SISTIMPR_RE_STRIMPR_2002,Risultati economici
+SEP_SISTIMPR_RE_STRIMPR_2007,Risultati economici
+SEP_SISTIMPR_RE_STRIMPR_REG,Risultati economici
+SEP_SISTIMPR_RS_UNITECO,Registro statistico
+SEP_SISTIMPR_RS_UNITLOC,Registro statistico

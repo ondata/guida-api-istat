@@ -1,0 +1,4 @@
+id,dimensionName,dimensionValueID,dimensionValueDescription
+CL_ESITO,Esito,M,morto
+CL_ESITO,Esito,F,ferito
+CL_ESITO,Esito,9,totale

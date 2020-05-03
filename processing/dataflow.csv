@@ -1,0 +1,456 @@
+iddataflow,descrizione,iddatastructure
+101_1015,Coltivazioni,DCSP_COLTIVAZIONI
+101_1030,Prodotti agroalimentari di qualità DOP/IGP e STG,DCSP_DOPIGP
+101_1033,Macellazioni,DCSP_MACELLAZIONI
+101_1039,Agriturismo - comuni,DCSP_AGRITURISMO_COM
+101_1077,"PDO, PGI and TSG products:  operators - municipalities data",DCSP_DOPIGP_COM
+101_12,Prezzi dei prodotti agricoli,DCSP_PREZZIAGR
+101_148,Risultati economici delle aziende agricole,DCSP_RICAREA
+101_22,Fitosanitari,DCSP_FITOSANITARI
+101_959,Latte e prodotti lattiero caseari,DCSP_LATTE
+101_961,Consistenze degli allevamenti,DCSP_CONSISTENZE
+101_962,Import export di bestiame,DCSP_LIVESTIMPEXP
+101_965,Agriturismo,DCSP_AGRITURISMO
+102_974,Struttura delle aziende agricole,DCSP_SPA
+104_466,Fertilizzanti,DCSP_FERTILIZZANTI
+111_111,Indicatori  permessi di costruire,DCSC_PERM_RAP1
+111_263,Fiducia delle imprese manifatturiere,DCSC_FIDIMPRMAN
+111_40,Fiducia delle imprese costruzioni,DCSC_FIDIMPRCOSTR
+114_191,Indice dei nuovi ordinativi e del fatturato dei prodotti industriali,DCSC_ORDFATT
+115_168,Produzione industriale in quantità e valore,DCSP_PRODCOM
+115_333,Indice della produzione industriale,DCSC_INDXPRODIND_1
+115_362,Indice della produzione nelle costruzioni,DCSC_INDXPRODCOSTR_1
+117_1035,Servizi bancari - dati comunali,DCAT_SERVBANC_COM
+117_1057,Trasporto ferroviario,DCSC_TRAFERR
+117_262,Fiducia delle imprese servizi,DCSC_FIDIMPRSERV
+117_266,Fiducia delle imprese del commercio,DCSC_FIDCOMM
+119_367,Indice del fatturato dei servizi,DCSC_FATTSERVIZ_1
+120_337,Indice delle vendite del commercio al dettaglio,DCSC_COMMDET_1
+121_329,Trasporto merci su strada per tipo di trasporto,SEP_SERVICE_TRASP_TRAMERCIS2
+121_330,Trasporto merci su strada,DCSC_TRAMERCIS1
+121_331,Trasporto aereo,DCSC_INDTRAEREO
+121_393,Trasporto marittimo,DCSC_TRAMAR
+122_54,Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi,DCSC_TUR
+123_712,Indicatori di bilancio e dati sul personale delle unità istituzionali,DCAR_INDBILPER
+123_713,Numero e tipo di unità istituzionali,DCAR_UI
+123_840,Attività e organizzazione delle unità istituzionali,DCAR_INDCENS_PA
+124_229,Stato patrimoniale delle camere di commercio - euro,SEP_PA_CONTI_STATOPATR
+124_231,Entrate delle unità istituzionali locali (euro),DCAR_ENTIST
+124_232,Spese delle unità istituzionali locali (euro),DCAR_SPEIST
+124_322,Conto economico delle camere di commercio - euro,DCAR_CONTECON_CC
+124_722,"Conto economico delle Asl, aziende ospedaliere, aziende ospedaliere universitarie, policlinici e IRCCS (migliaia di euro)",DCAR_CONTECON_ASLAO
+124_730,Entrate delle unità istituzionali centrali e locali,DCAR_ENTIST_PA
+124_732,Spese delle unità istituzionali centrali e locali,DCAR_SPEIST_PA
+12_323,Impianti di depurazione delle acque reflue urbane,DCCV_IMPDEP
+12_340,Prelievo di acqua per uso potabile,DCCV_PRELACQ
+12_60,Distribuzione di acqua potabile,DCCV_CONSACQUA
+139_176,Importazioni ed esportazioni per paese e merce Ateco 2007,DCSP_COEIMPEX1
+143_1043,Indici dei prezzi alla produzione delle costruzioni,DCSC_INDPREPROCOSTR
+143_222,Indice dei prezzi all'importazione - dati mensili,DCSC_PREIMPIND
+143_497,Prezzi delle abitazioni (Ipab),DCSP_IPAB
+144_107,Foi – weights until 2010,SEP_PREZZI_NIC_FOI_WEIGHT_2010
+144_110,Foi - mensili sino al 2010 (base 1995),DCSP_FOI1
+144_118,Foi - medie annue sino al 2010 (base 1995),DCSP_FOI2
+144_125,Nic - annuali sino al  2010,DCSP_NICDUE
+144_126,Nic - weights  until 2010,SEP_PREZZI_NIC_FOI_WEIGHT_2010
+144_180,Nic - mensili sino al  2010,DCSP_NICUNOB
+145_360,Prezzi alla produzione dell'industria,DCSC_PREZZPIND_1
+145_361,Costi di costruzione,DCSC_FABBRESID_1
+145_376,Prezzi alla produzione dei servizi,DCSC_PREZPRODSERV_1
+149_319,Tensione contrattuale,DCSC_RETRCONTR1T
+149_327,"Orario contrattuale, ferie e altre riduzioni orarie - dipendenti a tempo pieno",DCSC_RETRCONTR1O
+149_368,Ore lavorate - Imprese con almeno 10 dipendenti,DCSC_ORE10_1
+149_577,Posizioni lavorative alle dipendenze,DCSC_OROS_1
+14_121,Trasporto pubblico,SEP_AMBIENTE_ENER_INDAMB
+14_122,Verde urbano - dati fino al 2009,SEP_AMBIENTE_ENER_INDAMB
+14_166,Interventi di bonifica del rumore,SEP_AMBIENTE_ACQ_ENER_INDAMB
+14_167,Inquinamento acustico,SEP_AMBIENTE_INDAMB_MONINQAC
+150_105,Occupati per ore settimanali lavorate e numero di ore settimanali lavorate procapite,DCCV_ORELAVMED
+150_872,Tasso di occupazione  - dati mensili,DCCV_TAXOCCUMENS1
+150_873,Forze lavoro  - dati mensili,DCCV_FORZLVMENS1
+150_875,Occupati -  dati mensili,DCCV_OCCUPATIMENS1
+150_876,Tasso di attività  - dati mensili,DCCV_TAXATVTMENS1
+150_880,Tasso di attività - dati trimestrali destagionalizzati,DCCV_TAXATVTDE1
+150_881,Forze di lavoro - dati trimestrali destagionalizzati,DCCV_FORZLVDE1
+150_882,Occupati - dati trimestrali destagionalizzati,DCCV_OCCUPATITDE1
+150_883,Tasso di occupazione - dati trimestrali destagionalizzati,DCCV_TAXOCCUDE1
+150_908,Forze di  lavoro,DCCV_FORZLV1
+150_915,Tasso di  occupazione,DCCV_TAXOCCU1
+150_916,Tasso di  attività,DCCV_TAXATVT1
+150_938,Occupati  (migliaia),DCCV_OCCUPATIT1
+151_874,Tasso di disoccupazione  - dati mensili,DCCV_TAXDISOCCUMENS1
+151_877,Disoccupati  - dati mensili,DCCV_DISOCCUPTMENS1
+151_884,Tasso di disoccupazione - dati trimestrali destagionalizzati,DCCV_TAXDISOCCUDE1
+151_885,Disoccupati - dati trimestrali destagionalizzati,DCCV_DISOCCUPTDE1
+151_914,Tasso di  disoccupazione,DCCV_TAXDISOCCU1
+151_929,Disoccupati,DCCV_DISOCCUPT1
+152_878,Tasso di inattività  - dati mensili,DCCV_TAXINATTMENS1
+152_879,Inattivi  - dati mensili,DCCV_INATTIVMENS1
+152_886,Tasso di inattività - dati trimestrali destagionalizzati,DCCV_TAXINATTDE1
+152_887,Inattivi - dati trimestrali destagionalizzati,DCCV_INATTIVDE1
+152_913,Tasso di  inattività,DCCV_TAXINATT1
+152_928,Inattivi,DCCV_INATTIV1
+153_369,Posti vacanti - Imprese con almeno 10 dipendenti,DCSC_POSTIVAC_1
+154_278,Imprese ed enti pubblici con almeno 10 dipendenti,DCSC_COSTLAVSTRUT_1
+154_373,Indicatori - Imprese con dipendenti,DCSC_COSTLAVULAOROS_1
+155_274,Retribuzioni contrattuali nella Pubblica amministrazione,DCSC_RETRCASSCOMPPA
+155_318,Retribuzioni contrattuali per tipo di contratto,DCSC_RETRCONTR1C
+155_358,Retribuzioni contrattuali per settore economico (Ateco),DCSC_RETRATECO1
+155_374,Retribuzioni lorde - Imprese con dipendenti,DCSC_RETRULAOROS_1
+158_149,Scuola dell'infanzia,DCIS_INFANZIA
+158_150,Scuola primaria,SEP_ISTFORM_SCUOLA_INFAN_PRIM_SEC
+158_151,Scuola secondaria di primo grado,SEP_ISTFORM_SCUOLA_INFAN_PRIM_SEC
+158_260,Scuola secondaria di secondo grado,SEP_ISTFORM_SCUOLA_SEC_II
+159_17,Alunni con disabilità,DCIS_ALUNNIDIS
+159_18,Scuole con alunni con disabilità e figure per l'integrazione,DCIS_SCUOLEDIS
+159_19,Scuole con alunni con sordità e presenza comunicatori,DCIS_SCUOLESORDI
+160_233,Enti previdenziali - numero di dipendenti,DCAR_ENTPREVDIP
+160_234,Enti previdenziali - spese (migliaia di euro),SEP_PA_ENTIPREV_ENTRATE
+160_235,Enti previdenziali - entrate (migliaia di euro),DCAR_ENTPREVENT_PA
+160_753,Enti nazionali di previdenza e assistenza sociale S13 - numero di dipendenti,DCAR_ENTPREVDIP_PA
+160_754,Enti nazionali di previdenza e assistenza sociale S13 - entrate (migliaia di euro),DCAR_ENTPREVENT_PA
+160_755,Enti nazionali di previdenza e assistenza sociale S13 - spese (migliaia di euro),DCAR_ENTPREVSPE_PA
+161_267,Risultati economici delle imprese,DCSP_SBSNAZ
+161_268,Risultati economici delle imprese - reg.,DCSP_SBSREG
+161_297,Statistiche nazionali sulla struttura delle imprese (dati sino al 2007),SEP_SISTIMPR_RE_STRIMPR_2002
+161_81,Statistiche regionali sulla struttura delle imprese (dati sino al 2007),DCSP_SBSREG2002
+162_1058,Sequenza dei conti trimestrali per settore istituzionale - Conti versione 2014,DCCN_ISTITUZ_QNA_B14
+162_1064,Sequenza  dei conti trimestrali per settore istituzionale,DCCN_ISTITUZ_QNA1
+163_144,Accounts aggregates by industry (NACE Rev.1.1) - edition September 2011,SEP_CONTINAZ_ANN_QUA_TER_AGGREG
+163_156,Conto economico delle risorse e degli impieghi  e contributi alla crescita del Pil,DCCN_SQCQ
+163_184,Prodotto interno lordo e  principali componenti,DCCN_PILQ
+163_24,Principali aggregati trimestrali di Contabilità Nazionale,DCCN_QNA
+163_241,Spesa per consumi finali delle famiglie - edizioni fino ad agosto 2014,DCCN_CONSFAMQ
+163_246,Costs and margins breakdown by industry (NACE Rev.1.1) - edition September 2011,SEP_CONTINAZ_QUA_COSTIMARGINI
+163_247,Prodotto interno lordo lato produzione - edizioni fino ad agosto 2014,DCCN_PILPRODQ
+163_250,Investimenti fissi lordi - edizioni fino ad agosto 2014,DCCN_INVESTIQ
+163_253,Conto economico delle risorse e degli impieghi - edizioni fino ad agosto 2014,DCCN_SEQZCONTIQ
+163_257,Employment breakdown by industry (NACE Rev.1.1) - edition September 2011,SEP_CONTINAZ_QUA_TER_OCCXBRANCA
+163_296,Aggregati dei conti per branca di attività (NACE Rev.2) - edizioni dicembre 2011 - agosto 2014,DCCN_AGGREGBRANCAQREV2
+163_299,Costi e margini per branca di attività (NACE Rev.2) - edizioni dicembre 2011 - giugno 2014,DCCN_COSTMARGQREV2
+163_300,Occupazione per branca di attività (NACE Rev.2) - edizioni dicembre 2011 - giugno 2014,DCCN_OCCUPQREV2
+163_88,Occupazione per branca di attività,DCCN_OCCQSEC2010
+164_164,Popolazione residente ricostruita - Anni 2001-2011,DCIS_RICPOPRES2011
+164_279,Popolazione residente ricostruita - Anni 1982-1991,DCIS_RICPOPRES1991
+164_305,Popolazione residente ricostruita - Anni 1991-2001,DCIS_RICPOPRES2001
+164_346,Popolazione residente ricostruita - Anni 1952-1971,DCIS_RICPOPRES1971
+164_347,Popolazione residente ricostruita - Anni 1972-1981,DCIS_RICPOPRES1981
+164_496,Popolazione residente ai confini dell'epoca ricostruita - Anni 2001-2011,DCIS_RPOP_C2011
+165_889,Previsioni della popolazione  - Anni 2018-2065,DCIS_PREVDEM1
+167_33,Nic - mensili dal 2011 al 2015 (base 2010),DCSP_NICUNOBB2010
+167_34,Nic - medie annue dal 2011 al 2015 (base 2010),DCSP_NICDUEB2010
+167_35,Nic - pesi dal 2011 al 2015,DCSP_NICTREB2010
+167_742,Nic - medie annue dal 2016 (base 2015),DCSP_NIC2B2015
+167_743,Nic - pesi dal 2016,DCSP_NIC3B2015
+167_744,Nic - mensili dal 2016 (base 2015),DCSP_NIC1B2015
+168_2,Ipca - mensili e trimestrali dal 2001 al 2015 (base 2005),DCSP_IPCA1
+168_261,Ipca - medie annue a tassazione costante (base 2005),DCSP_IPCATC2
+168_306,Ipca - mensili a tassazione costante (base 2005),DCSP_IPCATC1
+168_5,Ipca - medie annue dal 2001 al 2015 (base 2005),DCSP_IPCA2
+168_6,Ipca - pesi dal 2001,DCSP_IPCA3
+168_756,Ipca - mensili a tassazione costante (base 2015),DCSP_IPCATC1B2015
+168_757,Ipca - medie annue a tassazione costante (base 2015),DCSP_IPCATC2B2015
+168_758,Ipca - medie annue dal 2001 (base 2015),DCSP_IPCA2B2015
+168_760,Ipca - mensili dal 2001 (base 2015),DCSP_IPCA1B2015
+169_15,Foi - mensili dal 2011 al 2015 (base 2010),DCSP_FOI1B2010
+169_28,Foi - medie annue dal 2011 al 2015 (base 2010),DCSP_FOI2B2010
+169_30,FOI - Pesi dal 2011 al 2015,DCSP_FOI3B2010
+169_745,Foi - mensili dal 2016 (base 2015),DCSP_FOI1B2015
+169_746,Foi - medie annue dal 2016 (base 2015),DCSP_FOI2B2015
+169_747,FOI - Pesi  dal 2016,DCSP_FOI3B2015
+172_926,Indicatori  complementari,DCCV_COMPL1
+172_931,Neet  (giovani  non occupati e non in istruzione e formazione),DCCV_NEET1
+174_321,Attività quotidiane,DCCV_ATTPRINC
+174_65,Distribuzione del carico di lavoro nelle coppie,DCCV_ASIMMETRIA
+174_66,Tempo trascorso da solo o con altri,DCCV_CONCHI
+174_80,Attività quotidiane - persone in coppia,DCCV_COPPIE
+174_82,Luoghi frequentati,DCCV_LUOGHI
+175_634,Reddito disponibile delle famiglie,DCCN_ISTITUZ_TNA
+183_203,Imprese - occupati,DICA_ACDP
+183_207,Imprese - lavoratori esterni per compensi percepiti e periodo di attività,DICA_AESTCP
+183_208,Imprese - lavoratori esterni,DICA_AESTLP
+183_275,Imprese - lavoratori indipendenti,DICA_AINDP
+183_276,Imprese - lavoratori temporanei,DICA_AINTP
+183_277,Imprese e addetti,DICA_ASIAUE1P
+183_285,Unità locali e addetti,DICA_ASIAULP
+183_286,Imprese - lavoratori dipendenti,DICA_ADIPWP
+183_332,Unità locali - lavoratori dipendenti,DICA_ASIAULOCCP
+183_336,Imprese - lavoratori dipendenti beneficiari di sgravi contributivi,DICA_ADIPPP
+183_464,Imprese - occupati per titolo di studio,DICA_TISTUDIO
+18_154,Produzione lorda di energia elettrica da fonti rinnovabili,DCCV_PRODENERG
+18_157,Bilancio energetico,SEP_AMBIENTE_ENER_BILENER
+18_635,Consumi energetici delle famiglie,DCCV_CENERG
+22_289,Popolazione residente  al 1° gennaio,DCIS_POPRES1
+22_293,Indicatori  demografici,DCIS_INDDEMOG1
+22_315,Popolazione residente  - bilancio,DCIS_POPORESBIL1
+24_186,Matrimoni,DCIS_MATRDEMO
+24_386,Caratteristiche professionali e territoriali degli sposi,DCIS_MATRIMONI_SOC
+24_446,Cittadinanza degli sposi,DCIS_MATRIMONICIT
+24_447,Caratteristiche demografiche degli sposi,DCIS_SPOSI
+24_84,Matrimoni - Indicatori,DCIS_MATRIND
+25_326,Indicatori  di fecondità,DCIS_FECONDITA1
+25_74,Nati vivi,DCIS_NATI1
+25_944,Tavole di fecondità per ordine di nascita,DCIS_ARCH_FEC
+26_29,Decessi,DCIS_DECESSI
+26_295,Tavole  di mortalità,DCIS_MORTALITA1
+270_242,Spesa per consumi finali delle famiglie,DCCN_CONSFAMT
+270_243,Spesa per consumi finali della Pa,DCCN_CONSPAT
+270_248,Prodotto interno lordo lato produzione,DCCN_PILPRODT
+270_254,Sequenza dei conti,DCCN_SEQZCONTIT
+270_255,Valori pro capite,DCCN_VALPROCAPT
+270_298,Aggregati dei conti per branca di attività (NACE Rev.2),DCCN_AGGREGBRANCATREV2
+270_301,Occupazione per branca di attività (NACE Rev.2),DCCN_OCCUPTREV2
+27_349,Separazioni - Indicatori 2008-2014,DCIS_SEPARAZIND
+27_355,Divorzi - Indicatori 2008-2014,DCIS_DIVORZIND
+27_384,Separazioni - Caratteristiche demografiche 2008-2014,DCIS_SEPARAZDEMCONG
+27_385,Divorzi - Caratteristiche demografiche 2008-2014,DCIS_DIVORDEMCONG
+27_467,Separazioni -  Caratteristiche demografiche,DCIS_SEPARAZDEMCONG1
+27_468,Separazioni -  Caratteristiche socio-professionali,DCIS_SEPARAZSOC1
+27_469,Separazioni -  Caratteristiche e figli minori affidati,DCIS_SEPARAZFIG1
+27_470,Divorzi -  Caratteristiche demografiche,DCIS_DIVORDEMCONG1
+27_474,Separazioni -  Indicatori,DCIS_SEPARAZIND1
+27_475,Divorzi -  Caratteristiche socio-professionali,DCIS_DIVSOC1
+27_731,Separazioni - caratteristiche e figli minori affidati 2008-2014,DCIS_SEPARAZFIG
+27_748,Separazioni - Caratteristiche socio-professionali 2008-2014,DCIS_SEPARAZSOC
+27_749,Divorzi - Caratteristiche socio-professionali 2008-2014,DCIS_DIVSOC
+27_814,Divorzi - Caratteristiche e figli minori affidati 2008-2014,DCIS_DIVFIG
+27_946,Divorzi  -  Indicatori,DCIS_DIVORZIND1
+283_138,Ricostruzione statistica delle serie regionali di popolazione del periodo 1/1/2002-1/1/2014,DCIS_RICSTAT
+284_103,Principali aggregati per branca di attività (Nace Rev.2) - edizioni ottobre 2011 - marzo 2014,DCCN_AGGREGBRANCANREV2
+284_104,Valori pro capite - edizioni ottobre 2011 - marzo 2014,DCCN_VALPROCAPN
+284_159,Prodotto interno lordo e principali componenti - edizioni fino a marzo 2014,DCCN_AGGRPIL
+284_238,"Investimenti fissi lordi, stock di capitale e ammortamenti per tipo di investimento e branca proprietaria (Nace Rev.1.1) - edizioni precedenti ottobre 2011",DCCN_CAPITALN
+284_240,Spesa per consumi finali delle famiglie - edizioni fino a marzo 2014,DCCN_CONSFAMN
+284_249,Investimenti - edizioni fino a marzo 2014,DCCN_INVESTIN
+284_252,Sequenza dei conti - edizioni fino a marzo 2014,DCCN_SEQZCONTIN
+284_302,"Investimenti fissi lordi, stock di capitale e ammortamenti per tipo di investimento e branca proprietaria (Nace Rev.2) - edizioni ottobre 2011 - marzo 2014",DCCN_CAPITALNREV2
+284_9,Occupazione regolare ed irregolare - edizioni ottobre 2011 - marzo 2014,DCCN_OCCUPNREV2
+285_245,Contributi alla crescita del PIL - edizioni fino ad agosto 2014,DCCN_CONTRIBQ
+28_185,Migrazioni (Trasferimenti di residenza),DCIS_MIGRAZIONI
+29_316,Stranieri residenti - Bilancio,DCIS_POPSTRBIL1
+29_317,Stranieri residenti al 1° gennaio - Cittadinanza,DCIS_POPSTRCIT1
+29_348,Permessi di soggiorno dei cittadini non comunitari,DCIS_PERMSOGG1
+29_7,Stranieri residenti al 1° gennaio,DCIS_POPSTRRES1
+29_849,Acquisizioni di cittadinanza,DCIS_ACQCITIZ
+29_956,Stranieri residenti e condizioni di vita,DCIS_CV_STRA
+30_1008,Reddito delle persone fisiche (Irpef)  - comuni,MEF_REDDITIIRPEF_COM
+30_264,Fiducia dei consumatori,DCSC_FIDCONS
+31_124,Spesa media mensile familiare,SEP_CONDFAM_CONSUMI_SPEMM
+31_163,Comportamento di spesa delle famiglia,SEP_CONDFAM_CONSUMI_COMPORT
+31_199,Omogeneità della spesa per consumi regionale,SEP_CONDFAM_CONSUMI_INDCONS
+31_206,Quinto di spesa della famiglia,SEP_CONDFAM_CONSUMI_QUINTO
+31_213,famiglie che hanno effettuato la spesa per alcune voci di spesa,SEP_CONDFAM_CONSUMI_COMP_SPEFF
+31_214,Dettaglio della spesa effettiva,SEP_CONDFAM_CONSUMI_DETT_SPEFF
+31_739,Spese per consumi,DCCV_SPEMEFAM
+32_221,Omogeneità del reddito regionale,DCCV_GINIREDD
+32_223,Famiglie per fonte di reddito,DCCV_FONTEPRED
+32_292,Reddito netto,DCCV_REDNETFAMFONTERED
+32_38,Quinto di reddito equivalente,DCCV_QUINTOREDD
+33_179,Affollamento nell'abitazione,DCCV_ABITAFFOLL
+33_225,Spesa per l'abitazione,DCCV_ABITSPESA
+33_290,Titolo di godimento dell'abitazione (in affitto o di proprietà),DCCV_TITGODABIT
+33_291,"Inquinamento, criminalità e rumore nella zona in cui si vive",SEP_CONDFAM_ABITAZ_PROBLZONRES
+33_350,Spesa per l'abitazione delle famiglie con componenti stranieri,SEP_CONDFAM_ABITAZ_SPESA_STRA
+33_4,"Abitazione danneggiata, umida o poco luminosa",DCCV_ABITPROBL
+34_178,Incidenza di povertà assoluta familiare,SEP_CONDFAM_POVER_POV_FAM
+34_198,Incidenza di povertà relativa familiare,SEP_CONDFAM_POVER_POV_FAM
+34_201,Indicatori di povertà assoluta,SEP_CONDFAM_POVER_IND_POV
+34_202,Indicatori di povertà relativa,SEP_CONDFAM_POVER_IND_POV
+34_204,Intensità di povertà assoluta familiare,SEP_CONDFAM_POVER_INT_POV_FAM
+34_205,Intensità di povertà relativa familiare,SEP_CONDFAM_POVER_INT_POV_FAM
+34_211,Soglia di povertà assoluta,SEP_CONDFAM_POVER_SOGLIASS
+34_212,Soglia di povertà relativa,SEP_CONDFAM_POVER_SOGLIAREL
+34_215,Famiglie con pagamenti arretrati,DCCV_ARRETRATI
+34_216,Famiglie che non riescono  a risparmiare o a far fronte a spese impreviste,DCCV_IMPREV
+34_217,Famiglie che considerano un carico pesante alcune spese per l'abitazione o il rimborso di debiti,DCCV_CARICOPES
+34_218,Famiglie che non possono permettersi alcuni beni durevoli,DCCV_DIFFBENDUR
+34_219,Famiglie che hanno  difficoltà nel pagamento di alcune spese,DCCV_NOSOLDI
+34_220,Famiglie per reddito minimo per arrivare a fine mese senza difficoltà,DCCV_REDDFINMES
+34_226,Famiglie per capacità di arrivare a fine mese,SEP_CONDFAM_POVER_PERCEPIT
+34_280,Famiglie che non possono permettersi alcune spese,DCCV_FAMNOVOCISPESA
+34_727,Povertà nuove serie,DCCV_POVERTA
+392_584,Dottorati - caratteristiche socio-demografiche e curriculum,DCCV_TRANSIZ_DOTT_DEM
+392_585,Dottorati - retribuzione e orario di lavoro,DCCV_TRANSIZ_DOTT_REDDITO
+392_586,Dottorati - mobilità territoriale,DCCV_TRANSIZ_DOTT_MOBILITA
+392_636,Dottorati - condizione occupazionale,DCCV_TRANSIZ_DOTT_OCCUPAZ
+392_708,Dottorati - ricerca di lavoro e soddisfazione,DCCV_TRANSIZ_DOTT_ASPIR_SODDIS
+395_344,Sequenza dei conti trimestrali per settore istituzionale - Conti versione 2011,DCCN_SEQCONTIASQ
+396_61,Reddito disponibile delle famiglie,DCCN_SEQCONTIRFT
+39_1005,Suicidi - popolazione di 15 anni e oltre,DCIS_SUICIDI
+39_57,Cause multiple di morte,DCIS_CMORTEM
+41_269,Incidenti  stradali con lesioni alle persone,DCIS_INCIDENTISTR1
+41_287,Indicatori di incidentalità stradale,DCIS_INDINCIDENT
+41_288,Veicoli - Pubblico registro automobilistico,DCIS_VEICOLIPRA
+41_983,"Incidenti, morti e feriti - comuni",DCIS_INCIDMORFER_COM
+41_993,Veicoli - Pubblico registro automobilistico - comuni,DCIS_VEICOLIPRA_COM
+42_1108,Interruzioni volontarie della gravidanza  caratteristiche dell'evento,DCIS_IVG_CARATTEV1
+42_210,Interruzioni volontarie della gravidanza - Migrazione,DCIS_IVG_MIGRAZIONE
+42_320,Aborti spontanei - dimissioni rispetto al luogo di nascita della donna,SEP_SALUTESAN_DONNA_ABSPONTN
+42_324,Aborti spontanei - dimissioni rispetto al luogo di residenza della donna,DCIS_ABORTISPONTR
+42_325,Aborti spontanei - dimissioni rispetto al luogo dell'evento,DCIS_ABORTISPONTL
+42_70,Interruzioni volontarie della gravidanza - Caratteristiche della donna,DCIS_IVG_CARATTDON
+43_1016,Assistenza sanitaria di base e strutture sanitarie residenziali e semiresidenziali,DCIS_ASSB_SSDISTR
+43_236,Strutture sanitarie per l'assistenza di base,DCIS_ASSBASE
+43_237,Strutture sanitarie distrettuali,DCIS_STRSANDISTR
+43_283,Dimissioni ospedaliere per disturbi psichici rispetto al luogo di residenza,DCIS_OSPDISTPSICHRES
+43_284,Dimissioni per disturbi psichici rispetto al luogo di dimissione,DCIS_OSPDISTPSICHRIC
+43_339,Dimissioni per acuti e per cittadinanza del paziente,DCIS_OSPSTRA
+43_495,Istituti di cura,DCIS_OSPEDSSN
+43_967,Istituti di cura,DCIS_OSPED
+43_973,Personale sanitario,DCIS_PERS_SANIT
+43_98,Visite mediche e accertamenti diagnostici,DCIS_RSERVSAN
+43_994,Istituti di cura  - comuni,DCIS_OSPED_COM
+46_572,Pensioni serie interrotte 2008-2013,DCAR_PENSIONI1
+46_573,Pensionati serie interrotte 2008-2013,DCAR_PENSIONATI1
+46_812,Pensionati,DCAR_PENSIONATI2
+46_813,Pensioni,DCAR_PENSIONI2
+47_850,Servizi  socio-educativi per la prima infanzia,DCIS_SERVSOCEDU1
+47_940,Interventi e servizi sociali dei comuni,DCIS_SPESESERSOC1
+498_1104,Persone a rischio povertà o esclusione sociale,DCCV_RISKPOV
+49_23,Presidi residenziali socio-assistenziali (serie interrotte),DCIS_POSTILETTOPRESIDI
+49_37,Presidi residenziali socio-assistenziali e socio-sanitari,DCIS_PRESIDI1
+49_62,Ospiti dei presidi residenziali socio-assistenziali e socio-sanitari,DCIS_OSPITIPRESIDI1
+52_1044,Scuole,DCIS_SCUOLE
+52_607,Giovani dai 18 ai 24 anni  d'età che abbandonano prematuramente gli studi,DCCV_ESL
+52_912,Popolazione 15 anni e oltre per titolo di  studio,DCCV_POPTIT1
+532_930,Popolazione  per condizione professionale,DCCV_POPCOND1
+533_957,Retribuzioni orarie  dei dipendenti del settore privato,DCSC_RACLI
+534_1037,Ore lavorate - Imprese con dipendenti,DCSC_ORE10_2
+534_1038,Posti vacanti - Imprese con dipendenti,DCSC_POSTIVAC_2
+534_49,Ore lavorate - Imprese con almeno 500 dipendenti,DCSC_GI_ORE
+534_50,Posizioni lavorative - Imprese con almeno 500 dipendenti,DCSC_GI_OCC
+535_194,Retribuzioni lorde - Imprese con almeno 500 dipendenti,DCSC_GI_RE
+536_193,Imprese con almeno 500 dipendenti,DCSC_GI_COS
+56_1045,Iscritti all'università - comune dell'ateneo,DCIS_ISCRITTI_COM_A
+56_1046,Iscritti all'università - comune di residenza,DCIS_ISCRITTI_COM_R
+56_188,Docenti universitari,SEP_ISTFORM_UNIV_DOCENTI
+56_189,Indicatori sull'università,SEP_ISTFORM_UNIV_INDUNIV
+56_190,Laureati,SEP_ISTFORM_UNIV_IMM_LAUR
+56_258,Immatricolati,SEP_ISTFORM_UNIV_IMM_LAUR
+56_259,Iscritti all'università,SEP_ISTFORM_UNIV_ISCR
+56_77,Servizi per gli alunni con disabilità,DCIS_SANSCUOLE
+609_363,Verde e altri dati ambientali,DCCV_AMBURB
+60_1004,Musei ed istituzioni similari - comuni,DCIS_MUSVIS_COM
+610_119,Trasporto privato,DCCV_TRASPRIV
+612_933,Laureati - caratteristiche socio-demografiche e curriculum,DCCV_LAU_DEM_FORM
+612_937,Laureati - ricerca di lavoro,DCCV_LAU_RIC
+612_939,Laureati - condizione occupazionale,DCCV_LAU_OCCUP_RED
+613_934,Diplomati - caratteristiche socio-demografiche e curriculum,DCCV_DIPL_DEM_FORM
+613_935,Diplomati - condizione occupazionale e retribuzione,DCCV_DIPL_OCCUP_REDD
+613_936,Diplomati - ricerca di lavoro,DCCV_DIPL_RIC
+61_69,Opere librarie pubblicate,SEP_CCTL_MEDIA_PUBBLICATE
+65_130,Internet: accesso e tipo di utilizzo,DCCV_ICT
+669_1073,Gettito delle imposte ambientali versione 2014,DCCN_IMPAMB1_B14
+669_1081,Conti dei flussi fisici di energia (PEFA) versione 2014,DCCN_PEFA_B14
+669_1113,Spese per la protezione dell'ambiente versione 2014,DCCN_SPESAPROTAMB_B14
+669_1116,Conti dei flussi di materia versione 2014,DCCN_FLUMAT_B14
+669_964,Gettito delle imposte ambientali,DCCN_IMPAMB0
+669_967,Emissioni atmosferiche NAMEA (NACE Rev. 2),DCCN_CONTIEMATMREV1
+66_195,Musei ed istituzioni similari,DCIS_MUSVIS
+66_3,Archivi di stato,SEP_CCTL_MUSEI_ARCHIST
+66_41,Biblioteche pubbliche statali,DCIS_BIBLIOT
+66_86,Musei e istituti similari,SEP_CCTL_MUSEI_MUSEI
+66_89,Servizi di musei e istituti similari,SEP_CCTL_MUSEI_SERVMUSEI
+66_90,Totale visitatori di musei e istituti similari,DCIS_VISITMUSEI
+68_161,Persone andate e non andate in vacanza,DCCV_TURANN_NO_TURAN_CAPI
+68_265,Spesa per viaggi in alloggi a pagamento,DCCV_VIAGGI_SPESE_CAPI
+68_338,Visite in giornata (escursioni),DCCV_ESC_CAPI
+68_356,Persone che hanno viaggiato,DCCV_TURISTI_CAPI
+68_357,Pernottamenti  in viaggio,DCCV_TURNOT_CAPI
+68_359,Viaggi per caratteristiche del viaggiatore,DCCV_VIAGGI_RES
+68_365,Viaggi per motivo del viaggio,DCCV_VIAGGI
+68_370,Persone che non hanno viaggiato per vacanza (dati trimestrali),DCCV_NON_TURISTI
+68_371,Persone che hanno viaggiato (dati trimestrali),DCCV_TURISTI
+68_380,Viaggi per caratteristiche del viaggio,DCCV_VIAGGI_CHARACT
+68_381,Pernottamenti in viaggio,DCCV_TURNOT
+68_697,Viaggi per motivo,DCCV_VIAGGI_CAPI
+68_698,Viaggi e loro caratteristiche,DCCV_VIAGGI_CHARACT_CAPI
+68_699,Viaggi per caratteristiche del viaggiatore,DCCV_VIAGGI_RES_CAPI
+68_702,Viaggi e pernottamenti - Serie ricostruite 1997-2013,DCCV_TUR_RIC_CAPI
+6_20,Ricerca e Sviluppo,DCSP_RS
+6_39,ICT nelle imprese con almeno 10 addetti,DCSP_ICT
+6_471,Innovazione nelle imprese con almeno 10 addetti,DCSP_LACIS
+6_64,Clima di fiducia delle imprese,DCSC_IESI
+723_1036,Famiglie - condizione occupazionale,DCCV_FAMCOND1
+723_1040,Individui per ruolo in famiglia - condizione occupazionale,DCCV_RUOLOFAMCOND
+723_1041,Coppie - condizione occupazionale,DCCV_COPPIECOND
+729_1050,Superfici territoriali,DCCV_CARGEOMOR_ST_COM
+729_995,Superfici esposte a rischio idrogeologico,DCCV_CARGEOMOR_COM
+72_155,Procedimenti civili,DCAR_NUM_PROC_CIV
+72_158,"Procedimenti civili - lavoro, previdenza e assistenza obbligatorie",DCAR_PROC_CIV
+730_1006,Sequenza dei conti - edizioni ottobre 2014 - aprile 2019,DCCN_SQCN_B14
+730_1047,Prodotto interno lordo e principali componenti - edizioni ottobre 2014 - aprile 2019,DCCN_PILN_B14
+730_1048,Principali aggregati annnuali di contabilità nazionale - edizioni ottobre 2014 - aprile 2019,DCCN_ANA_B14
+730_1049,"Occupazione regolare, irregolare e popolazione - edizioni ottobre 2014 - aprile 2019",DCCN_OCCNSEC2010_B14
+732_1051,Conto economico delle risorse e degli impieghi  e contributi alla crescita del Pil - edizioni ottobre 2014 - agosto 2019,DCCN_SQCQ_B14
+732_1052,Prodotto interno lordo e principali componenti - edizioni ottobre 2014 - agosto 2019,DCCN_PILQ_B14
+732_1053,Principali aggregati trimestrali di Contabilità Nazionale - edizioni ottobre 2014 - agosto 2019,DCCN_QNA_B14
+732_1054,Occupazione per branca di attività - edizioni ottobre 2014 - agosto 2019,DCCN_OCCQSEC2010_B14
+733_1055,"Sequenza dei conti e stock di attività non finanziarie, per settore istituzionale - edizioni ottobre 2015 - aprile 2019",DCCN_ISTITUZ_ANA_B14
+733_1056,Occupazione per branca di attività - edizioni ottobre 2014 - aprile 2019,DCCN_OCCSISEC2010_B14
+734_1060,Conto annuale - edizioni fino ad aprile 2019,DCCN_FPA_B14
+734_1061,Uscite annuali per sottosettore - edizioni fino ad aprile 2019,DCCN_OTEPPA_B14
+737_1082,Sequenza dei conti - edizioni ottobre 2014 - dicembre 2018,DCCN_SQCT_B14
+737_1083,Prodotto interno lordo lato produzione - edizioni ottobre 2014 - dicembre 2018,DCCN_PILT_B14
+737_1084,Principali aggregati territoriali di Contabilità nazionale - edizioni ottobre 2014 - dicembre 2018,DCCN_TNA_B14
+737_1087,"Occupazione regolare, irregolare e popolazione - edizioni ottobre 2014 - dicembre 2018",DCCN_OCCTSEC2010_B14
+737_1093,Reddito disponibile delle famiglie nelle regioni italiane - edizioni novembre 2015 - dicembre 2018,DCCN_ISTITUZ_TNA_B14
+73_1071,Persone indagate presso le procure - adulti,DCCV_IMPUTATI_A
+73_1072,Persone indagate presso le procure - minori,DCCV_IMPUTATI_M
+73_160,Procedimenti penali,SEP_GIUSTSIC_PEN_PROC
+73_173,Detenuti adulti presenti nelle carceri italiane,DCCV_DETENUTI
+73_230,Autori e vittime dei delitti denunciati dalle forze di polizia all' autorità giudiziaria,DCCV_AUTVITTPS
+73_342,Segnalazioni relative a persone denunciate e arrestate o fermate dalle forze di polizia,SEP_GIUSTSIC_PEN_SEGNAL
+73_436,Procedimenti e reati al momento della decisione del PM - minori,DCCV_PROCEEDCRIME_M
+73_440,Procedimenti e reati al momento della decisione del PM - adulti,DCCV_PROCEEDCRIME_A
+73_58,Condannati con sentenza irrevocabile - Caratteristiche delle sentenze,DCCV_CONDCRIM1
+73_59,Condannati con sentenza irrevocabile - Caratteristiche demografiche,DCCV_CONDGEO1
+73_67,Delitti denunciati dalle forze di polizia all'autorità giudiziaria,SEP_GIUSTSIC_PEN_DELITTI
+74_171,Procedimenti di giustizia amministrativa,DCAR_PROC_AMM
+74_172,Decisioni di giustizia amministrativa,DCAR_DEC_AMM
+77_47,Atti notarili,DCAR_ATT_NOTAR
+77_68,Convenzioni contenute negli atti notarili,SEP_GIUSTSIC_NOT_CONV
+78_71,Donne che hanno subito violenza dal partner o ex-partner,DCCV_VIOLENZADONNEPART
+78_72,Donne che hanno subito violenza da un uomo,DCCV_VIOLENZADONNE
+82_87,Aspetti della vita quotidiana - Famiglie,DCCV_AVQ_FAMIGLIE
+83_63,Aspetti della vita quotidiana,DCCV_AVQ_PERSONE
+83_85,Aspetti della vita quotidiana - Persone,DCCV_AVQ_PERSONE1
+85_170,Volontariato in organizzazioni,SEP_PARTSO_GRATU_VOLONORG
+85_83,Volontariato con o senza organizzazioni,DCSA_VOLON
+91_963,Sistema dei conti della sanità,DCCN_SHA
+92_143,Main aggregates by industry (Nace Rev.1.1) - editions prior to October 2011,SEP_CONTINAZ_ANN_QUA_TER_AGGREG
+92_504,Principali aggregati annuali di Contabilità Nazionale,DCCN_ANA
+92_505,Sequenza dei conti,DCCN_SQCN
+92_506,Prodotto interno lordo e principali componenti,DCCN_PILN
+92_507,"Occupazione regolare, irregolare e popolazione",DCCN_OCCNSEC2010
+93_1095,Reddito disponibile delle famiglie  nelle regioni italiane,DCCN_ISTITUZ_TNA1
+93_209,Accounts aggregates by industry (NACE Rev.1.1),SEP_CONTINAZ_ANN_QUA_TER_AGGREG
+93_239,Investimenti fissi lordi per branca proprietaria (NACE Rev.1.1),SEP_CONTINAZ_ANN_TER_INVEST
+93_256,Employment breakdown by industry (NACE Rev.1.1),SEP_CONTINAZ_QUA_TER_OCCXBRANCA
+93_303,Investimenti fissi lordi per branca proprietaria (NACE Rev.2),SEP_CONTINAZ_TER_INVESTREV2
+93_379,"Occupazione  regolare, irregolare e popolazione",DCCN_OCCTSEC2010
+93_382,Sequenza dei conti,DCCN_SQCT
+93_48,"Conti della branca agricoltura, silvicoltura e pesca",DCCN_VAAGSIPET
+93_498,Prodotto interno lordo lato produzione,DCCN_PILT
+93_500,Principali aggregati territoriali di Contabilità Nazionale,DCCN_TNA
+94_1063,Stock  di attività non finanziarie  e sequenza dei conti per settore istituzionale,DCCN_ISTITUZ_ANA1
+94_251,Sequenza dei conti - edizioni fino a settembre 2015,DCCN_SEQCONTIASA
+94_335,Occupazione per branca di attività - edizioni marzo 2012 e marzo 2013,DCCN_OCCUPIREV2
+94_805,Occupazione per branca di attività,DCCN_OCCSISEC2010
+95_42,Conto trimestrale,DCCN_FPQ
+95_815,Conto annuale,DCCN_FPA
+95_94,Uscite annuali per sottosettore,DCCN_OTEPPA
+96_1068,Conti della Protezione sociale versione 2014,DCCN_PROTSOC_B14
+96_1069,Conti della Protezione sociale versione 2011,DCCN_PROTSOC_B11
+97_1027,Conti dei flussi fisici di energia (PEFA),DCCN_PEFA
+97_1028,Conti dei beni e servizi ambientali,DCCN_EGSS
+97_26,Gettito delle imposte ambientali,DCCN_IMPAMB1
+97_334,Conti dei flussi di materia,DCCN_FLUMAT
+97_366,Conti della Protezione sociale,DCCN_PROTSOC
+97_79,Emissioni atmosferiche NAMEA (NACE Rev.1.1),DCCN_CONTIEMATM
+97_932,Conti dell'impiego di energia,DCCN_PRODENER
+97_953,Spese per la protezione dell'ambiente,DCCN_SPESAPROTAMB
+98_1066,Misure di produttività - Conti versione 2014,DCCN_PRODUTTIVITA_B14
+98_1067,Misure di produttività - Conti versione 2011,DCCN_PRODUTTIVITA_B11
+98_197,Misure di produttività,DCCN_PRODUTTIVITA
+9_951,Cave e miniere,DCCV_CAVE_MIN

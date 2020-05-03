@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v6.16.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF507</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2020-05-03T14:30:20.0348228+02:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:CategorySchemes>
+      <structure:CategoryScheme id="ISTAT_DW" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.CategoryScheme=IT1:ISTAT_DW(1.0)" agencyID="IT1" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="it">I.STAT</common:Name>
+        <common:Name xml:lang="en">I.STAT</common:Name>
+        <structure:Category id="6" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).6">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="it">Imprese</common:Name>
+          <common:Name xml:lang="en">Enterprises</common:Name>
+          <structure:Category id="161" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).6.161">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Competitività</common:Name>
+            <common:Name xml:lang="en">Competitiveness</common:Name>
+            <structure:Category id="628" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).6.161.628">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">18</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="it">Serie interrotte</common:Name>
+              <common:Name xml:lang="en">Broken time series</common:Name>
+            </structure:Category>
+          </structure:Category>
+          <structure:Category id="183" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).6.183">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">2</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Struttura</common:Name>
+            <common:Name xml:lang="en">Structure</common:Name>
+          </structure:Category>
+        </structure:Category>
+        <structure:Category id="9" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).9">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="it">Ambiente ed energia</common:Name>
+          <common:Name xml:lang="en">Environment and Energy</common:Name>
+          <structure:Category id="12" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).9.12">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Acqua</common:Name>
+            <common:Name xml:lang="en">Water</common:Name>
+          </structure:Category>
+          <structure:Category id="18" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).9.18">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Energia</common:Name>
+            <common:Name xml:lang="en">Energy</common:Name>
+          </structure:Category>
+          <structure:Category id="609" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).9.609">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">18</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Ambiente nelle città</common:Name>
+            <common:Name xml:lang="en">Environment in the cities</common:Name>
+            <structure:Category id="610" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).9.609.610">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">2</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="it">Serie interrotte</common:Name>
+              <common:Name xml:lang="en">Broken time series</common:Name>
+            </structure:Category>
+          </structure:Category>
+        </structure:Category>
+        <structure:Category id="21" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).21">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="it">Popolazione e famiglie</common:Name>
+          <common:Name xml:lang="en">Population and Households</common:Name>
+          <structure:Category id="22" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).21.22">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Popolazione</common:Name>
+            <common:Name xml:lang="en">Population</common:Name>
+          </structure:Category>
+          <structure:Category id="24" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).21.24">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Nuzialità</common:Name>
+            <common:Name xml:lang="en">Nuptiality</common:Name>
+          </structure:Category>
+          <structure:Category id="25" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).21.25">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Natalità e fecondità</common:Name>
+            <common:Name xml:lang="en">Birthrate and fertility</common:Name>
+          </structure:Category>
+          <structure:Category id="26" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).21.26">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Mortalità</common:Name>
+            <common:Name xml:lang="en">Mortality</common:Name>
+          </structure:Category>
+          <structure:Category id="27" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).21.27">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Separazioni e divorzi</common:Name>
+            <common:Name xml:lang="en">Separations and divorces</common:Name>
+            <structure:Category id="697" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).21.27.697">
+              <common:Name xml:lang="it">Serie interrotte</common:Name>
+              <common:Name xml:lang="en">Broken time series</common:Name>
+            </structure:Category>
+          </structure:Category>
+          <structure:Category id="28" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).21.28">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Migrazioni</common:Name>
+            <common:Name xml:lang="en">Migrations</common:Name>
+          </structure:Category>
+          <structure:Category id="29" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).21.29">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Stranieri e immigrati</common:Name>
+            <common:Name xml:lang="en">Foreigners and Immigrants</common:Name>
+          </structure:Category>
+          <structure:Category id="164" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).21.164">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">10</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Popolazione Intercensuaria</common:Name>
+            <common:Name xml:lang="en">Inter censuses population</common:Name>
+          </structure:Category>
+          <structure:Category id="165" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).21.165">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">11</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Previsioni demografiche</common:Name>
+            <common:Name xml:lang="en">Demographic projections</common:Name>
+          </structure:Category>
+        </structure:Category>
+        <structure:Category id="30" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).30">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="it">Condizioni economiche delle famiglie e disuguaglianze</common:Name>
+          <common:Name xml:lang="en">Households Economic Conditions and Disparities</common:Name>
+          <structure:Category id="31" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).30.31">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Spese per consumi delle famiglie</common:Name>
+            <common:Name xml:lang="en">Household consumption expenditure</common:Name>
+            <structure:Category id="500" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).30.31.500">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">18</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="it">Serie interrotte 1997-2013</common:Name>
+              <common:Name xml:lang="en">Broken time series 1997-2013</common:Name>
+            </structure:Category>
+          </structure:Category>
+          <structure:Category id="32" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).30.32">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Reddito familiare</common:Name>
+            <common:Name xml:lang="en">Household income</common:Name>
+          </structure:Category>
+          <structure:Category id="33" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).30.33">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Condizioni abitative</common:Name>
+            <common:Name xml:lang="en">Housing conditions</common:Name>
+            <structure:Category id="633" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).30.33.633">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">18</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="it">Serie interrotte</common:Name>
+              <common:Name xml:lang="en">Broken time series</common:Name>
+            </structure:Category>
+          </structure:Category>
+          <structure:Category id="34" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).30.34">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Povertà</common:Name>
+            <common:Name xml:lang="en">Poverty</common:Name>
+            <structure:Category id="498" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).30.34.498">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">18</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="it">Disagio economico</common:Name>
+              <common:Name xml:lang="en">Economic distress</common:Name>
+            </structure:Category>
+            <structure:Category id="499" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).30.34.499">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">18</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="it">Povertà serie interrotte 1997-2013</common:Name>
+              <common:Name xml:lang="en">Poverty broken time series 1997-2013</common:Name>
+            </structure:Category>
+          </structure:Category>
+        </structure:Category>
+        <structure:Category id="36" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).36">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">5</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="it">Salute e sanità</common:Name>
+          <common:Name xml:lang="en">Health statistics</common:Name>
+          <structure:Category id="41" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).36.41">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">1</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Incidenti stradali</common:Name>
+            <common:Name xml:lang="en">Road accidents</common:Name>
+          </structure:Category>
+          <structure:Category id="42" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).36.42">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">2</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Salute riproduttiva della donna</common:Name>
+            <common:Name xml:lang="en">Women Reproductive health</common:Name>
+          </structure:Category>
+          <structure:Category id="43" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).36.43">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">3</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Servizi sanitari e loro ricorso</common:Name>
+            <common:Name xml:lang="en">Health services and their appeal</common:Name>
+          </structure:Category>
+          <structure:Category id="39" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).36.39">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Cause di morte</common:Name>
+            <common:Name xml:lang="en">Causes of death</common:Name>
+          </structure:Category>
+        </structure:Category>
+        <structure:Category id="45" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).45">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">6</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="it">Assistenza e previdenza</common:Name>
+          <common:Name xml:lang="en">Social Security and Welfare</common:Name>
+          <structure:Category id="46" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).45.46">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Pensioni</common:Name>
+            <common:Name xml:lang="en">Pensions</common:Name>
+          </structure:Category>
+          <structure:Category id="47" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).45.47">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Servizi sociali</common:Name>
+            <common:Name xml:lang="en">Social services</common:Name>
+          </structure:Category>
+          <structure:Category id="49" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).45.49">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Assistenza residenziale</common:Name>
+            <common:Name xml:lang="en">Residential care institutions</common:Name>
+          </structure:Category>
+          <structure:Category id="619" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).45.619">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">18</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Pensionati</common:Name>
+            <common:Name xml:lang="en">Pension beneficiaries</common:Name>
+          </structure:Category>
+        </structure:Category>
+        <structure:Category id="52" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).52">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">7</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="it">Istruzione e formazione</common:Name>
+          <common:Name xml:lang="en">Education and training</common:Name>
+          <structure:Category id="158" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).52.158">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">2</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Scuole</common:Name>
+            <common:Name xml:lang="en">Schools</common:Name>
+          </structure:Category>
+          <structure:Category id="56" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).52.56">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Università</common:Name>
+            <common:Name xml:lang="en">University</common:Name>
+          </structure:Category>
+          <structure:Category id="159" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).52.159">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">3</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Disabilità e scuola</common:Name>
+            <common:Name xml:lang="en">Disability and school</common:Name>
+          </structure:Category>
+          <structure:Category id="57" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).52.57">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">1</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Caratteristiche degli studenti e transizione al lavoro</common:Name>
+            <common:Name xml:lang="en">Student characteristics and transition to work</common:Name>
+          </structure:Category>
+        </structure:Category>
+        <structure:Category id="60" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).60">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">8</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="it">Cultura, comunicazione, viaggi</common:Name>
+          <common:Name xml:lang="en">Communication, culture, trips</common:Name>
+          <structure:Category id="68" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).60.68">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Viaggi</common:Name>
+            <common:Name xml:lang="en">Trips</common:Name>
+            <structure:Category id="444" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).60.68.444">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">18</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="it">Viaggi e vacanze serie interrotte 1998-2013</common:Name>
+              <common:Name xml:lang="en">Trips and holidays broken time series 1998-2013</common:Name>
+            </structure:Category>
+          </structure:Category>
+        </structure:Category>
+        <structure:Category id="71" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).71">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">9</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="it">Giustizia e sicurezza</common:Name>
+          <common:Name xml:lang="en">Justice and Security</common:Name>
+          <structure:Category id="72" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).71.72">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Giustizia civile</common:Name>
+            <common:Name xml:lang="en">Civil Justice</common:Name>
+          </structure:Category>
+          <structure:Category id="73" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).71.73">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Giustizia penale</common:Name>
+            <common:Name xml:lang="en">Criminal Justice</common:Name>
+          </structure:Category>
+          <structure:Category id="74" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).71.74">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Giustizia amministrativa</common:Name>
+            <common:Name xml:lang="en">Administrative Justice</common:Name>
+          </structure:Category>
+          <structure:Category id="76" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).71.76">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Protesti e fallimenti</common:Name>
+            <common:Name xml:lang="en">Protests and bankruptcies</common:Name>
+          </structure:Category>
+          <structure:Category id="77" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).71.77">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Attività notarile</common:Name>
+            <common:Name xml:lang="en">Notarial activity</common:Name>
+          </structure:Category>
+          <structure:Category id="78" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).71.78">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Violenza contro le donne</common:Name>
+            <common:Name xml:lang="en">Violence against women</common:Name>
+          </structure:Category>
+        </structure:Category>
+        <structure:Category id="80" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).80">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">10</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="it">Vita quotidiana e opinione dei cittadini</common:Name>
+          <common:Name xml:lang="en">Citizens'opinions and daily life</common:Name>
+          <structure:Category id="82" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).80.82">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Soddisfazione per la vita e il lavoro</common:Name>
+            <common:Name xml:lang="en">Satisfaction for life and work</common:Name>
+          </structure:Category>
+          <structure:Category id="83" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).80.83">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Uso e soddisfazione per i servizi di pubblica utilità</common:Name>
+            <common:Name xml:lang="en">Use and satisfaction for public services</common:Name>
+          </structure:Category>
+          <structure:Category id="174" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).80.174">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">1</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Uso del tempo</common:Name>
+            <common:Name xml:lang="en">Time use</common:Name>
+          </structure:Category>
+          <structure:Category id="635" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).80.635">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">18</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Volontariato</common:Name>
+            <common:Name xml:lang="en">Volunteering</common:Name>
+          </structure:Category>
+        </structure:Category>
+        <structure:Category id="91" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).91">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">11</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="it">Conti nazionali</common:Name>
+          <common:Name xml:lang="en">National Accounts</common:Name>
+          <structure:Category id="92" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).91.92">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Conti e aggregati economici nazionali annuali</common:Name>
+            <common:Name xml:lang="en">Annual National Accounts and Aggregates</common:Name>
+            <structure:Category id="284" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).91.92.284">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">18</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="it">Conti annuali versioni 2005 e 2011</common:Name>
+              <common:Name xml:lang="en">Annual accounts in the 2005 and 2011 versions</common:Name>
+              <structure:Category id="731" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).91.92.284.731">
+                <common:Name xml:lang="it">Principali aggregati annuali di contabilità nazionale - edizioni fino a marzo 2014</common:Name>
+                <common:Name xml:lang="en">National accounts annual main aggregates - editions until March 2014</common:Name>
+              </structure:Category>
+            </structure:Category>
+            <structure:Category id="730" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).91.92.730">
+              <common:Name xml:lang="it">Conti annuali versione 2014</common:Name>
+              <common:Name xml:lang="en">Annual accounts in the 2014 version</common:Name>
+            </structure:Category>
+          </structure:Category>
+          <structure:Category id="163" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).91.163">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">8</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Conti e aggregati economici nazionali trimestrali</common:Name>
+            <common:Name xml:lang="en">Quarterly National Accounts</common:Name>
+            <structure:Category id="285" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).91.163.285">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">18</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="it">Conti trimestrali versioni 2005 e 2011</common:Name>
+              <common:Name xml:lang="en">Quarterly accounts in the 2005 and 2011 versions</common:Name>
+            </structure:Category>
+            <structure:Category id="732" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).91.163.732">
+              <common:Name xml:lang="it">Conti trimestrali versione 2014</common:Name>
+              <common:Name xml:lang="en">Quarterly accounts in the 2014 version</common:Name>
+            </structure:Category>
+          </structure:Category>
+          <structure:Category id="93" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).91.93">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">1</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Conti e aggregati economici territoriali</common:Name>
+            <common:Name xml:lang="en">Territorial Economic Accounts and Aggregates</common:Name>
+            <structure:Category id="270" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).91.93.270">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">17</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="it">Edizioni precedenti</common:Name>
+              <common:Name xml:lang="en">Previous editions</common:Name>
+            </structure:Category>
+            <structure:Category id="737" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).91.93.737">
+              <common:Name xml:lang="it">Conti territoriali versione 2014</common:Name>
+              <common:Name xml:lang="en">Regional accounts in the 2014 version</common:Name>
+            </structure:Category>
+          </structure:Category>
+          <structure:Category id="94" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).91.94">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">2</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Conti non finanziari annuali per settore istituzionale</common:Name>
+            <common:Name xml:lang="en">Annual sector accounts</common:Name>
+            <structure:Category id="394" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).91.94.394">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">18</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="it">Conti istituzionali annuali versioni 2005 e 2011</common:Name>
+              <common:Name xml:lang="en">Annual sector account in the 2005 and 2011 versions</common:Name>
+            </structure:Category>
+            <structure:Category id="733" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).91.94.733">
+              <common:Name xml:lang="it">Conti istituzionali annuali versione 2014</common:Name>
+              <common:Name xml:lang="en">Annual sector accounts in the 2014 version</common:Name>
+            </structure:Category>
+          </structure:Category>
+          <structure:Category id="97" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).91.97">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">5</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Conti ambientali</common:Name>
+            <common:Name xml:lang="en">Enviromental accounts</common:Name>
+            <structure:Category id="669" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).91.97.669">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">18</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="it">Conti ambientali versioni 2014 e 2011</common:Name>
+              <common:Name xml:lang="en">Environmental accounts in the 2014 and 2011 versions</common:Name>
+            </structure:Category>
+          </structure:Category>
+          <structure:Category id="162" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).91.162">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">7</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Conti non finanziari trimestrali per settore istituzionale</common:Name>
+            <common:Name xml:lang="en">Quarterly sector accounts</common:Name>
+          </structure:Category>
+          <structure:Category id="98" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).91.98">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">6</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Misure di produttività</common:Name>
+            <common:Name xml:lang="en">Productivity measures</common:Name>
+          </structure:Category>
+          <structure:Category id="95" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).91.95">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">3</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Conti e aggregati economici delle Pubbliche Amministrazioni</common:Name>
+            <common:Name xml:lang="en">General Government statistics</common:Name>
+            <structure:Category id="734" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).91.95.734">
+              <common:Name xml:lang="it">Conti delle Pubbliche Amministrazioni versione 2014</common:Name>
+              <common:Name xml:lang="en">General Government statistics in the 2014 version</common:Name>
+            </structure:Category>
+          </structure:Category>
+          <structure:Category id="96" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).91.96">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">4</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Conti della protezione sociale</common:Name>
+            <common:Name xml:lang="en">Social protection accounts</common:Name>
+          </structure:Category>
+        </structure:Category>
+        <structure:Category id="101" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).101">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">12</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="it">Agricoltura</common:Name>
+          <common:Name xml:lang="en">Agriculture</common:Name>
+          <structure:Category id="102" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).101.102">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Risultati economici e struttura delle aziende agricole</common:Name>
+            <common:Name xml:lang="en">Economic output and structure of agricultural holdings</common:Name>
+          </structure:Category>
+          <structure:Category id="104" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).101.104">
+            <common:Name xml:lang="it">Mezzi di produzione</common:Name>
+            <common:Name xml:lang="en">Production means</common:Name>
+          </structure:Category>
+        </structure:Category>
+        <structure:Category id="111" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).111">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">13</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="it">Industria e costruzioni</common:Name>
+          <common:Name xml:lang="en">Industry and Construction</common:Name>
+          <structure:Category id="115" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).111.115">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Produzione</common:Name>
+            <common:Name xml:lang="en">Production</common:Name>
+          </structure:Category>
+        </structure:Category>
+        <structure:Category id="117" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).117">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">14</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="it">Servizi</common:Name>
+          <common:Name xml:lang="en">Services</common:Name>
+          <structure:Category id="122" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).117.122">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Turismo</common:Name>
+            <common:Name xml:lang="en">Tourism</common:Name>
+          </structure:Category>
+        </structure:Category>
+        <structure:Category id="123" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).123">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">15</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="it">Pubbliche amministrazioni e istituzioni private</common:Name>
+          <common:Name xml:lang="en">Public Administrations and Private Institutions</common:Name>
+          <structure:Category id="124" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).123.124">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Conti delle unità istituzionali</common:Name>
+            <common:Name xml:lang="en">Institutional units accounts</common:Name>
+          </structure:Category>
+          <structure:Category id="160" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).123.160">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Enti previdenziali</common:Name>
+            <common:Name xml:lang="en">Social security funds</common:Name>
+          </structure:Category>
+        </structure:Category>
+        <structure:Category id="138" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).138">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">16</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="it">Commercio con l'estero e internalizzazione</common:Name>
+          <common:Name xml:lang="en">External Trade and Internationalisation</common:Name>
+          <structure:Category id="139" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).138.139">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Importazioni ed esportazioni</common:Name>
+            <common:Name xml:lang="en">Imports and exports</common:Name>
+          </structure:Category>
+        </structure:Category>
+        <structure:Category id="143" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).143">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">17</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="it">Prezzi</common:Name>
+          <common:Name xml:lang="en">Prices</common:Name>
+          <structure:Category id="167" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).143.167">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">1</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Prezzi al consumo per l’intera collettività (Nic)</common:Name>
+            <common:Name xml:lang="en">Consumer prices for the whole nation (Nic)</common:Name>
+            <common:Description xml:lang="it">Prezzi al consumo per l’intera collettività (Nic)</common:Description>
+            <common:Description xml:lang="en">Consumer prices for the whole nation (Nic)</common:Description>
+            <structure:Category id="648" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).143.167.648">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">18</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="it">Basi precedenti (Nic)</common:Name>
+            </structure:Category>
+          </structure:Category>
+          <structure:Category id="168" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).143.168">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">2</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Prezzi al consumo armonizzati per i paesi dell'Unione europea (Ipca)</common:Name>
+            <common:Name xml:lang="en">Harmonized consumer prices for the countries of the European Union (Hicp)</common:Name>
+            <structure:Category id="647" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).143.168.647">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">18</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="it">Basi precedenti (Ipca)</common:Name>
+              <common:Name xml:lang="en">Previous bases (Hicp)</common:Name>
+            </structure:Category>
+          </structure:Category>
+          <structure:Category id="169" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).143.169">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">3</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Prezzi al consumo per le famiglie di operai e impiegati (Foi)</common:Name>
+            <common:Name xml:lang="en">Consumer prices for blue and white-collar worker households(Foi)</common:Name>
+            <structure:Category id="645" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).143.169.645">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">18</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="it">Basi Precedenti (Foi)</common:Name>
+              <common:Name xml:lang="en">Previous bases (Foi)</common:Name>
+            </structure:Category>
+          </structure:Category>
+        </structure:Category>
+        <structure:Category id="149" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).149">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">18</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="it">Lavoro e retribuzioni</common:Name>
+          <common:Name xml:lang="en">Labour and wages</common:Name>
+          <structure:Category id="150" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).149.150">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">0</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Occupazione</common:Name>
+            <common:Name xml:lang="en">Employment</common:Name>
+          </structure:Category>
+          <structure:Category id="151" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).149.151">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">1</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Disoccupazione</common:Name>
+            <common:Name xml:lang="en">Unemployment</common:Name>
+          </structure:Category>
+          <structure:Category id="152" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).149.152">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">2</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Inattività</common:Name>
+            <common:Name xml:lang="en">Inactivity</common:Name>
+          </structure:Category>
+          <structure:Category id="283" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).149.283">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">4</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Informazioni ausiliarie</common:Name>
+            <common:Name xml:lang="en">Auxiliary information</common:Name>
+          </structure:Category>
+          <structure:Category id="172" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).149.172">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">3</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Dati complementari sul mercato del lavoro</common:Name>
+            <common:Name xml:lang="en">Supplementary data on labour market</common:Name>
+          </structure:Category>
+          <structure:Category id="534" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).149.534">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">7</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Posizioni lavorative e ore lavorate nelle imprese</common:Name>
+            <common:Name xml:lang="en">Payroll jobs and hours worked in enterprises</common:Name>
+          </structure:Category>
+          <structure:Category id="536" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).149.536">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">9</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Costo del lavoro (Imprese e PA)</common:Name>
+            <common:Name xml:lang="en">Labour cost (Enterprises and PA)</common:Name>
+          </structure:Category>
+          <structure:Category id="535" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).149.535">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">8</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Retribuzioni nelle imprese</common:Name>
+            <common:Name xml:lang="en">Wages in enterprises</common:Name>
+          </structure:Category>
+          <structure:Category id="537" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).149.537">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">10</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Contratti nazionali di lavoro (Imprese e PA)</common:Name>
+            <common:Name xml:lang="en">National labour contracts (Enterprises and PA)</common:Name>
+          </structure:Category>
+          <structure:Category id="532" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).149.532">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">5</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Offerta di lavoro</common:Name>
+            <common:Name xml:lang="en">Labour offer</common:Name>
+            <structure:Category id="723" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).149.532.723">
+              <common:Name xml:lang="it">Famiglie e mercato del lavoro</common:Name>
+              <common:Name xml:lang="en">Households and labour market</common:Name>
+            </structure:Category>
+          </structure:Category>
+          <structure:Category id="533" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).149.533">
+            <common:Annotations>
+              <common:Annotation>
+                <common:AnnotationType>CategoryScheme_node_order</common:AnnotationType>
+                <common:AnnotationText xml:lang="en">6</common:AnnotationText>
+              </common:Annotation>
+            </common:Annotations>
+            <common:Name xml:lang="it">Occupazione dipendente e retribuzioni</common:Name>
+            <common:Name xml:lang="en">Employment and wages</common:Name>
+          </structure:Category>
+        </structure:Category>
+        <structure:Category id="729" urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=IT1:ISTAT_DW(1.0).729">
+          <common:Name xml:lang="it">Caratteristiche del territorio</common:Name>
+          <common:Name xml:lang="en">Territorial features</common:Name>
+          <common:Description xml:lang="it">Caratteristiche del territorio</common:Description>
+          <common:Description xml:lang="en">Territorial features</common:Description>
+        </structure:Category>
+      </structure:CategoryScheme>
+    </structure:CategorySchemes>
+  </message:Structures>
+</message:Structure>

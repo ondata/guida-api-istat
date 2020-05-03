@@ -1,0 +1,9 @@
+id,dimensionName,dimensionValueID,dimensionValueDescription
+CL_FREQ,Frequenza,A,annuale
+CL_FREQ,Frequenza,B,business (non supportato)
+CL_FREQ,Frequenza,D,giornaliero
+CL_FREQ,Frequenza,E,event (non supportato)
+CL_FREQ,Frequenza,H,semestrale
+CL_FREQ,Frequenza,M,mensile
+CL_FREQ,Frequenza,Q,trimestrale
+CL_FREQ,Frequenza,W,settimanale

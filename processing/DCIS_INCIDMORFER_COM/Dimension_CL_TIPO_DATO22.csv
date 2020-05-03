@@ -1,0 +1,8 @@
+id,dimensionName,dimensionValueID,dimensionValueDescription
+CL_TIPO_DATO22,Tipo dato,ROADACC,incidenti stradali con lesioni alle persone
+CL_TIPO_DATO22,Tipo dato,INJUREDINDX,feriti in incidenti stradali - rispetto al totale degli incidenti (valori per cento)
+CL_TIPO_DATO22,Tipo dato,KILLEDINDX,morti in incidenti stradali - rispetto al totale degli incidenti (valori per cento)
+CL_TIPO_DATO22,Tipo dato,VEHICFLEET,parco veicolare
+CL_TIPO_DATO22,Tipo dato,VEHICNEW,veicoli nuovi di fabbrica
+CL_TIPO_DATO22,Tipo dato,VEHICINV,veicoli coinvolti in incidenti stradali
+CL_TIPO_DATO22,Tipo dato,KILLINJ,morti e feriti
