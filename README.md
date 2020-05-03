@@ -97,7 +97,7 @@ Visto che l'unico parametro obbligatorio è l'ID del *dataflow*, per scaricare q
 
 Per gli esempi sottostanti verrà usata l'*utility* cURL, in quanto disponibile e utilizzabile su qualsiasi sistema operativo.
 
-**NOTA BENE**: scaricando i file in blocco, senza alcun filtro, si ottengono file di **grandi dimensioni**. Pertanto - ove possibile - è consigliato applicare i filtri adeguati ai propri interessi, sia per non avere informazioni ridondant, che per non stressare il servizio di ISTAT.
+**NOTA BENE**: scaricando i file in blocco, senza alcun filtro, si ottengono file di **grandi dimensioni**. Pertanto - ove possibile - è consigliato applicare i filtri adeguati ai propri interessi, sia per non avere informazioni ridondanti, che per non stressare il servizio di ISTAT.
 
 ### Scaricare i dati in blocco
 
@@ -139,7 +139,7 @@ Per applicare dei filtri è **necessario** **conoscere** quale sia lo **schema d
 </structure:Dataflow>
 ```
 
-Per leggere lo schema dati di `DCIS_INCIDMORFER_COM`, si potrà lanciare questa chiamata
+Per leggere lo schema dati di `DCIS_INCIDMORFER_COM`, si potrà lanciare questa chiamata:
 
 ```bash
 curl -kL "http://sdmx.istat.it/SDMXWS/rest/datastructure/IT1/DCIS_INCIDMORFER_COM/" >./DCIS_INCIDMORFER_COM.xml
@@ -202,7 +202,7 @@ In questo elenco le dimensioni con id `FREQ`, `ESITO`, `ITTER107`,`TIPO_DATO` e 
 
 Ma qual è il **significato** di `FREQ`, `ESITO`, `ITTER107`,`TIPO_DATO` e `SELECT_TIME` e che **valori** sono **ammissibili**?
 
-La risposta a queste domande ce le da la risorsa di metadati - il *package* - denominata `codelist`. Si può interrogare sempre per ID, ma bisogna conoscere l'ID dei vari campi, che è scritto nel file XML di sopra.<br>
+La risposta a queste domande ce le dà la risorsa di metadati - il *package* - denominata `codelist`. Si può interrogare sempre per ID, ma bisogna conoscere l'ID dei vari campi, che è scritto nel file XML di sopra.<br>
 Ad esempio in corrispondenza del campo `FREQ` si legge `<Ref id="CL_FREQ" version="1.0" agencyID="IT1" package="codelist" class="Codelist" />`, ovvero che l'ID corrispondente in `codelist` è `CL_FREQ`. L'URL da lanciare per avere le informazioi su questo campo, sarà un altro URL per interrogare metadati e in particolare http://sdmx.istat.it/SDMXWS/rest/codelist/IT1/CL_FREQ.
 
 In output un file XML, dove si legge che si tratta della "Frequenza", a cui si possono associare diversi valori. Per ogni valore come sempre un ID e qui anche una descrizione. Per `CL_FREQ` i valori sono:
