@@ -106,7 +106,6 @@ Il formato di output di default è l'XML.
 ```bash
 curl -kL "http://sdmx.istat.it/SDMXWS/rest/data/41_983" >./41_983.xml
 ```
-curl "http://sdmx.istat.it/SDMXWS/rest/data/IT1,41_983,1.0?format=csv"
 
 ### Cambiare formato di output
 
