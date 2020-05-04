@@ -25,7 +25,7 @@ La mancanza di informazioni in merito e le opportunità che vengono offerte, ci 
 
 L'URL base di accesso è `http://sdmx.istat.it/SDMXWS/rest/`. Da questo si possono interrogare i **metadati** e i **dati**, con una chiamata `HTTP` in `GET`. Quindi pressoché **da qualsiasi client**, **senza installare nulla**.
 
-Sono dati esposti secondo lo standard **SDMX**.
+Sono dati esposti secondo lo standard [**SDMX**](https://sdmx.org/).
 
 ### Che strumenti usare
 
