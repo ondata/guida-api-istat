@@ -52,7 +52,7 @@ di riferimento parziale, completo.
   - `references`, riferimenti relativi da restituire. I valori possibili sono  `none`, `parents`,  `parentsandsiblings`, `children`, `descendants`, `all`, `any` e di *default* è `none`.
 
 
-Un esempio è quello che restituisce i **`dataflow`**, ovvero l'elenco dei flussi di dati interrogabili.<br>Per averlo restituito l'URL è http://sdmx.istat.it/SDMXWS/rest/dataflow/IT1
+Un esempio è quello che restituisce i **`dataflow`**, ovvero l'elenco dei flussi di dati interrogabili.<br>Per averlo restituito l'URL è <http://sdmx.istat.it/SDMXWS/rest/dataflow/IT1>.
 
 Si ottiene in risposta un file XML come [questo](rawdata/dataflow.xml), che all'interno contiene dei blocchi come quello sottostante, in cui ai dati su "Incidenti, morti e feriti - comuni" è associato l'id `41_983`.
 
@@ -91,7 +91,7 @@ Alcune note:
   - `detail`;
   - `includeHistory`.
 
-Visto che l'unico parametro obbligatorio è l'ID del *dataflow*, per scaricare quello di sopra sugli incidenti stradali l'URL sarà (**OCCHIO CHE SUL BROWSER pesa**, sono 53 MB di file XML, meglio non fare click e leggerlo soltanto) http://sdmx.istat.it/SDMXWS/rest/data/41_983
+Visto che l'unico parametro obbligatorio è l'ID del *dataflow*, per scaricare quello di sopra sugli incidenti stradali l'URL sarà (**OCCHIO CHE SUL BROWSER pesa**, sono 53 MB di file XML, meglio non fare click e leggerlo soltanto) <http://sdmx.istat.it/SDMXWS/rest/data/41_983>.
 
 ## Qualche esempio
 
@@ -217,7 +217,7 @@ In output un [file XML](esempi/CL_FREQ.xml), dove si legge che si tratta della "
 | Q | trimestrale |
 | W | settimanale |
 
-Per ognuno dei campi, si possono estrarre i valori possibili nello stesso modo. Ad esempio per `ESITO` l'URL sarà http://sdmx.istat.it/SDMXWS/rest/codelist/IT1/CL_ESITO, con le coppie ID-Descrizione `M-morto`, `F-ferito` e `9-totale`.
+Per ognuno dei campi, si possono estrarre i valori possibili nello stesso modo. Ad esempio per `ESITO` l'URL sarà <http://sdmx.istat.it/SDMXWS/rest/codelist/IT1/CL_ESITO>, con le coppie ID-Descrizione `M-morto`, `F-ferito` e `9-totale`.
 
 Una ***query*** per **attributo/i**, ne deve **elencare i valori** nell'URL secondo questo schema:
 
@@ -272,12 +272,12 @@ In ultimo, la cosa più importante: **chiediamo a ISTAT di documentare l'accesso
 
 # Sitografia
 - I.Stat data warehouse [http://dati.istat.it/](http://dati.istat.it/);
-- Pagina dei Web Service di ISTAT https://www.istat.it/it/metodi-e-strumenti/web-service-sdmx;
-- Registro delle meta informazione dei dati statistici di diffusione di ISTAT in formato SDMX http://sdmx.istat.it/sdmxMetaRepository/;
-- "How to build a rest query to retrieve eurostat data" https://ec.europa.eu/eurostat/web/sdmx-web-services/a-few-useful-points;
-- "sdmx-rest Tips for consumers" https://github.com/sdmx-twg/sdmx-rest/wiki/Tips-for-consumers;
-- "SDMX Technical Standards Working Group" https://github.com/sdmx-twg;
-- "SDMX - SDMX 2.1 Web services guidelines 2013" https://sdmx.org/wp-content/uploads/SDMX_2-1-1-SECTION_07_WebServicesGuidelines_2013-04.pdf
+- Pagina dei Web Service di ISTAT <https://www.istat.it/it/metodi-e-strumenti/web-service-sdmx>;
+- Registro delle meta informazione dei dati statistici di diffusione di ISTAT in formato SDMX <http://sdmx.istat.it/sdmxMetaRepository/>;
+- "How to build a rest query to retrieve eurostat data" <https://ec.europa.eu/eurostat/web/sdmx-web-services/a-few-useful-points>;
+- "sdmx-rest Tips for consumers" <https://github.com/sdmx-twg/sdmx-rest/wiki/Tips-for-consumers>;
+- "SDMX Technical Standards Working Group" <https://github.com/sdmx-twg>;
+- "SDMX - SDMX 2.1 Web services guidelines 2013" <https://sdmx.org/wp-content/uploads/SDMX_2-1-1-SECTION_07_WebServicesGuidelines_2013-04.pdf>.
 
 ---
 
