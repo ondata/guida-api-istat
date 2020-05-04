@@ -279,7 +279,8 @@ In ultimo, la cosa più importante: **chiediamo a ISTAT di documentare l'accesso
 - "How to build a rest query to retrieve eurostat data" <https://ec.europa.eu/eurostat/web/sdmx-web-services/a-few-useful-points>;
 - "sdmx-rest Tips for consumers" <https://github.com/sdmx-twg/sdmx-rest/wiki/Tips-for-consumers>;
 - "SDMX Technical Standards Working Group" <https://github.com/sdmx-twg>;
-- "SDMX - SDMX 2.1 Web services guidelines 2013" <https://sdmx.org/wp-content/uploads/SDMX_2-1-1-SECTION_07_WebServicesGuidelines_2013-04.pdf>.
+- "SDMX - SDMX 2.1 Web services guidelines 2013" <https://sdmx.org/wp-content/uploads/SDMX_2-1-1-SECTION_07_WebServicesGuidelines_2013-04.pdf>;
+- "SDMX RESTful web services specification" <https://github.com/sdmx-twg/sdmx-rest>.
 
 ---
 
