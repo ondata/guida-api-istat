@@ -17,7 +17,7 @@
 
 L'**Istituto nazionale di statistica** (ISTAT) consente di accedere ai dati del proprio *warehouse* ([http://dati.istat.it/](http://dati.istat.it/)) in molte modalità. L'accesso via ***API REST*** è poco noto, molto comodo, ma **poco documentato**.<br>
 Nella [pagina](https://www.istat.it/it/metodi-e-strumenti/web-service-sdmx) ufficiale dei loro *web service* e nelle guide presenti non c'è alcuna documentazione dedicata.<br>
-C'è un riferimento alle "*RESTful API*" in questa pagina http://sdmx.istat.it/SDMXWS/.
+C'è un riferimento alle "*RESTful API*" in questa pagina <http://sdmx.istat.it/SDMXWS/>.
 
 La mancanza di informazioni in merito e le opportunità che vengono offerte, ci hanno spinto a scrivere questa guida non esaustiva, che descrive queste modalità di accesso.
 
