@@ -1,0 +1,11 @@
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
+remote_theme: "pages-themes/primer"
+title: Guida all'uso delle API REST di ISTAT
+description: Le nozioni di base e qualche esempio
+lang: it-IT

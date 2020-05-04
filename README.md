@@ -1,4 +1,4 @@
-- [Come accedere alle API REST di ISTAT](#come-accedere-alle-api-rest-di-istat)
+- [Guida all'uso delle API REST di ISTAT](#guida-alluso-delle-api-rest-di-istat)
   - [Perché questa guida](#perché-questa-guida)
   - [Come interrogarle](#come-interrogarle)
     - [Che strumenti usare](#che-strumenti-usare)
@@ -11,7 +11,7 @@
 - [Note](#note)
 - [Sitografia](#sitografia)
 
-# Come accedere alle API REST di ISTAT
+# Guida all'uso delle API REST di ISTAT
 
 ## Perché questa guida
 
