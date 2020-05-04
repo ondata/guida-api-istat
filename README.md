@@ -29,7 +29,7 @@ Sono dati esposti secondo lo standard **SDMX**.
 
 ### Che strumenti usare
 
-Vista la modilità di accesso, basta un *browser*, `wget`, `cURL` e/o qualsiasi modulo/funzione che in un linguaggio di scripting consenta l'accesso `HTTP` in `GET`.
+Vista la modalità di accesso, basta un *browser*, `wget`, `cURL` e/o qualsiasi modulo/funzione che in un linguaggio di scripting consenta l'accesso `HTTP` in `GET`.
 
 ### Accedere ai metadati
 
@@ -66,7 +66,7 @@ Si ottiene in risposta un file XML come [questo](rawdata/dataflow.xml), che all'
 </structure:Dataflow>
 ```
 
-L'elenco ad oggi (3 maggio 2020) dei dataset interrogabili è composto da circa 450 elementi, visualizzibili in [questo file CSV](processing/dataflow.csv).
+L'elenco ad oggi (3 maggio 2020) dei dataset interrogabili è composto da circa 450 elementi, visualizzabili in [questo file CSV](processing/dataflow.csv).
 
 ### Accedere ai dati
 
@@ -144,7 +144,7 @@ Per leggere lo schema dati di `DCIS_INCIDMORFER_COM`, si potrà lanciare questa 
 curl -kL "http://sdmx.istat.it/SDMXWS/rest/datastructure/IT1/DCIS_INCIDMORFER_COM/" >./DCIS_INCIDMORFER_COM.xml
 ```
 
-Nel fil [XML di output](esempi/DCIS_INCIDMORFER_COM.xml) c'è il tag `structure:DimensionList` (vedi sotto), che contiene la lista delle dimensioni, ovvero lo schema dati del dataset.<br>
+Nel file [XML di output](esempi/DCIS_INCIDMORFER_COM.xml) c'è il tag `structure:DimensionList` (vedi sotto), che contiene la lista delle dimensioni, ovvero lo schema dati del dataset.<br>
 In questo elenco le dimensioni con id `FREQ`, `ESITO`, `ITTER107`,`TIPO_DATO` e `SELECT_TIME`.
 
 ```xml
@@ -266,7 +266,7 @@ Se userete queste API, l'invito è quello di approfondire tramite una o più del
 
 Abbiamo fatto **pochi** **test** e verifiche, quindi non sappiamo se tutto funziona bene.
 
-**Non è possibile sempre usare tutti i filtri**, perché alcuni dei *dataflow* sono già un sottoinsieme. Ad esempio nel caso del dataset di esempio usato, quello sugli incidenti stradali, non è possibile usare il primo filtro, quello delle frequenze perché sono dati che a monte sono raggruppatti per anno.
+**Non è possibile sempre usare tutti i filtri**, perché alcuni dei *dataflow* sono già un sottoinsieme. Ad esempio nel caso del dataset di esempio usato, quello sugli incidenti stradali, non è possibile usare il primo filtro, quello delle frequenze perché sono dati che a monte sono raggruppati per anno.
 
 In ultimo, la cosa più importante: **chiediamo a ISTAT di documentare l'accesso alle loro API in modalità RESTful**.
 
