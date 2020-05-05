@@ -1,0 +1,64 @@
+{
+  "title": {
+    "text": "Incidenti stradali nel comune di Palermo",
+    "anchor": "start",
+    "subtitle": "Numero di incidenti per anno, fonte ISTAT"
+  },
+  "data": {
+    "url": "./filtro_esempio02.csv"
+  },
+  "width": "container",
+  "layer": [
+    {
+      "mark": "line",
+      "encoding": {
+        "x": {
+          "field": "TIME_PERIOD",
+          "type": "temporal",
+          "axis": {
+            "title": "Anno"
+          }
+        },
+        "y": {
+          "field": "OBS_VALUE",
+          "type": "quantitative",
+          "axis": {
+            "title": "Numero di casi"
+          }
+        }
+      }
+    },
+    {
+      "mark": {"type":"point","size":70},
+      "encoding": {
+        "x": {
+          "field": "TIME_PERIOD",
+          "type": "temporal",
+          "axis": {
+            "title": "Anno"
+          }
+        },
+        "y": {
+          "field": "OBS_VALUE",
+          "type": "quantitative",
+          "axis": {
+            "title": "Numero di casi"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "TIME_PERIOD",
+            "type": "temporal",
+            "title": "Anno",
+            "format": "%Y"
+          },
+          {
+            "field": "OBS_VALUE",
+            "type": "quantitative",
+            "title": "Casi"
+          }
+        ]
+      }
+    }
+  ]
+}
