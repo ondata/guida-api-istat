@@ -1,19 +1,20 @@
-- [Guida all'uso delle API REST di ISTAT](#guida-alluso-delle-api-rest-di-istat)
-  - [Perché questa guida](#perché-questa-guida)
-  - [Come interrogarle](#come-interrogarle)
-    - [Che strumenti usare](#che-strumenti-usare)
-    - [Accedere ai metadati](#accedere-ai-metadati)
-    - [Accedere ai dati](#accedere-ai-dati)
-  - [Qualche esempio](#qualche-esempio)
-    - [Scaricare i dati in blocco](#scaricare-i-dati-in-blocco)
-    - [Cambiare formato di output](#cambiare-formato-di-output)
-    - [Applicare dei filtri](#applicare-dei-filtri)
+<h1>Guida all'uso delle API REST di ISTAT</h1>
+
+- [Perché quest guida](#perché-quest-guida)
+- [Come interrogare le API](#come-interrogare-le-api)
+  - [Che strumenti usare](#che-strumenti-usare)
+  - [Accedere ai metadati](#accedere-ai-metadati)
+  - [Accedere ai dati](#accedere-ai-dati)
+- [Qualche esempio](#qualche-esempio)
+  - [Scaricare i dati in blocco](#scaricare-i-dati-in-blocco)
+  - [Cambiare formato di output](#cambiare-formato-di-output)
+  - [Applicare dei filtri](#applicare-dei-filtri)
 - [Note](#note)
+- [Sostegno alle nostre attività](#sostegno-alle-nostre-attività)
 - [Sitografia](#sitografia)
+- [Cheatsheet completo](#cheatsheet-completo)
 
-# Guida all'uso delle API REST di ISTAT
-
-## Perché questa guida
+## Perché quest guida
 
 L'**Istituto nazionale di statistica** (ISTAT) consente di accedere ai dati del proprio *warehouse* ([http://dati.istat.it/](http://dati.istat.it/)) in molte modalità. L'accesso via ***API REST*** è poco noto, molto comodo, ma **poco documentato**.<br>
 Nella [pagina](https://www.istat.it/it/metodi-e-strumenti/web-service-sdmx) ufficiale dei loro *web service* e nelle guide presenti non c'è alcuna documentazione dedicata.<br>
@@ -23,7 +24,7 @@ La mancanza di informazioni in merito e le opportunità che vengono offerte, ci 
 
 Se vuoi proporre una modifica/integrazione/correzione a questa guida, [questo](https://github.com/ondata/guida-api-istat/blob/master/README.md) è il file e [questo](https://github.com/ondata/guida-api-istat) è il repository che ospita il progetto.
 
-## Come interrogarle
+## Come interrogare le API
 
 L'URL base di accesso è `http://sdmx.istat.it/SDMXWS/rest/`. Da questo si possono interrogare i **metadati** e i **dati**, con una chiamata `HTTP` in `GET`. Quindi pressoché **da qualsiasi client**, **senza installare nulla**.
 
@@ -275,7 +276,7 @@ Il ultimo una *query* i cui aggiungere un `queryStringParameters`, in particolar
 curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.istat.it/SDMXWS/rest/data/41_983/?startPeriod=2015" >./filtro_esempio04.csv
 ```
 
-# Note
+## Note
 
 Questa guida è stata redatta **leggendo** la **documentazione** - non di ISTAT - presente **in altri siti** che documentano l'accesso REST a servizi SDMX. Il primo da cui siamo partiti è la [guida delle API](https://data.oecd.org/api/sdmx-json-documentation/) di accesso ai dati de l'"Organisation for Economic Co-operation and Development" (OECD).<br>
 Se userete queste API, l'invito è quello di approfondire tramite una o più delle risorse in [sitografia](#sitografia).
@@ -286,7 +287,11 @@ Abbiamo fatto **pochi** **test** e verifiche, quindi non sappiamo se tutto funzi
 
 In ultimo, la cosa più importante: **chiediamo a ISTAT di documentare l'accesso alle loro API in modalità RESTful**.
 
-# Sitografia
+## Sostegno alle nostre attività
+
+Se vuoi **sostenere** le nostre **attività**, puoi farlo [donando il tuo **5x1000**](https://sostieni.ondata.it/).
+
+## Sitografia
 - I.Stat data warehouse [http://dati.istat.it/](http://dati.istat.it/);
 - Pagina dei Web Service di ISTAT <https://www.istat.it/it/metodi-e-strumenti/web-service-sdmx>;
 - Registro delle meta informazione dei dati statistici di diffusione di ISTAT in formato SDMX <http://sdmx.istat.it/sdmxMetaRepository/>;
@@ -295,6 +300,90 @@ In ultimo, la cosa più importante: **chiediamo a ISTAT di documentare l'accesso
 - "SDMX Technical Standards Working Group" <https://github.com/sdmx-twg>;
 - "SDMX - SDMX 2.1 Web services guidelines 2013" <https://sdmx.org/wp-content/uploads/SDMX_2-1-1-SECTION_07_WebServicesGuidelines_2013-04.pdf>;
 - "SDMX RESTful web services specification" <https://github.com/sdmx-twg/sdmx-rest>.
+
+## Cheatsheet completo
+
+Lo **SDMX Technical Standards Working Group** ha creato un [*cheatsheet*](https://github.com/sdmx-twg/sdmx-rest/raw/master/v2_1/ws/rest/docs/rest_cheat_sheet.pdf) molto leggibile e didattico, da cui abbiamo preso fortemente spunto. Lo riportiamo a seguire.<br>
+È probabile che non tutto sia attivato presso l'*endpoint* di ISTAT.
+
+**Structural metadata queries:**<br>`http://sdmx.istat.it/SDMXWS/rest/resource/agencyID/resourceID/version/itemID?queryStringParameters`
+
+| Path parameter | Description | Default |
+| --- | --- | --- |
+| **resource** (mandatory) | The type of metadata to be returned. Values: datastructure, metadatastructure, categoryscheme, conceptscheme, codelist, hierarchicalcodelist, organisationscheme, agencyscheme, dataproviderscheme, dataconsumerscheme, organisationunitscheme, dataflow, metadataflow, reportingtaxonomy, provisionagreement, structureset, process, categorisation, contentconstraint, attachmentconstraint, actualconstraint, allowedconstraint, structure | |
+| **agencyID** | Agency maintaining the artefact (e.g.: SDMX) | all |
+| **resourceID** | Artefact ID (e.g.: CL\_FREQ) | all |
+| **version** | Arterfact version (e.g.: 1.0) | latest |
+| **itemID** | ID of the item (for item schemes) or hierarchy (for hierarchical codelists) to be returned. | all |
+| **detail** | Desired amount of information. Values: allstubs, referencestubs, allcompletestubs, referencecompletestubs, referencepartial, full. | full |
+| **references** | References to be returned with the artefact. Values: none, parents, parentsandsiblings, children, descendants, all, any type of resource. | none |
+
+**Data queries:**<br>`http://sdmx.istat.it/SDMXWS/rest/data/flowRef/key/providerRef?queryStringParameters`
+
+| Path parameter | Description | Default |
+| --- | --- | --- |
+| **flowRef** | Dataflow ref (e.g. 41_983, etc.) | |
+| **key** | Key of the series to be returned (e.g: D.NOK.EUR.SP00.A). Wildcarding (e.g: D..EUR.SP00.A) and OR (e.g: D.NOK+RUB.EUR.SP00.A) supported. | all |
+| providerRef | Data provider (e.g.: IT1) | all |
+| **startPeriod** | Start period (inclusive). ISO8601 (e.g. 2014-01) or SDMX reporting period (e.g. 2014-Q3). | |
+| **endPeriod** | End period (inclusive). ISO8601 (e.g. 2014-01-01) or SDMX reporting period (e.g. 2014-W53). | |
+| **updatedAfter** | Last time the query was performed. Used to retrieve deltas. Must be percent-encoded (e.g.: 2009-05-15T14%3A15%3A00%2B01%3A00) | |
+| **firstNObservations** | Maximum number of observations starting from the first observation | |
+| **lastNObservations** | Maximum number of observations counting back from the most recent observation | |
+| **dimensionAtObservation** | Id fof the dimension attached at the observation level | TIME_PERIOD |
+| **detail** | Desired amount of information to be returned. Values: full, dataonly, serieskeysonly, nodata | full |
+| **includeHistory** | Whether to return vintages | false |
+
+
+**Useful HTTP headers**
+
+| Headers | Description |
+| --- | --- |
+| If-Modified-Since | Get the data only if something has changed |
+| Accept | Select the desired format |
+| Accept-Encoding | Compress the response |
+
+**Supported formats**
+
+| Formats | Syntax |
+| --- | --- |
+| SDMX-ML Generic Data | application/vnd.sdmx.genericdata+xml;version=2.1 |
+| SDMX-ML StructureSpecific Data | application/vnd.sdmx.structurespecificdata+xml;version=2.1 |
+| SDMX-JSON Data | application/vnd.sdmx.data+json;version=1.0.0 |
+| SDMX-CSV Data | application/vnd.sdmx.data+csv;version=1.0.0 |
+| SDMX-ML Structure | application/vnd.sdmx.structure+xml;version=2.1 |
+| SDMX-JSON Structure | application/vnd.sdmx.structure+json;version=1.0.0 |
+| SDMX-ML Schemas | application/vnd.sdmx.schema+xml;version=2.1 |
+| SDMX-ML Generic Metadata | application/vnd.sdmx.genericmetadata+xml;version=2.1 |
+| SDMX-ML StructureSpecific Meta | application/vnd.sdmx.structurespecificmetadata+xml;version=2.1 |
+
+
+**Period formats**
+|Period|Format|
+|--- |--- |
+|Daily/Business|YYYY-MM-DD|
+|Weekly|YYYY-W[01-53]|
+|Monthly|YYYY-MM|
+|Quarterly|YYYY-Q[1-4]|
+|Semi-annual|YYYY-S[1-2]|
+|Annual|YYYY|
+
+**Useful response codes**
+
+|Code| Description |
+|--- |--- |
+|200 (OK)|Life is good|
+|304 (No change)|No change since the timestamp supplied in the If-Modified-Since header|
+|400 (Syntax error)|Your query checking you must|
+|401 (Login needed)|Only available on a need to know basis|
+|403 (Semantic error)|The syntax of the query is OK but it makes no sense anyway. Tolerated only on April Fools|
+|404 (Not found)|No results. Mostly harmless, especially if you used updatedAfter|
+|406 (Invalid format)|Not a supported format. No worries, SDMX is all you need|
+|413 (Results too large)|You know greed is a sin, right?|
+|414 (URI too long)|Write short sentences|
+|500 (Server error)|Someone somewhere is having a bad day|
+|501 (Not implemented)|Feature coming soon in a web service near you|
+|503 (Unavailable)|Try again later.|
 
 ---
 
