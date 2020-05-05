@@ -5,7 +5,6 @@ relative_links:
   collections: true
 include:
   - README.md
-  - test.md
 remote_theme: "pages-themes/primer"
 title: Guida all'uso delle API REST di ISTAT
 description: Le nozioni di base e qualche esempio
