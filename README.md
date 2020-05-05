@@ -1,4 +1,3 @@
-<h1>Guida all'uso delle API REST di ISTAT</h1>
 
 - [Perché quest guida](#perché-quest-guida)
 - [Come interrogare le API](#come-interrogare-le-api)
