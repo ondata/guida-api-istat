@@ -95,6 +95,8 @@ Alcune note:
 
 Visto che l'unico parametro obbligatorio è l'ID del *dataflow*, per scaricare quello di sopra sugli incidenti stradali l'URL sarà (**OCCHIO CHE SUL BROWSER pesa**, sono 53 MB di file XML, meglio non fare click e leggerlo soltanto) <http://sdmx.istat.it/SDMXWS/rest/data/41_983>.
 
+[`torna su`](#perché-quest-guida)
+
 ## Qualche esempio
 
 Per gli esempi sottostanti verrà usata l'*utility* cURL, in quanto disponibile e utilizzabile su qualsiasi sistema operativo.
@@ -275,6 +277,8 @@ Il ultimo una *query* i cui aggiungere un `queryStringParameters`, in particolar
 curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.istat.it/SDMXWS/rest/data/41_983/?startPeriod=2015" >./filtro_esempio04.csv
 ```
 
+[`torna su`](#perché-quest-guida)
+
 ## Note
 
 Questa guida è stata redatta **leggendo** la **documentazione** - non di ISTAT - presente **in altri siti** che documentano l'accesso REST a servizi SDMX. Il primo da cui siamo partiti è la [guida delle API](https://data.oecd.org/api/sdmx-json-documentation/) di accesso ai dati de l'"Organisation for Economic Co-operation and Development" (OECD).<br>
@@ -299,6 +303,8 @@ Se vuoi **sostenere** le nostre **attività**, puoi farlo [donando il tuo **5x10
 - "SDMX Technical Standards Working Group" <https://github.com/sdmx-twg>;
 - "SDMX - SDMX 2.1 Web services guidelines 2013" <https://sdmx.org/wp-content/uploads/SDMX_2-1-1-SECTION_07_WebServicesGuidelines_2013-04.pdf>;
 - "SDMX RESTful web services specification" <https://github.com/sdmx-twg/sdmx-rest>.
+
+[`torna su`](#perché-quest-guida)
 
 ## Cheatsheet di riferimento
 
