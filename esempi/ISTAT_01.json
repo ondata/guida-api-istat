@@ -2,7 +2,7 @@
   "title": {
     "text": "Incidenti stradali nel comune di Palermo",
     "anchor": "start",
-    "subtitle": "Numero di incidenti per anno, fonte ISTAT"
+    "subtitle": "Numero di incidenti con feriti per anno, fonte ISTAT"
   },
   "data": {
     "url": "./esempi/filtro_esempio02.csv"
