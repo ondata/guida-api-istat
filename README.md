@@ -358,6 +358,7 @@ Lo **SDMX Technical Standards Working Group** ha creato un [*cheatsheet*](https:
 
 
 **Period formats**
+
 |Period|Format|
 |--- |--- |
 |Daily/Business|YYYY-MM-DD|
