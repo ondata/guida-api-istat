@@ -262,6 +262,7 @@ Qui sotto un grafico d'esempio generato proprio con i dati di output di questa *
 
 </script>
 
+<br>
 Si possono inserire più valori per lo stesso campo, separandoli con il carattere `+`. Se ad esempio si vogliono aggiungere anche gli incidenti con feriti, del comune di Bari (codice ISTAT `072006`) - filtro `.F.082053+072006..` - il comando sarà:
 
 ```bash
