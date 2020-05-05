@@ -249,6 +249,9 @@ Tra i campi anche `ITTER107` (è il terzo), che è quello del codice comunale IS
 curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.istat.it/SDMXWS/rest/data/41_983/.F.082053.." >filtro_esempio02.csv
 ```
 
+Sono 18 record, uno per ogni anno (questo dataset espone dati aggregati per anno dal 2001 al 2018).<br>
+Qui sotto un grafico d'esempio generato proprio con i dati di output di questa *query*.
+
 <div id="vis" class="vl-responsive"></div>
 
 <script>
@@ -259,7 +262,7 @@ curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.i
 
 </script>
 
-Sono 18 record, uno per ogni anno (questo dataset espone dati aggregati per anno dal 2001 al 2018). Si possono inserire più valori per lo stesso campo, separandoli con il carattere `+`. Se ad esempio si vogliono aggiungere anche gli incidenti con feriti, del comune di Bari (codice ISTAT `072006`) - filtro `.F.082053+072006..` - il comando sarà:
+Si possono inserire più valori per lo stesso campo, separandoli con il carattere `+`. Se ad esempio si vogliono aggiungere anche gli incidenti con feriti, del comune di Bari (codice ISTAT `072006`) - filtro `.F.082053+072006..` - il comando sarà:
 
 ```bash
 curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.istat.it/SDMXWS/rest/data/41_983/.F.082053+072006.." >filtro_esempio03.csv
