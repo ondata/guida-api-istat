@@ -5,7 +5,7 @@
     "subtitle": "Numero di incidenti per anno, fonte ISTAT"
   },
   "data": {
-    "url": "./filtro_esempio02.csv"
+    "url": "./esempi/filtro_esempio02.csv"
   },
   "width": "container",
   "layer": [
