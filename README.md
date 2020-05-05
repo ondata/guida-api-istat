@@ -208,16 +208,16 @@ Ad esempio in corrispondenza del campo `FREQ` si legge `<Ref id="CL_FREQ" versio
 
 In output un [file XML](esempi/CL_FREQ.xml), dove si legge che si tratta della "Frequenza", a cui si possono associare diversi valori. Per ogni valore come sempre un ID e qui anche una descrizione. Per `CL_FREQ` i valori sono:
 
-| ID | Descrizione |
-| --- | --- |
-| A | annuale |
-| B | business (non supportato) |
-| D | giornaliero |
-| E | event (non supportato) |
-| H | semestrale |
-| M | mensile |
-| Q | trimestrale |
-| W | settimanale |
+| ID  | Descrizione               |
+| --- | ------------------------- |
+| A   | annuale                   |
+| B   | business (non supportato) |
+| D   | giornaliero               |
+| E   | event (non supportato)    |
+| H   | semestrale                |
+| M   | mensile                   |
+| Q   | trimestrale               |
+| W   | settimanale               |
 
 Per ognuno dei campi, si possono estrarre i valori possibili nello stesso modo. Ad esempio per `ESITO` l'URL sarà <http://sdmx.istat.it/SDMXWS/rest/codelist/IT1/CL_ESITO>, con le coppie ID-Descrizione `M-morto`, `F-ferito` e `9-totale`.
 
