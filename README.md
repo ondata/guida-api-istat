@@ -9,7 +9,7 @@
   - [Cambiare formato di output](#cambiare-formato-di-output)
   - [Applicare dei filtri](#applicare-dei-filtri)
 - [Note](#note)
-- [Sostegno alle nostre attività](#sostegno-alle-nostre-attività)
+- [Sostieni le nostre attività](#sostieni-le-nostre-attività)
 - [Sitografia](#sitografia)
 - [Cheatsheet completo](#cheatsheet-completo)
 
@@ -286,7 +286,7 @@ Abbiamo fatto **pochi** **test** e verifiche, quindi non sappiamo se tutto funzi
 
 In ultimo, la cosa più importante: **chiediamo a ISTAT di documentare l'accesso alle loro API in modalità RESTful**.
 
-## Sostegno alle nostre attività
+## Sostieni le nostre attività
 
 Se vuoi **sostenere** le nostre **attività**, puoi farlo [donando il tuo **5x1000**](https://sostieni.ondata.it/).
 
