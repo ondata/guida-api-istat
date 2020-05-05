@@ -11,7 +11,7 @@
 - [Note](#note)
 - [Sostieni le nostre attività](#sostieni-le-nostre-attività)
 - [Sitografia](#sitografia)
-- [Cheatsheet completo](#cheatsheet-completo)
+- [Cheatsheet di riferimento](#cheatsheet-di-riferimento)
 
 ## Perché quest guida
 
@@ -300,7 +300,7 @@ Se vuoi **sostenere** le nostre **attività**, puoi farlo [donando il tuo **5x10
 - "SDMX - SDMX 2.1 Web services guidelines 2013" <https://sdmx.org/wp-content/uploads/SDMX_2-1-1-SECTION_07_WebServicesGuidelines_2013-04.pdf>;
 - "SDMX RESTful web services specification" <https://github.com/sdmx-twg/sdmx-rest>.
 
-## Cheatsheet completo
+## Cheatsheet di riferimento
 
 Lo **SDMX Technical Standards Working Group** ha creato un [*cheatsheet*](https://github.com/sdmx-twg/sdmx-rest/raw/master/v2_1/ws/rest/docs/rest_cheat_sheet.pdf) molto leggibile e didattico, da cui abbiamo preso fortemente spunto. Lo riportiamo a seguire.<br>
 È probabile che non tutto sia attivato presso l'*endpoint* di ISTAT.
