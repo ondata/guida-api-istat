@@ -322,7 +322,7 @@ Lo **SDMX Technical Standards Working Group** ha creato un [*cheatsheet*](https:
 
 | Path parameter | Description | Default |
 | --- | --- | --- |
-| **flowRef** | Dataflow ref (e.g. 41_983, etc.) | |
+| **flowRef** (mandatory) | Dataflow ref (e.g. 41_983, etc.) | |
 | **key** | Key of the series to be returned (e.g: D.NOK.EUR.SP00.A). Wildcarding (e.g: D..EUR.SP00.A) and OR (e.g: D.NOK+RUB.EUR.SP00.A) supported. | all |
 | providerRef | Data provider (e.g.: IT1) | all |
 | **startPeriod** | Start period (inclusive). ISO8601 (e.g. 2014-01) or SDMX reporting period (e.g. 2014-Q3). | |
