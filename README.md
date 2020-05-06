@@ -201,6 +201,7 @@ In questo elenco le dimensioni con id `FREQ`, `ESITO`, `ITTER107`,`TIPO_DATO` e 
       <structure:TextFormat textType="ObservationalTimePeriod" />
     </structure:LocalRepresentation>
   </structure:TimeDimension>
+</structure:DimensionList>
 ```
 
 Ma qual è il **significato** di `FREQ`, `ESITO`, `ITTER107`,`TIPO_DATO` e `SELECT_TIME` e che **valori** sono **ammissibili**?
