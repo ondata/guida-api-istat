@@ -1,78 +1,86 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "it-IT" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://i.imgur.com/LYzbOxY.png" />
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:image" content="https://i.imgur.com/LYzbOxY.png"/>
-    <meta name="twitter:title" content="Guida all'uso delle API REST di ISTAT"/>
-    <meta name="twitter:description" content="Le nozioni di base e qualche esempio"/>
 
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://i.imgur.com/LYzbOxY.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://i.imgur.com/LYzbOxY.png" />
+  <meta name="twitter:title" content="Guida all'uso delle API REST di ISTAT" />
+  <meta name="twitter:description" content="Le nozioni di base e qualche esempio" />
 
-<!-- librerie vega lite -->
-<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-<!-- librerie vega lite -->
+  {% seo %}
+  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
 
-<!-- possibile stile predefinito -->
-<style>
-.vl-responsive {
-  width: 100%;
-}
+  <!-- librerie vega lite -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  <!-- librerie vega lite -->
 
-details {
-  display: none !important;
-}
-</style>
-<!-- possibile stile predefinito -->
+  <!-- stile per vega-lite -->
+  <style>
+    .vl-responsive {
+      width: 100%;
+    }
 
-  </head>
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body">
-      <a href="https://ondata.it/" target="_blank" ><img src="./imgs/ondata_logo.png" width="143" alt="onData homepage" ></a>
-      {% if site.title and site.title != page.title %}
-      <h1>{{ site.title }}</h1>
-      {% endif %}
+    details {
+      display: none !important;
+    }
+  </style>
+  <!-- stile per vega-lite -->
 
-      {{ content }}
+</head>
 
-      {% if site.github.private != true and site.github.license %}
-      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-        "Guida all'uso delle API REST di ISTAT" - Un progetto di <span title="Label: default label" class="Label bg-blue"><a class="text-white" href="https://ondata.it" target="_blank">onData</a></span>
-      </div>
-      {% endif %}
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
-    {% if site.google_analytics %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{ site.google_analytics }}', 'auto');
-      ga('send', 'pageview');
-    </script>
+<body>
+  <div class="container-lg px-3 my-5 markdown-body">
+    <a href="https://ondata.it/" target="_blank"><img src="./imgs/ondata_logo.png" width="143"
+        alt="onData homepage"></a>
+    {% if site.title and site.title != page.title %}
+    <h1>{{ site.title }}</h1>
     {% endif %}
 
-    <!-- target blank -->
-<script>
-  (function() {
-    var links = document.getElementsByTagName('a');
-    for (var i = 0; i < links.length; i++) {
-      if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
-        links[i].target = '_blank';
+    {{ content }}
+
+    {% if site.github.private != true and site.github.license %}
+    <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+      "Guida all'uso delle API REST di ISTAT" - Un progetto di <span title="Label: default label"
+        class="Label bg-blue"><a class="text-white" href="https://ondata.it" target="_blank">onData</a></span>
+    </div>
+    {% endif %}
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
+    integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+  <script>anchors.add();</script>
+  {% if site.google_analytics %}
+  <script>
+    (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    ga('send', 'pageview');
+  </script>
+  {% endif %}
+
+  <!-- target blank -->
+  <script>
+    (function () {
+      var links = document.getElementsByTagName('a');
+      for (var i = 0; i < links.length; i++) {
+        if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+          links[i].target = '_blank';
+        }
       }
-    }
-  })();
+    })();
   </script>
   <!-- target blank -->
-  </body>
+</body>
+
 </html>
