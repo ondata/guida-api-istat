@@ -33,19 +33,6 @@ details {
 </style>
 <!-- possibile stile predefinito -->
 
-<!-- target blank -->
-<script>
-(function() {
-  var links = document.getElementsByTagName('a');
-  for (var i = 0; i < links.length; i++) {
-    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
-      links[i].target = '_blank';
-    }
-  }
-})();
-</script>
-<!-- target blank -->
-
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
@@ -74,5 +61,18 @@ details {
       ga('send', 'pageview');
     </script>
     {% endif %}
+
+    <!-- target blank -->
+<script>
+  (function() {
+    var links = document.getElementsByTagName('a');
+    for (var i = 0; i < links.length; i++) {
+      if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+        links[i].target = '_blank';
+      }
+    }
+  })();
+  </script>
+  <!-- target blank -->
   </body>
 </html>
