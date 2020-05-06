@@ -309,7 +309,7 @@ Se vuoi **sostenere** le nostre **attività**, puoi farlo [donando il tuo **5x10
 ## Cheatsheet di riferimento
 
 Lo **SDMX Technical Standards Working Group** ha creato un [*cheatsheet*](https://github.com/sdmx-twg/sdmx-rest/raw/master/v2_1/ws/rest/docs/rest_cheat_sheet.pdf) molto leggibile e didattico, da cui abbiamo preso fortemente spunto. Lo riportiamo a seguire.<br>
-È probabile che non tutto sia attivato presso l'*endpoint* di ISTAT.
+**NOTA BENE**: alcune delle opzioni di sotto potrebbero essere non attive presso l'*endpoint* di ISTAT.
 
 **Structural metadata queries:**<br>`http://sdmx.istat.it/SDMXWS/rest/resource/agencyID/resourceID/version/itemID?queryStringParameters`
 
