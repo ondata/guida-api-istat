@@ -8,6 +8,7 @@
   - [Scaricare i dati in blocco](#scaricare-i-dati-in-blocco)
   - [Cambiare formato di output](#cambiare-formato-di-output)
   - [Applicare dei filtri](#applicare-dei-filtri)
+  - [Estrarre in blocco lo schema dati e i valori possibili per un dataflow](#estrarre-in-blocco-lo-schema-dati-e-i-valori-possibili-per-un-dataflow)
 - [Note](#note)
 - [Sostieni le nostre attività](#sostieni-le-nostre-attività)
 - [Sitografia](#sitografia)
@@ -279,6 +280,14 @@ curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.i
 ```
 
 [`torna su`](#perché-quest-guida)
+
+### Estrarre in blocco lo schema dati e i valori possibili per un dataflow
+
+Un modo molto più rapido per avere restituito lo schema dati di un *dataflow* e i valori possibili per i campi, è quello di usare l'opzione `detail=serieskeysonly`. Il comando di sotto darà in output un file JSON come [questo](esempi/41_983_keys.json), con tutte le informazioni.
+
+```
+curl -kL -H "Accept: application/json" "http://sdmx.istat.it/SDMXWS/rest/data/41_983/?detail=serieskeysonly"  | jq . >./41_983.json
+```
 
 ## Note
 
