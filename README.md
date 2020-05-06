@@ -285,7 +285,7 @@ curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.i
 
 Un modo molto più rapido per avere restituito lo schema dati di un *dataflow* e i valori possibili per i campi, è quello di usare l'opzione `detail=serieskeysonly`. Il comando di sotto darà in output un file JSON come [questo](esempi/41_983_keys.json), con tutte le informazioni.
 
-```
+```bash
 curl -kL -H "Accept: application/json" "http://sdmx.istat.it/SDMXWS/rest/data/41_983/?detail=serieskeysonly"  | jq . >./41_983.json
 ```
 
