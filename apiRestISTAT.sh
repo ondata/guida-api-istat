@@ -33,7 +33,7 @@ mlr -I --csv put -S '$URL="http://dati.istat.it/Index.aspx?DataSetCode=".$iddata
 
 ### esplora il DSD DCIS_INCIDMORFER_COM ###
 
-datastructure="DCIS_INCIDMORFER_COM"
+datastructure="DCIS_POPRES1"
 
 # crea cartella raccolata dati
 mkdir -p "$folder"/rawdata/"$datastructure"
@@ -47,6 +47,8 @@ xq <"$folder"/rawdata/"$datastructure"/datastructure.xml . >"$folder"/processing
 jq <"$folder"/processing/"$datastructure"/datastructure.json -r '.["message:Structure"]["message:Structures"]["structure:DataStructures"]["structure:DataStructure"]["structure:DataStructureComponents"]["structure:DimensionList"]["structure:Dimension"][]["structure:LocalRepresentation"]["structure:Enumeration"].Ref["@id"]' >"$folder"/processing/"$datastructure"/DimensionList.txt
 
 # estrai tabelle lista valori dimensioni
+x=1
 while read p; do
-  xq <"$folder"/rawdata/codelist.xml '.["message:Structure"]["message:Structures"]["structure:Codelists"]["structure:Codelist"][]|select(.["@id"] =="'"$p"'")' | jq '[{id:.["@id"],dimensionName:.["common:Name"][0]["#text"],dimensionValueID:[.["structure:Code"][]["@id"]],dimensionValueDescription:[.["structure:Code"][]["common:Name"][0]["#text"]]}]' | mlr --j2c reshape -r ":" -o item,value then nest --explode --values --across-fields --nested-fs ":" -f item then reshape -s item_1,value then cut -x -f item_2 >"$folder"/processing/"$datastructure"/Dimension_"$p".csv
+  xq <"$folder"/rawdata/codelist.xml '.["message:Structure"]["message:Structures"]["structure:Codelists"]["structure:Codelist"][]|select(.["@id"] =="'"$p"'")' | jq '[{id:.["@id"],dimensionName:.["common:Name"][0]["#text"],dimensionValueID:[.["structure:Code"][]["@id"]],dimensionValueDescription:[.["structure:Code"][]["common:Name"][0]["#text"]]}]' | mlr --j2c reshape -r ":" -o item,value then nest --explode --values --across-fields --nested-fs ":" -f item then reshape -s item_1,value then cut -x -f item_2 >"$folder"/processing/"$datastructure"/"$x"_Dimension_"$p".csv
+  x=$(( $x + 1 ))
 done <"$folder"/processing/"$datastructure"/DimensionList.txt
