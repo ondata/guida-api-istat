@@ -25,7 +25,7 @@ Se vuoi proporre una modifica/integrazione/correzione a questa guida, [questo](h
 
 ## Come interrogare le API
 
-L'URL base di accesso è `http://sdmx.istat.it/SDMXWS/rest/`. Da questo si possono interrogare i **metadati** e i **dati**, con una chiamata `HTTP` in `GET`. Quindi pressoché **da qualsiasi client**, **senza installare nulla**.
+L'URL base di accesso è `http://sdmx.istat.it/SDMXWS/rest/`. Da questo si possono interrogare i **metadati** e i **dati**, con una chiamata `HTTP` in `GET`. Quindi pressoché **da qualsiasi client**.
 
 Sono dati esposti secondo lo standard [**SDMX**](https://sdmx.org/).
 
