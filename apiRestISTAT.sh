@@ -29,6 +29,8 @@ jq <"$folder"/processing/datastructure.json '.["message:Structure"]["message:Str
 xq <"$folder"/rawdata/dataflow.xml . >"$folder"/processing/dataflow.json
 jq <"$folder"/processing/dataflow.json '.["message:Structure"]["message:Structures"]["structure:Dataflows"]["structure:Dataflow"][]|{iddataflow:.["@id"],descrizione:.["common:Name"][0]?["#text"],iddatastructure:.["structure:Structure"].Ref["@id"]}' | mlr --j2c cat >"$folder"/processing/dataflow.csv
 
+mlr -I --csv put -S '$URL="http://dati.istat.it/Index.aspx?DataSetCode=".$iddatastructure' "$folder"/processing/dataflow.csv
+
 ### esplora il DSD DCIS_INCIDMORFER_COM ###
 
 datastructure="DCIS_INCIDMORFER_COM"
