@@ -1,0 +1,363 @@
+id,dimensionName,dimensionValueID,dimensionValueDescription
+CL_TIPO_DATO15,Tipo dato 15,FHOAWIDT,divorzi concessi dal tribunale con casa assegnata alla moglie (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,BRGRASM_FROM2017,sposi al secondo matrimonio o successivi  (%)
+CL_TIPO_DATO15,Tipo dato 15,SWMOMUCP,separazioni con più di un figlio minore affidato (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,LIFEEXP0,speranza di vita alla nascita
+CL_TIPO_DATO15,Tipo dato 15,NMCHUCS_C,numero di figli minori affidati nelle separazioni concesse dal tribunale
+CL_TIPO_DATO15,Tipo dato 15,LEXISPOINT,punto di Lexis
+CL_TIPO_DATO15,Tipo dato 15,BRASM_FROM2017,spose al secondo matrimonio o successivi  (%)
+CL_TIPO_DATO15,Tipo dato 15,MUCOFPD,figli minori affidati esclusivamente al padre nei divorzi (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,NDWMNE,numero di divorzi consensuali extragiudiziali con assegno al coniuge
+CL_TIPO_DATO15,Tipo dato 15,DWMACHPE,divorzi consensuali extragiudiziali con assegno ai figli (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,ALJPD,durata media del procedimento di divorzio giudiziale (in giorni)
+CL_TIPO_DATO15,Tipo dato 15,MARRGPOP_103,matrimoni % rispetto al totale dei matrimoni (territorio 1992-2005)
+CL_TIPO_DATO15,Tipo dato 15,CORE,trasferimenti di residenza
+CL_TIPO_DATO15,Tipo dato 15,DWMAMPE,divorzi consensuali extragiudiziali con figli minori e assegno (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,IHFWP,divorzi con marito italiano per nascita e moglie straniera o italiana per acquisizione nei divorzi (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,FHONADT,divorzi concessi dal tribunale con abitazioni autonome e distinte (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,FHONAST,abitazioni autonome e distinte nelle separazioni concesse dal tribunale (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,NDWMNT,numero di divorzi  concessi dal tribunale con assegno al coniuge
+CL_TIPO_DATO15,Tipo dato 15,CMARRGP_107,matrimoni civili % (territorio 2006-2009)
+CL_TIPO_DATO15,Tipo dato 15,DWMNPE,divorzi consensuali extragiudiziali con assegno al coniuge (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,LIFEXP,speranza di vita - ex
+CL_TIPO_DATO15,Tipo dato 15,IMMABRRATE,tasso immigratorio dall'estero (per mille abitanti)
+CL_TIPO_DATO15,Tipo dato 15,EFINTNMIG,saldo migratorio con l'estero stimato
+CL_TIPO_DATO15,Tipo dato 15,ASFR,tasso di fecondità specifica per età della madre
+CL_TIPO_DATO15,Tipo dato 15,MARRG_107,matrimoni (territorio 2006-2009)
+CL_TIPO_DATO15,Tipo dato 15,NMCHUCS_E,numero di figli minori affidati nelle separazioni consensuali extragiudiziali
+CL_TIPO_DATO15,Tipo dato 15,MARRGP_110,matrimoni % (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,FPOPCOM,popolazione straniera residente in convivenza
+CL_TIPO_DATO15,Tipo dato 15,LBIRTHES_FROM2017,stima dei nati vivi
+CL_TIPO_DATO15,Tipo dato 15,NUPT_TOTM_FROM2017,tasso di nuzialità  totale sposi - valori per mille
+CL_TIPO_DATO15,Tipo dato 15,SWMMCM,separazioni con figli minori e assegno (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,JAN_C,popolazione al 1º gennaio ai confini dell'epoca
+CL_TIPO_DATO15,Tipo dato 15,BR_103,spose (territorio 1992-2005)
+CL_TIPO_DATO15,Tipo dato 15,MARRG_103,matrimoni (territorio 1992-2005)
+CL_TIPO_DATO15,Tipo dato 15,ALMAPST,durata media del procedimento di separazione consensuale in tribunale (in giorni)
+CL_TIPO_DATO15,Tipo dato 15,DWMPFT,divorzi concessi dal tribunale con assegno ai figli corrisposto dal padre (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,FMRBRGRALL_FROM2017,indice di primo nuzialità  sposi (tutte le età) - valori per mille
+CL_TIPO_DATO15,Tipo dato 15,MPHUPDT,divorzi concessi dal tribunale  con assegno corrisposto dal marito (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,NGD_E,numero di divorzi consensuali extragiudiziali
+CL_TIPO_DATO15,Tipo dato 15,SWMSPE,separazioni consensuali extragiudiziali con assegno al coniuge (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,AMLDYT,durata media della convivenza matrimoniale nelle separazioni concesse dal tribunale (anni)
+CL_TIPO_DATO15,Tipo dato 15,BR_FROM2017,spose
+CL_TIPO_DATO15,Tipo dato 15,IMMINTRATE,tasso immigratorio dall'interno (per mille abitanti)
+CL_TIPO_DATO15,Tipo dato 15,NDWMCH,numero di divorzi con assegno ai figli
+CL_TIPO_DATO15,Tipo dato 15,DFCMP,divorzi da matrimoni civili (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,AMDYT,durata media del matrimonio nei divorzi concessi dal tribunale (anni)
+CL_TIPO_DATO15,Tipo dato 15,NCC,numero di separazioni concesse dal tribunale
+CL_TIPO_DATO15,Tipo dato 15,SWMSPT,separazioni concesse dal tribunale con assegno al coniuge (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,DWMCHCP,divorzi con figli minori affidati (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,SWMMCME,separazioni consensuali extragiudiziali con figli minori e assegno (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,PERCFORPOP,stranieri residenti (rispetto alla popolazione totale) - valori percentuali
+CL_TIPO_DATO15,Tipo dato 15,DMCP,divorzi di coppie miste (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,RESFORPER,stranieri residenti (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,MARRGPOP_107,matrimoni % rispetto al totale dei matrimoni (territorio 2006-2009)
+CL_TIPO_DATO15,Tipo dato 15,NUPT_TOTM_110,tasso di nuzialità totale sposi - valori per mille (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,AMDJDY,durata media del matrimonio nei divorzi giudiziali (anni)
+CL_TIPO_DATO15,Tipo dato 15,LIFEEXP0T,speranza di vita alla nascita - totale
+CL_TIPO_DATO15,Tipo dato 15,RESFORPTHO,stranieri residenti (rispetto alla popolazione totale) - valori per mille
+CL_TIPO_DATO15,Tipo dato 15,FMRBR_110,indice di primo nuzialità spose (16-49 anni) - valori per mille (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,SWMMCMT,separazioni concesse dal tribunale con figli minori e assegno (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,PERCCIVMAR_110,percentuale di matrimoni civili - numero indice base Italia=100 (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,LBIRTHESP_FROM2017,stima dei nati vivi (%)
+CL_TIPO_DATO15,Tipo dato 15,NUPRATEIND_110,quoziente di nuzialità - numero indice base Italia=100 (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,ARP_C,popolazione residente media ai confini dell'epoca
+CL_TIPO_DATO15,Tipo dato 15,LIFEEXP65M,speranza di vita a 65 anni - maschi
+CL_TIPO_DATO15,Tipo dato 15,CMARRGP_110,matrimoni civili % (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,NSWMSE,numero di separazioni consensuali extragiudiziali con assegno al coniuge
+CL_TIPO_DATO15,Tipo dato 15,MAGEMBR_FROM2017,età  media al matrimonio spose (tutte le età)
+CL_TIPO_DATO15,Tipo dato 15,BR_110,spose (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,PERCCIVMAR_FROM2017,percentuale di matrimoni civili - numero indice base Italia=100
+CL_TIPO_DATO15,Tipo dato 15,POPSTAT,popolazione statistica al 1º gennaio
+CL_TIPO_DATO15,Tipo dato 15,FMRBRGR_FROM2017,indice di primo nuzialità  sposi (16-49 anni) - valori per mille
+CL_TIPO_DATO15,Tipo dato 15,DWMTOMP,divorzi con più di un figlio minore affidato (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,SWMPFHE,separazioni consensuali extragiudiziali con assegno ai figli corrisposto dal padre (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,STMRATE,tasso standardizzato di mortalità (per 10.000 abitanti)
+CL_TIPO_DATO15,Tipo dato 15,BRGRASM_103,sposi al secondo matrimonio o successivi % (territorio 1992-2005)
+CL_TIPO_DATO15,Tipo dato 15,DWMAMP,divorzi con figli minori e assegno (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,PMDEPCO,popolazione nei comuni con decremento di popolazione (composizioni percentuali)
+CL_TIPO_DATO15,Tipo dato 15,MUCOMPS,figli minori affidati esclusivamente alla madre nelle separazioni (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,RESPOPPC,popolazione residente (composizione percentuale)
+CL_TIPO_DATO15,Tipo dato 15,LIFEEXP0M,speranza di vita alla nascita - maschi
+CL_TIPO_DATO15,Tipo dato 15,NUPTRATE_110,quozienti di nuzialità - valori per mille (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,MARRGP_107,matrimoni % (territorio 2006-2009)
+CL_TIPO_DATO15,Tipo dato 15,FMRBR_FROM2017,indice di primo nuzialità  spose (16-49 anni) - valori per mille
+CL_TIPO_DATO15,Tipo dato 15,ALMAPSE,durata media del procedimento di separazione consensuale extragiudiziale (in giorni)
+CL_TIPO_DATO15,Tipo dato 15,BRASM_107,spose al secondo matrimonio o successivi  % (territorio 2006-2009)
+CL_TIPO_DATO15,Tipo dato 15,SWMAMCP,divorzi esauriti con rito consensuale nelle coppie miste (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,MDECPPCO,comuni con decremento di popolazione (composizioni percentuali)
+CL_TIPO_DATO15,Tipo dato 15,MUCOFPS,figli minori affidati esclusivamente al padre nelle separazioni (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,NUPT_TOTW_110,tasso di nuzialità totale spose - valori per mille (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,JOWNPP_110,regime di comunione dei beni % (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,JOWNPP_FROM2017,regime di comunione dei beni (%)
+CL_TIPO_DATO15,Tipo dato 15,BRASM_110,spose al secondo matrimonio o successivi  % (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,EINTERTNMIG,saldo migratorio estero stimato
+CL_TIPO_DATO15,Tipo dato 15,AMDYMCD,durata media del matrimonio (anni) nei divorzi di coppie miste
+CL_TIPO_DATO15,Tipo dato 15,NDWMCHE,numero di divorzi consensuali extragiudiziali con assegno ai figli
+CL_TIPO_DATO15,Tipo dato 15,JOWNPP_103,regime di comunione dei beni % (territorio 1992-2005)
+CL_TIPO_DATO15,Tipo dato 15,FHONADE,divorzi consensuali extragiudiziali con abitazioni autonome e distinte (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,MAGEMBRGR16_49FROM2017,età  media al matrimonio sposi (16-49 anni)
+CL_TIPO_DATO15,Tipo dato 15,FHOUSMEMB,popolazione straniera residente in famiglia
+CL_TIPO_DATO15,Tipo dato 15,ALMAPDE,durata media del procedimento di divorzio consensuale extragiudiziale (in giorni)
+CL_TIPO_DATO15,Tipo dato 15,MUJACPD,figli minori con affidamento condiviso nei divorzi (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,FHOAHUST,casa assegnata al marito nelle separazioni concesse dal tribunale (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,FHIWPV,divorzi con moglie italiana per nascita e marito straniero o italiano per acquisizione (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,PMINPCO,popolazione nei comuni con incremento di popolazione (composizioni percentuali)
+CL_TIPO_DATO15,Tipo dato 15,MAGEMBR16_49FROM2017,età  media al matrimonio spose (16-49 anni)
+CL_TIPO_DATO15,Tipo dato 15,DWMACHP,divorzi con assegno ai figli (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,JOWNPP_107,regime di comunione dei beni  % (territorio 2006-2009)
+CL_TIPO_DATO15,Tipo dato 15,FHOAWISE,casa assegnata alla moglie nelle separazioni consensuali extragiudiziali (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,DRIN,tasso di divorzio rispetto agli abitanti (valori per mille)
+CL_TIPO_DATO15,Tipo dato 15,MARRGPOP_110,matrimoni % rispetto al totale dei matrimoni (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,BRASM_103,spose al secondo matrimonio o successivi  % (territorio 1992-2005)
+CL_TIPO_DATO15,Tipo dato 15,AMDMADY,durata media del matrimonio nei divorzi consensuali (anni)
+CL_TIPO_DATO15,Tipo dato 15,BRGR_103,sposi (territorio 1992-2005)
+CL_TIPO_DATO15,Tipo dato 15,DFCMMCPV,divorzi da matrimoni civili nelle coppie miste (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,DWCHP,divorzi con figli nati dall'unione (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,MARRGP_FROM2017,matrimoni (%)
+CL_TIPO_DATO15,Tipo dato 15,EMIABRRATE,tasso emigratorio per l'estero (per mille abitanti)
+CL_TIPO_DATO15,Tipo dato 15,EMIINTRATE,tasso emigratorio per l'interno (per mille abitanti)
+CL_TIPO_DATO15,Tipo dato 15,MAGEMBRGR_110,età media al matrimonio sposi (tutte le età) (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,NGDMP,numero di divorzi concessi rispetto ai coniugati (valori per centomila)
+CL_TIPO_DATO15,Tipo dato 15,LIFEEXP65,speranza di vita a 65 anni
+CL_TIPO_DATO15,Tipo dato 15,MARRGP_103,matrimoni % (territorio 1992-2005)
+CL_TIPO_DATO15,Tipo dato 15,NDMC,numero di divorzi di coppie miste
+CL_TIPO_DATO15,Tipo dato 15,SWMPFHT,separazioni concesse dal tribunale con assegno ai figli corrisposto dal padre (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,FHONASE,abitazioni autonome e distinte nelle separazioni consensuali extragiudiziali (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,BRGR_107,sposi (territorio 2006-2009)
+CL_TIPO_DATO15,Tipo dato 15,DWMACHPT,divorzi concessi dal tribunale con assegno ai figli (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,LIFEEXP85,speranza di vita a 85 anni
+CL_TIPO_DATO15,Tipo dato 15,FHOAHUDE,divorzi consensuali extragiudiziali con casa assegnata al marito (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,CMARRGP_FROM2017,matrimoni civili (%)
+CL_TIPO_DATO15,Tipo dato 15,AMDY,durata media del matrimonio nei divorzi (anni)
+CL_TIPO_DATO15,Tipo dato 15,AMDYE,durata media del matrimonio nei divorzi consensuali extragiudiziali (anni)
+CL_TIPO_DATO15,Tipo dato 15,BRGRASM_110,sposi al secondo matrimonio o successivi  % (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,SWMPFH,separazioni con assegno ai figli corrisposto dal padre (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,LBIRTHP_FROM2017,nati vivi (%)
+CL_TIPO_DATO15,Tipo dato 15,FHOAHUDT,divorzi concessi dal tribunale con casa assegnata al marito (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,LIFEEXP0F,speranza di vita alla nascita - femmine
+CL_TIPO_DATO15,Tipo dato 15,NUPRATEIND_FROM2017,quoziente di nuzialità  - numero indice base Italia=100
+CL_TIPO_DATO15,Tipo dato 15,MINPPCO,comuni con incremento di popolazione (composizioni percentuali)
+CL_TIPO_DATO15,Tipo dato 15,BRGR_110,sposi (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,MPHUPST,separazioni concesse dal tribunale con assegno corrisposto dal marito (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,NDWMCHT,numero di divorzi concessi dal tribunale con assegno ai figli
+CL_TIPO_DATO15,Tipo dato 15,FHOAHUSE,casa assegnata al marito nelle separazioni consensuali extragiudiziali (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,FMRBRALL_FROM2017,indice di primo nuzialità  spose (tutte le età) - valori per mille
+CL_TIPO_DATO15,Tipo dato 15,MARRG_FROM2017,matrimoni
+CL_TIPO_DATO15,Tipo dato 15,NGD_C,numero di divorzi concessi dal tribunale
+CL_TIPO_DATO15,Tipo dato 15,SFHUIWFP,separazioni con moglie italiana per nascita e marito straniero o italiano per acquisizione (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,MAGEMBR_110,età media al matrimonio spose (tutte le età) (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,FMRBRGR_110,indice di primo nuzialità sposi (16-49 anni) - valori per mille (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,TFR,numero medio di figli per donna
+CL_TIPO_DATO15,Tipo dato 15,ALMAPD,durata media del procedimento di divorzio consensuale (in giorni)
+CL_TIPO_DATO15,Tipo dato 15,LIFEEXP65T,speranza di vita a 65 anni - totale
+CL_TIPO_DATO15,Tipo dato 15,MPHUPSE,separazioni consensuali extragiudiziali con assegno corrisposto dal marito (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,NSWMCHT,numero di separazioni concesse dal tribunale con assegno ai figli
+CL_TIPO_DATO15,Tipo dato 15,MARALFSP_FROM2017,matrimoni con almeno uno straniero (%)
+CL_TIPO_DATO15,Tipo dato 15,NUPT_TOTW_FROM2017,tasso di nuzialità  totale spose - valori per mille
+CL_TIPO_DATO15,Tipo dato 15,SWMCUCP,separazioni con figli minori affidati (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,NSWMCHE,numero di separazioni consensuali extragiudiziali con assegno ai figli
+CL_TIPO_DATO15,Tipo dato 15,MPHUPDE,divorzi consensuali extragiudiziali con assegno corrisposto dal marito (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,NMCHUCD_C,numero di figli minori affidati nei divorzi concessi dal tribunale
+CL_TIPO_DATO15,Tipo dato 15,DWMPFE,divorzi consensuali extragiudiziali con assegno ai figli corrisposto dal padre (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,BRGRASM_107,sposi al secondo matrimonio o successivi  % (territorio 2006-2009)
+CL_TIPO_DATO15,Tipo dato 15,SWMCHPE,separazioni consensuali extragiudiziali con assegno ai figli (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,LBIRTH_FROM2017,nati vivi
+CL_TIPO_DATO15,Tipo dato 15,FHOAWIDE,divorzi consensuali extragiudiziali con casa assegnata alla moglie (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,MARRG_110,matrimoni (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,DWMNPT,divorzi concessi dal tribunale con assegno al coniuge (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,AMLDYE,durata media della convivenza matrimoniale nelle separazioni consensuali extragiudiziali (anni)
+CL_TIPO_DATO15,Tipo dato 15,FHOAWIST,casa assegnata alla moglie nelle separazioni concesse dal tribunale (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,DSWMAP,divorzi esauriti con rito consensuale (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,LBIRTHES_103,stima dei nati vivi (territorio 1992-2005)
+CL_TIPO_DATO15,Tipo dato 15,LBIRTHESP_110,stima dei nati vivi % (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,NSWMCH,numero di separazioni con assegno ai figli
+CL_TIPO_DATO15,Tipo dato 15,AGEINDEX,indice di vecchiaia (valori percentuali) - al 1° gennaio
+CL_TIPO_DATO15,Tipo dato 15,OLDAGEDEPR,indice di dipendenza degli anziani (valori percentuali) - al 1° gennaio
+CL_TIPO_DATO15,Tipo dato 15,NETRES,saldo residuo
+CL_TIPO_DATO15,Tipo dato 15,RESFOR,stranieri residenti
+CL_TIPO_DATO15,Tipo dato 15,ACQCITIZRATE,tasso di acquisizione della cittadinanza italiana (per mille abitanti)
+CL_TIPO_DATO15,Tipo dato 15,POP014,popolazione 0-14 anni al 1° gennaio (valori percentuali) - al 1° gennaio
+CL_TIPO_DATO15,Tipo dato 15,POP1564,popolazione 15-64 anni (valori percentuali) - al 1° gennaio
+CL_TIPO_DATO15,Tipo dato 15,POP65OVER,popolazione 65 anni e più (valori percentuali) - al 1° gennaio
+CL_TIPO_DATO15,Tipo dato 15,POP80OVER,polazione 80 anni e più (valori percentuali) - al 1° gennaio
+CL_TIPO_DATO15,Tipo dato 15,POP85OVER,popolazione 85 anni e più (valori percentuali) - al 1° gennaio
+CL_TIPO_DATO15,Tipo dato 15,MEANAGECH,età media della madre al parto
+CL_TIPO_DATO15,Tipo dato 15,MRATE,quoziente di mortalità (per 10.000 abitanti)
+CL_TIPO_DATO15,Tipo dato 15,TOTFERR,tasso di fecondità totale
+CL_TIPO_DATO15,Tipo dato 15,TOTBALID,saldo totale (incremento o decremento)
+CL_TIPO_DATO15,Tipo dato 15,NETMIGR,saldo migratorio
+CL_TIPO_DATO15,Tipo dato 15,FIDECTR,unità straniere in più/meno dovute a variazioni territoriali
+CL_TIPO_DATO15,Tipo dato 15,IDECTR,unità in più/meno dovute a variazioni territoriali
+CL_TIPO_DATO15,Tipo dato 15,MARALFSP_110,matrimoni con almeno uno straniero % (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,FHOAHUD,divorzi con casa assegnata al marito (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,MEANAGEP,età media della popolazione - al 1° gennaio
+CL_TIPO_DATO15,Tipo dato 15,DWMNP,divorzi con assegno al coniuge (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,PROBDEATH,probabilità di morte (per 1.000) - qx
+CL_TIPO_DATO15,Tipo dato 15,NMUCTMS,figli minori affidati nelle separazioni rispetto ai minori (valori per mille)
+CL_TIPO_DATO15,Tipo dato 15,NDWMN,numero di divorzi con assegno al coniuge
+CL_TIPO_DATO15,Tipo dato 15,FHOAHUS,casa assegnata al marito (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,FHOAWIS,casa assegnata alla moglie (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,MUCOMPD,figli minori affidati esclusivamente alla madre nei divorzi (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,DEPENDRATE,indice di dipendenza strutturale (valori percentuali) - al 1° gennaio
+CL_TIPO_DATO15,Tipo dato 15,PYLIVED,anni vissuti - Lx
+CL_TIPO_DATO15,Tipo dato 15,MPHUPS,separazioni con assegno corrisposto dal marito (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,FHONAS,abitazioni autonome e distinte (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,NMCHUCD,numero di figli minori affidati nei divorzi
+CL_TIPO_DATO15,Tipo dato 15,MARALFSP_107,matrimoni con almeno uno straniero % (territorio 2006-2009)
+CL_TIPO_DATO15,Tipo dato 15,MPHUPD,divorzi con assegno corrisposto dal marito (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,PROJPROB,probabilità prospettiva di sopravvivenza - Px
+CL_TIPO_DATO15,Tipo dato 15,SWMSP,separazioni con assegno al coniuge (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,NSWMS,numero di separazioni con assegno al coniuge
+CL_TIPO_DATO15,Tipo dato 15,NMUCTMD,figli minori affidati nei divorzi rispetto ai minori (valori per mille)
+CL_TIPO_DATO15,Tipo dato 15,FHOAWID,divorzi con casa assegnata alla moglie (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,DWMPF,divorzi con assegno ai figli corrisposto dal padre (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,FHONAD,divorzi con abitazioni autonome e distinte (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,CMARRGP_103,matrimoni civili % (territorio 1992-2005)
+CL_TIPO_DATO15,Tipo dato 15,SCMP,separazioni da matrimoni civili (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,BRGR_FROM2017,sposi
+CL_TIPO_DATO15,Tipo dato 15,MAGEMBRGR_FROM2017,età  media al matrimonio sposi (tutte le età)
+CL_TIPO_DATO15,Tipo dato 15,MARALFSP_103,matrimoni con almeno uno straniero % (territorio 1992-2005)
+CL_TIPO_DATO15,Tipo dato 15,MARRGPOP_FROM2017,matrimoni (% rispetto al totale dei matrimoni)
+CL_TIPO_DATO15,Tipo dato 15,BR_107,spose (territorio 2006-2009)
+CL_TIPO_DATO15,Tipo dato 15,LIFEEXP65F,speranza di vita a 65 anni - femmine
+CL_TIPO_DATO15,Tipo dato 15,MEANAGEDH,età media al decesso
+CL_TIPO_DATO15,Tipo dato 15,NMCHUCD_E,numero di figli minori affidati nei divorzi consensuali extragiudiziali
+CL_TIPO_DATO15,Tipo dato 15,DWMAMPT,divorzi concessi dal tribunale con figli minori e assegno (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,NSWMST,numero di separazioni concesse dal tribunale con assegno al coniuge
+CL_TIPO_DATO15,Tipo dato 15,ALMAPDT,durata media del procedimento di divorzio consensuale in tribunale (in giorni)
+CL_TIPO_DATO15,Tipo dato 15,DEATHRATEAGE,tasso specifico di mortalità per età (per mille abitanti)
+CL_TIPO_DATO15,Tipo dato 15,NUPTRATE_FROM2017,quozienti di nuzialità  - valori per mille
+CL_TIPO_DATO15,Tipo dato 15,NCS,numero di separazioni consensuali extragiudiziali
+CL_TIPO_DATO15,Tipo dato 15,SWMCHPT,separazioni concesse dal tribunale con assegno ai figli (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,DEC_C,popolazione al 31 dicembre ai confini dell'epoca
+CL_TIPO_DATO15,Tipo dato 15,PROBDEATH0Y,probabilità di morte a 0 anni (per mille)
+CL_TIPO_DATO15,Tipo dato 15,POPCOM,popolazione residente in convivenza
+CL_TIPO_DATO15,Tipo dato 15,NUMCOM,numero di convivenze
+CL_TIPO_DATO15,Tipo dato 15,TFREG,stranieri iscritti in anagrafe
+CL_TIPO_DATO15,Tipo dato 15,NGSSWMA,numero di separazioni esaurite con rito consensuale
+CL_TIPO_DATO15,Tipo dato 15,NMCHUCS,numero di figli minori affidati nelle separazioni
+CL_TIPO_DATO15,Tipo dato 15,NGD,numero di divorzi concessi
+CL_TIPO_DATO15,Tipo dato 15,JAN,popolazione al 1º gennaio
+CL_TIPO_DATO15,Tipo dato 15,LBIRTH,nati vivi
+CL_TIPO_DATO15,Tipo dato 15,REGPROV,iscritti  in anagrafe da altre province della regione
+CL_TIPO_DATO15,Tipo dato 15,FNETMIG,saldo migratorio stranieri
+CL_TIPO_DATO15,Tipo dato 15,REGOTHREAS,iscritti  in anagrafe per altri motivi
+CL_TIPO_DATO15,Tipo dato 15,DEC,popolazione al 31 dicembre
+CL_TIPO_DATO15,Tipo dato 15,NGS,numero di separazioni concesse
+CL_TIPO_DATO15,Tipo dato 15,NOCCDW,numero di abitazioni occupate da residenti
+CL_TIPO_DATO15,Tipo dato 15,NRBUILD,numero di edifici residenziali
+CL_TIPO_DATO15,Tipo dato 15,PMIN,popolazione nei comuni con incremento di popolazione
+CL_TIPO_DATO15,Tipo dato 15,SSWMAMCP,separazioni esaurite con rito consensuale nelle coppie miste (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,AMLDMASY,durata media della convivenza matrimoniale nelle separazioni consensuali (anni)
+CL_TIPO_DATO15,Tipo dato 15,LBIRTH_110,nati vivi (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,LBIRTHES_110,stima dei nati vivi (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,SFCMMCP,separazioni da matrimoni civili nelle coppie miste (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,SWCHP,separazioni con figli nati dall'unione (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,NCDWNO,numero di abitazioni occupate esclusivamente da non residenti o non occupate
+CL_TIPO_DATO15,Tipo dato 15,NCDW,numero di abitazioni
+CL_TIPO_DATO15,Tipo dato 15,ALJPS,durata media del procedimento di separazione giudiziale (in giorni)
+CL_TIPO_DATO15,Tipo dato 15,SINH,tasso di separazione rispetto agli abitanti (valori per mille)
+CL_TIPO_DATO15,Tipo dato 15,AMLDY,durata media della convivenza matrimoniale nelle separazioni (anni)
+CL_TIPO_DATO15,Tipo dato 15,AMLDJSY,durata media della convivenza matrimoniale nelle separazioni giudiziali (anni)
+CL_TIPO_DATO15,Tipo dato 15,SIHUFWFP,separazioni con marito italiano per nascita e moglie straniera o italiana per acquisizione (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,FMINORS,minorenni stranieri
+CL_TIPO_DATO15,Tipo dato 15,NHOUSFRM,famiglie con almeno uno straniero
+CL_TIPO_DATO15,Tipo dato 15,MDECP,comuni con decremento di popolazione
+CL_TIPO_DATO15,Tipo dato 15,RESPOPF,popolazione residente - femmine
+CL_TIPO_DATO15,Tipo dato 15,NUMPRHO,numero di famiglie
+CL_TIPO_DATO15,Tipo dato 15,FBORN,stranieri nati in italia
+CL_TIPO_DATO15,Tipo dato 15,NOUSFHEAD,famiglie con capofamiglia straniero
+CL_TIPO_DATO15,Tipo dato 15,PMDE,popolazione nei comuni con decremento di popolazione
+CL_TIPO_DATO15,Tipo dato 15,AMDYMCS,durata media della convivenza matrimoniale (anni) nelle separazioni di coppie miste
+CL_TIPO_DATO15,Tipo dato 15,LBIRTHES_107,stima dei nati vivi (territorio 2006-2009)
+CL_TIPO_DATO15,Tipo dato 15,LBIRTHES,stima dei nati vivi
+CL_TIPO_DATO15,Tipo dato 15,SMCP,separazioni di coppie miste (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,NGSMP,numero di separazioni concesse rispetto ai coniugati (valori per centomila)
+CL_TIPO_DATO15,Tipo dato 15,GSSWMAP,separazioni esaurite con rito consensuale (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,NMIGRAT,saldo migratorio e per altri motivi
+CL_TIPO_DATO15,Tipo dato 15,SURVIVORS,sopravviventi - lx
+CL_TIPO_DATO15,Tipo dato 15,DEATHS,decessi - dx
+CL_TIPO_DATO15,Tipo dato 15,NDSWMA,numero di divorzi esauriti con rito consensuale
+CL_TIPO_DATO15,Tipo dato 15,SWMCHP,separazioni con assegno ai figli (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,HOUSMEMB,popolazione residente in famiglia
+CL_TIPO_DATO15,Tipo dato 15,NOHUURE,numero altri tipi di alloggio occupati da residenti
+CL_TIPO_DATO15,Tipo dato 15,LBIRTHESP_103,stima dei nati vivi % (territorio 1992-2005)
+CL_TIPO_DATO15,Tipo dato 15,LBIRTHESP,stima dei nati vivi (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,LBIRTH_103,nati vivi (territorio 1992-2005)
+CL_TIPO_DATO15,Tipo dato 15,LBIRTH_107,nati vivi (territorio 2006-2009)
+CL_TIPO_DATO15,Tipo dato 15,LBIRTHP_110,nati vivi % (territorio 2010-2016)
+CL_TIPO_DATO15,Tipo dato 15,LBIRTHP_103,nati vivi % (territorio 1992-2005)
+CL_TIPO_DATO15,Tipo dato 15,LBIRTHP_107,nati vivi % (territorio 2006-2009)
+CL_TIPO_DATO15,Tipo dato 15,MUNIC,comuni
+CL_TIPO_DATO15,Tipo dato 15,RESPOPM,popolazione residente - maschi
+CL_TIPO_DATO15,Tipo dato 15,NBUILD,numero di edifici
+CL_TIPO_DATO15,Tipo dato 15,MINP,comuni con incremento di popolazione
+CL_TIPO_DATO15,Tipo dato 15,ALMAPS,durata media del procedimento di separazione consensuale (in giorni)
+CL_TIPO_DATO15,Tipo dato 15,LBIRTHESP_107,stima dei nati vivi % (territorio 2006-2009)
+CL_TIPO_DATO15,Tipo dato 15,FNMIGRAT,saldo migratorio e per altri motivi degli stranieri
+CL_TIPO_DATO15,Tipo dato 15,FDEATH,morti stranieri
+CL_TIPO_DATO15,Tipo dato 15,FREGM,stranieri iscritti  in anagrafe da altri comuni
+CL_TIPO_DATO15,Tipo dato 15,FINTRNMIGR,saldo migratorio interno stranieri
+CL_TIPO_DATO15,Tipo dato 15,FDERGOTHC,stranieri cancellati in anagrafe per l'estero
+CL_TIPO_DATO15,Tipo dato 15,TFDEREG,stranieri cancellati in anagrafe
+CL_TIPO_DATO15,Tipo dato 15,FTOTBAL,saldo totale della popolazione straniera (incremento o decremento)
+CL_TIPO_DATO15,Tipo dato 15,TMIGRATE,saldo migratorio totale (per mille abitanti)
+CL_TIPO_DATO15,Tipo dato 15,TMIGRBL,saldo migratorio totale
+CL_TIPO_DATO15,Tipo dato 15,NMIGRATEOR,saldo migratorio per altro motivo (per mille abitanti)
+CL_TIPO_DATO15,Tipo dato 15,MUJACPS,figli minori con affidamento condiviso nelle separazioni (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,GROWTHRATET,tasso di crescita totale (per mille abitanti)
+CL_TIPO_DATO15,Tipo dato 15,UN_MUL,Rapporto tra causa iniziale e causa multipla
+CL_TIPO_DATO15,Tipo dato 15,UNDEA_INF,Numero di decessi entro il primo anno di vita
+CL_TIPO_DATO15,Tipo dato 15,UNDEA,Numero di decessi
+CL_TIPO_DATO15,Tipo dato 15,DEATH,morti
+CL_TIPO_DATO15,Tipo dato 15,REGOTHC,iscritti  in anagrafe dall'estero
+CL_TIPO_DATO15,Tipo dato 15,DEREGOTHC,cancellati  in anagrafe per l'estero
+CL_TIPO_DATO15,Tipo dato 15,INTERTNMIG,saldo migratorio estero
+CL_TIPO_DATO15,Tipo dato 15,TREG,iscritti  in anagrafe
+CL_TIPO_DATO15,Tipo dato 15,TDEREG,cancellati  in anagrafe
+CL_TIPO_DATO15,Tipo dato 15,POPHOUS,popolazione residente in famiglia
+CL_TIPO_DATO15,Tipo dato 15,AVNUHM,numero medio di componenti per famiglia
+CL_TIPO_DATO15,Tipo dato 15,FJAN,popolazione straniera al 1° gennaio
+CL_TIPO_DATO15,Tipo dato 15,FNATGR,saldo naturale stranieri
+CL_TIPO_DATO15,Tipo dato 15,DEATHRATE,tasso di mortalità (per mille abitanti)
+CL_TIPO_DATO15,Tipo dato 15,RESPER,permessi di soggiorno al 1° gennaio
+CL_TIPO_DATO15,Tipo dato 15,RESPOPT,popolazione residente
+CL_TIPO_DATO15,Tipo dato 15,AVREP,Numero medio di patologie
+CL_TIPO_DATO15,Tipo dato 15,MULDEA_INF,Numero di menzioni entro il primo anno di vita
+CL_TIPO_DATO15,Tipo dato 15,BEG,popolazione inizio periodo
+CL_TIPO_DATO15,Tipo dato 15,DEROTHR,cancellati  in anagrafe per altre regioni
+CL_TIPO_DATO15,Tipo dato 15,DEREGM,cancellati  in anagrafe  per altri comuni
+CL_TIPO_DATO15,Tipo dato 15,POPEND,popolazione fine periodo
+CL_TIPO_DATO15,Tipo dato 15,FLBIRTH,nati vivi stranieri
+CL_TIPO_DATO15,Tipo dato 15,FDEC,popolazione straniera al 31 dicembre
+CL_TIPO_DATO15,Tipo dato 15,FDEREGM,stranieri cancellati  in anagrafe per altri comuni
+CL_TIPO_DATO15,Tipo dato 15,FREGOTHR,stranieri iscritti  in anagrafe per altri motivi
+CL_TIPO_DATO15,Tipo dato 15,FDEROTHR,stranieri cancellati in anagrafe per altri motivi
+CL_TIPO_DATO15,Tipo dato 15,FBLOTHR,saldo per altri motivi degli stranieri
+CL_TIPO_DATO15,Tipo dato 15,ACQCITIZ,acquisizioni della cittadinanza italiana
+CL_TIPO_DATO15,Tipo dato 15,NMIGRATEIN,saldo migratorio interno (per mille abitanti)
+CL_TIPO_DATO15,Tipo dato 15,NMIGRATEAB,saldo migratorio con l'estero (per mille abitanti)
+CL_TIPO_DATO15,Tipo dato 15,MAVACH,età media delle madri al parto
+CL_TIPO_DATO15,Tipo dato 15,NSMC,numero di separazioni di coppie miste
+CL_TIPO_DATO15,Tipo dato 15,MARRATE,tasso di nuzialità (per mille abitanti)
+CL_TIPO_DATO15,Tipo dato 15,REGOTHR,iscritti  in anagrafe da altre regioni
+CL_TIPO_DATO15,Tipo dato 15,UN_MUL_INF,Rapporto tra causa iniziale e causa multipla entro il primo anno di vita
+CL_TIPO_DATO15,Tipo dato 15,MULDEA,Numero di menzioni
+CL_TIPO_DATO15,Tipo dato 15,DEROTHREAS,cancellati  in anagrafe per altri motivi
+CL_TIPO_DATO15,Tipo dato 15,BLOTHREAS,saldo per altri motivi
+CL_TIPO_DATO15,Tipo dato 15,NTGROW,saldo naturale
+CL_TIPO_DATO15,Tipo dato 15,DEPROV,cancellati  in anagrafe per altre province della regione
+CL_TIPO_DATO15,Tipo dato 15,FREGOTHC,stranieri iscritti  in anagrafe dall'estero
+CL_TIPO_DATO15,Tipo dato 15,FINTNMIG,saldo migratorio estero degli stranieri
+CL_TIPO_DATO15,Tipo dato 15,INFLNONEU,ingressi nell'anno di cittadini non comunitari
+CL_TIPO_DATO15,Tipo dato 15,REGM,iscritti  in anagrafe da altri comuni
+CL_TIPO_DATO15,Tipo dato 15,INTERMBL,saldo migratorio interno interregionale
+CL_TIPO_DATO15,Tipo dato 15,INTNETMIGR,saldo migratorio interno
+CL_TIPO_DATO15,Tipo dato 15,FAVACH,età media dei padri alla nascita del figlio
+CL_TIPO_DATO15,Tipo dato 15,INFMRATE,tasso di mortalità infantile (per 1.000 nati vivi)
+CL_TIPO_DATO15,Tipo dato 15,BIRTHRATE,tasso di natalità (per mille abitanti)
+CL_TIPO_DATO15,Tipo dato 15,GROWTHRATEN,crescita naturale (per mille abitanti)
+CL_TIPO_DATO15,Tipo dato 15,UNDEAP,Numero di decessi (valori percentuali)
+CL_TIPO_DATO15,Tipo dato 15,INTPRBL,saldo migratorio interno interprovinciale

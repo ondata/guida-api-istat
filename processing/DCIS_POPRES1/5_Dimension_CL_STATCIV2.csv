@@ -1,0 +1,50 @@
+id,dimensionName,dimensionValueID,dimensionValueDescription
+CL_STATCIV2,Stato civile,12,separata/o legalmente
+CL_STATCIV2,Stato civile,MAR2,"coniugato, unito civilmente, separato da matrimonio/unione civile"
+CL_STATCIV2,Stato civile,3,divorziata/o
+CL_STATCIV2,Stato civile,SEP,separato di fatto da matrimonio
+CL_STATCIV2,Stato civile,11,separata/o di fatto
+CL_STATCIV2,Stato civile,DIV2_WID2,"divorziato da matrimonio/unione civile, vedovo da matrimonio/unione civile"
+CL_STATCIV2,Stato civile,SFD2,"separato di fatto/legalmente da matrimonio, divorziato da matrimonio/unione civile"
+CL_STATCIV2,Stato civile,SFDW,"separato di fatto/legalmente, divorziato, vedovo da matrimonio"
+CL_STATCIV2,Stato civile,SINB,celibe/nubile
+CL_STATCIV2,Stato civile,2,coniugata/o
+CL_STATCIV2,Stato civile,4,vedova/o
+CL_STATCIV2,Stato civile,FSEP,separato legalmente da matrimonio
+CL_STATCIV2,Stato civile,16,già in unione civile (per decesso del partner)
+CL_STATCIV2,Stato civile,MAR_FSEP,"coniugato, separato legalmente"
+CL_STATCIV2,Stato civile,SFDW2,"separato di fatto/legalmente da matrimonio, divorziato da matrimonio, vedovo da matrimonio/unione civile"
+CL_STATCIV2,Stato civile,WID2,vedovo da matrimonio/unione civile
+CL_STATCIV2,Stato civile,SFD,"separato di fatto/legalmente, divorziato da matrimonio"
+CL_STATCIV2,Stato civile,14,"separata/o di fatto, separata/o legalmente, divorziata/o, vedova/o"
+CL_STATCIV2,Stato civile,DIV,divorziato da matrimonio
+CL_STATCIV2,Stato civile,MAR_SSCIV,"coniugato, unito civilmente"
+CL_STATCIV2,Stato civile,7,separata/o o divorziata/o
+CL_STATCIV2,Stato civile,MAR_SEP,coniugato (inclusi i separati di fatto da matrimonio)
+CL_STATCIV2,Stato civile,SEP_FSEP,separato di fatto/legalmente da matrimonio
+CL_STATCIV2,Stato civile,SSCIV_SEPCIV,unito civilmente (inclusi i separati di fatto da unione civile)
+CL_STATCIV2,Stato civile,FDW,"separato legalmente, divorziato, vedovo da matrimonio"
+CL_STATCIV2,Stato civile,6,divorziata/o o vedova/o
+CL_STATCIV2,Stato civile,10,coniugata/o o separata/o legalmente
+CL_STATCIV2,Stato civile,SEPCIV,separato di fatto da unione civile
+CL_STATCIV2,Stato civile,DIV2,divorziato da matrimonio/unione civile
+CL_STATCIV2,Stato civile,MAR_SEPC,coniugato non coabitante con il coniuge (inclusi i separati di fatto)
+CL_STATCIV2,Stato civile,17,già in unione civile (per scioglimento unione)
+CL_STATCIV2,Stato civile,9,separata/o o divorziata/o o vedova/o
+CL_STATCIV2,Stato civile,1,nubile/celibe
+CL_STATCIV2,Stato civile,MARS,"coniugato (inclusi i separati di fatto), separato legalmente da matrimonio"
+CL_STATCIV2,Stato civile,5,divorziata/o o coniugata/o
+CL_STATCIV2,Stato civile,98,non indicato
+CL_STATCIV2,Stato civile,SIN,celibe/nubile
+CL_STATCIV2,Stato civile,WIDSSCIV,vedovo da unione civile
+CL_STATCIV2,Stato civile,ALL,totale
+CL_STATCIV2,Stato civile,NRPP,non dichiarato per la privacy
+CL_STATCIV2,Stato civile,99,totale
+CL_STATCIV2,Stato civile,8,non dichiarato per la privacy
+CL_STATCIV2,Stato civile,NMNS,"non più coniugato, non più in unione civile"
+CL_STATCIV2,Stato civile,15,unito/a civilmente
+CL_STATCIV2,Stato civile,MAR,coniugato
+CL_STATCIV2,Stato civile,NRP,non indicato
+CL_STATCIV2,Stato civile,WID,vedovo da matrimonio
+CL_STATCIV2,Stato civile,DIVSSCIV,divorziato da unione civile
+CL_STATCIV2,Stato civile,SSCIV,unito civilmente

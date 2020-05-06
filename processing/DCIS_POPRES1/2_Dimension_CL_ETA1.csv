@@ -1,0 +1,322 @@
+id,dimensionName,dimensionValueID,dimensionValueDescription
+CL_ETA1,Classe di età,Y0-9,0-9 anni
+CL_ETA1,Classe di età,Y_UN17,fino a 17 anni
+CL_ETA1,Classe di età,Y35-49,35-49 anni
+CL_ETA1,Classe di età,Y_GE15,15 anni e più
+CL_ETA1,Classe di età,M0,0 mesi
+CL_ETA1,Classe di età,Y30-54,30-54 anni
+CL_ETA1,Classe di età,Y_GE55,55 anni e più
+CL_ETA1,Classe di età,Y2,2 anni
+CL_ETA1,Classe di età,Y_GE60,60 anni e più
+CL_ETA1,Classe di età,Y_GE3,3 anni e più
+CL_ETA1,Classe di età,M7,7 mesi
+CL_ETA1,Classe di età,Y30-34,30-34 anni
+CL_ETA1,Classe di età,Y105,105 anni
+CL_ETA1,Classe di età,Y_GE90,90 anni e più
+CL_ETA1,Classe di età,Y66,66 anni
+CL_ETA1,Classe di età,Y15-44,15-44 anni
+CL_ETA1,Classe di età,Y_GE56,56 anni e più
+CL_ETA1,Classe di età,Y65-84,65-84 anni
+CL_ETA1,Classe di età,Y6-16,6-16 anni
+CL_ETA1,Classe di età,Y58,58 anni
+CL_ETA1,Classe di età,Y1,1 anni
+CL_ETA1,Classe di età,Y45-49,45-49 anni
+CL_ETA1,Classe di età,Y50-54,50-54 anni
+CL_ETA1,Classe di età,Y41-55,41-55 anni
+CL_ETA1,Classe di età,Y80-89,80-89 anni
+CL_ETA1,Classe di età,Y25-34,25-34 anni
+CL_ETA1,Classe di età,Y117,117 anni
+CL_ETA1,Classe di età,Y18-20,18-20 anni
+CL_ETA1,Classe di età,Y39,39 anni
+CL_ETA1,Classe di età,Y75-84,75-84 anni
+CL_ETA1,Classe di età,Y35-64,35-64 anni
+CL_ETA1,Classe di età,Y_GE21,21 anni e più
+CL_ETA1,Classe di età,Y1-9,1-9 anni
+CL_ETA1,Classe di età,Y35-39,35-39 anni
+CL_ETA1,Classe di età,Y99,99 anni
+CL_ETA1,Classe di età,Y55,55 anni
+CL_ETA1,Classe di età,Y6-13,6-13 anni
+CL_ETA1,Classe di età,D21-27,21-27 giorni
+CL_ETA1,Classe di età,Y_GE110,110 anni e più
+CL_ETA1,Classe di età,Y28-29,28-29 anni
+CL_ETA1,Classe di età,Y41,41 anni
+CL_ETA1,Classe di età,Y_UN4,fino a 4 anni
+CL_ETA1,Classe di età,Y16-34,16-34 anni
+CL_ETA1,Classe di età,Y103,103 anni
+CL_ETA1,Classe di età,Y_GE20,20 anni e più
+CL_ETA1,Classe di età,Y25-64,25-64 anni
+CL_ETA1,Classe di età,Y_GE120,120 anni e più
+CL_ETA1,Classe di età,Y_GE75,75 anni e più
+CL_ETA1,Classe di età,Y115,115 anni
+CL_ETA1,Classe di età,Y_GE25,25 anni e più
+CL_ETA1,Classe di età,Y113,113 anni
+CL_ETA1,Classe di età,NSP,non indicato
+CL_ETA1,Classe di età,Y16-24,16-24 anni
+CL_ETA1,Classe di età,Y15-34,15-34 anni
+CL_ETA1,Classe di età,Y65-74,65-74 anni
+CL_ETA1,Classe di età,Y6-9,6-9 anni
+CL_ETA1,Classe di età,Y_GE14,14 anni e più
+CL_ETA1,Classe di età,Y0-5,0-5 anni
+CL_ETA1,Classe di età,Y36-45,36-45 anni
+CL_ETA1,Classe di età,Y116,116 anni
+CL_ETA1,Classe di età,Y11-24,11-24 anni
+CL_ETA1,Classe di età,Y11,11 anni
+CL_ETA1,Classe di età,Y24,24 anni
+CL_ETA1,Classe di età,M6,6 mesi
+CL_ETA1,Classe di età,Y50,50 anni
+CL_ETA1,Classe di età,Y118,118 anni
+CL_ETA1,Classe di età,Y10-19,10-19 anni
+CL_ETA1,Classe di età,Y15-24,15-24 anni
+CL_ETA1,Classe di età,D2,2 giorni
+CL_ETA1,Classe di età,Y94,94 anni
+CL_ETA1,Classe di età,Y106,106 anni
+CL_ETA1,Classe di età,Y35-44,35-44 anni
+CL_ETA1,Classe di età,Y_UN20,fino a 20 anni
+CL_ETA1,Classe di età,Y16-19,16-19 anni
+CL_ETA1,Classe di età,Y70-79,70-79 anni
+CL_ETA1,Classe di età,Y88,88 anni
+CL_ETA1,Classe di età,Y45,45 anni
+CL_ETA1,Classe di età,Y65-70,65-70 anni
+CL_ETA1,Classe di età,Y5,5 anni
+CL_ETA1,Classe di età,Y18-34,18-34 anni
+CL_ETA1,Classe di età,Y11-14,11-14 anni
+CL_ETA1,Classe di età,Y_GE80,80 anni e più
+CL_ETA1,Classe di età,Y19-34,19-34 anni
+CL_ETA1,Classe di età,Y19-29,19-29 anni
+CL_ETA1,Classe di età,Y0-2,0-2 anni
+CL_ETA1,Classe di età,Y_GE65,65 anni e più
+CL_ETA1,Classe di età,Y0-14,0-14 anni
+CL_ETA1,Classe di età,Y_GE66,66 anni e più
+CL_ETA1,Classe di età,Y68,68 anni
+CL_ETA1,Classe di età,Y15-64,15-64 anni
+CL_ETA1,Classe di età,Y18-64,18-64 anni
+CL_ETA1,Classe di età,M1,1 mese
+CL_ETA1,Classe di età,Y9,9 anni
+CL_ETA1,Classe di età,Y108,108 anni
+CL_ETA1,Classe di età,Y18,18 anni
+CL_ETA1,Classe di età,Y_UN34,fino a 34 anni
+CL_ETA1,Classe di età,Y10-13,10-13 anni
+CL_ETA1,Classe di età,Y30,30 anni
+CL_ETA1,Classe di età,Y77,77 anni
+CL_ETA1,Classe di età,Y_GE9,9 anni e più
+CL_ETA1,Classe di età,Y104,104 anni
+CL_ETA1,Classe di età,Y6-10,6-10 anni
+CL_ETA1,Classe di età,Y21,21 anni
+CL_ETA1,Classe di età,Y40-44,40-44 anni
+CL_ETA1,Classe di età,Y69,69 anni
+CL_ETA1,Classe di età,Y31,31 anni
+CL_ETA1,Classe di età,Y56-65,56-65 anni
+CL_ETA1,Classe di età,Y76,76 anni
+CL_ETA1,Classe di età,Y93,93 anni
+CL_ETA1,Classe di età,Y74,74 anni
+CL_ETA1,Classe di età,Y75,75 anni
+CL_ETA1,Classe di età,M11,11 mesi
+CL_ETA1,Classe di età,D1,1 giorno
+CL_ETA1,Classe di età,Y45-64,45-64 anni
+CL_ETA1,Classe di età,D0,0 giorni
+CL_ETA1,Classe di età,Y_GE45,45 anni e più
+CL_ETA1,Classe di età,Y16-44,16-44 anni
+CL_ETA1,Classe di età,Y70-74,70-74 anni
+CL_ETA1,Classe di età,Y90,90 anni
+CL_ETA1,Classe di età,Y3-5,3-5 anni
+CL_ETA1,Classe di età,Y85-89,85-89 anni
+CL_ETA1,Classe di età,Y95-99,95-99 anni
+CL_ETA1,Classe di età,Y112,112 anni
+CL_ETA1,Classe di età,Y29,29 anni
+CL_ETA1,Classe di età,Y40-64,40-64 anni
+CL_ETA1,Classe di età,Y5-9,5-9 anni
+CL_ETA1,Classe di età,Y_UN5,fino a 5 anni
+CL_ETA1,Classe di età,Y8,8 anni
+CL_ETA1,Classe di età,Y16,16 anni
+CL_ETA1,Classe di età,Y23,23 anni
+CL_ETA1,Classe di età,Y44,44 anni
+CL_ETA1,Classe di età,Y17,17 anni
+CL_ETA1,Classe di età,Y15-39,15-39 anni
+CL_ETA1,Classe di età,Y91,91 anni
+CL_ETA1,Classe di età,Y3,3 anni
+CL_ETA1,Classe di età,Y26-40,26-40 anni
+CL_ETA1,Classe di età,Y20,20 anni
+CL_ETA1,Classe di età,Y11-13,11-13 anni
+CL_ETA1,Classe di età,Y_UN14,fino a 14 anni
+CL_ETA1,Classe di età,Y20-24,20-24 anni
+CL_ETA1,Classe di età,Y64,64 anni
+CL_ETA1,Classe di età,Y40,40 anni
+CL_ETA1,Classe di età,Y4-CE,4-inizio della scuola dell'obbligo
+CL_ETA1,Classe di età,Y_GE85,85 anni e più
+CL_ETA1,Classe di età,Y80,80 anni
+CL_ETA1,Classe di età,Y0,0 anni
+CL_ETA1,Classe di età,Y54,54 anni
+CL_ETA1,Classe di età,Y33,33 anni
+CL_ETA1,Classe di età,Y55-74,55-74 anni
+CL_ETA1,Classe di età,Y105-109,105-109 anni
+CL_ETA1,Classe di età,Y_UN25,fino a 25 anni
+CL_ETA1,Classe di età,Y_GE30,30 anni e più
+CL_ETA1,Classe di età,M8,8 mesi
+CL_ETA1,Classe di età,Y14-19,14-19 anni
+CL_ETA1,Classe di età,Y70,70 anni
+CL_ETA1,Classe di età,Y10,10 anni
+CL_ETA1,Classe di età,Y84,84 anni
+CL_ETA1,Classe di età,Y_GE1,1 anno e più
+CL_ETA1,Classe di età,Y71,71 anni
+CL_ETA1,Classe di età,Y15-62,15-62 anni
+CL_ETA1,Classe di età,Y_GE50,50 anni e più
+CL_ETA1,Classe di età,Y111,111 anni
+CL_ETA1,Classe di età,D14-20,14-20 giorni
+CL_ETA1,Classe di età,Y25,25 anni
+CL_ETA1,Classe di età,Y18-29,18-29 anni
+CL_ETA1,Classe di età,Y60,60 anni
+CL_ETA1,Classe di età,Y14-17,14-17 anni
+CL_ETA1,Classe di età,Y100-104,100-104 anni
+CL_ETA1,Classe di età,M10,10 mesi
+CL_ETA1,Classe di età,Y_UN15,fino a 15 anni
+CL_ETA1,Classe di età,Y85,85 anni
+CL_ETA1,Classe di età,Y63,63 anni
+CL_ETA1,Classe di età,Y6-24,6-24 anni
+CL_ETA1,Classe di età,Y_GE70,70 anni e più
+CL_ETA1,Classe di età,Y14-24,14-24 anni
+CL_ETA1,Classe di età,Y3-14,3-14 anni
+CL_ETA1,Classe di età,Y_UN2,fino a 2 anni
+CL_ETA1,Classe di età,Y46-55,46-55 anni
+CL_ETA1,Classe di età,TOTAL,totale
+CL_ETA1,Classe di età,Y78,78 anni
+CL_ETA1,Classe di età,Y55-64,55-64 anni
+CL_ETA1,Classe di età,Y60-69,60-69 anni
+CL_ETA1,Classe di età,Y30-39,30-39 anni
+CL_ETA1,Classe di età,Y81,81 anni
+CL_ETA1,Classe di età,Y90-99,90-99 anni
+CL_ETA1,Classe di età,Y83,83 anni
+CL_ETA1,Classe di età,Y98,98 anni
+CL_ETA1,Classe di età,Y6-14,6-14 anni
+CL_ETA1,Classe di età,Y6-64,6-64 anni
+CL_ETA1,Classe di età,Y_GE100,100 anni e più
+CL_ETA1,Classe di età,D7-13,7-13 giorni
+CL_ETA1,Classe di età,Y11-15,11-15 anni
+CL_ETA1,Classe di età,Y59,59 anni
+CL_ETA1,Classe di età,Y_GE6,6 anni e più
+CL_ETA1,Classe di età,Y_UN18,fino a 18 anni
+CL_ETA1,Classe di età,Y82,82 anni
+CL_ETA1,Classe di età,Y67,67 anni
+CL_ETA1,Classe di età,M4,4 mesi
+CL_ETA1,Classe di età,Y14-15,14-15 anni
+CL_ETA1,Classe di età,NDIV,non ripartibili
+CL_ETA1,Classe di età,Y1-4,1-4 anni
+CL_ETA1,Classe di età,Y15-29,15-29 anni
+CL_ETA1,Classe di età,Y_GE16,16 anni e più
+CL_ETA1,Classe di età,Y51,51 anni
+CL_ETA1,Classe di età,Y_GE0,0 anni e più
+CL_ETA1,Classe di età,Y18-24,18-24 anni
+CL_ETA1,Classe di età,Y45-54,45-54 anni
+CL_ETA1,Classe di età,Y13,13 anni
+CL_ETA1,Classe di età,Y22,22 anni
+CL_ETA1,Classe di età,Y20-64,20-64 anni
+CL_ETA1,Classe di età,Y60-62,60-62 anni
+CL_ETA1,Classe di età,M5,5 mesi
+CL_ETA1,Classe di età,Y75-79,75-79 anni
+CL_ETA1,Classe di età,Y50-64,50-64 anni
+CL_ETA1,Classe di età,Y28,28 anni
+CL_ETA1,Classe di età,Y115-119,115-119 anni
+CL_ETA1,Classe di età,Y65-69,65-69 anni
+CL_ETA1,Classe di età,Y_GE19,19 anni e più
+CL_ETA1,Classe di età,Y61,61 anni
+CL_ETA1,Classe di età,Y16-17,16-17 anni
+CL_ETA1,Classe di età,Y27,27 anni
+CL_ETA1,Classe di età,Y_UN1,fino a 1 anno
+CL_ETA1,Classe di età,Y60-64,60-64 anni
+CL_ETA1,Classe di età,Y10-14,10-14 anni
+CL_ETA1,Classe di età,Y_UN29,fino a 29 anni
+CL_ETA1,Classe di età,Y107,107 anni
+CL_ETA1,Classe di età,Y97,97 anni
+CL_ETA1,Classe di età,Y92,92 anni
+CL_ETA1,Classe di età,Y15-49,15-49 anni
+CL_ETA1,Classe di età,M3,3 mesi
+CL_ETA1,Classe di età,Y114,114 anni
+CL_ETA1,Classe di età,Y_UN24,fino a 24 anni
+CL_ETA1,Classe di età,Y101,101 anni
+CL_ETA1,Classe di età,Y_GE76,76 anni e più
+CL_ETA1,Classe di età,Y109,109 anni
+CL_ETA1,Classe di età,Y15-74,15-74 anni
+CL_ETA1,Classe di età,Y42,42 anni
+CL_ETA1,Classe di età,Y25-49,25-49 anni
+CL_ETA1,Classe di età,Y110-114,110-114 anni
+CL_ETA1,Classe di età,Y32,32 anni
+CL_ETA1,Classe di età,Y7,7 anni
+CL_ETA1,Classe di età,UNK,imprecisata
+CL_ETA1,Classe di età,M9,9 mesi
+CL_ETA1,Classe di età,Y30-44,30-44 anni
+CL_ETA1,Classe di età,Y47,47 anni
+CL_ETA1,Classe di età,Y25-44,25-44 anni
+CL_ETA1,Classe di età,Y40-49,40-49 anni
+CL_ETA1,Classe di età,Y6,6 anni
+CL_ETA1,Classe di età,Y87,87 anni
+CL_ETA1,Classe di età,M2,2 mesi
+CL_ETA1,Classe di età,Y21-24,21-24 anni
+CL_ETA1,Classe di età,Y_UN19,fino a 19 anni
+CL_ETA1,Classe di età,Y37,37 anni
+CL_ETA1,Classe di età,Y22-24,22-24 anni
+CL_ETA1,Classe di età,Y56,56 anni
+CL_ETA1,Classe di età,Y_GE22,22 anni e più
+CL_ETA1,Classe di età,Y38,38 anni
+CL_ETA1,Classe di età,Y18-21,18-21 anni
+CL_ETA1,Classe di età,Y20-29,20-29 anni
+CL_ETA1,Classe di età,Y80-84,80-84 anni
+CL_ETA1,Classe di età,Y15,15 anni
+CL_ETA1,Classe di età,Y49,49 anni
+CL_ETA1,Classe di età,Y50-59,50-59 anni
+CL_ETA1,Classe di età,Y_GE5,5 anni e più
+CL_ETA1,Classe di età,Y89,89 anni
+CL_ETA1,Classe di età,Y96,96 anni
+CL_ETA1,Classe di età,D3,3 giorni
+CL_ETA1,Classe di età,Y12,12 anni
+CL_ETA1,Classe di età,D4,4 giorni
+CL_ETA1,Classe di età,Y_UN3,fino a 3 anni
+CL_ETA1,Classe di età,Y14,14 anni
+CL_ETA1,Classe di età,Y_GE18,18 anni e più
+CL_ETA1,Classe di età,Y86,86 anni
+CL_ETA1,Classe di età,Y26,26 anni
+CL_ETA1,Classe di età,Y102,102 anni
+CL_ETA1,Classe di età,Y43,43 anni
+CL_ETA1,Classe di età,Y100,100 anni
+CL_ETA1,Classe di età,Y46,46 anni
+CL_ETA1,Classe di età,Y_GE11,11 anni e più
+CL_ETA1,Classe di età,Y30-49,30-49 anni
+CL_ETA1,Classe di età,Y0-13,0-13 anni
+CL_ETA1,Classe di età,Y25-74,25-74 anni
+CL_ETA1,Classe di età,Y55-59,55-59 anni
+CL_ETA1,Classe di età,Y_UN35,fino a 35 anni
+CL_ETA1,Classe di età,Y15-17,15-17 anni
+CL_ETA1,Classe di età,Y62,62 anni
+CL_ETA1,Classe di età,Y19,19 anni
+CL_ETA1,Classe di età,Y65,65 anni
+CL_ETA1,Classe di età,Y35-54,35-54 anni
+CL_ETA1,Classe di età,D0-6,0-6 giorni
+CL_ETA1,Classe di età,D6,6 giorni
+CL_ETA1,Classe di età,Y18-39,18-39 anni
+CL_ETA1,Classe di età,Y36,36 anni
+CL_ETA1,Classe di età,Y4,4 anni
+CL_ETA1,Classe di età,Y73,73 anni
+CL_ETA1,Classe di età,Y53,53 anni
+CL_ETA1,Classe di età,Y48,48 anni
+CL_ETA1,Classe di età,Y119,119 anni
+CL_ETA1,Classe di età,D5,5 giorni
+CL_ETA1,Classe di età,Y52,52 anni
+CL_ETA1,Classe di età,Y18-19,18-19 anni
+CL_ETA1,Classe di età,Y6-44,6-44 anni
+CL_ETA1,Classe di età,Y15-16,15-16 anni
+CL_ETA1,Classe di età,Y90-94,90-94 anni
+CL_ETA1,Classe di età,Y6-17,6-17 anni
+CL_ETA1,Classe di età,Y110,110 anni
+CL_ETA1,Classe di età,Y79,79 anni
+CL_ETA1,Classe di età,Y15-19,15-19 anni
+CL_ETA1,Classe di età,Y_UN16,fino a 16 anni
+CL_ETA1,Classe di età,Y34,34 anni
+CL_ETA1,Classe di età,Y_GE35,35 anni e più
+CL_ETA1,Classe di età,D28-29,28-29 giorni
+CL_ETA1,Classe di età,NAP,non applicabile
+CL_ETA1,Classe di età,Y95,95 anni
+CL_ETA1,Classe di età,Y57,57 anni
+CL_ETA1,Classe di età,Y25-29,25-29 anni
+CL_ETA1,Classe di età,Y_GE95,95 anni e più
+CL_ETA1,Classe di età,Y72,72 anni
+CL_ETA1,Classe di età,Y35,35 anni
+CL_ETA1,Classe di età,Y26-35,26-35 anni
+CL_ETA1,Classe di età,Y_UN13,fino a 13 anni

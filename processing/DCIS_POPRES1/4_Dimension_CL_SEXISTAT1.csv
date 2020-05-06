@@ -1,0 +1,9 @@
+id,dimensionName,dimensionValueID,dimensionValueDescription
+CL_SEXISTAT1,Sesso,T,totale
+CL_SEXISTAT1,Sesso,F,femmine
+CL_SEXISTAT1,Sesso,M,maschi
+CL_SEXISTAT1,Sesso,1,maschi
+CL_SEXISTAT1,Sesso,NRP,non indicato
+CL_SEXISTAT1,Sesso,3,non indicato
+CL_SEXISTAT1,Sesso,9,totale
+CL_SEXISTAT1,Sesso,2,femmine

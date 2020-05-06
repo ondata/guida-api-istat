@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v6.16.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF357</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2020-05-06T15:03:05.1075748+02:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:DataStructures>
+      <structure:DataStructure id="DCIS_POPRES1" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IT1:DCIS_POPRES1(1.3)" agencyID="IT1" version="1.3" validFrom="2019-10-07T00:00:00" validTo="2099-12-31T00:00:00" isFinal="true">
+        <common:Name xml:lang="it">Popolazione residente  al 1° gennaio</common:Name>
+        <common:Name xml:lang="en">Resident population  on 1st January</common:Name>
+        <structure:DataStructureComponents>
+          <structure:DimensionList id="DimensionDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DimensionDescriptor=IT1:DCIS_POPRES1(1.3).DimensionDescriptor">
+            <structure:Dimension id="FREQ" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IT1:DCIS_POPRES1(1.3).FREQ" position="1">
+              <structure:ConceptIdentity>
+                <Ref id="FREQ" maintainableParentID="CROSS_DOMAIN" maintainableParentVersion="5.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CL_FREQ" version="1.0" agencyID="IT1" package="codelist" class="Codelist" />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+            </structure:Dimension>
+            <structure:Dimension id="ETA" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IT1:DCIS_POPRES1(1.3).ETA" position="2">
+              <structure:ConceptIdentity>
+                <Ref id="ETA" maintainableParentID="VARIAB_ALL" maintainableParentVersion="19.5" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CL_ETA1" version="2.3" agencyID="IT1" package="codelist" class="Codelist" />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+            </structure:Dimension>
+            <structure:Dimension id="ITTER107" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IT1:DCIS_POPRES1(1.3).ITTER107" position="3">
+              <structure:ConceptIdentity>
+                <Ref id="ITTER107" maintainableParentID="VARIAB_ALL" maintainableParentVersion="19.5" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CL_ITTER107" version="4.8" agencyID="IT1" package="codelist" class="Codelist" />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+            </structure:Dimension>
+            <structure:Dimension id="SESSO" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IT1:DCIS_POPRES1(1.3).SESSO" position="4">
+              <structure:ConceptIdentity>
+                <Ref id="SESSO" maintainableParentID="VARIAB_ALL" maintainableParentVersion="19.5" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CL_SEXISTAT1" version="1.9" agencyID="IT1" package="codelist" class="Codelist" />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+            </structure:Dimension>
+            <structure:Dimension id="STATO_CIV" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IT1:DCIS_POPRES1(1.3).STATO_CIV" position="5">
+              <structure:ConceptIdentity>
+                <Ref id="STATO_CIV" maintainableParentID="VARIAB_ALL" maintainableParentVersion="19.5" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CL_STATCIV2" version="2.8" agencyID="IT1" package="codelist" class="Codelist" />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+            </structure:Dimension>
+            <structure:Dimension id="TIPO_INDDEM" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IT1:DCIS_POPRES1(1.3).TIPO_INDDEM" position="6">
+              <structure:ConceptIdentity>
+                <Ref id="TIPO_INDDEM" maintainableParentID="CROSS_DOMAIN" maintainableParentVersion="5.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CL_TIPO_DATO15" version="3.4" agencyID="IT1" package="codelist" class="Codelist" />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+            </structure:Dimension>
+            <structure:TimeDimension id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=IT1:DCIS_POPRES1(1.3).TIME_PERIOD" position="7">
+              <structure:ConceptIdentity>
+                <Ref id="SELECT_TIME" maintainableParentID="CROSS_DOMAIN" maintainableParentVersion="5.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="ObservationalTimePeriod" />
+              </structure:LocalRepresentation>
+            </structure:TimeDimension>
+          </structure:DimensionList>
+          <structure:Group id="X_MEASURE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.GroupDimensionDescriptor=IT1:DCIS_POPRES1(1.3).X_MEASURE">
+            <structure:GroupDimension>
+              <structure:DimensionReference>
+                <Ref id="TIPO_INDDEM" />
+              </structure:DimensionReference>
+            </structure:GroupDimension>
+          </structure:Group>
+          <structure:AttributeList id="AttributeDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.AttributeDescriptor=IT1:DCIS_POPRES1(1.3).AttributeDescriptor">
+            <structure:Attribute id="BREAK" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IT1:DCIS_POPRES1(1.3).BREAK" assignmentStatus="Conditional">
+              <structure:ConceptIdentity>
+                <Ref id="BREAK" maintainableParentID="CROSS_DOMAIN" maintainableParentVersion="5.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="String" />
+              </structure:LocalRepresentation>
+              <structure:AttributeRelationship>
+                <structure:PrimaryMeasure>
+                  <Ref id="OBS_VALUE" />
+                </structure:PrimaryMeasure>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="CONF_STATUS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IT1:DCIS_POPRES1(1.3).CONF_STATUS" assignmentStatus="Conditional">
+              <structure:ConceptIdentity>
+                <Ref id="CONF_STATUS" maintainableParentID="CROSS_DOMAIN" maintainableParentVersion="5.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CL_OBS_CONF" version="1.0" agencyID="IT1" package="codelist" class="Codelist" />
+                </structure:Enumeration>
+                <structure:EnumerationFormat textType="String" />
+              </structure:LocalRepresentation>
+              <structure:AttributeRelationship>
+                <structure:PrimaryMeasure>
+                  <Ref id="OBS_VALUE" />
+                </structure:PrimaryMeasure>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="OBS_PRE_BREAK" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IT1:DCIS_POPRES1(1.3).OBS_PRE_BREAK" assignmentStatus="Conditional">
+              <structure:ConceptIdentity>
+                <Ref id="OBS_PRE_BREAK" maintainableParentID="CROSS_DOMAIN" maintainableParentVersion="5.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="String" />
+              </structure:LocalRepresentation>
+              <structure:AttributeRelationship>
+                <structure:PrimaryMeasure>
+                  <Ref id="OBS_VALUE" />
+                </structure:PrimaryMeasure>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="OBS_STATUS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IT1:DCIS_POPRES1(1.3).OBS_STATUS" assignmentStatus="Conditional">
+              <structure:ConceptIdentity>
+                <Ref id="OBS_STATUS" maintainableParentID="CROSS_DOMAIN" maintainableParentVersion="5.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CL_FLAG" version="1.6" agencyID="IT1" package="codelist" class="Codelist" />
+                </structure:Enumeration>
+                <structure:EnumerationFormat textType="String" />
+              </structure:LocalRepresentation>
+              <structure:AttributeRelationship>
+                <structure:PrimaryMeasure>
+                  <Ref id="OBS_VALUE" />
+                </structure:PrimaryMeasure>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="BASE_PER" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IT1:DCIS_POPRES1(1.3).BASE_PER" assignmentStatus="Conditional">
+              <structure:ConceptIdentity>
+                <Ref id="BASE_PER" maintainableParentID="CROSS_DOMAIN" maintainableParentVersion="5.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CL_BASE_YEAR" version="1.3" agencyID="IT1" package="codelist" class="Codelist" />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+              <structure:AttributeRelationship>
+                <structure:Group>
+                  <Ref id="X_MEASURE" />
+                </structure:Group>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="UNIT_MEAS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IT1:DCIS_POPRES1(1.3).UNIT_MEAS" assignmentStatus="Conditional">
+              <structure:ConceptIdentity>
+                <Ref id="UNIT_MEAS" maintainableParentID="CROSS_DOMAIN" maintainableParentVersion="5.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CL_UNIT_MEASURE" version="1.6" agencyID="IT1" package="codelist" class="Codelist" />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+              <structure:AttributeRelationship>
+                <structure:Group>
+                  <Ref id="X_MEASURE" />
+                </structure:Group>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="UNIT_MULT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IT1:DCIS_POPRES1(1.3).UNIT_MULT" assignmentStatus="Conditional">
+              <structure:ConceptIdentity>
+                <Ref id="UNIT_MULT" maintainableParentID="CROSS_DOMAIN" maintainableParentVersion="5.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CL_UNIT_MULT" version="1.0" agencyID="IT1" package="codelist" class="Codelist" />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+              <structure:AttributeRelationship>
+                <structure:Group>
+                  <Ref id="X_MEASURE" />
+                </structure:Group>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="METADATA_EN" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IT1:DCIS_POPRES1(1.3).METADATA_EN" assignmentStatus="Conditional">
+              <structure:ConceptIdentity>
+                <Ref id="METADATA_EN" maintainableParentID="CROSS_DOMAIN" maintainableParentVersion="5.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:None />
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="METADATA_IT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IT1:DCIS_POPRES1(1.3).METADATA_IT" assignmentStatus="Conditional">
+              <structure:ConceptIdentity>
+                <Ref id="METADATA_IT" maintainableParentID="CROSS_DOMAIN" maintainableParentVersion="5.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:None />
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+          </structure:AttributeList>
+          <structure:MeasureList id="MeasureDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.MeasureDescriptor=IT1:DCIS_POPRES1(1.3).MeasureDescriptor">
+            <structure:PrimaryMeasure id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=IT1:DCIS_POPRES1(1.3).OBS_VALUE">
+              <structure:ConceptIdentity>
+                <Ref id="OBS_VALUE" maintainableParentID="CROSS_DOMAIN" maintainableParentVersion="5.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="Double" />
+              </structure:LocalRepresentation>
+            </structure:PrimaryMeasure>
+          </structure:MeasureList>
+        </structure:DataStructureComponents>
+      </structure:DataStructure>
+    </structure:DataStructures>
+  </message:Structures>
+</message:Structure>
