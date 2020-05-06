@@ -68,7 +68,7 @@ Si ottiene in risposta un file XML come [questo](rawdata/dataflow.xml), che all'
 </structure:Dataflow>
 ```
 
-L'elenco ad oggi (3 maggio 2020) dei dataset interrogabili è composto da circa 450 elementi, visualizzabili in [questo file CSV](processing/dataflow.csv).
+L'elenco ad oggi (3 maggio 2020) dei dataset interrogabili è composto da circa 450 elementi, visualizzabili in [questo file CSV](https://github.com/ondata/guida-api-istat/blob/master/processing/dataflow.csv).
 
 ### Accedere ai dati
 
