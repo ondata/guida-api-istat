@@ -1,5 +1,7 @@
+<div class="flash">
+Nella tabella sottostante l'elenco dei dataset accessibili via API. È possibile ricercare al suo interno.
+</div>
 
-Nella tabella sottostante la tabella ricercabile, con l'elenco dei dataset accessibili via API.
 
 [torna alla guida](README.md)
 
