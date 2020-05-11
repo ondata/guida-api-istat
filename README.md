@@ -1,7 +1,4 @@
-<div class="container-lg clearfix border p-2 bg-blue-light my-">
-<p>Giovedì <strong>14 maggio alle 12:00<strong> ci sarà un webinar dedicato alle <a class="" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MjNwanRjODFpcGpqN3UxbWRhbnA5Z3ZuczIgb25kYXRhLml0X2RzbjhnaHBjOXFxYmlpZ2xhbjkyM3FocTU0QGc&tmsrc=ondata.it_dsn8ghpc9qqbiiglan923qhq54%40group.calendar.google.com" target="_blank"><b>API sui dati statistici di Istat e il progetto SDMX</b></a>
-</p>
-</div>
+
 - [Perché quest guida](#perché-quest-guida)
 - [Come interrogare le API](#come-interrogare-le-api)
   - [Che strumenti usare](#che-strumenti-usare)
