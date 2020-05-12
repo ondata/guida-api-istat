@@ -3,7 +3,7 @@
 </div>
 <br>
 
-- [Perché quest guida](#perché-quest-guida)
+- [Perché questa guida](#perché-questa-guida)
 - [Come interrogare le API](#come-interrogare-le-api)
   - [Che strumenti usare](#che-strumenti-usare)
   - [Accedere ai metadati](#accedere-ai-metadati)
@@ -18,7 +18,7 @@
 - [Sitografia](#sitografia)
 - [Cheatsheet di riferimento](#cheatsheet-di-riferimento)
 
-## Perché quest guida
+## Perché questa guida
 
 L'**Istituto nazionale di statistica** (ISTAT) consente di accedere ai dati del proprio *warehouse* ([http://dati.istat.it/](http://dati.istat.it/)) in molte modalità. L'accesso via ***API REST*** è poco noto, molto comodo, ma **poco documentato**.<br>
 Nella [pagina](https://www.istat.it/it/metodi-e-strumenti/web-service-sdmx) ufficiale dei loro *web service* e nelle guide presenti non c'è alcuna documentazione dedicata.<br>
