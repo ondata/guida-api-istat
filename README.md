@@ -17,6 +17,7 @@
 - [Sostieni le nostre attività](#sostieni-le-nostre-attività)
 - [Sitografia](#sitografia)
 - [Cheatsheet di riferimento](#cheatsheet-di-riferimento)
+- [Webinar dedicato](#webinar-dedicato)
 
 ## Perché questa guida
 
@@ -409,7 +410,7 @@ Lo **SDMX Technical Standards Working Group** ha creato un [*cheatsheet*](https:
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Questa guida è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribuzione 4.0 Internazionale</a>.
 
-# Webinar dedicato
+## Webinar dedicato
 
 Il 14 maggio 2020 è stato organizzato un webinar dal titolo [Le API sui dati statistici di Istat e il progetto SDMX](https://www.youtube.com/watch?v=0OfsXybrweI), con Fabio Spagnuolo (Istat), Vincenzo Patruno (Istat e vicepresidente di onData) e Andrea Borruso (presidente di onData).
 
