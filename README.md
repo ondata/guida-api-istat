@@ -12,7 +12,9 @@
   - [Scaricare i dati in blocco](#scaricare-i-dati-in-blocco)
   - [Cambiare formato di output](#cambiare-formato-di-output)
   - [Applicare dei filtri](#applicare-dei-filtri)
-  - [Estrarre in blocco lo schema dati e i valori possibili per un dataflow](#estrarre-in-blocco-lo-schema-dati-e-i-valori-possibili-per-un-dataflow)
+    - [Schema dati](#schema-dati)
+    - [Quali codici/valori sono disponibili per filtrare un determinato dataflow per dimensione](#quali-codicivalori-sono-disponibili-per-filtrare-un-determinato-dataflow-per-dimensione)
+    - [Costruire l'URL per filtrare un dataflow, fare una query per attributo](#costruire-lurl-per-filtrare-un-dataflow-fare-una-query-per-attributo)
 - [Note](#note)
 - [Sostieni le nostre attività](#sostieni-le-nostre-attività)
 - [Sitografia](#sitografia)
@@ -148,6 +150,10 @@ Per applicare dei filtri è **necessario** **conoscere** quale sia lo **schema d
 </structure:Dataflow>
 ```
 
+[`torna su`](#perché-quest-guida)
+
+#### Schema dati
+
 Per leggere lo schema dati di `DCIS_INCIDMORFER_COM`, si potrà lanciare questa chiamata:
 
 ```bash
@@ -210,12 +216,12 @@ In questo elenco le dimensioni con id `FREQ`, `ESITO`, `ITTER107`,`TIPO_DATO` e 
 </structure:DimensionList>
 ```
 
-Ma qual è il **significato** di `FREQ`, `ESITO`, `ITTER107`,`TIPO_DATO` e `SELECT_TIME` e che **valori** sono **ammissibili**?
+Ma qual è il **significato** di `FREQ`, `ESITO`, `ITTER107`,`TIPO_DATO` e `SELECT_TIME`?
 
-La risposta a queste domande ce le dà la risorsa di metadati - il *package* - denominata `codelist`. Si può interrogare sempre per ID, ma bisogna conoscere l'ID dei vari campi, che è scritto nel file XML di sopra.<br>
+La risposta a questa domanda ce le dà la risorsa di metadati - il *package* - denominata `codelist`. Si può interrogare sempre per ID, ma bisogna conoscere l'ID dei vari campi, che è scritto nel file XML di sopra.<br>
 Ad esempio in corrispondenza del campo `FREQ` si legge `<Ref id="CL_FREQ" version="1.0" agencyID="IT1" package="codelist" class="Codelist" />`, ovvero che l'ID corrispondente in `codelist` è `CL_FREQ`. L'URL da lanciare per avere le informazioi su questo campo, sarà un altro URL per interrogare metadati e in particolare http://sdmx.istat.it/SDMXWS/rest/codelist/IT1/CL_FREQ.
 
-In output un [file XML](esempi/CL_FREQ.xml), dove si legge che si tratta della "Frequenza", a cui si possono associare diversi valori. Per ogni valore come sempre un ID e qui anche una descrizione. Per `CL_FREQ` i valori sono:
+In output un [file XML](esempi/CL_FREQ.xml), dove si legge che si tratta della "Frequenza". Nell'XML si leggono anche i valori possibili per questa **dimensione**, che per `CL_FREQ` corrispondono alle sottostanti coppie di ID e valore.
 
 | ID  | Descrizione               |
 | --- | ------------------------- |
@@ -228,7 +234,31 @@ In output un [file XML](esempi/CL_FREQ.xml), dove si legge che si tratta della "
 | Q   | trimestrale               |
 | W   | settimanale               |
 
-Per ognuno dei campi, si possono estrarre i valori possibili nello stesso modo. Ad esempio per `ESITO` l'URL sarà <http://sdmx.istat.it/SDMXWS/rest/codelist/IT1/CL_ESITO>, con le coppie ID-Descrizione `M-morto`, `F-ferito` e `9-totale`.
+**NOTA BENE**: queste coppie sono quelle genericamente applicabili per la "Frequenza", non è però detto che tutti i valori siano disponibili per un determinato *dataflow* (vedi paragrafo successivo), che potrebbe ad esempio esporre soltanto quella annuale.
+
+[`torna su`](#perché-quest-guida)
+
+#### Quali codici/valori sono disponibili per filtrare un determinato dataflow per dimensione
+
+Per ricavarli è possibile sfruttare la risorsa `availableconstraint`, che in termini SQL è un `SELECT DISTINCT` sulle dimensioni.
+
+Per conoscere ad esemmpio quelle del dataflow `41_983` l'URL è:
+
+```
+http://sdmx.istat.it/SDMXWS/rest/availableconstraint/41_983
+```
+
+In output un file XML come [questo](esempi/availableconstraint.xml), in qui si legge che per questo specificico *dataflow* il valorei disponibile per la dimensione `FREQ` (Frequenza) è `A`, ovvero quella annuale.
+
+```xml
+<common:KeyValue id="FREQ">
+  <common:Value>A</common:Value>
+</common:KeyValue>
+```
+
+[`torna su`](#perché-quest-guida)
+
+#### Costruire l'URL per filtrare un dataflow, fare una query per attributo
 
 Una ***query*** per **attributo/i**, ne deve **elencare i valori** nell'URL secondo questo schema:
 
@@ -236,7 +266,7 @@ Una ***query*** per **attributo/i**, ne deve **elencare i valori** nell'URL seco
 http://sdmx.istat.it/SDMXWS/rest/data/flowRef/valoreCampo1.valoreCampo2.valoreCampo3/
 ```
 
-Questo di sopra è un caso di uno schema dati con tre campi, e i valori sono separati da `.` (punto). Se il valore non è specificato, nessun filtro per quel campo sarà applicato. Quindi un URL come
+Questo di sopra è un caso di uno schema dati con tre campi, e i valori sono separati da `.` (punto). Se il valore non è specificato, nessun filtro per quel campo/dimensione sarà applicato. Quindi un URL come
 
 ```
 http://sdmx.istat.it/SDMXWS/rest/data/flowRef/../
@@ -244,7 +274,7 @@ http://sdmx.istat.it/SDMXWS/rest/data/flowRef/../
 
 equivale a non applicare alcun filtro.
 
-Un esempio potrebbe essere quello di tutti gli incidenti con feriti (**valore** `F`). Il campo è `ESITO`, che nello schema dati è il **secondo** campo. Qui i **campi** a disposizione sono **5**, quindi per applicare questo filtro dovremo aggiungere nell'URL la stringa `.F...` (5 campi, di cui il secondo valorizzato e gli altri vuoti) e lanciare:
+Un esempio potrebbe essere quello di tutti gli incidenti con feriti (**valore** `F`). Il campo è `ESITO`, che nello schema dati è il **secondo** campo. Qui i **campi/dimensioni** a disposizione sono **5**, quindi per applicare questo filtro dovremo aggiungere nell'URL la stringa `.F...` (5 campi, di cui il secondo valorizzato e gli altri vuoti) e lanciare:
 
 ```bash
 curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.istat.it/SDMXWS/rest/data/41_983/.F..." >filtro_esempio01.csv
@@ -252,7 +282,7 @@ curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.i
 
 Si otterrà un CSV con filtrati 145.000 record, sul totale di 435.000.
 
-Tra i campi anche `ITTER107` (è il terzo), che è quello del codice comunale ISTAT. Se voglio quindi ottenere i dati sugli incidenti stradali con feriti, nella città di Palermo (codice comunale ISTAT `082053`)- filtro `.F.082053..` - il comando sarà:
+Tra i campi anche `ITTER107` (è il terzo), che è quello del codice comunale ISTAT. Se voglio quindi ottenere i dati sugli incidenti stradali con feriti, nella città di Palermo (codice comunale ISTAT `082053`) - filtro `.F.082053..` - il comando sarà:
 
 ```bash
 curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.istat.it/SDMXWS/rest/data/41_983/.F.082053.." >filtro_esempio02.csv
@@ -272,6 +302,7 @@ Qui sotto un grafico d'esempio generato proprio con i dati di output di questa *
 </script>
 
 <br>
+
 Si possono inserire più valori per lo stesso campo, separandoli con il carattere `+`. Se ad esempio si vogliono aggiungere anche gli incidenti con feriti, del comune di Bari (codice ISTAT `072006`) - filtro `.F.082053+072006..` - il comando sarà:
 
 ```bash
@@ -285,14 +316,6 @@ curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.i
 ```
 
 [`torna su`](#perché-quest-guida)
-
-### Estrarre in blocco lo schema dati e i valori possibili per un dataflow
-
-Un modo molto più rapido per avere restituito lo schema dati di un *dataflow* e i valori possibili per i campi, è quello di usare l'opzione `detail=serieskeysonly`. Il comando di sotto darà in output un file JSON come [questo](esempi/41_983_keys.json), con tutte le informazioni.
-
-```bash
-curl -kL -H "Accept: application/json" "http://sdmx.istat.it/SDMXWS/rest/data/41_983/?detail=serieskeysonly"  | jq . >./41_983.json
-```
 
 ## Note
 
