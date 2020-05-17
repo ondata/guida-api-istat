@@ -266,7 +266,7 @@ Una ***query*** per **attributo/i**, ne deve **elencare i valori** nell'URL seco
 http://sdmx.istat.it/SDMXWS/rest/data/flowRef/valoreCampo1.valoreCampo2.valoreCampo3/
 ```
 
-Questo di sopra è un caso di uno schema dati con tre campi, e i valori sono separati da `.` (punto). Se il valore non è specificato, nessun filtro per quel campo/dimensione sarà applicato. Quindi un URL come
+Questo di sopra è un caso di uno schema dati con tre campi; i valori vanno separati con un `.` (punto). Se il valore non è specificato, nessun filtro per quel campo/dimensione sarà applicato. Quindi un URL come
 
 ```
 http://sdmx.istat.it/SDMXWS/rest/data/flowRef/../
