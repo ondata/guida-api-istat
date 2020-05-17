@@ -248,7 +248,7 @@ Per conoscere ad esempio quelle del dataflow `41_983` l'URL è:
 http://sdmx.istat.it/SDMXWS/rest/availableconstraint/41_983
 ```
 
-In output un file XML come [questo](esempi/availableconstraint.xml), in qui si legge che per questo specificico *dataflow* il valore disponibile per la dimensione `FREQ` (Frequenza) è `A`, ovvero quella annuale.
+In output un file XML come [questo](esempi/availableconstraint.xml), in cui ad esempio si legge che per questo specificico *dataflow* il valore disponibile per la dimensione `FREQ` (Frequenza) è `A`, ovvero quella annuale.
 
 ```xml
 <common:KeyValue id="FREQ">
