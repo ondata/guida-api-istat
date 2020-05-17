@@ -103,7 +103,7 @@ Alcune note:
 
 Visto che l'unico parametro obbligatorio è l'ID del *dataflow*, per scaricare quello di sopra sugli incidenti stradali l'URL sarà (**OCCHIO CHE SUL BROWSER pesa**, sono 53 MB di file XML, meglio non fare click e leggerlo soltanto) <http://sdmx.istat.it/SDMXWS/rest/data/41_983>.
 
-[`torna su`](#perché-quest-guida)
+[`torna su`](#perché-questa-guida)
 
 ## Qualche esempio
 
@@ -150,7 +150,7 @@ Per applicare dei filtri è **necessario** **conoscere** quale sia lo **schema d
 </structure:Dataflow>
 ```
 
-[`torna su`](#perché-quest-guida)
+[`torna su`](#perché-questa-guida)
 
 #### Schema dati
 
@@ -236,7 +236,7 @@ In output un [file XML](esempi/CL_FREQ.xml), dove si legge che si tratta della "
 
 **NOTA BENE**: queste coppie sono quelle genericamente applicabili per la "Frequenza", non è però detto che tutti i valori siano disponibili per un determinato *dataflow* (vedi paragrafo successivo), che potrebbe ad esempio esporre soltanto quella annuale.
 
-[`torna su`](#perché-quest-guida)
+[`torna su`](#perché-questa-guida)
 
 #### Quali codici/valori sono disponibili per filtrare un determinato dataflow per dimensione
 
@@ -256,7 +256,7 @@ In output un file XML come [questo](esempi/availableconstraint.xml), in cui ad e
 </common:KeyValue>
 ```
 
-[`torna su`](#perché-quest-guida)
+[`torna su`](#perché-questa-guida)
 
 #### Costruire l'URL per filtrare un dataflow, fare una query per attributo
 
@@ -315,7 +315,7 @@ Il ultimo una *query* i cui aggiungere un `queryStringParameters`, in particolar
 curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.istat.it/SDMXWS/rest/data/41_983/?startPeriod=2015" >./filtro_esempio04.csv
 ```
 
-[`torna su`](#perché-quest-guida)
+[`torna su`](#perché-questa-guida)
 
 ## Note
 
@@ -340,7 +340,7 @@ Se vuoi **sostenere** le nostre **attività**, puoi farlo [donando il tuo **5x10
 - "SDMX - SDMX 2.1 Web services guidelines 2013" <https://sdmx.org/wp-content/uploads/SDMX_2-1-1-SECTION_07_WebServicesGuidelines_2013-04.pdf>;
 - "SDMX RESTful web services specification" <https://github.com/sdmx-twg/sdmx-rest>.
 
-[`torna su`](#perché-quest-guida)
+[`torna su`](#perché-questa-guida)
 
 ## Cheatsheet di riferimento
 
@@ -431,7 +431,7 @@ Lo **SDMX Technical Standards Working Group** ha creato un [*cheatsheet*](https:
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Questa guida è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribuzione 4.0 Internazionale</a>.
 
-[`torna su`](#perché-quest-guida)
+[`torna su`](#perché-questa-guida)
 
 ## Webinar dedicato
 
