@@ -324,8 +324,6 @@ Se userete queste API, l'invito è quello di approfondire tramite una o più del
 
 Abbiamo fatto **pochi** **test** e verifiche, quindi non sappiamo se tutto funziona bene.
 
-**Non è possibile sempre usare tutti i filtri**, perché alcuni dei *dataflow* sono già un sottoinsieme. Ad esempio nel caso del dataset di esempio usato, quello sugli incidenti stradali, non è possibile usare il primo filtro, quello delle frequenze perché sono dati che a monte sono raggruppati per anno.
-
 In ultimo, la cosa più importante: **chiediamo a ISTAT di documentare l'accesso alle loro API in modalità RESTful**.
 
 ## Sostieni le nostre attività
