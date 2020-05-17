@@ -1,5 +1,5 @@
 <div class="container-lg clearfix border p-2 bg-blue-light my-">
-📅Giovedì <strong>14 maggio alle 12:00</strong> ci sarà un webinar dedicato alle <a class="" href="https://youtu.be/0OfsXybrweI" target="_blank"><b>API sui dati statistici di Istat e il progetto SDMX</b></a>📅
+Per <strong>domande</strong> e/o <strong>suggerimenti</strong> su questa guida, è possibile creare una nuova issue <a href="https://github.com/ondata/guida-api-istat/issues/new">qui</a>
 </div>
 <br>
 
