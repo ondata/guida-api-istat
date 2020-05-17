@@ -274,7 +274,7 @@ http://sdmx.istat.it/SDMXWS/rest/data/flowRef/../
 
 equivale a non applicare alcun filtro.
 
-Un esempio potrebbe essere quello di tutti gli incidenti con feriti (**valore** `F`). Il campo è `ESITO`, che nello schema dati è il **secondo** campo. Qui i **campi/dimensioni** a disposizione sono **5**, quindi per applicare questo filtro dovremo aggiungere nell'URL la stringa `.F...` (5 campi, di cui il secondo valorizzato e gli altri vuoti) e lanciare:
+Per il *dataflow* che stiamo usando per questa guida, un esempio potrebbe essere quello di tutti gli incidenti con feriti (**valore** `F`). Il campo è `ESITO`, che nello schema dati è il **secondo** campo. Qui i **campi/dimensioni** a disposizione sono **5**, quindi per applicare questo filtro dovremo aggiungere nell'URL la stringa `.F...` (5 campi, di cui il secondo valorizzato e gli altri vuoti) e lanciare:
 
 ```bash
 curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.istat.it/SDMXWS/rest/data/41_983/.F..." >filtro_esempio01.csv
