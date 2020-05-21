@@ -326,7 +326,7 @@ L'Istat - come è possibile leggere [qui](https://www.istat.it/it/metodi-e-strum
 - Censimento popolazione e abitazioni 2011: <http://sdmx.istat.it/WS_CENSPOP/>
 - Censimento industria e servizi 2011: <http://sdmx.istat.it/WS_CIS/>
 
-A seguire, come esempio gli *end-point* REST all'elenco dei *dataflow* (del set di tabelle esposte) di ciascuna:
+A seguire, come esempio, gli *end-point* REST all'elenco dei *dataflow* (le tabelle esposte) di ciascuna:
 
 - Censimento agricoltura 2010:<http://sdmx.istat.it/WS_CENSAGR/rest/dataflow/IT1/>
 - Censimento popolazione e abitazioni 2011: <http://sdmx.istat.it/WS_CENSPOP/rest/dataflow/IT1/>
