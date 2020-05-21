@@ -15,6 +15,7 @@ Per <strong>domande</strong> e/o <strong>suggerimenti</strong> su questa guida, 
     - [Schema dati](#schema-dati)
     - [Quali codici/valori sono disponibili per filtrare un determinato dataflow per dimensione](#quali-codicivalori-sono-disponibili-per-filtrare-un-determinato-dataflow-per-dimensione)
     - [Costruire l'URL per filtrare un dataflow, fare una query per attributo](#costruire-lurl-per-filtrare-un-dataflow-fare-una-query-per-attributo)
+- [Altri banche dati ISTAT accessibili allo stesso modo](#altri-banche-dati-istat-accessibili-allo-stesso-modo)
 - [Note](#note)
 - [Sostieni le nostre attività](#sostieni-le-nostre-attività)
 - [Sitografia](#sitografia)
@@ -316,6 +317,20 @@ curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.i
 ```
 
 [`torna su`](#perché-questa-guida)
+
+## Altri banche dati ISTAT accessibili allo stesso modo
+
+L'Istat - come è possibile leggere [qui](https://www.istat.it/it/metodi-e-strumenti/web-service-sdmx) - espone nelle stesse modalità anche queste altre 3 banche dati:
+
+- Censimento agricoltura 2010: <http://sdmx.istat.it/WS_CENSAGR/>
+- Censimento popolazione e abitazioni 2011: <http://sdmx.istat.it/WS_CENSPOP/>
+- Censimento industria e servizi 2011: <http://sdmx.istat.it/WS_CIS/>
+
+A seguire, come esempio gli *end-point* REST all'elenco dei *dataflow* (del set di tabelle esposte) di ciascuna:
+
+- Censimento agricoltura 2010:<http://sdmx.istat.it/WS_CENSAGR/rest/dataflow/IT1/>
+- Censimento popolazione e abitazioni 2011: <http://sdmx.istat.it/WS_CENSPOP/rest/dataflow/IT1/>
+- Censimento industria e servizi 2011: <http://sdmx.istat.it/WS_CIS/rest/dataflow/IT1/>
 
 ## Note
 
