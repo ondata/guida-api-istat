@@ -26,8 +26,8 @@ Una modalità alternativa per interrogare le API SDMX di ISTAT prevede l'uso del
 ## Installare Postman
 
 - Scaricare **Postman** da [questo link](https://www.postman.com/downloads/)
-- Scaricare il file [ISTAT_SDMX_API.postman_collection](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/ISTAT_SDMX_API.postman_collection.json) disponibile su questo repo
-- Scaricare il file [ISTAT_SDMX_API.postman_environment](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/ISTAT_SDMX_API.postman_environment.json) disponibile su questo repo
+- Scaricare il file [ISTAT_SDMX_API.postman_collection](./postman/ISTAT_SDMX_API.postman_collection.json) disponibile su questo repo
+- Scaricare il file [ISTAT_SDMX_API.postman_environment](./postman/ISTAT_SDMX_API.postman_environment.json) disponibile su questo repo
 - Lanciare Postman
 
 ## Importare la collection ISTAT SDMX API
