@@ -1,3 +1,8 @@
+<div class="container-lg clearfix border p-2 bg-blue-light my-">
+Torna alla <strong><a href="https://github.com/ondata/guida-api-istat/issues/new">pagina principale</a></strong>.
+</div>
+<br>
+
 - [Come interrogare le API con Postman](#come-interrogare-le-api-con-postman)
   - [Installare Postman](#installare-postman)
   - [Importare la collection ISTAT SDMX API](#importare-la-collection-istat-sdmx-api)
