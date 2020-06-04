@@ -1,5 +1,5 @@
 <div class="container-lg clearfix border p-2 bg-blue-light my-">
-Torna alla <strong><a href="https://github.com/ondata/guida-api-istat/issues/new">pagina principale</a></strong>.
+Torna alla <strong><a href="./index">pagina principale</a></strong>.
 </div>
 <br>
 
