@@ -15,6 +15,7 @@ Per <strong>domande</strong> e/o <strong>suggerimenti</strong> su questa guida, 
     - [Schema dati](#schema-dati)
     - [Quali codici/valori sono disponibili per filtrare un determinato dataflow per dimensione](#quali-codicivalori-sono-disponibili-per-filtrare-un-determinato-dataflow-per-dimensione)
     - [Costruire l'URL per filtrare un dataflow, fare una query per attributo](#costruire-lurl-per-filtrare-un-dataflow-fare-una-query-per-attributo)
+- [Come interrogare le API con Postman](#come-interrogare-le-api-con-postman)
 - [Altri banche dati ISTAT accessibili allo stesso modo](#altri-banche-dati-istat-accessibili-allo-stesso-modo)
 - [Note](#note)
 - [Sostieni le nostre attività](#sostieni-le-nostre-attività)
@@ -41,6 +42,8 @@ Sono dati esposti secondo lo standard [**SDMX**](https://sdmx.org/).
 ### Che strumenti usare
 
 Vista la modalità di accesso, basta un *browser*, `wget`, `cURL` e/o qualsiasi modulo/funzione che in un linguaggio di scripting consenta l'accesso `HTTP` in `GET`.
+
+In alternativa è possibile usare un software di API development e testing, ad esempio `Postman`. Si rimanda al capitolo dedicato: [Come interrogare le API con Postman](#come-interrogare-le-api-con-postman).
 
 ### Accedere ai metadati
 
@@ -315,6 +318,23 @@ Il ultimo una *query* i cui aggiungere un `queryStringParameters`, in particolar
 ```bash
 curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.istat.it/SDMXWS/rest/data/41_983/?startPeriod=2015" >./filtro_esempio04.csv
 ```
+
+## Come interrogare le API con Postman
+
+Una modalità alternativa per interrogare le API SDMX di ISTAT prevede l'uso del software di API development e testing `Postman`. A supporto di questa modalità sono state preparate:
+- una collection che contiene tutte le chiamate alle API disponibili con parametri preconfigurati e dei `test` per automatizzare il workflow di accesso ai dati
+- un environment che contiene tutte le variabili d'ambiente
+
+### Installazione e preparazione dell'ambiente
+
+- Scaricare `Postman` da [questo link](https://www.postman.com/downloads/)
+- Scaricare il file [ISTAT_SDMX_API.postman_collection](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/ISTAT_SDMX_API.postman_collection.json) disponibile su questo repo
+- Scaricare il file [ISTAT_SDMX_API.postman_environment](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/ISTAT_SDMX_API.postman_environment.json) disponibile su questo repo
+- Lanciare Postman
+- Importare il file ISTAT_SDMX_API.postman_collection usando il tasto Import come mostrato in figura
+![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/01_Import_Collection_01.png)
+
+
 
 [`torna su`](#perché-questa-guida)
 
