@@ -325,16 +325,30 @@ Una modalità alternativa per interrogare le API SDMX di ISTAT prevede l'uso del
 - una collection che contiene tutte le chiamate alle API disponibili con parametri preconfigurati e dei `test` per automatizzare il workflow di accesso ai dati
 - un environment che contiene tutte le variabili d'ambiente
 
-### Installazione e preparazione dell'ambiente
+### Installazione Postman
 
 - Scaricare `Postman` da [questo link](https://www.postman.com/downloads/)
 - Scaricare il file [ISTAT_SDMX_API.postman_collection](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/ISTAT_SDMX_API.postman_collection.json) disponibile su questo repo
 - Scaricare il file [ISTAT_SDMX_API.postman_environment](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/ISTAT_SDMX_API.postman_environment.json) disponibile su questo repo
 - Lanciare Postman
-- Importare il file ISTAT_SDMX_API.postman_collection usando il tasto Import come mostrato in figura
+
+### Importare la collection
+- Per importare la collection cliccare sul stasto Import
 ![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/01_Import_Collection_01.png)
+- Selezionare il file `ISTAT_SDMX_API.postman_collection.json`
+![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/01_Import_Collection_02.png
+- Confermare l'importazione del file
+![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/01_Import_Collection_03.png
 
-
+### Importare l'environment
+- Per importare l'environment cliccare sul stasto Manage environment
+![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/01_Import_Environment_01.png)
+- Cliccare sul tasto Add in fondo
+![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/01_Import_Environment_02.png)
+- Selezionare il file `ISTAT_SDMX_API.postman_environment.json`
+![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/01_Import_Environment_03.png)
+- Attivare l'environment `ISTAT SDMX API` selezionandolo dal menu a tendina
+![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/01_Import_Environment_04.png)
 
 [`torna su`](#perché-questa-guida)
 
