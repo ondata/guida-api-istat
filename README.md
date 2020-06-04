@@ -16,7 +16,7 @@ Per <strong>domande</strong> e/o <strong>suggerimenti</strong> su questa guida, 
     - [Quali codici/valori sono disponibili per filtrare un determinato dataflow per dimensione](#quali-codicivalori-sono-disponibili-per-filtrare-un-determinato-dataflow-per-dimensione)
     - [Costruire l'URL per filtrare un dataflow, fare una query per attributo](#costruire-lurl-per-filtrare-un-dataflow-fare-una-query-per-attributo)
 - [Come interrogare le API con Postman](#come-interrogare-le-api-con-postman)
-- [Altri banche dati ISTAT accessibili allo stesso modo](#altri-banche-dati-istat-accessibili-allo-stesso-modo)
+- [Altre banche dati ISTAT accessibili allo stesso modo](#altre-banche-dati-istat-accessibili-allo-stesso-modo)
 - [Note](#note)
 - [Sostieni le nostre attività](#sostieni-le-nostre-attività)
 - [Sitografia](#sitografia)
@@ -321,110 +321,13 @@ curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.i
 
 ## Come interrogare le API con Postman
 
-Una modalità alternativa per interrogare le API SDMX di ISTAT prevede l'uso del software di API development e testing **Postman**. A supporto di questa modalità sono state preparate:
-- una collection che contiene tutte le chiamate alle API disponibili con parametri preconfigurati e dei `test` per automatizzare il workflow di accesso ai dati
-- un environment che contiene tutte le variabili d'ambiente
+Un'altra modalità per interrogare le API SDMX di Istat potrebbe essere quella di usare [**Postman**](https://www.postman.com/), un *software* di API *development* e *testing*.
 
-### Installare Postman
+[Vincenzo Sciascia](https://www.linkedin.com/in/vincenzosciascia/) ha scritto una guida dedicata (grazie!), che trovate [in una lunga e ricca sezione dedicata](./postman.md).
 
-- Scaricare **Postman** da [questo link](https://www.postman.com/downloads/)
-- Scaricare il file [ISTAT_SDMX_API.postman_collection](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/ISTAT_SDMX_API.postman_collection.json) disponibile su questo repo
-- Scaricare il file [ISTAT_SDMX_API.postman_environment](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/ISTAT_SDMX_API.postman_environment.json) disponibile su questo repo
-- Lanciare Postman
+[![image](./postman/pics/01_Import_Collection_01.png)](./postman.md)
 
-### Importare la collection ISTAT SDMX API
-- Per importare la collection cliccare sul stasto **Import**
-
-![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/01_Import_Collection_01.png)
-
-- Selezionare il file `ISTAT_SDMX_API.postman_collection.json`
-
-![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/01_Import_Collection_02.png)
-
-- Confermare l'importazione del file
-
-![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/01_Import_Collection_03.png)
-
-### Importare l'environment ISTAT SDMX API
-- Per importare l'environment cliccare sul stasto **Manage Environments**
-
-![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/02_Import_Environment_01.png)
-- Cliccare sul tasto **Add** in fondo
-
-![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/02_Import_Environment_02.png)
-- Selezionare il file `ISTAT_SDMX_API.postman_environment.json`
-
-![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/02_Import_Environment_03.png)
-- Attivare l'environment `ISTAT SDMX API` selezionandolo dal menu a tendina
-
-![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/03_Set_Environment.png)
-
-- Visualizzare le variabili d'ambiente contenute nell'enviromnent cliccando sul tasto **Environment quick look** e **Edit**
-
-![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/04_View_Environment_Variables.png)
-
-### Esplorare la collection ISTAT SDMX API
-- La collection contiene tutte le chiamate preconfigurate alle API disponibili
-
-![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/05_Explore_Collection_01.png)
-
-- I dataflow disponibili sono comodamente ordinati in cartelle
-
-![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/05_Explore_Collection_02.png)
-
-### Richiedere tutti i dataflow disponibili
-- Selezionare la chiamata `All dataflow JSON` e cliccare sul tasto **Send** per ottenere l'elenco di tutti i dataflow disponibili
-
-![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/06_Request_All_Dataflows.png)
-
-### Ottenere i dati di uno specifico dataflow
-Per ottenere i dati di uno specifico dataflow è necessario seguire questi passi 
-
-#### Richiedere uno specifico dataflow
-- Selezionare il dataflow desiderato e cliccare su **Send** per ottenere il risultato
-
-![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/07_Request_Specific_Dataflow_01.png)
-
-- I parametri associati al dataflow vengono automaticamente salvati dalla collection per essere riutilizzati nelle chiamate successive
-
-![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/07_Request_Specific_Dataflow_02.png)
-
-#### Richiedere una datastructure
-- Selezionare la chiamata `Datastructure XML` per ottenere la datastructure dell'ultimo dataflow richiesto e prendere nota delle `codelist` disponibili
-
-![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/08_Request_DataStructure.png)
-
-#### Richiedere una codelist
-- Selezionare la chiamata `Codelist XML` per approfondire il significato delle `codelist` dell'ultimo dataflow richiesto
-
-![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/09_Request_Codelist.png)
-
-#### Richiedere gli available constraint
-- Selezionare la chiamata `Available constraint XML` per ottenere l'elenco dei constraint disponibili e prenderne nota perché andranno usati successivamente come filtri per ottenere i dati
-
-![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/10_Request_AvailableConstraint.png)
-
-#### Impostare i filtri
-- Cliccare sul tasto **Environment quick look** ed individuare la variabile d'ambiente chiamata `filter_attributes`
-
-![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/11_Request_Data_Set_Filter_Attributes_01.png)
-
-- Modificarne il valore inserendo i filtri di cui si è preso nota dopo la chiamata alla `Available constraint XML`
-
-![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/11_Request_Data_Set_Filter_Attributes_02.png)
-
-#### Richiedere i dati
-- Per richiedere i dati selezionare una fra le chiamate `Data JSON output`, `Data CSV output` o `Data XML output`, di seguito un esempio con la chiamata `Data CSV output`
-
-![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/12_Request_Data_CSV.png)
-
-- È possibile esportare l'output usando il tasto **Save Response**
-
-![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/13_Save_Export_Data.png)
-
-[`torna su`](#perché-questa-guida)
-
-## Altri banche dati ISTAT accessibili allo stesso modo
+## Altre banche dati ISTAT accessibili allo stesso modo
 
 L'Istat - come è possibile leggere [qui](https://www.istat.it/it/metodi-e-strumenti/web-service-sdmx) - espone nelle stesse modalità anche queste altre 3 banche dati:
 
