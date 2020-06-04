@@ -323,7 +323,7 @@ curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.i
 
 Un'altra modalità per interrogare le API SDMX di Istat potrebbe essere quella di usare [**Postman**](https://www.postman.com/), un *software* di API *development* e *testing*.
 
-[Vincenzo Sciascia](https://www.linkedin.com/in/vincenzosciascia/) ha scritto una guida dedicata (grazie!), che trovate [in una lunga e ricca sezione dedicata](./postman.md).
+[Vincenzo Sciascia](https://www.linkedin.com/in/vincenzosciascia/) ha scritto una guida dedicata (grazie!), che trovate [**in una lunga e ricca sezione dedicata**](./postman.md).
 
 [![image](./postman/pics/01_Import_Collection_01.png)](./postman.md)
 
