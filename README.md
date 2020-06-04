@@ -325,7 +325,7 @@ Una modalità alternativa per interrogare le API SDMX di ISTAT prevede l'uso del
 - una collection che contiene tutte le chiamate alle API disponibili con parametri preconfigurati e dei `test` per automatizzare il workflow di accesso ai dati
 - un environment che contiene tutte le variabili d'ambiente
 
-### Installazione Postman
+### Installare Postman
 
 - Scaricare **Postman** da [questo link](https://www.postman.com/downloads/)
 - Scaricare il file [ISTAT_SDMX_API.postman_collection](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/ISTAT_SDMX_API.postman_collection.json) disponibile su questo repo
@@ -386,15 +386,18 @@ Una modalità alternativa per interrogare le API SDMX di ISTAT prevede l'uso del
 
 ![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/07_Request_Specific_Dataflow_02.png)
 
+
 ### Richiedere una datastructure
 - Selezionare la chiamata `Datastructure XML` per ottenere la datastructure dell'ultimo dataflow richiesto e prendere nota delle `codelist` disponibili
 
 ![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/08_Request_DataStructure.png)
 
+
 ### Richiedere una codelist
 - Selezionare la chiamata `Codelist XML` per approfondire il significato delle `codelist` dell'ultimo dataflow richiesto
 
 ![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/09_Request_Codelist.png)
+
 
 ### Richiedere gli available constraint
 - Selezionare la chiamata `Available constraint XML` per ottenere l'elenco dei constraint disponibili, da usare successivamente come filtri per ottenere i dati
