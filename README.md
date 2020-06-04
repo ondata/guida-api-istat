@@ -389,18 +389,15 @@ Per ottenere i dati di uno specifico dataflow è necessario seguire questi passi
 
 ![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/07_Request_Specific_Dataflow_02.png)
 
-
 #### Richiedere una datastructure
 - Selezionare la chiamata `Datastructure XML` per ottenere la datastructure dell'ultimo dataflow richiesto e prendere nota delle `codelist` disponibili
 
 ![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/08_Request_DataStructure.png)
 
-
 #### Richiedere una codelist
 - Selezionare la chiamata `Codelist XML` per approfondire il significato delle `codelist` dell'ultimo dataflow richiesto
 
 ![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/09_Request_Codelist.png)
-
 
 #### Richiedere gli available constraint
 - Selezionare la chiamata `Available constraint XML` per ottenere l'elenco dei constraint disponibili e prenderne nota perché andranno usati successivamente come filtri per ottenere i dati
