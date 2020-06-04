@@ -386,17 +386,17 @@ Una modalità alternativa per interrogare le API SDMX di ISTAT prevede l'uso del
 
 ![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/07_Request_Specific_Dataflow_02.png)
 
-### Richiedere una DataStructure
+### Richiedere una datastructure
 - Selezionare la chiamata `Datastructure XML` per ottenere la datastructure dell'ultimo dataflow richiesto e prendere nota delle `codelist` disponibili
 
 ![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/08_Request_DataStructure.png)
 
-### Richiedere una Codelist
+### Richiedere una codelist
 - Selezionare la chiamata `Codelist XML` per approfondire il significato delle `codelist` dell'ultimo dataflow richiesto
 
 ![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/09_Request_Codelist.png)
 
-### Richiedere gli Available Constraint
+### Richiedere gli available constraint
 - Selezionare la chiamata `Available constraint XML` per ottenere l'elenco dei constraint disponibili, da usare successivamente come filtri per ottenere i dati
 
 ![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/10_Request_AvailableConstraint.png)
