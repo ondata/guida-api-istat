@@ -378,6 +378,7 @@ Una modalità alternativa per interrogare le API SDMX di ISTAT prevede l'uso del
 ![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/06_Request_All_Dataflows.png)
 
 ### Ottenere i dati di uno specifico dataflow
+Per ottenere i dati di uno specifico dataflow è necessario seguire questi passi 
 
 #### Richiedere uno specifico dataflow
 - Selezionare il dataflow desiderato e cliccare su **Send** per ottenere il risultato
@@ -420,9 +421,9 @@ Una modalità alternativa per interrogare le API SDMX di ISTAT prevede l'uso del
 
 ![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/12_Request_Data_CSV.png)
 
-- E' possibile esportare l'output usando il tasto **Save Response**
+- È possibile esportare l'output usando il tasto **Save Response**
 
-
+![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/13_Save_Export_Data.png)
 
 [`torna su`](#perché-questa-guida)
 
