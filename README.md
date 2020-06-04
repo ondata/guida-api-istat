@@ -373,11 +373,13 @@ Una modalità alternativa per interrogare le API SDMX di ISTAT prevede l'uso del
 ![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/05_Explore_Collection_02.png)
 
 ### Richiedere tutti i dataflow disponibili
-- Selezionare la chiamata `All dataflow JSON` e cliccare sul tasto **Send** per ottenere tutti i dataflow disponibili
+- Selezionare la chiamata `All dataflow JSON` e cliccare sul tasto **Send** per ottenere l'elenco di tutti i dataflow disponibili
 
 ![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/06_Request_All_Dataflows.png)
 
-### Richiedere uno specifico dataflow
+### Ottenere i dati di uno specifico dataflow
+
+#### Richiedere uno specifico dataflow
 - Selezionare il dataflow desiderato e cliccare su **Send** per ottenere il risultato
 
 ![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/07_Request_Specific_Dataflow_01.png)
@@ -387,22 +389,38 @@ Una modalità alternativa per interrogare le API SDMX di ISTAT prevede l'uso del
 ![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/07_Request_Specific_Dataflow_02.png)
 
 
-### Richiedere una datastructure
+#### Richiedere una datastructure
 - Selezionare la chiamata `Datastructure XML` per ottenere la datastructure dell'ultimo dataflow richiesto e prendere nota delle `codelist` disponibili
 
 ![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/08_Request_DataStructure.png)
 
 
-### Richiedere una codelist
+#### Richiedere una codelist
 - Selezionare la chiamata `Codelist XML` per approfondire il significato delle `codelist` dell'ultimo dataflow richiesto
 
 ![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/09_Request_Codelist.png)
 
 
-### Richiedere gli available constraint
-- Selezionare la chiamata `Available constraint XML` per ottenere l'elenco dei constraint disponibili, da usare successivamente come filtri per ottenere i dati
+#### Richiedere gli available constraint
+- Selezionare la chiamata `Available constraint XML` per ottenere l'elenco dei constraint disponibili e prenderne nota perché andranno usati successivamente come filtri per ottenere i dati
 
 ![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/10_Request_AvailableConstraint.png)
+
+#### Impostare i filtri
+- Cliccare sul tasto **Environment quick look** ed individuare la variabile d'ambiente chiamata `filter_attributes`
+
+![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/11_Request_Data_Set_Filter_Attributes_01.png)
+
+- Modificarne il valore inserendo i filtri di cui si è preso nota dopo la chiamata alla `Available constraint XML`
+
+![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/11_Request_Data_Set_Filter_Attributes_02.png)
+
+#### Richiedere i dati
+- Per richiedere i dati selezionare una fra le chiamate `Data JSON output`, `Data CSV output` o `Data XML output`, di seguito un esempio con la chiamata `Data CSV output`
+
+![image](https://github.com/vincenzo-scia/guida-api-istat/blob/postman/postman/pics/12_Request_Data_CSV.png)
+
+- E' possibile esportare l'output usando il tasto **Save Response**
 
 
 
