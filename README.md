@@ -325,7 +325,7 @@ Un'altra modalità per interrogare le API SDMX di Istat potrebbe essere quella d
 
 [Vincenzo Sciascia](https://www.linkedin.com/in/vincenzosciascia/) ha scritto una guida dedicata (grazie!), che trovate [**in una lunga e ricca sezione dedicata**](./postman.md).
 
-[![image](./postman/pics/01_Import_Collection_01.png)](./postman.md)
+[![image](./postman/pics/01_Import_Collection_01.png)](https://ondata.github.io/guida-api-istat/postman.html)
 
 ## Altre banche dati ISTAT accessibili allo stesso modo
 
