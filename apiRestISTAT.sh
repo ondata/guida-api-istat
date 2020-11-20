@@ -52,3 +52,17 @@ while read p; do
   xq <"$folder"/rawdata/codelist.xml '.["message:Structure"]["message:Structures"]["structure:Codelists"]["structure:Codelist"][]|select(.["@id"] =="'"$p"'")' | jq '[{id:.["@id"],dimensionName:.["common:Name"][0]["#text"],dimensionValueID:[.["structure:Code"][]["@id"]],dimensionValueDescription:[.["structure:Code"][]["common:Name"][0]["#text"]]}]' | mlr --j2c reshape -r ":" -o item,value then nest --explode --values --across-fields --nested-fs ":" -f item then reshape -s item_1,value then cut -x -f item_2 >"$folder"/processing/"$datastructure"/"$x"_Dimension_"$p".csv
   x=$(( $x + 1 ))
 done <"$folder"/processing/"$datastructure"/DimensionList.txt
+
+
+# estrai lista delle dimensioni
+<"$folder"/rawdata/codelist.xml xq -r '.["message:Structure"]["message:Structures"]["structure:Codelists"]["structure:Codelist"][]["@id"]' >"$folder"/processing/DimensionList.txt
+
+mkdir -p mkdir -p "$folder"/processing/DimensionList
+
+<<commento
+while read p; do
+  xq <"$folder"/rawdata/codelist.xml '.["message:Structure"]["message:Structures"]["structure:Codelists"]["structure:Codelist"][]|select(.["@id"] =="'"$p"'")' | jq '[{id:.["@id"],dimensionName:.["common:Name"][0]["#text"],dimensionValueID:[.["structure:Code"][]["@id"]],dimensionValueDescription:[.["structure:Code"][]["common:Name"][0]["#text"]]}]' | mlr --j2c reshape -r ":" -o item,value then nest --explode --values --across-fields --nested-fs ":" -f item then reshape -s item_1,value then cut -x -f item_2 >"$folder"/processing/DimensionList/"$p".csv
+done <"$folder"/processing/DimensionList.txt
+commento
+
+<"$folder"/rawdata/codelist.json jq '[.["message:Structure"]["message:Structures"]["structure:Codelists"]["structure:Codelist"][]|{id:.["@id"],etichetta:.["common:Name"][0]?["#text"]}]' | mlr --j2c cat >"$folder"/processing/codelist.csv
