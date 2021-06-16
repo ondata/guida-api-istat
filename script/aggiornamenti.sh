@@ -23,5 +23,7 @@ if [ $code -eq 200 ]; then
 
   mlr --csv put '$guid="https://trigger.it/".$guid;$link=$guid' "$folder"/../risorse/aggiornamenti.csv >"$folder"/../risorse/tmp_rss.csv
 
-  ogr2ogr  -f geoRSS  -dsco TITLE="Aggiornamento dati ISTAT" -dsco LINK="http://urlDelMioFeed.it/output.xml" -dsco DESCRIPTION="Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT"  "$folder"/../risorse/sdmx.rss "$folder"/../risorse/tmp_rss.csv -oo AUTODETECT_TYPE=YES
+  ogr2ogr  -f geoRSS  -dsco TITLE="Aggiornamento dati ISTAT" -dsco LINK="https://ondata.github.io/guida-api-istat/risorse/sdmx.rss" -dsco DESCRIPTION="Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT"  "$folder"/../risorse/sdmx.rss "$folder"/../risorse/tmp_rss.csv -oo AUTODETECT_TYPE=YES
 fi
+
+
