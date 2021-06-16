@@ -17,7 +17,11 @@ code=$(curl -s -L -o /dev/null -w '%{http_code}' "$URL")
 
 # se il sito è raggiungibile scarica i dati
 if [ $code -eq 200 ]; then
-  curl -kL "$URL" | xq '.rss.channel.item' | mlr --j2c cut -x -r -f ":" then sort -f pubDate >"$folder"/rawdata/tmp_aggiornamenti.csv
+  curl -kL "$URL" | xq '.rss.channel.item' | mlr --j2c cut -x -r -f ":" then sort -r pubDate >"$folder"/rawdata/tmp_aggiornamenti.csv
   cp "$folder"/rawdata/tmp_aggiornamenti.csv "$folder"/../risorse/aggiornamenti.csv
   dos2unix "$folder"/../risorse/aggiornamenti.csv
+
+  mlr --csv put '$guid="https://trigger.it/".$guid;$link=$guid' "$folder"/../risorse/aggiornamenti.csv >"$folder"/../risorse/tmp_rss.csv
+
+  ogr2ogr  -f geoRSS  -dsco TITLE="Aggiornamento dati ISTAT" -dsco LINK="http://urlDelMioFeed.it/output.xml" -dsco DESCRIPTION="Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT"  "$folder"/../risorse/sdmx.rss "$folder"/../risorse/tmp_rss.csv -oo AUTODETECT_TYPE=YES
 fi

@@ -20,6 +20,7 @@ jobs:
         sudo pip install yq
         sudo apt-get install miller
         sudo apt-get install dos2unix
+        sudo apt-get install gdal-bin
     - name: scarica i dati
       run: |-
         cd ./script
