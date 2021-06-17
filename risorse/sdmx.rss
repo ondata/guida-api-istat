@@ -3,7 +3,7 @@
   <channel>
     <title>Aggiornamento dati ISTAT</title>
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
-    <link>http://urlDelMioFeed.it/output.xml</link>
+    <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
       <title>Prezzi dei prodotti agricoli</title>
       <pubDate>Tue, 15 Jun 2021 12:51:32 GMT</pubDate>
@@ -39,42 +39,6 @@
       <pubDate>Mon, 14 Jun 2021 04:11:47 GMT</pubDate>
       <guid>https://trigger.it/123_712</guid>
       <link>https://trigger.it/123_712</link>
-    </item>
-    <item>
-      <title>Conto economico delle risorse e degli impieghi  e contributi alla crescita del Pil</title>
-      <pubDate>Fri, 11 Jun 2021 11:54:15 GMT</pubDate>
-      <guid>https://trigger.it/163_156</guid>
-      <link>https://trigger.it/163_156</link>
-    </item>
-    <item>
-      <title>Retribuzioni lorde - Imprese con dipendenti</title>
-      <pubDate>Fri, 11 Jun 2021 10:07:06 GMT</pubDate>
-      <guid>https://trigger.it/155_374</guid>
-      <link>https://trigger.it/155_374</link>
-    </item>
-    <item>
-      <title>Posizioni lavorative alle dipendenze</title>
-      <pubDate>Fri, 11 Jun 2021 10:06:28 GMT</pubDate>
-      <guid>https://trigger.it/149_577</guid>
-      <link>https://trigger.it/149_577</link>
-    </item>
-    <item>
-      <title>Indicatori - Imprese con dipendenti</title>
-      <pubDate>Fri, 11 Jun 2021 10:06:23 GMT</pubDate>
-      <guid>https://trigger.it/154_373</guid>
-      <link>https://trigger.it/154_373</link>
-    </item>
-    <item>
-      <title>Dimissioni dagli istituti di cura per aborto spontaneo rispetto al luogo di residenza</title>
-      <pubDate>Fri, 11 Jun 2021 03:17:16 GMT</pubDate>
-      <guid>https://trigger.it/42_324</guid>
-      <link>https://trigger.it/42_324</link>
-    </item>
-    <item>
-      <title>Dimissioni dagli istituti di cura per aborto spontaneo rispetto al luogo dell evento</title>
-      <pubDate>Fri, 11 Jun 2021 03:16:04 GMT</pubDate>
-      <guid>https://trigger.it/42_325</guid>
-      <link>https://trigger.it/42_325</link>
     </item>
   </channel>
 </rss>
