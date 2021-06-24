@@ -5,22 +5,58 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Servizi  socio-educativi per la prima infanzia</title>
+      <pubDate>Wed, 23 Jun 2021 09:36:15 GMT</pubDate>
+      <guid>https://trigger.it/47_850</guid>
+      <link>https://trigger.it/47_850</link>
+    </item>
+    <item>
+      <title>Viaggi per motivo</title>
+      <pubDate>Wed, 23 Jun 2021 08:08:59 GMT</pubDate>
+      <guid>https://trigger.it/68_697</guid>
+      <link>https://trigger.it/68_697</link>
+    </item>
+    <item>
+      <title>Visite in giornata (escursioni)</title>
+      <pubDate>Wed, 23 Jun 2021 07:37:20 GMT</pubDate>
+      <guid>https://trigger.it/68_338</guid>
+      <link>https://trigger.it/68_338</link>
+    </item>
+    <item>
+      <title>Pernottamenti  in viaggio</title>
+      <pubDate>Wed, 23 Jun 2021 07:36:48 GMT</pubDate>
+      <guid>https://trigger.it/68_357</guid>
+      <link>https://trigger.it/68_357</link>
+    </item>
+    <item>
+      <title>Viaggi per caratteristiche del viaggiatore</title>
+      <pubDate>Wed, 23 Jun 2021 07:35:38 GMT</pubDate>
+      <guid>https://trigger.it/68_699</guid>
+      <link>https://trigger.it/68_699</link>
+    </item>
+    <item>
+      <title>Viaggi per caratteristiche del viaggio</title>
+      <pubDate>Wed, 23 Jun 2021 07:34:54 GMT</pubDate>
+      <guid>https://trigger.it/68_698</guid>
+      <link>https://trigger.it/68_698</link>
+    </item>
+    <item>
+      <title>Persone che hanno viaggiato</title>
+      <pubDate>Wed, 23 Jun 2021 07:33:59 GMT</pubDate>
+      <guid>https://trigger.it/68_356</guid>
+      <link>https://trigger.it/68_356</link>
+    </item>
+    <item>
+      <title>Persone andate o non andate in vacanza</title>
+      <pubDate>Wed, 23 Jun 2021 07:32:43 GMT</pubDate>
+      <guid>https://trigger.it/68_161</guid>
+      <link>https://trigger.it/68_161</link>
+    </item>
+    <item>
       <title>Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili</title>
       <pubDate>Tue, 22 Jun 2021 10:13:15 GMT</pubDate>
       <guid>https://trigger.it/114_191</guid>
       <link>https://trigger.it/114_191</link>
-    </item>
-    <item>
-      <title>Indice della produzione nelle costruzioni</title>
-      <pubDate>Fri, 18 Jun 2021 10:09:48 GMT</pubDate>
-      <guid>https://trigger.it/115_362</guid>
-      <link>https://trigger.it/115_362</link>
-    </item>
-    <item>
-      <title>Imprese e addetti</title>
-      <pubDate>Fri, 18 Jun 2021 07:36:58 GMT</pubDate>
-      <guid>https://trigger.it/183_277</guid>
-      <link>https://trigger.it/183_277</link>
     </item>
   </channel>
 </rss>
