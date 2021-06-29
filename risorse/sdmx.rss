@@ -5,6 +5,18 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Prezzi delle abitazioni</title>
+      <pubDate>Mon, 28 Jun 2021 12:57:31 GMT</pubDate>
+      <guid>https://trigger.it/143_497</guid>
+      <link>https://trigger.it/143_497</link>
+    </item>
+    <item>
+      <title>Coltivazioni</title>
+      <pubDate>Mon, 28 Jun 2021 11:16:41 GMT</pubDate>
+      <guid>https://trigger.it/101_1015</guid>
+      <link>https://trigger.it/101_1015</link>
+    </item>
+    <item>
       <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
       <pubDate>Fri, 25 Jun 2021 11:38:33 GMT</pubDate>
       <guid>https://trigger.it/139_176</guid>
@@ -111,54 +123,6 @@
       <pubDate>Thu, 24 Jun 2021 01:40:22 GMT</pubDate>
       <guid>https://trigger.it/65_130</guid>
       <link>https://trigger.it/65_130</link>
-    </item>
-    <item>
-      <title>Servizi  socio-educativi per la prima infanzia</title>
-      <pubDate>Wed, 23 Jun 2021 09:36:15 GMT</pubDate>
-      <guid>https://trigger.it/47_850</guid>
-      <link>https://trigger.it/47_850</link>
-    </item>
-    <item>
-      <title>Viaggi per motivo</title>
-      <pubDate>Wed, 23 Jun 2021 08:08:59 GMT</pubDate>
-      <guid>https://trigger.it/68_697</guid>
-      <link>https://trigger.it/68_697</link>
-    </item>
-    <item>
-      <title>Visite in giornata (escursioni)</title>
-      <pubDate>Wed, 23 Jun 2021 07:37:20 GMT</pubDate>
-      <guid>https://trigger.it/68_338</guid>
-      <link>https://trigger.it/68_338</link>
-    </item>
-    <item>
-      <title>Pernottamenti  in viaggio</title>
-      <pubDate>Wed, 23 Jun 2021 07:36:48 GMT</pubDate>
-      <guid>https://trigger.it/68_357</guid>
-      <link>https://trigger.it/68_357</link>
-    </item>
-    <item>
-      <title>Viaggi per caratteristiche del viaggiatore</title>
-      <pubDate>Wed, 23 Jun 2021 07:35:38 GMT</pubDate>
-      <guid>https://trigger.it/68_699</guid>
-      <link>https://trigger.it/68_699</link>
-    </item>
-    <item>
-      <title>Viaggi per caratteristiche del viaggio</title>
-      <pubDate>Wed, 23 Jun 2021 07:34:54 GMT</pubDate>
-      <guid>https://trigger.it/68_698</guid>
-      <link>https://trigger.it/68_698</link>
-    </item>
-    <item>
-      <title>Persone che hanno viaggiato</title>
-      <pubDate>Wed, 23 Jun 2021 07:33:59 GMT</pubDate>
-      <guid>https://trigger.it/68_356</guid>
-      <link>https://trigger.it/68_356</link>
-    </item>
-    <item>
-      <title>Persone andate o non andate in vacanza</title>
-      <pubDate>Wed, 23 Jun 2021 07:32:43 GMT</pubDate>
-      <guid>https://trigger.it/68_161</guid>
-      <link>https://trigger.it/68_161</link>
     </item>
   </channel>
 </rss>
