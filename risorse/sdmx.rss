@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Conto trimestrale</title>
+      <pubDate>Thu, 01 Jul 2021 11:12:34 GMT</pubDate>
+      <guid>https://trigger.it/95_42</guid>
+      <link>https://trigger.it/95_42</link>
+    </item>
+    <item>
       <title>Ipca - mensili dal 2001 (base 2015)</title>
       <pubDate>Wed, 30 Jun 2021 12:04:29 GMT</pubDate>
       <guid>https://trigger.it/168_760</guid>
