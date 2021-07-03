@@ -5,6 +5,18 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Occupazione regolare ed irregolare</title>
+      <pubDate>Fri, 02 Jul 2021 10:24:47 GMT</pubDate>
+      <guid>https://trigger.it/93_379</guid>
+      <link>https://trigger.it/93_379</link>
+    </item>
+    <item>
+      <title>Valore aggiunto, Redditi da lavoro, Spesa per consumi finali (famiglie e PA), Investimenti fissi lordi, Valori pro capite</title>
+      <pubDate>Fri, 02 Jul 2021 10:23:39 GMT</pubDate>
+      <guid>https://trigger.it/93_500</guid>
+      <link>https://trigger.it/93_500</link>
+    </item>
+    <item>
       <title>Conto trimestrale</title>
       <pubDate>Thu, 01 Jul 2021 11:12:34 GMT</pubDate>
       <guid>https://trigger.it/95_42</guid>
