@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Trasporto aereo</title>
+      <pubDate>Tue, 13 Jul 2021 01:51:10 GMT</pubDate>
+      <guid>https://trigger.it/121_331</guid>
+      <link>https://trigger.it/121_331</link>
+    </item>
+    <item>
       <title>Coltivazioni</title>
       <pubDate>Fri, 09 Jul 2021 12:17:45 GMT</pubDate>
       <guid>https://trigger.it/101_1015</guid>
