@@ -5,6 +5,36 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Povertà nuove serie</title>
+      <pubDate>Fri, 16 Jul 2021 11:06:32 GMT</pubDate>
+      <guid>https://trigger.it/34_727</guid>
+      <link>https://trigger.it/34_727</link>
+    </item>
+    <item>
+      <title>Coltivazioni</title>
+      <pubDate>Fri, 16 Jul 2021 10:34:10 GMT</pubDate>
+      <guid>https://trigger.it/101_1015</guid>
+      <link>https://trigger.it/101_1015</link>
+    </item>
+    <item>
+      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
+      <pubDate>Fri, 16 Jul 2021 10:27:51 GMT</pubDate>
+      <guid>https://trigger.it/139_176</guid>
+      <link>https://trigger.it/139_176</link>
+    </item>
+    <item>
+      <title>Indice dei prezzi all'importazione - dati mensili</title>
+      <pubDate>Fri, 16 Jul 2021 10:06:01 GMT</pubDate>
+      <guid>https://trigger.it/143_222</guid>
+      <link>https://trigger.it/143_222</link>
+    </item>
+    <item>
+      <title>Spese nuove serie</title>
+      <pubDate>Fri, 16 Jul 2021 01:16:47 GMT</pubDate>
+      <guid>https://trigger.it/31_739</guid>
+      <link>https://trigger.it/31_739</link>
+    </item>
+    <item>
       <title>IPCA – Pesi dal 2001</title>
       <pubDate>Thu, 15 Jul 2021 12:39:50 GMT</pubDate>
       <guid>https://trigger.it/168_6</guid>
