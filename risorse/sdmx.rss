@@ -5,6 +5,18 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indice della produzione nelle costruzioni</title>
+      <pubDate>Wed, 21 Jul 2021 11:04:43 GMT</pubDate>
+      <guid>https://trigger.it/115_362</guid>
+      <link>https://trigger.it/115_362</link>
+    </item>
+    <item>
+      <title>Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili</title>
+      <pubDate>Wed, 21 Jul 2021 10:08:39 GMT</pubDate>
+      <guid>https://trigger.it/114_191</guid>
+      <link>https://trigger.it/114_191</link>
+    </item>
+    <item>
       <title>Fitosanitari</title>
       <pubDate>Tue, 20 Jul 2021 11:32:44 GMT</pubDate>
       <guid>https://trigger.it/101_22</guid>
@@ -15,36 +27,6 @@
       <pubDate>Mon, 19 Jul 2021 02:26:15 GMT</pubDate>
       <guid>https://trigger.it/42_324</guid>
       <link>https://trigger.it/42_324</link>
-    </item>
-    <item>
-      <title>Povertà nuove serie</title>
-      <pubDate>Fri, 16 Jul 2021 11:06:32 GMT</pubDate>
-      <guid>https://trigger.it/34_727</guid>
-      <link>https://trigger.it/34_727</link>
-    </item>
-    <item>
-      <title>Coltivazioni</title>
-      <pubDate>Fri, 16 Jul 2021 10:34:10 GMT</pubDate>
-      <guid>https://trigger.it/101_1015</guid>
-      <link>https://trigger.it/101_1015</link>
-    </item>
-    <item>
-      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
-      <pubDate>Fri, 16 Jul 2021 10:27:51 GMT</pubDate>
-      <guid>https://trigger.it/139_176</guid>
-      <link>https://trigger.it/139_176</link>
-    </item>
-    <item>
-      <title>Indice dei prezzi all'importazione - dati mensili</title>
-      <pubDate>Fri, 16 Jul 2021 10:06:01 GMT</pubDate>
-      <guid>https://trigger.it/143_222</guid>
-      <link>https://trigger.it/143_222</link>
-    </item>
-    <item>
-      <title>Spese nuove serie</title>
-      <pubDate>Fri, 16 Jul 2021 01:16:47 GMT</pubDate>
-      <guid>https://trigger.it/31_739</guid>
-      <link>https://trigger.it/31_739</link>
     </item>
   </channel>
 </rss>
