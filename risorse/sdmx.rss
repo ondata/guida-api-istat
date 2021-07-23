@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi</title>
+      <pubDate>Thu, 22 Jul 2021 12:36:43 GMT</pubDate>
+      <guid>https://trigger.it/122_54</guid>
+      <link>https://trigger.it/122_54</link>
+    </item>
+    <item>
       <title>Indice della produzione nelle costruzioni</title>
       <pubDate>Wed, 21 Jul 2021 11:04:43 GMT</pubDate>
       <guid>https://trigger.it/115_362</guid>
