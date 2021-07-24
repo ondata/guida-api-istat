@@ -5,6 +5,36 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indicatori  permessi di costruire</title>
+      <pubDate>Fri, 23 Jul 2021 10:09:03 GMT</pubDate>
+      <guid>https://trigger.it/111_111</guid>
+      <link>https://trigger.it/111_111</link>
+    </item>
+    <item>
+      <title>Retribuzioni lorde - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 23 Jul 2021 10:01:47 GMT</pubDate>
+      <guid>https://trigger.it/535_194</guid>
+      <link>https://trigger.it/535_194</link>
+    </item>
+    <item>
+      <title>Ore lavorate - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 23 Jul 2021 10:01:40 GMT</pubDate>
+      <guid>https://trigger.it/534_49</guid>
+      <link>https://trigger.it/534_49</link>
+    </item>
+    <item>
+      <title>Posizioni lavorative - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 23 Jul 2021 10:00:59 GMT</pubDate>
+      <guid>https://trigger.it/534_50</guid>
+      <link>https://trigger.it/534_50</link>
+    </item>
+    <item>
+      <title>Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 23 Jul 2021 10:00:42 GMT</pubDate>
+      <guid>https://trigger.it/536_193</guid>
+      <link>https://trigger.it/536_193</link>
+    </item>
+    <item>
       <title>Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi</title>
       <pubDate>Thu, 22 Jul 2021 12:36:43 GMT</pubDate>
       <guid>https://trigger.it/122_54</guid>
