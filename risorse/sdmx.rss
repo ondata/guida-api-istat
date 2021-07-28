@@ -5,6 +5,18 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Macellazioni</title>
+      <pubDate>Tue, 27 Jul 2021 11:44:00 GMT</pubDate>
+      <guid>https://trigger.it/101_1033</guid>
+      <link>https://trigger.it/101_1033</link>
+    </item>
+    <item>
+      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
+      <pubDate>Tue, 27 Jul 2021 10:16:18 GMT</pubDate>
+      <guid>https://trigger.it/139_176</guid>
+      <link>https://trigger.it/139_176</link>
+    </item>
+    <item>
       <title>Indicatori  permessi di costruire</title>
       <pubDate>Fri, 23 Jul 2021 10:09:03 GMT</pubDate>
       <guid>https://trigger.it/111_111</guid>
@@ -33,12 +45,6 @@
       <pubDate>Fri, 23 Jul 2021 10:00:42 GMT</pubDate>
       <guid>https://trigger.it/536_193</guid>
       <link>https://trigger.it/536_193</link>
-    </item>
-    <item>
-      <title>Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi</title>
-      <pubDate>Thu, 22 Jul 2021 12:36:43 GMT</pubDate>
-      <guid>https://trigger.it/122_54</guid>
-      <link>https://trigger.it/122_54</link>
     </item>
   </channel>
 </rss>
