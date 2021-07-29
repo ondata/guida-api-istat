@@ -5,6 +5,42 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Clima di fiducia delle imprese</title>
+      <pubDate>Wed, 28 Jul 2021 10:12:47 GMT</pubDate>
+      <guid>https://trigger.it/6_64</guid>
+      <link>https://trigger.it/6_64</link>
+    </item>
+    <item>
+      <title>Fiducia delle imprese servizi</title>
+      <pubDate>Wed, 28 Jul 2021 10:12:42 GMT</pubDate>
+      <guid>https://trigger.it/117_262</guid>
+      <link>https://trigger.it/117_262</link>
+    </item>
+    <item>
+      <title>Fiducia delle imprese del commercio</title>
+      <pubDate>Wed, 28 Jul 2021 10:11:41 GMT</pubDate>
+      <guid>https://trigger.it/117_266</guid>
+      <link>https://trigger.it/117_266</link>
+    </item>
+    <item>
+      <title>Fiducia delle imprese costruzioni</title>
+      <pubDate>Wed, 28 Jul 2021 10:11:35 GMT</pubDate>
+      <guid>https://trigger.it/111_40</guid>
+      <link>https://trigger.it/111_40</link>
+    </item>
+    <item>
+      <title>Fiducia delle imprese manifatturiere</title>
+      <pubDate>Wed, 28 Jul 2021 10:10:07 GMT</pubDate>
+      <guid>https://trigger.it/111_263</guid>
+      <link>https://trigger.it/111_263</link>
+    </item>
+    <item>
+      <title>Fiducia dei consumatori</title>
+      <pubDate>Wed, 28 Jul 2021 10:09:26 GMT</pubDate>
+      <guid>https://trigger.it/30_264</guid>
+      <link>https://trigger.it/30_264</link>
+    </item>
+    <item>
       <title>Macellazioni</title>
       <pubDate>Tue, 27 Jul 2021 11:44:00 GMT</pubDate>
       <guid>https://trigger.it/101_1033</guid>
@@ -15,36 +51,6 @@
       <pubDate>Tue, 27 Jul 2021 10:16:18 GMT</pubDate>
       <guid>https://trigger.it/139_176</guid>
       <link>https://trigger.it/139_176</link>
-    </item>
-    <item>
-      <title>Indicatori  permessi di costruire</title>
-      <pubDate>Fri, 23 Jul 2021 10:09:03 GMT</pubDate>
-      <guid>https://trigger.it/111_111</guid>
-      <link>https://trigger.it/111_111</link>
-    </item>
-    <item>
-      <title>Retribuzioni lorde - Imprese con almeno 500 dipendenti</title>
-      <pubDate>Fri, 23 Jul 2021 10:01:47 GMT</pubDate>
-      <guid>https://trigger.it/535_194</guid>
-      <link>https://trigger.it/535_194</link>
-    </item>
-    <item>
-      <title>Ore lavorate - Imprese con almeno 500 dipendenti</title>
-      <pubDate>Fri, 23 Jul 2021 10:01:40 GMT</pubDate>
-      <guid>https://trigger.it/534_49</guid>
-      <link>https://trigger.it/534_49</link>
-    </item>
-    <item>
-      <title>Posizioni lavorative - Imprese con almeno 500 dipendenti</title>
-      <pubDate>Fri, 23 Jul 2021 10:00:59 GMT</pubDate>
-      <guid>https://trigger.it/534_50</guid>
-      <link>https://trigger.it/534_50</link>
-    </item>
-    <item>
-      <title>Imprese con almeno 500 dipendenti</title>
-      <pubDate>Fri, 23 Jul 2021 10:00:42 GMT</pubDate>
-      <guid>https://trigger.it/536_193</guid>
-      <link>https://trigger.it/536_193</link>
     </item>
   </channel>
 </rss>
