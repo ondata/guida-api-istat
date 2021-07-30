@@ -5,6 +5,36 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indici dei costi di costruzione - dati mensili</title>
+      <pubDate>Thu, 29 Jul 2021 11:15:40 GMT</pubDate>
+      <guid>https://trigger.it/145_361</guid>
+      <link>https://trigger.it/145_361</link>
+    </item>
+    <item>
+      <title>Prezzi alla produzione dell'industria</title>
+      <pubDate>Thu, 29 Jul 2021 11:06:49 GMT</pubDate>
+      <guid>https://trigger.it/145_360</guid>
+      <link>https://trigger.it/145_360</link>
+    </item>
+    <item>
+      <title>Tensione contrattuale</title>
+      <pubDate>Thu, 29 Jul 2021 10:14:39 GMT</pubDate>
+      <guid>https://trigger.it/149_319</guid>
+      <link>https://trigger.it/149_319</link>
+    </item>
+    <item>
+      <title>Retribuzioni contrattuali per tipo di contratto</title>
+      <pubDate>Thu, 29 Jul 2021 10:13:48 GMT</pubDate>
+      <guid>https://trigger.it/155_318</guid>
+      <link>https://trigger.it/155_318</link>
+    </item>
+    <item>
+      <title>Retribuzioni contrattuali per settore economico (Ateco)</title>
+      <pubDate>Thu, 29 Jul 2021 10:13:41 GMT</pubDate>
+      <guid>https://trigger.it/155_358</guid>
+      <link>https://trigger.it/155_358</link>
+    </item>
+    <item>
       <title>Clima di fiducia delle imprese</title>
       <pubDate>Wed, 28 Jul 2021 10:12:47 GMT</pubDate>
       <guid>https://trigger.it/6_64</guid>
