@@ -5,6 +5,66 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Stranieri residenti - Bilancio</title>
+      <pubDate>Fri, 30 Jul 2021 12:50:02 GMT</pubDate>
+      <guid>https://trigger.it/29_316</guid>
+      <link>https://trigger.it/29_316</link>
+    </item>
+    <item>
+      <title>Stranieri residenti al 1° gennaio - Cittadinanza</title>
+      <pubDate>Fri, 30 Jul 2021 12:44:10 GMT</pubDate>
+      <guid>https://trigger.it/29_317</guid>
+      <link>https://trigger.it/29_317</link>
+    </item>
+    <item>
+      <title>Ipca - mensili dal 2001 (base 2015)</title>
+      <pubDate>Fri, 30 Jul 2021 11:33:45 GMT</pubDate>
+      <guid>https://trigger.it/168_760</guid>
+      <link>https://trigger.it/168_760</link>
+    </item>
+    <item>
+      <title>Nic - mensili dal 2016 (base 2015)</title>
+      <pubDate>Fri, 30 Jul 2021 11:31:12 GMT</pubDate>
+      <guid>https://trigger.it/167_744</guid>
+      <link>https://trigger.it/167_744</link>
+    </item>
+    <item>
+      <title>Popolazione residente  - bilancio</title>
+      <pubDate>Fri, 30 Jul 2021 11:03:12 GMT</pubDate>
+      <guid>https://trigger.it/22_315</guid>
+      <link>https://trigger.it/22_315</link>
+    </item>
+    <item>
+      <title>Indicatori  demografici</title>
+      <pubDate>Fri, 30 Jul 2021 10:46:33 GMT</pubDate>
+      <guid>https://trigger.it/22_293</guid>
+      <link>https://trigger.it/22_293</link>
+    </item>
+    <item>
+      <title>Stranieri residenti al 1° gennaio</title>
+      <pubDate>Fri, 30 Jul 2021 10:45:14 GMT</pubDate>
+      <guid>https://trigger.it/29_7</guid>
+      <link>https://trigger.it/29_7</link>
+    </item>
+    <item>
+      <title>Popolazione residente  al 1° gennaio</title>
+      <pubDate>Fri, 30 Jul 2021 10:43:04 GMT</pubDate>
+      <guid>https://trigger.it/22_289</guid>
+      <link>https://trigger.it/22_289</link>
+    </item>
+    <item>
+      <title>Conto economico delle risorse e degli impieghi  e contributi alla crescita del Pil</title>
+      <pubDate>Fri, 30 Jul 2021 10:41:40 GMT</pubDate>
+      <guid>https://trigger.it/163_156</guid>
+      <link>https://trigger.it/163_156</link>
+    </item>
+    <item>
+      <title>Fitosanitari</title>
+      <pubDate>Fri, 30 Jul 2021 04:40:42 GMT</pubDate>
+      <guid>https://trigger.it/101_22</guid>
+      <link>https://trigger.it/101_22</link>
+    </item>
+    <item>
       <title>Indici dei costi di costruzione - dati mensili</title>
       <pubDate>Thu, 29 Jul 2021 11:15:40 GMT</pubDate>
       <guid>https://trigger.it/145_361</guid>
