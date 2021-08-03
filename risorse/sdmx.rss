@@ -5,6 +5,18 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Cave e miniere</title>
+      <pubDate>Mon, 02 Aug 2021 11:45:50 GMT</pubDate>
+      <guid>https://trigger.it/9_951</guid>
+      <link>https://trigger.it/9_951</link>
+    </item>
+    <item>
+      <title>Coltivazioni</title>
+      <pubDate>Mon, 02 Aug 2021 07:46:22 GMT</pubDate>
+      <guid>https://trigger.it/101_1015</guid>
+      <link>https://trigger.it/101_1015</link>
+    </item>
+    <item>
       <title>Stranieri residenti - Bilancio</title>
       <pubDate>Fri, 30 Jul 2021 12:50:02 GMT</pubDate>
       <guid>https://trigger.it/29_316</guid>
@@ -93,42 +105,6 @@
       <pubDate>Thu, 29 Jul 2021 10:13:41 GMT</pubDate>
       <guid>https://trigger.it/155_358</guid>
       <link>https://trigger.it/155_358</link>
-    </item>
-    <item>
-      <title>Clima di fiducia delle imprese</title>
-      <pubDate>Wed, 28 Jul 2021 10:12:47 GMT</pubDate>
-      <guid>https://trigger.it/6_64</guid>
-      <link>https://trigger.it/6_64</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese servizi</title>
-      <pubDate>Wed, 28 Jul 2021 10:12:42 GMT</pubDate>
-      <guid>https://trigger.it/117_262</guid>
-      <link>https://trigger.it/117_262</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese del commercio</title>
-      <pubDate>Wed, 28 Jul 2021 10:11:41 GMT</pubDate>
-      <guid>https://trigger.it/117_266</guid>
-      <link>https://trigger.it/117_266</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese costruzioni</title>
-      <pubDate>Wed, 28 Jul 2021 10:11:35 GMT</pubDate>
-      <guid>https://trigger.it/111_40</guid>
-      <link>https://trigger.it/111_40</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese manifatturiere</title>
-      <pubDate>Wed, 28 Jul 2021 10:10:07 GMT</pubDate>
-      <guid>https://trigger.it/111_263</guid>
-      <link>https://trigger.it/111_263</link>
-    </item>
-    <item>
-      <title>Fiducia dei consumatori</title>
-      <pubDate>Wed, 28 Jul 2021 10:09:26 GMT</pubDate>
-      <guid>https://trigger.it/30_264</guid>
-      <link>https://trigger.it/30_264</link>
     </item>
   </channel>
 </rss>
