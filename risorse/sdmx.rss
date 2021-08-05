@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indice del valore delle vendite del commercio fisso al dettaglio - dati mensili</title>
+      <pubDate>Wed, 04 Aug 2021 10:04:28 GMT</pubDate>
+      <guid>https://trigger.it/120_337</guid>
+      <link>https://trigger.it/120_337</link>
+    </item>
+    <item>
       <title>Cave e miniere</title>
       <pubDate>Mon, 02 Aug 2021 11:45:50 GMT</pubDate>
       <guid>https://trigger.it/9_951</guid>
@@ -15,48 +21,6 @@
       <pubDate>Mon, 02 Aug 2021 07:46:22 GMT</pubDate>
       <guid>https://trigger.it/101_1015</guid>
       <link>https://trigger.it/101_1015</link>
-    </item>
-    <item>
-      <title>Stranieri residenti - Bilancio</title>
-      <pubDate>Fri, 30 Jul 2021 12:50:02 GMT</pubDate>
-      <guid>https://trigger.it/29_316</guid>
-      <link>https://trigger.it/29_316</link>
-    </item>
-    <item>
-      <title>Stranieri residenti al 1° gennaio - Cittadinanza</title>
-      <pubDate>Fri, 30 Jul 2021 12:44:10 GMT</pubDate>
-      <guid>https://trigger.it/29_317</guid>
-      <link>https://trigger.it/29_317</link>
-    </item>
-    <item>
-      <title>Ipca - mensili dal 2001 (base 2015)</title>
-      <pubDate>Fri, 30 Jul 2021 11:33:45 GMT</pubDate>
-      <guid>https://trigger.it/168_760</guid>
-      <link>https://trigger.it/168_760</link>
-    </item>
-    <item>
-      <title>Nic - mensili dal 2016 (base 2015)</title>
-      <pubDate>Fri, 30 Jul 2021 11:31:12 GMT</pubDate>
-      <guid>https://trigger.it/167_744</guid>
-      <link>https://trigger.it/167_744</link>
-    </item>
-    <item>
-      <title>Popolazione residente  - bilancio</title>
-      <pubDate>Fri, 30 Jul 2021 11:03:12 GMT</pubDate>
-      <guid>https://trigger.it/22_315</guid>
-      <link>https://trigger.it/22_315</link>
-    </item>
-    <item>
-      <title>Conto economico delle risorse e degli impieghi  e contributi alla crescita del Pil</title>
-      <pubDate>Fri, 30 Jul 2021 10:41:40 GMT</pubDate>
-      <guid>https://trigger.it/163_156</guid>
-      <link>https://trigger.it/163_156</link>
-    </item>
-    <item>
-      <title>Fitosanitari</title>
-      <pubDate>Fri, 30 Jul 2021 04:40:42 GMT</pubDate>
-      <guid>https://trigger.it/101_22</guid>
-      <link>https://trigger.it/101_22</link>
     </item>
   </channel>
 </rss>
