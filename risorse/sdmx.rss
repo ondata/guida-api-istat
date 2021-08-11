@@ -5,16 +5,34 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Retribuzioni lorde - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Tue, 10 Aug 2021 10:01:38 GMT</pubDate>
+      <guid>https://trigger.it/535_194</guid>
+      <link>https://trigger.it/535_194</link>
+    </item>
+    <item>
+      <title>Ore lavorate - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Tue, 10 Aug 2021 10:01:32 GMT</pubDate>
+      <guid>https://trigger.it/534_49</guid>
+      <link>https://trigger.it/534_49</link>
+    </item>
+    <item>
+      <title>Posizioni lavorative - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Tue, 10 Aug 2021 10:00:57 GMT</pubDate>
+      <guid>https://trigger.it/534_50</guid>
+      <link>https://trigger.it/534_50</link>
+    </item>
+    <item>
+      <title>Imprese con almeno 500 dipendenti</title>
+      <pubDate>Tue, 10 Aug 2021 10:00:40 GMT</pubDate>
+      <guid>https://trigger.it/536_193</guid>
+      <link>https://trigger.it/536_193</link>
+    </item>
+    <item>
       <title>Indice della produzione industriale</title>
       <pubDate>Fri, 06 Aug 2021 10:01:34 GMT</pubDate>
       <guid>https://trigger.it/115_333</guid>
       <link>https://trigger.it/115_333</link>
-    </item>
-    <item>
-      <title>Latte e prodotti lattiero caseari</title>
-      <pubDate>Thu, 05 Aug 2021 06:10:43 GMT</pubDate>
-      <guid>https://trigger.it/101_959</guid>
-      <link>https://trigger.it/101_959</link>
     </item>
   </channel>
 </rss>
