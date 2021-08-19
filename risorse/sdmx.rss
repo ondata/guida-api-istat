@@ -5,16 +5,10 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
-      <title>Indice dei prezzi all'importazione - dati mensili</title>
-      <pubDate>Thu, 12 Aug 2021 12:01:26 GMT</pubDate>
-      <guid>https://trigger.it/143_222</guid>
-      <link>https://trigger.it/143_222</link>
-    </item>
-    <item>
-      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
-      <pubDate>Thu, 12 Aug 2021 03:17:37 GMT</pubDate>
-      <guid>https://trigger.it/139_176</guid>
-      <link>https://trigger.it/139_176</link>
+      <title>Coltivazioni</title>
+      <pubDate>Wed, 18 Aug 2021 04:05:33 GMT</pubDate>
+      <guid>https://trigger.it/101_1015</guid>
+      <link>https://trigger.it/101_1015</link>
     </item>
   </channel>
 </rss>
