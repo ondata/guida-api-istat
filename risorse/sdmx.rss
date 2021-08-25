@@ -5,10 +5,10 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
-      <title>Coltivazioni</title>
-      <pubDate>Wed, 18 Aug 2021 04:05:33 GMT</pubDate>
-      <guid>https://trigger.it/101_1015</guid>
-      <link>https://trigger.it/101_1015</link>
+      <title>Macellazioni</title>
+      <pubDate>Tue, 24 Aug 2021 12:08:32 GMT</pubDate>
+      <guid>https://trigger.it/101_1033</guid>
+      <link>https://trigger.it/101_1033</link>
     </item>
   </channel>
 </rss>
