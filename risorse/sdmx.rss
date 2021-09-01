@@ -5,6 +5,78 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Prezzi alla produzione dei servizi</title>
+      <pubDate>Tue, 31 Aug 2021 12:12:44 GMT</pubDate>
+      <guid>https://trigger.it/145_376</guid>
+      <link>https://trigger.it/145_376</link>
+    </item>
+    <item>
+      <title>Prezzi alla produzione dell'industria</title>
+      <pubDate>Tue, 31 Aug 2021 12:09:51 GMT</pubDate>
+      <guid>https://trigger.it/145_360</guid>
+      <link>https://trigger.it/145_360</link>
+    </item>
+    <item>
+      <title>Indici dei costi di costruzione - dati mensili</title>
+      <pubDate>Tue, 31 Aug 2021 12:07:53 GMT</pubDate>
+      <guid>https://trigger.it/145_361</guid>
+      <link>https://trigger.it/145_361</link>
+    </item>
+    <item>
+      <title>Ipca - mensili dal 2001 (base 2015)</title>
+      <pubDate>Tue, 31 Aug 2021 11:21:25 GMT</pubDate>
+      <guid>https://trigger.it/168_760</guid>
+      <link>https://trigger.it/168_760</link>
+    </item>
+    <item>
+      <title>Nic - mensili dal 2016 (base 2015)</title>
+      <pubDate>Tue, 31 Aug 2021 11:17:15 GMT</pubDate>
+      <guid>https://trigger.it/167_744</guid>
+      <link>https://trigger.it/167_744</link>
+    </item>
+    <item>
+      <title>Tensione contrattuale</title>
+      <pubDate>Tue, 31 Aug 2021 10:28:10 GMT</pubDate>
+      <guid>https://trigger.it/149_319</guid>
+      <link>https://trigger.it/149_319</link>
+    </item>
+    <item>
+      <title>Retribuzioni contrattuali per tipo di contratto</title>
+      <pubDate>Tue, 31 Aug 2021 10:27:26 GMT</pubDate>
+      <guid>https://trigger.it/155_318</guid>
+      <link>https://trigger.it/155_318</link>
+    </item>
+    <item>
+      <title>Retribuzioni contrattuali per settore economico (Ateco)</title>
+      <pubDate>Tue, 31 Aug 2021 10:27:20 GMT</pubDate>
+      <guid>https://trigger.it/155_358</guid>
+      <link>https://trigger.it/155_358</link>
+    </item>
+    <item>
+      <title>Valore aggiunto, Redditi da lavoro, Investimenti fissi lordi, Spesa per consumi finali famiglie, Costi e margini</title>
+      <pubDate>Tue, 31 Aug 2021 10:06:43 GMT</pubDate>
+      <guid>https://trigger.it/163_24</guid>
+      <link>https://trigger.it/163_24</link>
+    </item>
+    <item>
+      <title>Occupazione per branca di attività</title>
+      <pubDate>Tue, 31 Aug 2021 10:06:28 GMT</pubDate>
+      <guid>https://trigger.it/163_88</guid>
+      <link>https://trigger.it/163_88</link>
+    </item>
+    <item>
+      <title>Conto economico delle risorse e degli impieghi  e contributi alla crescita del Pil</title>
+      <pubDate>Tue, 31 Aug 2021 10:05:12 GMT</pubDate>
+      <guid>https://trigger.it/163_156</guid>
+      <link>https://trigger.it/163_156</link>
+    </item>
+    <item>
+      <title>Principali aggregati del Prodotto interno lordo (milioni di euro)</title>
+      <pubDate>Tue, 31 Aug 2021 10:04:59 GMT</pubDate>
+      <guid>https://trigger.it/163_184</guid>
+      <link>https://trigger.it/163_184</link>
+    </item>
+    <item>
       <title>Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi</title>
       <pubDate>Mon, 30 Aug 2021 12:31:26 GMT</pubDate>
       <guid>https://trigger.it/122_54</guid>
@@ -57,12 +129,6 @@
       <pubDate>Fri, 27 Aug 2021 10:08:22 GMT</pubDate>
       <guid>https://trigger.it/30_264</guid>
       <link>https://trigger.it/30_264</link>
-    </item>
-    <item>
-      <title>Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili</title>
-      <pubDate>Thu, 26 Aug 2021 10:14:29 GMT</pubDate>
-      <guid>https://trigger.it/114_191</guid>
-      <link>https://trigger.it/114_191</link>
     </item>
   </channel>
 </rss>
