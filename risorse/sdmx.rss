@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indice del fatturato dei servizi</title>
+      <pubDate>Wed, 01 Sep 2021 11:03:15 GMT</pubDate>
+      <guid>https://trigger.it/119_367</guid>
+      <link>https://trigger.it/119_367</link>
+    </item>
+    <item>
       <title>Prezzi alla produzione dei servizi</title>
       <pubDate>Tue, 31 Aug 2021 12:12:44 GMT</pubDate>
       <guid>https://trigger.it/145_376</guid>
@@ -93,42 +99,6 @@
       <pubDate>Mon, 30 Aug 2021 10:48:33 GMT</pubDate>
       <guid>https://trigger.it/124_730</guid>
       <link>https://trigger.it/124_730</link>
-    </item>
-    <item>
-      <title>Clima di fiducia delle imprese</title>
-      <pubDate>Fri, 27 Aug 2021 10:11:49 GMT</pubDate>
-      <guid>https://trigger.it/6_64</guid>
-      <link>https://trigger.it/6_64</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese servizi</title>
-      <pubDate>Fri, 27 Aug 2021 10:11:44 GMT</pubDate>
-      <guid>https://trigger.it/117_262</guid>
-      <link>https://trigger.it/117_262</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese costruzioni</title>
-      <pubDate>Fri, 27 Aug 2021 10:10:46 GMT</pubDate>
-      <guid>https://trigger.it/111_40</guid>
-      <link>https://trigger.it/111_40</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese del commercio</title>
-      <pubDate>Fri, 27 Aug 2021 10:10:39 GMT</pubDate>
-      <guid>https://trigger.it/117_266</guid>
-      <link>https://trigger.it/117_266</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese manifatturiere</title>
-      <pubDate>Fri, 27 Aug 2021 10:09:09 GMT</pubDate>
-      <guid>https://trigger.it/111_263</guid>
-      <link>https://trigger.it/111_263</link>
-    </item>
-    <item>
-      <title>Fiducia dei consumatori</title>
-      <pubDate>Fri, 27 Aug 2021 10:08:22 GMT</pubDate>
-      <guid>https://trigger.it/30_264</guid>
-      <link>https://trigger.it/30_264</link>
     </item>
   </channel>
 </rss>
