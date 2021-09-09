@@ -5,10 +5,16 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
-      <title>Indice del fatturato dei servizi</title>
-      <pubDate>Wed, 01 Sep 2021 11:03:15 GMT</pubDate>
-      <guid>https://trigger.it/119_367</guid>
-      <link>https://trigger.it/119_367</link>
+      <title>Ipca - mensili dal 2001 (base 2015)</title>
+      <pubDate>Wed, 08 Sep 2021 10:57:33 GMT</pubDate>
+      <guid>https://trigger.it/168_760</guid>
+      <link>https://trigger.it/168_760</link>
+    </item>
+    <item>
+      <title>Indice del valore delle vendite del commercio fisso al dettaglio - dati mensili</title>
+      <pubDate>Wed, 08 Sep 2021 10:05:19 GMT</pubDate>
+      <guid>https://trigger.it/120_337</guid>
+      <link>https://trigger.it/120_337</link>
     </item>
   </channel>
 </rss>
