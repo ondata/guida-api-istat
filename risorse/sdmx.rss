@@ -5,6 +5,24 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Produzione industriale in quantità e valore</title>
+      <pubDate>Thu, 09 Sep 2021 12:47:07 GMT</pubDate>
+      <guid>https://trigger.it/115_168</guid>
+      <link>https://trigger.it/115_168</link>
+    </item>
+    <item>
+      <title>Macellazioni</title>
+      <pubDate>Thu, 09 Sep 2021 11:32:51 GMT</pubDate>
+      <guid>https://trigger.it/101_1033</guid>
+      <link>https://trigger.it/101_1033</link>
+    </item>
+    <item>
+      <title>Spese delle unità istituzionali centrali e locali</title>
+      <pubDate>Thu, 09 Sep 2021 02:38:46 GMT</pubDate>
+      <guid>https://trigger.it/124_732</guid>
+      <link>https://trigger.it/124_732</link>
+    </item>
+    <item>
       <title>Ipca - mensili dal 2001 (base 2015)</title>
       <pubDate>Wed, 08 Sep 2021 10:57:33 GMT</pubDate>
       <guid>https://trigger.it/168_760</guid>
