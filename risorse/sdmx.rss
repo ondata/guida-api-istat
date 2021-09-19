@@ -5,12 +5,6 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
-      <title>Ricerca e Sviluppo</title>
-      <pubDate>Thu, 16 Sep 2021 11:13:52 GMT</pubDate>
-      <guid>https://trigger.it/6_20</guid>
-      <link>https://trigger.it/6_20</link>
-    </item>
-    <item>
       <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
       <pubDate>Thu, 16 Sep 2021 10:22:01 GMT</pubDate>
       <guid>https://trigger.it/139_176</guid>
@@ -51,24 +45,6 @@
       <pubDate>Wed, 15 Sep 2021 10:14:43 GMT</pubDate>
       <guid>https://trigger.it/167_744</guid>
       <link>https://trigger.it/167_744</link>
-    </item>
-    <item>
-      <title>Retribuzioni lorde - Imprese con dipendenti</title>
-      <pubDate>Mon, 13 Sep 2021 10:09:23 GMT</pubDate>
-      <guid>https://trigger.it/155_374</guid>
-      <link>https://trigger.it/155_374</link>
-    </item>
-    <item>
-      <title>Posizioni lavorative alle dipendenze</title>
-      <pubDate>Mon, 13 Sep 2021 10:08:49 GMT</pubDate>
-      <guid>https://trigger.it/149_577</guid>
-      <link>https://trigger.it/149_577</link>
-    </item>
-    <item>
-      <title>Indicatori - Imprese con dipendenti</title>
-      <pubDate>Mon, 13 Sep 2021 10:08:43 GMT</pubDate>
-      <guid>https://trigger.it/154_373</guid>
-      <link>https://trigger.it/154_373</link>
     </item>
   </channel>
 </rss>
