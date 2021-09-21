@@ -5,6 +5,18 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Prezzi delle abitazioni</title>
+      <pubDate>Mon, 20 Sep 2021 12:03:42 GMT</pubDate>
+      <guid>https://trigger.it/143_497</guid>
+      <link>https://trigger.it/143_497</link>
+    </item>
+    <item>
+      <title>Macellazioni</title>
+      <pubDate>Mon, 20 Sep 2021 12:00:01 GMT</pubDate>
+      <guid>https://trigger.it/101_1033</guid>
+      <link>https://trigger.it/101_1033</link>
+    </item>
+    <item>
       <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
       <pubDate>Thu, 16 Sep 2021 10:22:01 GMT</pubDate>
       <guid>https://trigger.it/139_176</guid>
@@ -21,30 +33,6 @@
       <pubDate>Thu, 16 Sep 2021 02:48:01 GMT</pubDate>
       <guid>https://trigger.it/101_1015</guid>
       <link>https://trigger.it/101_1015</link>
-    </item>
-    <item>
-      <title>IPCA a tassazione costante - Dati mensili dal 2002 (base 2015=100)</title>
-      <pubDate>Wed, 15 Sep 2021 10:20:38 GMT</pubDate>
-      <guid>https://trigger.it/168_756</guid>
-      <link>https://trigger.it/168_756</link>
-    </item>
-    <item>
-      <title>Ipca - mensili dal 2001 (base 2015)</title>
-      <pubDate>Wed, 15 Sep 2021 10:18:04 GMT</pubDate>
-      <guid>https://trigger.it/168_760</guid>
-      <link>https://trigger.it/168_760</link>
-    </item>
-    <item>
-      <title>FOI - Dati mensili dal 2016</title>
-      <pubDate>Wed, 15 Sep 2021 10:16:16 GMT</pubDate>
-      <guid>https://trigger.it/169_745</guid>
-      <link>https://trigger.it/169_745</link>
-    </item>
-    <item>
-      <title>Nic - mensili dal 2016 (base 2015)</title>
-      <pubDate>Wed, 15 Sep 2021 10:14:43 GMT</pubDate>
-      <guid>https://trigger.it/167_744</guid>
-      <link>https://trigger.it/167_744</link>
     </item>
   </channel>
 </rss>
