@@ -5,16 +5,52 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili</title>
+      <pubDate>Wed, 22 Sep 2021 11:08:25 GMT</pubDate>
+      <guid>https://trigger.it/114_191</guid>
+      <link>https://trigger.it/114_191</link>
+    </item>
+    <item>
+      <title>Produzione e valore aggiunto, Redditi da lavoro, Imposte e contributi alla produzione, Spesa per consumi finali famiglie, Investimenti fissi lordi, Stock di capitale e ammortamenti, Valori pro capite</title>
+      <pubDate>Wed, 22 Sep 2021 10:25:27 GMT</pubDate>
+      <guid>https://trigger.it/92_504</guid>
+      <link>https://trigger.it/92_504</link>
+    </item>
+    <item>
+      <title>Sequenza dei conti</title>
+      <pubDate>Wed, 22 Sep 2021 10:24:00 GMT</pubDate>
+      <guid>https://trigger.it/92_505</guid>
+      <link>https://trigger.it/92_505</link>
+    </item>
+    <item>
+      <title>Principali aggregati del Prodotto interno lordo (milioni di euro)</title>
+      <pubDate>Wed, 22 Sep 2021 10:23:33 GMT</pubDate>
+      <guid>https://trigger.it/92_506</guid>
+      <link>https://trigger.it/92_506</link>
+    </item>
+    <item>
+      <title>Occupazione regolare e irregolare</title>
+      <pubDate>Wed, 22 Sep 2021 10:22:42 GMT</pubDate>
+      <guid>https://trigger.it/92_507</guid>
+      <link>https://trigger.it/92_507</link>
+    </item>
+    <item>
+      <title>Conto annuale per sottosettore</title>
+      <pubDate>Wed, 22 Sep 2021 10:08:38 GMT</pubDate>
+      <guid>https://trigger.it/95_815</guid>
+      <link>https://trigger.it/95_815</link>
+    </item>
+    <item>
+      <title>Macellazioni</title>
+      <pubDate>Wed, 22 Sep 2021 03:51:07 GMT</pubDate>
+      <guid>https://trigger.it/101_1033</guid>
+      <link>https://trigger.it/101_1033</link>
+    </item>
+    <item>
       <title>Prezzi delle abitazioni</title>
       <pubDate>Mon, 20 Sep 2021 12:03:42 GMT</pubDate>
       <guid>https://trigger.it/143_497</guid>
       <link>https://trigger.it/143_497</link>
-    </item>
-    <item>
-      <title>Macellazioni</title>
-      <pubDate>Mon, 20 Sep 2021 12:00:01 GMT</pubDate>
-      <guid>https://trigger.it/101_1033</guid>
-      <link>https://trigger.it/101_1033</link>
     </item>
   </channel>
 </rss>
