@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indice della produzione nelle costruzioni</title>
+      <pubDate>Thu, 23 Sep 2021 10:08:27 GMT</pubDate>
+      <guid>https://trigger.it/115_362</guid>
+      <link>https://trigger.it/115_362</link>
+    </item>
+    <item>
       <title>Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili</title>
       <pubDate>Wed, 22 Sep 2021 11:08:25 GMT</pubDate>
       <guid>https://trigger.it/114_191</guid>
