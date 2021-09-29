@@ -5,6 +5,24 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Tensione contrattuale</title>
+      <pubDate>Tue, 28 Sep 2021 10:02:57 GMT</pubDate>
+      <guid>https://trigger.it/149_319</guid>
+      <link>https://trigger.it/149_319</link>
+    </item>
+    <item>
+      <title>Retribuzioni contrattuali per tipo di contratto</title>
+      <pubDate>Tue, 28 Sep 2021 10:02:09 GMT</pubDate>
+      <guid>https://trigger.it/155_318</guid>
+      <link>https://trigger.it/155_318</link>
+    </item>
+    <item>
+      <title>Retribuzioni contrattuali per settore economico (Ateco)</title>
+      <pubDate>Tue, 28 Sep 2021 10:01:58 GMT</pubDate>
+      <guid>https://trigger.it/155_358</guid>
+      <link>https://trigger.it/155_358</link>
+    </item>
+    <item>
       <title>Indicatori  demografici</title>
       <pubDate>Mon, 27 Sep 2021 10:27:40 GMT</pubDate>
       <guid>https://trigger.it/22_293</guid>
@@ -93,12 +111,6 @@
       <pubDate>Fri, 24 Sep 2021 02:18:55 GMT</pubDate>
       <guid>https://trigger.it/92_505</guid>
       <link>https://trigger.it/92_505</link>
-    </item>
-    <item>
-      <title>Indice della produzione nelle costruzioni</title>
-      <pubDate>Thu, 23 Sep 2021 10:08:27 GMT</pubDate>
-      <guid>https://trigger.it/115_362</guid>
-      <link>https://trigger.it/115_362</link>
     </item>
   </channel>
 </rss>
