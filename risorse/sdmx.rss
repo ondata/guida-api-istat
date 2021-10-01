@@ -5,6 +5,24 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Ipca - mensili dal 2001 (base 2015)</title>
+      <pubDate>Thu, 30 Sep 2021 11:17:07 GMT</pubDate>
+      <guid>https://trigger.it/168_760</guid>
+      <link>https://trigger.it/168_760</link>
+    </item>
+    <item>
+      <title>Nic - mensili dal 2016 (base 2015)</title>
+      <pubDate>Thu, 30 Sep 2021 11:15:22 GMT</pubDate>
+      <guid>https://trigger.it/167_744</guid>
+      <link>https://trigger.it/167_744</link>
+    </item>
+    <item>
+      <title>Popolazione residente  - bilancio</title>
+      <pubDate>Thu, 30 Sep 2021 10:23:35 GMT</pubDate>
+      <guid>https://trigger.it/22_315</guid>
+      <link>https://trigger.it/22_315</link>
+    </item>
+    <item>
       <title>Prezzi alla produzione dell'industria</title>
       <pubDate>Wed, 29 Sep 2021 10:19:13 GMT</pubDate>
       <guid>https://trigger.it/145_360</guid>
