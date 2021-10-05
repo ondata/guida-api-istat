@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indice della produzione nelle costruzioni</title>
+      <pubDate>Mon, 04 Oct 2021 12:23:53 GMT</pubDate>
+      <guid>https://trigger.it/115_362</guid>
+      <link>https://trigger.it/115_362</link>
+    </item>
+    <item>
       <title>Indicatori di bilancio e dati sul personale delle unità istituzionali</title>
       <pubDate>Fri, 01 Oct 2021 10:30:25 GMT</pubDate>
       <guid>https://trigger.it/123_712</guid>
@@ -27,24 +33,6 @@
       <pubDate>Thu, 30 Sep 2021 10:23:35 GMT</pubDate>
       <guid>https://trigger.it/22_315</guid>
       <link>https://trigger.it/22_315</link>
-    </item>
-    <item>
-      <title>Prezzi alla produzione dell'industria</title>
-      <pubDate>Wed, 29 Sep 2021 10:19:13 GMT</pubDate>
-      <guid>https://trigger.it/145_360</guid>
-      <link>https://trigger.it/145_360</link>
-    </item>
-    <item>
-      <title>Indici dei costi di costruzione - dati mensili</title>
-      <pubDate>Wed, 29 Sep 2021 10:12:27 GMT</pubDate>
-      <guid>https://trigger.it/145_361</guid>
-      <link>https://trigger.it/145_361</link>
-    </item>
-    <item>
-      <title>Coltivazioni</title>
-      <pubDate>Wed, 29 Sep 2021 05:10:54 GMT</pubDate>
-      <guid>https://trigger.it/101_1015</guid>
-      <link>https://trigger.it/101_1015</link>
     </item>
   </channel>
 </rss>
