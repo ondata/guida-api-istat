@@ -5,6 +5,54 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Occupazione per branca di attività</title>
+      <pubDate>Tue, 05 Oct 2021 11:15:53 GMT</pubDate>
+      <guid>https://trigger.it/163_88</guid>
+      <link>https://trigger.it/163_88</link>
+    </item>
+    <item>
+      <title>Valore aggiunto, Redditi da lavoro, Investimenti fissi lordi, Spesa per consumi finali famiglie, Costi e margini</title>
+      <pubDate>Tue, 05 Oct 2021 11:15:33 GMT</pubDate>
+      <guid>https://trigger.it/163_24</guid>
+      <link>https://trigger.it/163_24</link>
+    </item>
+    <item>
+      <title>Principali aggregati del Prodotto interno lordo (milioni di euro)</title>
+      <pubDate>Tue, 05 Oct 2021 11:14:17 GMT</pubDate>
+      <guid>https://trigger.it/163_184</guid>
+      <link>https://trigger.it/163_184</link>
+    </item>
+    <item>
+      <title>Conto economico delle risorse e degli impieghi  e contributi alla crescita del Pil</title>
+      <pubDate>Tue, 05 Oct 2021 11:14:02 GMT</pubDate>
+      <guid>https://trigger.it/163_156</guid>
+      <link>https://trigger.it/163_156</link>
+    </item>
+    <item>
+      <title>Prezzi dei prodotti agricoli</title>
+      <pubDate>Tue, 05 Oct 2021 10:55:45 GMT</pubDate>
+      <guid>https://trigger.it/101_12</guid>
+      <link>https://trigger.it/101_12</link>
+    </item>
+    <item>
+      <title>Conto trimestrale</title>
+      <pubDate>Tue, 05 Oct 2021 10:28:15 GMT</pubDate>
+      <guid>https://trigger.it/95_42</guid>
+      <link>https://trigger.it/95_42</link>
+    </item>
+    <item>
+      <title>Occupazione per branca di attività</title>
+      <pubDate>Tue, 05 Oct 2021 10:02:03 GMT</pubDate>
+      <guid>https://trigger.it/94_805</guid>
+      <link>https://trigger.it/94_805</link>
+    </item>
+    <item>
+      <title>Latte e prodotti lattiero caseari</title>
+      <pubDate>Tue, 05 Oct 2021 03:41:31 GMT</pubDate>
+      <guid>https://trigger.it/101_959</guid>
+      <link>https://trigger.it/101_959</link>
+    </item>
+    <item>
       <title>Indice della produzione nelle costruzioni</title>
       <pubDate>Mon, 04 Oct 2021 12:23:53 GMT</pubDate>
       <guid>https://trigger.it/115_362</guid>
