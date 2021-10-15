@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Coltivazioni</title>
+      <pubDate>Thu, 14 Oct 2021 04:35:14 GMT</pubDate>
+      <guid>https://trigger.it/101_1015</guid>
+      <link>https://trigger.it/101_1015</link>
+    </item>
+    <item>
       <title>Indice della produzione industriale</title>
       <pubDate>Mon, 11 Oct 2021 10:01:34 GMT</pubDate>
       <guid>https://trigger.it/115_333</guid>
