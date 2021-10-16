@@ -5,6 +5,48 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indicatori  permessi di costruire</title>
+      <pubDate>Fri, 15 Oct 2021 12:09:04 GMT</pubDate>
+      <guid>https://trigger.it/111_111</guid>
+      <link>https://trigger.it/111_111</link>
+    </item>
+    <item>
+      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
+      <pubDate>Fri, 15 Oct 2021 11:23:11 GMT</pubDate>
+      <guid>https://trigger.it/139_176</guid>
+      <link>https://trigger.it/139_176</link>
+    </item>
+    <item>
+      <title>Indice dei prezzi all'importazione - dati mensili</title>
+      <pubDate>Fri, 15 Oct 2021 11:07:58 GMT</pubDate>
+      <guid>https://trigger.it/143_222</guid>
+      <link>https://trigger.it/143_222</link>
+    </item>
+    <item>
+      <title>IPCA a tassazione costante - Dati mensili dal 2002 (base 2015=100)</title>
+      <pubDate>Fri, 15 Oct 2021 10:46:33 GMT</pubDate>
+      <guid>https://trigger.it/168_756</guid>
+      <link>https://trigger.it/168_756</link>
+    </item>
+    <item>
+      <title>Ipca - mensili dal 2001 (base 2015)</title>
+      <pubDate>Fri, 15 Oct 2021 10:44:47 GMT</pubDate>
+      <guid>https://trigger.it/168_760</guid>
+      <link>https://trigger.it/168_760</link>
+    </item>
+    <item>
+      <title>FOI - Dati mensili dal 2016</title>
+      <pubDate>Fri, 15 Oct 2021 10:42:28 GMT</pubDate>
+      <guid>https://trigger.it/169_745</guid>
+      <link>https://trigger.it/169_745</link>
+    </item>
+    <item>
+      <title>Nic - mensili dal 2016 (base 2015)</title>
+      <pubDate>Fri, 15 Oct 2021 10:39:59 GMT</pubDate>
+      <guid>https://trigger.it/167_744</guid>
+      <link>https://trigger.it/167_744</link>
+    </item>
+    <item>
       <title>Coltivazioni</title>
       <pubDate>Thu, 14 Oct 2021 04:35:14 GMT</pubDate>
       <guid>https://trigger.it/101_1015</guid>
