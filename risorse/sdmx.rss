@@ -5,6 +5,18 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Pensionati</title>
+      <pubDate>Mon, 18 Oct 2021 05:44:03 GMT</pubDate>
+      <guid>https://trigger.it/46_812</guid>
+      <link>https://trigger.it/46_812</link>
+    </item>
+    <item>
+      <title>Pensioni</title>
+      <pubDate>Mon, 18 Oct 2021 05:41:36 GMT</pubDate>
+      <guid>https://trigger.it/46_813</guid>
+      <link>https://trigger.it/46_813</link>
+    </item>
+    <item>
       <title>Indicatori  permessi di costruire</title>
       <pubDate>Fri, 15 Oct 2021 12:09:04 GMT</pubDate>
       <guid>https://trigger.it/111_111</guid>
