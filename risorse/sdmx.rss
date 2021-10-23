@@ -5,6 +5,42 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Permessi di soggiorno dei cittadini non comunitari</title>
+      <pubDate>Fri, 22 Oct 2021 11:26:16 GMT</pubDate>
+      <guid>https://trigger.it/29_348</guid>
+      <link>https://trigger.it/29_348</link>
+    </item>
+    <item>
+      <title>Acquisizioni di cittadinanza</title>
+      <pubDate>Fri, 22 Oct 2021 11:24:57 GMT</pubDate>
+      <guid>https://trigger.it/29_849</guid>
+      <link>https://trigger.it/29_849</link>
+    </item>
+    <item>
+      <title>Retribuzioni lorde - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 22 Oct 2021 10:01:42 GMT</pubDate>
+      <guid>https://trigger.it/535_194</guid>
+      <link>https://trigger.it/535_194</link>
+    </item>
+    <item>
+      <title>Ore lavorate - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 22 Oct 2021 10:01:36 GMT</pubDate>
+      <guid>https://trigger.it/534_49</guid>
+      <link>https://trigger.it/534_49</link>
+    </item>
+    <item>
+      <title>Posizioni lavorative - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 22 Oct 2021 10:01:02 GMT</pubDate>
+      <guid>https://trigger.it/534_50</guid>
+      <link>https://trigger.it/534_50</link>
+    </item>
+    <item>
+      <title>Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 22 Oct 2021 10:00:50 GMT</pubDate>
+      <guid>https://trigger.it/536_193</guid>
+      <link>https://trigger.it/536_193</link>
+    </item>
+    <item>
       <title>Conti della Protezione sociale (milioni di euro)</title>
       <pubDate>Thu, 21 Oct 2021 12:53:50 GMT</pubDate>
       <guid>https://trigger.it/97_366</guid>
