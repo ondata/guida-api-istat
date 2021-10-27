@@ -5,16 +5,46 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
-      <title>Permessi di soggiorno dei cittadini non comunitari</title>
-      <pubDate>Fri, 22 Oct 2021 11:26:16 GMT</pubDate>
-      <guid>https://trigger.it/29_348</guid>
-      <link>https://trigger.it/29_348</link>
+      <title>Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi</title>
+      <pubDate>Tue, 26 Oct 2021 11:06:25 GMT</pubDate>
+      <guid>https://trigger.it/122_54</guid>
+      <link>https://trigger.it/122_54</link>
     </item>
     <item>
-      <title>Acquisizioni di cittadinanza</title>
-      <pubDate>Fri, 22 Oct 2021 11:24:57 GMT</pubDate>
-      <guid>https://trigger.it/29_849</guid>
-      <link>https://trigger.it/29_849</link>
+      <title>Trasporto aereo</title>
+      <pubDate>Tue, 26 Oct 2021 02:55:09 GMT</pubDate>
+      <guid>https://trigger.it/121_331</guid>
+      <link>https://trigger.it/121_331</link>
+    </item>
+    <item>
+      <title>Aspetti della vita quotidiana - Famiglie</title>
+      <pubDate>Tue, 26 Oct 2021 02:53:11 GMT</pubDate>
+      <guid>https://trigger.it/82_87</guid>
+      <link>https://trigger.it/82_87</link>
+    </item>
+    <item>
+      <title>Aspetti della vita quotidiana - Persone</title>
+      <pubDate>Tue, 26 Oct 2021 02:48:32 GMT</pubDate>
+      <guid>https://trigger.it/83_85</guid>
+      <link>https://trigger.it/83_85</link>
+    </item>
+    <item>
+      <title>Aspetti della vita quotidiana</title>
+      <pubDate>Tue, 26 Oct 2021 02:42:33 GMT</pubDate>
+      <guid>https://trigger.it/83_63</guid>
+      <link>https://trigger.it/83_63</link>
+    </item>
+    <item>
+      <title>Nic - medie annue dal 2016 (base 2015)</title>
+      <pubDate>Tue, 26 Oct 2021 02:32:54 GMT</pubDate>
+      <guid>https://trigger.it/167_742</guid>
+      <link>https://trigger.it/167_742</link>
+    </item>
+    <item>
+      <title>Nic - mensili dal 2016 (base 2015)</title>
+      <pubDate>Tue, 26 Oct 2021 02:31:35 GMT</pubDate>
+      <guid>https://trigger.it/167_744</guid>
+      <link>https://trigger.it/167_744</link>
     </item>
     <item>
       <title>Retribuzioni lorde - Imprese con almeno 500 dipendenti</title>
@@ -39,54 +69,6 @@
       <pubDate>Fri, 22 Oct 2021 10:00:50 GMT</pubDate>
       <guid>https://trigger.it/536_193</guid>
       <link>https://trigger.it/536_193</link>
-    </item>
-    <item>
-      <title>Conti della Protezione sociale (milioni di euro)</title>
-      <pubDate>Thu, 21 Oct 2021 12:53:50 GMT</pubDate>
-      <guid>https://trigger.it/97_366</guid>
-      <link>https://trigger.it/97_366</link>
-    </item>
-    <item>
-      <title>Uscite annuali per sottosettore</title>
-      <pubDate>Thu, 21 Oct 2021 12:09:39 GMT</pubDate>
-      <guid>https://trigger.it/95_94</guid>
-      <link>https://trigger.it/95_94</link>
-    </item>
-    <item>
-      <title>Occupazione per branca di attività</title>
-      <pubDate>Thu, 21 Oct 2021 12:09:34 GMT</pubDate>
-      <guid>https://trigger.it/94_805</guid>
-      <link>https://trigger.it/94_805</link>
-    </item>
-    <item>
-      <title>Conto annuale per sottosettore</title>
-      <pubDate>Thu, 21 Oct 2021 12:08:42 GMT</pubDate>
-      <guid>https://trigger.it/95_815</guid>
-      <link>https://trigger.it/95_815</link>
-    </item>
-    <item>
-      <title>Macellazioni</title>
-      <pubDate>Thu, 21 Oct 2021 12:03:53 GMT</pubDate>
-      <guid>https://trigger.it/101_1033</guid>
-      <link>https://trigger.it/101_1033</link>
-    </item>
-    <item>
-      <title>Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili</title>
-      <pubDate>Thu, 21 Oct 2021 10:08:48 GMT</pubDate>
-      <guid>https://trigger.it/114_191</guid>
-      <link>https://trigger.it/114_191</link>
-    </item>
-    <item>
-      <title>Atti notarili</title>
-      <pubDate>Thu, 21 Oct 2021 06:10:14 GMT</pubDate>
-      <guid>https://trigger.it/77_47</guid>
-      <link>https://trigger.it/77_47</link>
-    </item>
-    <item>
-      <title>Convenzioni contenute negli atti notarili</title>
-      <pubDate>Thu, 21 Oct 2021 06:08:09 GMT</pubDate>
-      <guid>https://trigger.it/77_68</guid>
-      <link>https://trigger.it/77_68</link>
     </item>
   </channel>
 </rss>
