@@ -5,6 +5,36 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Ipca - mensili dal 2001 (base 2015)</title>
+      <pubDate>Fri, 29 Oct 2021 11:28:51 GMT</pubDate>
+      <guid>https://trigger.it/168_760</guid>
+      <link>https://trigger.it/168_760</link>
+    </item>
+    <item>
+      <title>Nic - mensili dal 2016 (base 2015)</title>
+      <pubDate>Fri, 29 Oct 2021 11:27:43 GMT</pubDate>
+      <guid>https://trigger.it/167_744</guid>
+      <link>https://trigger.it/167_744</link>
+    </item>
+    <item>
+      <title>Popolazione residente  - bilancio</title>
+      <pubDate>Fri, 29 Oct 2021 10:27:33 GMT</pubDate>
+      <guid>https://trigger.it/22_315</guid>
+      <link>https://trigger.it/22_315</link>
+    </item>
+    <item>
+      <title>Conto economico delle risorse e degli impieghi  e contributi alla crescita del Pil</title>
+      <pubDate>Fri, 29 Oct 2021 10:04:37 GMT</pubDate>
+      <guid>https://trigger.it/163_156</guid>
+      <link>https://trigger.it/163_156</link>
+    </item>
+    <item>
+      <title>Unità locali e addetti</title>
+      <pubDate>Fri, 29 Oct 2021 03:44:44 GMT</pubDate>
+      <guid>https://trigger.it/183_285</guid>
+      <link>https://trigger.it/183_285</link>
+    </item>
+    <item>
       <title>Prezzi alla produzione dell'industria</title>
       <pubDate>Thu, 28 Oct 2021 12:17:59 GMT</pubDate>
       <guid>https://trigger.it/145_360</guid>
@@ -117,12 +147,6 @@
       <pubDate>Tue, 26 Oct 2021 02:32:54 GMT</pubDate>
       <guid>https://trigger.it/167_742</guid>
       <link>https://trigger.it/167_742</link>
-    </item>
-    <item>
-      <title>Nic - mensili dal 2016 (base 2015)</title>
-      <pubDate>Tue, 26 Oct 2021 02:31:35 GMT</pubDate>
-      <guid>https://trigger.it/167_744</guid>
-      <link>https://trigger.it/167_744</link>
     </item>
   </channel>
 </rss>
