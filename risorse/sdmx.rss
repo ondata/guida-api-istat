@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Risultati economici delle imprese</title>
+      <pubDate>Tue, 02 Nov 2021 10:08:57 GMT</pubDate>
+      <guid>https://trigger.it/161_267</guid>
+      <link>https://trigger.it/161_267</link>
+    </item>
+    <item>
       <title>Ipca - mensili dal 2001 (base 2015)</title>
       <pubDate>Fri, 29 Oct 2021 11:28:51 GMT</pubDate>
       <guid>https://trigger.it/168_760</guid>
@@ -27,78 +33,6 @@
       <pubDate>Fri, 29 Oct 2021 10:04:37 GMT</pubDate>
       <guid>https://trigger.it/163_156</guid>
       <link>https://trigger.it/163_156</link>
-    </item>
-    <item>
-      <title>Unità locali e addetti</title>
-      <pubDate>Fri, 29 Oct 2021 03:44:44 GMT</pubDate>
-      <guid>https://trigger.it/183_285</guid>
-      <link>https://trigger.it/183_285</link>
-    </item>
-    <item>
-      <title>Prezzi alla produzione dell'industria</title>
-      <pubDate>Thu, 28 Oct 2021 12:17:59 GMT</pubDate>
-      <guid>https://trigger.it/145_360</guid>
-      <link>https://trigger.it/145_360</link>
-    </item>
-    <item>
-      <title>Indici dei costi di costruzione - dati mensili</title>
-      <pubDate>Thu, 28 Oct 2021 12:04:24 GMT</pubDate>
-      <guid>https://trigger.it/145_361</guid>
-      <link>https://trigger.it/145_361</link>
-    </item>
-    <item>
-      <title>Tensione contrattuale</title>
-      <pubDate>Thu, 28 Oct 2021 11:19:44 GMT</pubDate>
-      <guid>https://trigger.it/149_319</guid>
-      <link>https://trigger.it/149_319</link>
-    </item>
-    <item>
-      <title>Retribuzioni contrattuali per tipo di contratto</title>
-      <pubDate>Thu, 28 Oct 2021 11:18:55 GMT</pubDate>
-      <guid>https://trigger.it/155_318</guid>
-      <link>https://trigger.it/155_318</link>
-    </item>
-    <item>
-      <title>Retribuzioni contrattuali per settore economico (Ateco)</title>
-      <pubDate>Thu, 28 Oct 2021 11:18:50 GMT</pubDate>
-      <guid>https://trigger.it/155_358</guid>
-      <link>https://trigger.it/155_358</link>
-    </item>
-    <item>
-      <title>Clima di fiducia delle imprese</title>
-      <pubDate>Thu, 28 Oct 2021 10:28:41 GMT</pubDate>
-      <guid>https://trigger.it/6_64</guid>
-      <link>https://trigger.it/6_64</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese del commercio</title>
-      <pubDate>Thu, 28 Oct 2021 10:26:53 GMT</pubDate>
-      <guid>https://trigger.it/117_266</guid>
-      <link>https://trigger.it/117_266</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese servizi</title>
-      <pubDate>Thu, 28 Oct 2021 10:26:00 GMT</pubDate>
-      <guid>https://trigger.it/117_262</guid>
-      <link>https://trigger.it/117_262</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese costruzioni</title>
-      <pubDate>Thu, 28 Oct 2021 10:25:17 GMT</pubDate>
-      <guid>https://trigger.it/111_40</guid>
-      <link>https://trigger.it/111_40</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese manifatturiere</title>
-      <pubDate>Thu, 28 Oct 2021 10:24:59 GMT</pubDate>
-      <guid>https://trigger.it/111_263</guid>
-      <link>https://trigger.it/111_263</link>
-    </item>
-    <item>
-      <title>Fiducia dei consumatori</title>
-      <pubDate>Thu, 28 Oct 2021 10:24:12 GMT</pubDate>
-      <guid>https://trigger.it/30_264</guid>
-      <link>https://trigger.it/30_264</link>
     </item>
   </channel>
 </rss>
