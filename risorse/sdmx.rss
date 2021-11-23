@@ -5,6 +5,30 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Entrate delle unità istituzionali centrali e locali</title>
+      <pubDate>Mon, 22 Nov 2021 12:32:39 GMT</pubDate>
+      <guid>https://trigger.it/124_730</guid>
+      <link>https://trigger.it/124_730</link>
+    </item>
+    <item>
+      <title>Entrate delle unità istituzionali locali (euro)</title>
+      <pubDate>Mon, 22 Nov 2021 12:31:56 GMT</pubDate>
+      <guid>https://trigger.it/124_231</guid>
+      <link>https://trigger.it/124_231</link>
+    </item>
+    <item>
+      <title>Spese delle unità istituzionali centrali e locali</title>
+      <pubDate>Mon, 22 Nov 2021 12:30:44 GMT</pubDate>
+      <guid>https://trigger.it/124_732</guid>
+      <link>https://trigger.it/124_732</link>
+    </item>
+    <item>
+      <title>Macellazioni</title>
+      <pubDate>Mon, 22 Nov 2021 03:34:07 GMT</pubDate>
+      <guid>https://trigger.it/101_1033</guid>
+      <link>https://trigger.it/101_1033</link>
+    </item>
+    <item>
       <title>Indice della produzione nelle costruzioni</title>
       <pubDate>Fri, 19 Nov 2021 11:09:00 GMT</pubDate>
       <guid>https://trigger.it/115_362</guid>
@@ -45,18 +69,6 @@
       <pubDate>Thu, 18 Nov 2021 11:50:31 GMT</pubDate>
       <guid>https://trigger.it/168_6</guid>
       <link>https://trigger.it/168_6</link>
-    </item>
-    <item>
-      <title>Indice dei prezzi all'importazione - dati mensili</title>
-      <pubDate>Wed, 17 Nov 2021 11:31:20 GMT</pubDate>
-      <guid>https://trigger.it/143_222</guid>
-      <link>https://trigger.it/143_222</link>
-    </item>
-    <item>
-      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
-      <pubDate>Wed, 17 Nov 2021 10:20:38 GMT</pubDate>
-      <guid>https://trigger.it/139_176</guid>
-      <link>https://trigger.it/139_176</link>
     </item>
   </channel>
 </rss>
