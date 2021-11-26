@@ -5,6 +5,30 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Tensione contrattuale</title>
+      <pubDate>Thu, 25 Nov 2021 11:57:54 GMT</pubDate>
+      <guid>https://trigger.it/149_319</guid>
+      <link>https://trigger.it/149_319</link>
+    </item>
+    <item>
+      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
+      <pubDate>Thu, 25 Nov 2021 10:09:04 GMT</pubDate>
+      <guid>https://trigger.it/139_176</guid>
+      <link>https://trigger.it/139_176</link>
+    </item>
+    <item>
+      <title>Trasporto marittimo</title>
+      <pubDate>Thu, 25 Nov 2021 09:05:04 GMT</pubDate>
+      <guid>https://trigger.it/121_393</guid>
+      <link>https://trigger.it/121_393</link>
+    </item>
+    <item>
+      <title>Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi</title>
+      <pubDate>Thu, 25 Nov 2021 05:24:25 GMT</pubDate>
+      <guid>https://trigger.it/122_54</guid>
+      <link>https://trigger.it/122_54</link>
+    </item>
+    <item>
       <title>Entrate delle unità istituzionali centrali e locali</title>
       <pubDate>Mon, 22 Nov 2021 12:32:39 GMT</pubDate>
       <guid>https://trigger.it/124_730</guid>
