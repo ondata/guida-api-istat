@@ -5,16 +5,34 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Prezzi alla produzione dei servizi</title>
+      <pubDate>Mon, 29 Nov 2021 10:12:17 GMT</pubDate>
+      <guid>https://trigger.it/145_376</guid>
+      <link>https://trigger.it/145_376</link>
+    </item>
+    <item>
+      <title>Indici dei costi di costruzione - dati mensili</title>
+      <pubDate>Mon, 29 Nov 2021 10:10:10 GMT</pubDate>
+      <guid>https://trigger.it/145_361</guid>
+      <link>https://trigger.it/145_361</link>
+    </item>
+    <item>
+      <title>Prezzi alla produzione dell'industria</title>
+      <pubDate>Mon, 29 Nov 2021 10:07:03 GMT</pubDate>
+      <guid>https://trigger.it/145_360</guid>
+      <link>https://trigger.it/145_360</link>
+    </item>
+    <item>
+      <title>Delitti denunciati dalle forze di polizia all’autorità giudiziaria</title>
+      <pubDate>Mon, 29 Nov 2021 04:45:10 GMT</pubDate>
+      <guid>https://trigger.it/73_67</guid>
+      <link>https://trigger.it/73_67</link>
+    </item>
+    <item>
       <title>Retribuzioni contrattuali per tipo di contratto</title>
       <pubDate>Fri, 26 Nov 2021 11:20:49 GMT</pubDate>
       <guid>https://trigger.it/155_318</guid>
       <link>https://trigger.it/155_318</link>
-    </item>
-    <item>
-      <title>Previsioni della popolazione  - Anni 2016-2065</title>
-      <pubDate>Fri, 26 Nov 2021 11:05:55 GMT</pubDate>
-      <guid>https://trigger.it/165_889</guid>
-      <link>https://trigger.it/165_889</link>
     </item>
     <item>
       <title>Tensione contrattuale</title>
