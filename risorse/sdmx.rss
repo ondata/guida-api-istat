@@ -5,58 +5,16 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Retribuzioni orarie  dei dipendenti del settore privato</title>
+      <pubDate>Sun, 05 Dec 2021 10:52:30 GMT</pubDate>
+      <guid>https://trigger.it/533_957</guid>
+      <link>https://trigger.it/533_957</link>
+    </item>
+    <item>
       <title>Coltivazioni</title>
       <pubDate>Thu, 02 Dec 2021 10:46:05 GMT</pubDate>
       <guid>https://trigger.it/101_1015</guid>
       <link>https://trigger.it/101_1015</link>
-    </item>
-    <item>
-      <title>Indice del fatturato dei servizi</title>
-      <pubDate>Tue, 30 Nov 2021 12:02:08 GMT</pubDate>
-      <guid>https://trigger.it/119_367</guid>
-      <link>https://trigger.it/119_367</link>
-    </item>
-    <item>
-      <title>Ipca - mensili dal 2001 (base 2015)</title>
-      <pubDate>Tue, 30 Nov 2021 11:11:00 GMT</pubDate>
-      <guid>https://trigger.it/168_760</guid>
-      <link>https://trigger.it/168_760</link>
-    </item>
-    <item>
-      <title>Nic - mensili dal 2016 (base 2015)</title>
-      <pubDate>Tue, 30 Nov 2021 11:09:45 GMT</pubDate>
-      <guid>https://trigger.it/167_744</guid>
-      <link>https://trigger.it/167_744</link>
-    </item>
-    <item>
-      <title>Valore aggiunto, Redditi da lavoro, Investimenti fissi lordi, Spesa per consumi finali famiglie, Costi e margini</title>
-      <pubDate>Tue, 30 Nov 2021 10:15:49 GMT</pubDate>
-      <guid>https://trigger.it/163_24</guid>
-      <link>https://trigger.it/163_24</link>
-    </item>
-    <item>
-      <title>Conto economico delle risorse e degli impieghi  e contributi alla crescita del Pil</title>
-      <pubDate>Tue, 30 Nov 2021 10:14:56 GMT</pubDate>
-      <guid>https://trigger.it/163_156</guid>
-      <link>https://trigger.it/163_156</link>
-    </item>
-    <item>
-      <title>Principali aggregati del Prodotto interno lordo (milioni di euro)</title>
-      <pubDate>Tue, 30 Nov 2021 10:14:24 GMT</pubDate>
-      <guid>https://trigger.it/163_184</guid>
-      <link>https://trigger.it/163_184</link>
-    </item>
-    <item>
-      <title>Occupazione per branca di attività</title>
-      <pubDate>Tue, 30 Nov 2021 10:14:13 GMT</pubDate>
-      <guid>https://trigger.it/163_88</guid>
-      <link>https://trigger.it/163_88</link>
-    </item>
-    <item>
-      <title>Segnalazioni relative a persone denunciate e arrestate/fermate dalle forze di polizia</title>
-      <pubDate>Tue, 30 Nov 2021 04:31:30 GMT</pubDate>
-      <guid>https://trigger.it/73_342</guid>
-      <link>https://trigger.it/73_342</link>
     </item>
   </channel>
 </rss>
