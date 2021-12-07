@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indice del valore delle vendite del commercio fisso al dettaglio - dati mensili</title>
+      <pubDate>Mon, 06 Dec 2021 02:13:09 GMT</pubDate>
+      <guid>https://trigger.it/120_337</guid>
+      <link>https://trigger.it/120_337</link>
+    </item>
+    <item>
       <title>Retribuzioni orarie  dei dipendenti del settore privato</title>
       <pubDate>Sun, 05 Dec 2021 10:52:30 GMT</pubDate>
       <guid>https://trigger.it/533_957</guid>
