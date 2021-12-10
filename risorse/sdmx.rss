@@ -5,6 +5,24 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Stranieri residenti - Bilancio</title>
+      <pubDate>Thu, 09 Dec 2021 11:25:57 GMT</pubDate>
+      <guid>https://trigger.it/29_316</guid>
+      <link>https://trigger.it/29_316</link>
+    </item>
+    <item>
+      <title>Popolazione residente  - bilancio</title>
+      <pubDate>Thu, 09 Dec 2021 11:11:40 GMT</pubDate>
+      <guid>https://trigger.it/22_315</guid>
+      <link>https://trigger.it/22_315</link>
+    </item>
+    <item>
+      <title>Indicatori  demografici</title>
+      <pubDate>Thu, 09 Dec 2021 09:59:14 GMT</pubDate>
+      <guid>https://trigger.it/22_293</guid>
+      <link>https://trigger.it/22_293</link>
+    </item>
+    <item>
       <title>Latte e prodotti lattiero caseari</title>
       <pubDate>Tue, 07 Dec 2021 09:33:23 GMT</pubDate>
       <guid>https://trigger.it/101_959</guid>
