@@ -13,7 +13,7 @@ mkdir -p "$folder"/../risorse
 URL="https://www.istat.it/js/rsssep.php"
 
 # leggi la risposta HTTP del sito
-code=$(curl -s -L -o /dev/null -w '%{http_code}' "$URL")
+code=$(curl -s -kL -o /dev/null -w '%{http_code}' "$URL")
 
 # se il sito è raggiungibile scarica i dati
 if [ $code -eq 200 ]; then
