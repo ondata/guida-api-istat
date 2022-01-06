@@ -5,6 +5,18 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Ipca - mensili dal 2001 (base 2015)</title>
+      <pubDate>Wed, 05 Jan 2022 11:13:49 GMT</pubDate>
+      <guid>https://trigger.it/168_760</guid>
+      <link>https://trigger.it/168_760</link>
+    </item>
+    <item>
+      <title>Nic - mensili dal 2016 (base 2015)</title>
+      <pubDate>Wed, 05 Jan 2022 11:11:59 GMT</pubDate>
+      <guid>https://trigger.it/167_744</guid>
+      <link>https://trigger.it/167_744</link>
+    </item>
+    <item>
       <title>Istituti di cura  - comuni</title>
       <pubDate>Mon, 03 Jan 2022 08:31:31 GMT</pubDate>
       <guid>https://trigger.it/43_994</guid>
