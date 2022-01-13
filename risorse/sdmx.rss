@@ -5,6 +5,24 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Spesa per viaggi in alloggi a pagamento</title>
+      <pubDate>Wed, 12 Jan 2022 10:17:40 GMT</pubDate>
+      <guid>https://trigger.it/68_265</guid>
+      <link>https://trigger.it/68_265</link>
+    </item>
+    <item>
+      <title>Interruzioni volontarie della gravidanza - Migrazione</title>
+      <pubDate>Wed, 12 Jan 2022 09:04:11 GMT</pubDate>
+      <guid>https://trigger.it/42_210</guid>
+      <link>https://trigger.it/42_210</link>
+    </item>
+    <item>
+      <title>Interruzioni volontarie della gravidanza - Caratteristiche della donna</title>
+      <pubDate>Wed, 12 Jan 2022 09:03:10 GMT</pubDate>
+      <guid>https://trigger.it/42_70</guid>
+      <link>https://trigger.it/42_70</link>
+    </item>
+    <item>
       <title>Ospedalizzazione per disturbi psichici rispetto al luogo di dimissione</title>
       <pubDate>Tue, 11 Jan 2022 11:04:37 GMT</pubDate>
       <guid>https://trigger.it/43_284</guid>
@@ -39,12 +57,6 @@
       <pubDate>Mon, 10 Jan 2022 09:47:04 GMT</pubDate>
       <guid>https://trigger.it/101_959</guid>
       <link>https://trigger.it/101_959</link>
-    </item>
-    <item>
-      <title>Conto trimestrale</title>
-      <pubDate>Fri, 07 Jan 2022 10:14:19 GMT</pubDate>
-      <guid>https://trigger.it/95_42</guid>
-      <link>https://trigger.it/95_42</link>
     </item>
   </channel>
 </rss>
