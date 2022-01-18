@@ -5,6 +5,66 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Foi - medie annue dal 2016 (base 2015)</title>
+      <pubDate>Mon, 17 Jan 2022 11:58:29 GMT</pubDate>
+      <guid>https://trigger.it/169_746</guid>
+      <link>https://trigger.it/169_746</link>
+    </item>
+    <item>
+      <title>Ipca - medie annue dal 2001 (base 2015)</title>
+      <pubDate>Mon, 17 Jan 2022 11:30:22 GMT</pubDate>
+      <guid>https://trigger.it/168_758</guid>
+      <link>https://trigger.it/168_758</link>
+    </item>
+    <item>
+      <title>IPCA a tassazione costante - Medie annue dal 2002 (base 2015=100)</title>
+      <pubDate>Mon, 17 Jan 2022 10:29:50 GMT</pubDate>
+      <guid>https://trigger.it/168_757</guid>
+      <link>https://trigger.it/168_757</link>
+    </item>
+    <item>
+      <title>IPCA a tassazione costante - Dati mensili dal 2002 (base 2015=100)</title>
+      <pubDate>Mon, 17 Jan 2022 10:21:31 GMT</pubDate>
+      <guid>https://trigger.it/168_756</guid>
+      <link>https://trigger.it/168_756</link>
+    </item>
+    <item>
+      <title>Ipca - mensili dal 2001 (base 2015)</title>
+      <pubDate>Mon, 17 Jan 2022 10:18:25 GMT</pubDate>
+      <guid>https://trigger.it/168_760</guid>
+      <link>https://trigger.it/168_760</link>
+    </item>
+    <item>
+      <title>FOI - Dati mensili dal 2016</title>
+      <pubDate>Mon, 17 Jan 2022 10:11:55 GMT</pubDate>
+      <guid>https://trigger.it/169_745</guid>
+      <link>https://trigger.it/169_745</link>
+    </item>
+    <item>
+      <title>Nic - mensili dal 2016 (base 2015)</title>
+      <pubDate>Mon, 17 Jan 2022 10:10:00 GMT</pubDate>
+      <guid>https://trigger.it/167_744</guid>
+      <link>https://trigger.it/167_744</link>
+    </item>
+    <item>
+      <title>Trasporto aereo</title>
+      <pubDate>Mon, 17 Jan 2022 04:52:37 GMT</pubDate>
+      <guid>https://trigger.it/121_331</guid>
+      <link>https://trigger.it/121_331</link>
+    </item>
+    <item>
+      <title>Nic - medie annue dal 2016 (base 2015)</title>
+      <pubDate>Mon, 17 Jan 2022 02:50:06 GMT</pubDate>
+      <guid>https://trigger.it/167_742</guid>
+      <link>https://trigger.it/167_742</link>
+    </item>
+    <item>
+      <title>Interruzioni volontarie della gravidanza - Caratteristiche della donna</title>
+      <pubDate>Mon, 17 Jan 2022 01:58:33 GMT</pubDate>
+      <guid>https://trigger.it/42_70</guid>
+      <link>https://trigger.it/42_70</link>
+    </item>
+    <item>
       <title>Indicatori  permessi di costruire</title>
       <pubDate>Fri, 14 Jan 2022 10:12:07 GMT</pubDate>
       <guid>https://trigger.it/111_111</guid>
@@ -21,24 +81,6 @@
       <pubDate>Thu, 13 Jan 2022 08:43:19 GMT</pubDate>
       <guid>https://trigger.it/123_713</guid>
       <link>https://trigger.it/123_713</link>
-    </item>
-    <item>
-      <title>Spesa per viaggi in alloggi a pagamento</title>
-      <pubDate>Wed, 12 Jan 2022 10:17:40 GMT</pubDate>
-      <guid>https://trigger.it/68_265</guid>
-      <link>https://trigger.it/68_265</link>
-    </item>
-    <item>
-      <title>Interruzioni volontarie della gravidanza - Migrazione</title>
-      <pubDate>Wed, 12 Jan 2022 09:04:11 GMT</pubDate>
-      <guid>https://trigger.it/42_210</guid>
-      <link>https://trigger.it/42_210</link>
-    </item>
-    <item>
-      <title>Interruzioni volontarie della gravidanza - Caratteristiche della donna</title>
-      <pubDate>Wed, 12 Jan 2022 09:03:10 GMT</pubDate>
-      <guid>https://trigger.it/42_70</guid>
-      <link>https://trigger.it/42_70</link>
     </item>
   </channel>
 </rss>
