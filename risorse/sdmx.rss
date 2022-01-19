@@ -5,6 +5,30 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Interruzioni volontarie della gravidanza - Caratteristiche della donna</title>
+      <pubDate>Tue, 18 Jan 2022 10:36:35 GMT</pubDate>
+      <guid>https://trigger.it/42_70</guid>
+      <link>https://trigger.it/42_70</link>
+    </item>
+    <item>
+      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
+      <pubDate>Tue, 18 Jan 2022 10:14:30 GMT</pubDate>
+      <guid>https://trigger.it/139_176</guid>
+      <link>https://trigger.it/139_176</link>
+    </item>
+    <item>
+      <title>Indice dei prezzi all'importazione - dati mensili</title>
+      <pubDate>Tue, 18 Jan 2022 10:12:30 GMT</pubDate>
+      <guid>https://trigger.it/143_222</guid>
+      <link>https://trigger.it/143_222</link>
+    </item>
+    <item>
+      <title>Trasporto aereo</title>
+      <pubDate>Tue, 18 Jan 2022 02:50:54 GMT</pubDate>
+      <guid>https://trigger.it/121_331</guid>
+      <link>https://trigger.it/121_331</link>
+    </item>
+    <item>
       <title>Foi - medie annue dal 2016 (base 2015)</title>
       <pubDate>Mon, 17 Jan 2022 11:58:29 GMT</pubDate>
       <guid>https://trigger.it/169_746</guid>
@@ -47,40 +71,16 @@
       <link>https://trigger.it/167_744</link>
     </item>
     <item>
-      <title>Trasporto aereo</title>
-      <pubDate>Mon, 17 Jan 2022 04:52:37 GMT</pubDate>
-      <guid>https://trigger.it/121_331</guid>
-      <link>https://trigger.it/121_331</link>
-    </item>
-    <item>
       <title>Nic - medie annue dal 2016 (base 2015)</title>
       <pubDate>Mon, 17 Jan 2022 02:50:06 GMT</pubDate>
       <guid>https://trigger.it/167_742</guid>
       <link>https://trigger.it/167_742</link>
     </item>
     <item>
-      <title>Interruzioni volontarie della gravidanza - Caratteristiche della donna</title>
-      <pubDate>Mon, 17 Jan 2022 01:58:33 GMT</pubDate>
-      <guid>https://trigger.it/42_70</guid>
-      <link>https://trigger.it/42_70</link>
-    </item>
-    <item>
       <title>Indicatori  permessi di costruire</title>
       <pubDate>Fri, 14 Jan 2022 10:12:07 GMT</pubDate>
       <guid>https://trigger.it/111_111</guid>
       <link>https://trigger.it/111_111</link>
-    </item>
-    <item>
-      <title>Indice della produzione industriale</title>
-      <pubDate>Thu, 13 Jan 2022 10:04:17 GMT</pubDate>
-      <guid>https://trigger.it/115_333</guid>
-      <link>https://trigger.it/115_333</link>
-    </item>
-    <item>
-      <title>Unità istituzionali</title>
-      <pubDate>Thu, 13 Jan 2022 08:43:19 GMT</pubDate>
-      <guid>https://trigger.it/123_713</guid>
-      <link>https://trigger.it/123_713</link>
     </item>
   </channel>
 </rss>
