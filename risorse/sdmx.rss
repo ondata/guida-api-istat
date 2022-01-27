@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
+      <pubDate>Wed, 26 Jan 2022 10:19:46 GMT</pubDate>
+      <guid>https://trigger.it/139_176</guid>
+      <link>https://trigger.it/139_176</link>
+    </item>
+    <item>
       <title>Stranieri residenti al 1° gennaio - Cittadinanza</title>
       <pubDate>Tue, 25 Jan 2022 09:50:12 GMT</pubDate>
       <guid>https://trigger.it/29_317</guid>
