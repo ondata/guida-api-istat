@@ -5,6 +5,18 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili</title>
+      <pubDate>Thu, 27 Jan 2022 10:03:03 GMT</pubDate>
+      <guid>https://trigger.it/114_191</guid>
+      <link>https://trigger.it/114_191</link>
+    </item>
+    <item>
+      <title>Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi</title>
+      <pubDate>Thu, 27 Jan 2022 05:06:24 GMT</pubDate>
+      <guid>https://trigger.it/122_54</guid>
+      <link>https://trigger.it/122_54</link>
+    </item>
+    <item>
       <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
       <pubDate>Wed, 26 Jan 2022 10:19:46 GMT</pubDate>
       <guid>https://trigger.it/139_176</guid>
