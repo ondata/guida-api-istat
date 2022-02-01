@@ -5,6 +5,42 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Tensione contrattuale</title>
+      <pubDate>Mon, 31 Jan 2022 12:13:57 GMT</pubDate>
+      <guid>https://trigger.it/149_319</guid>
+      <link>https://trigger.it/149_319</link>
+    </item>
+    <item>
+      <title>Retribuzioni contrattuali per tipo di contratto</title>
+      <pubDate>Mon, 31 Jan 2022 12:13:08 GMT</pubDate>
+      <guid>https://trigger.it/155_318</guid>
+      <link>https://trigger.it/155_318</link>
+    </item>
+    <item>
+      <title>Retribuzioni contrattuali nella Pubblica amministrazione</title>
+      <pubDate>Mon, 31 Jan 2022 12:12:36 GMT</pubDate>
+      <guid>https://trigger.it/155_274</guid>
+      <link>https://trigger.it/155_274</link>
+    </item>
+    <item>
+      <title>Retribuzioni contrattuali per settore economico (Ateco)</title>
+      <pubDate>Mon, 31 Jan 2022 12:12:27 GMT</pubDate>
+      <guid>https://trigger.it/155_358</guid>
+      <link>https://trigger.it/155_358</link>
+    </item>
+    <item>
+      <title>Conto economico delle risorse e degli impieghi  e contributi alla crescita del Pil</title>
+      <pubDate>Mon, 31 Jan 2022 11:09:09 GMT</pubDate>
+      <guid>https://trigger.it/163_156</guid>
+      <link>https://trigger.it/163_156</link>
+    </item>
+    <item>
+      <title>Consistenze degli allevamenti</title>
+      <pubDate>Mon, 31 Jan 2022 05:39:05 GMT</pubDate>
+      <guid>https://trigger.it/101_961</guid>
+      <link>https://trigger.it/101_961</link>
+    </item>
+    <item>
       <title>Prezzi alla produzione dell'industria</title>
       <pubDate>Fri, 28 Jan 2022 11:08:25 GMT</pubDate>
       <guid>https://trigger.it/145_360</guid>
@@ -93,12 +129,6 @@
       <pubDate>Thu, 27 Jan 2022 05:06:24 GMT</pubDate>
       <guid>https://trigger.it/122_54</guid>
       <link>https://trigger.it/122_54</link>
-    </item>
-    <item>
-      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
-      <pubDate>Wed, 26 Jan 2022 10:19:46 GMT</pubDate>
-      <guid>https://trigger.it/139_176</guid>
-      <link>https://trigger.it/139_176</link>
     </item>
   </channel>
 </rss>
