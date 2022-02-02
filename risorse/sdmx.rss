@@ -5,6 +5,18 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Migrazioni (Trasferimenti di residenza)</title>
+      <pubDate>Tue, 01 Feb 2022 11:03:13 GMT</pubDate>
+      <guid>https://trigger.it/28_185</guid>
+      <link>https://trigger.it/28_185</link>
+    </item>
+    <item>
+      <title>Coltivazioni</title>
+      <pubDate>Tue, 01 Feb 2022 10:21:31 GMT</pubDate>
+      <guid>https://trigger.it/101_1015</guid>
+      <link>https://trigger.it/101_1015</link>
+    </item>
+    <item>
       <title>Tensione contrattuale</title>
       <pubDate>Mon, 31 Jan 2022 12:13:57 GMT</pubDate>
       <guid>https://trigger.it/149_319</guid>
@@ -117,18 +129,6 @@
       <pubDate>Fri, 28 Jan 2022 09:59:39 GMT</pubDate>
       <guid>https://trigger.it/536_193</guid>
       <link>https://trigger.it/536_193</link>
-    </item>
-    <item>
-      <title>Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili</title>
-      <pubDate>Thu, 27 Jan 2022 10:03:03 GMT</pubDate>
-      <guid>https://trigger.it/114_191</guid>
-      <link>https://trigger.it/114_191</link>
-    </item>
-    <item>
-      <title>Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi</title>
-      <pubDate>Thu, 27 Jan 2022 05:06:24 GMT</pubDate>
-      <guid>https://trigger.it/122_54</guid>
-      <link>https://trigger.it/122_54</link>
     </item>
   </channel>
 </rss>
