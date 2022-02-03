@@ -5,16 +5,34 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Coltivazioni</title>
+      <pubDate>Wed, 02 Feb 2022 11:46:18 GMT</pubDate>
+      <guid>https://trigger.it/101_1015</guid>
+      <link>https://trigger.it/101_1015</link>
+    </item>
+    <item>
+      <title>Ipca - mensili dal 2001 (base 2015)</title>
+      <pubDate>Wed, 02 Feb 2022 11:22:01 GMT</pubDate>
+      <guid>https://trigger.it/168_760</guid>
+      <link>https://trigger.it/168_760</link>
+    </item>
+    <item>
+      <title>Nic - mensili dal 2016 (base 2015)</title>
+      <pubDate>Wed, 02 Feb 2022 11:20:38 GMT</pubDate>
+      <guid>https://trigger.it/167_744</guid>
+      <link>https://trigger.it/167_744</link>
+    </item>
+    <item>
+      <title>Interruzioni volontarie della gravidanza - Caratteristiche della donna</title>
+      <pubDate>Wed, 02 Feb 2022 02:33:33 GMT</pubDate>
+      <guid>https://trigger.it/42_70</guid>
+      <link>https://trigger.it/42_70</link>
+    </item>
+    <item>
       <title>Migrazioni (Trasferimenti di residenza)</title>
       <pubDate>Tue, 01 Feb 2022 11:03:13 GMT</pubDate>
       <guid>https://trigger.it/28_185</guid>
       <link>https://trigger.it/28_185</link>
-    </item>
-    <item>
-      <title>Coltivazioni</title>
-      <pubDate>Tue, 01 Feb 2022 10:21:31 GMT</pubDate>
-      <guid>https://trigger.it/101_1015</guid>
-      <link>https://trigger.it/101_1015</link>
     </item>
     <item>
       <title>Tensione contrattuale</title>
@@ -51,84 +69,6 @@
       <pubDate>Mon, 31 Jan 2022 05:39:05 GMT</pubDate>
       <guid>https://trigger.it/101_961</guid>
       <link>https://trigger.it/101_961</link>
-    </item>
-    <item>
-      <title>Prezzi alla produzione dell'industria</title>
-      <pubDate>Fri, 28 Jan 2022 11:08:25 GMT</pubDate>
-      <guid>https://trigger.it/145_360</guid>
-      <link>https://trigger.it/145_360</link>
-    </item>
-    <item>
-      <title>Indici dei costi di costruzione - dati mensili</title>
-      <pubDate>Fri, 28 Jan 2022 11:02:26 GMT</pubDate>
-      <guid>https://trigger.it/145_361</guid>
-      <link>https://trigger.it/145_361</link>
-    </item>
-    <item>
-      <title>Popolazione residente  - bilancio</title>
-      <pubDate>Fri, 28 Jan 2022 10:41:57 GMT</pubDate>
-      <guid>https://trigger.it/22_315</guid>
-      <link>https://trigger.it/22_315</link>
-    </item>
-    <item>
-      <title>Clima di fiducia delle imprese</title>
-      <pubDate>Fri, 28 Jan 2022 10:11:22 GMT</pubDate>
-      <guid>https://trigger.it/6_64</guid>
-      <link>https://trigger.it/6_64</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese del commercio</title>
-      <pubDate>Fri, 28 Jan 2022 10:11:18 GMT</pubDate>
-      <guid>https://trigger.it/117_266</guid>
-      <link>https://trigger.it/117_266</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese servizi</title>
-      <pubDate>Fri, 28 Jan 2022 10:10:19 GMT</pubDate>
-      <guid>https://trigger.it/117_262</guid>
-      <link>https://trigger.it/117_262</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese costruzioni</title>
-      <pubDate>Fri, 28 Jan 2022 10:10:13 GMT</pubDate>
-      <guid>https://trigger.it/111_40</guid>
-      <link>https://trigger.it/111_40</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese manifatturiere</title>
-      <pubDate>Fri, 28 Jan 2022 10:08:52 GMT</pubDate>
-      <guid>https://trigger.it/111_263</guid>
-      <link>https://trigger.it/111_263</link>
-    </item>
-    <item>
-      <title>Fiducia dei consumatori</title>
-      <pubDate>Fri, 28 Jan 2022 10:08:02 GMT</pubDate>
-      <guid>https://trigger.it/30_264</guid>
-      <link>https://trigger.it/30_264</link>
-    </item>
-    <item>
-      <title>Retribuzioni lorde - Imprese con almeno 500 dipendenti</title>
-      <pubDate>Fri, 28 Jan 2022 10:00:29 GMT</pubDate>
-      <guid>https://trigger.it/535_194</guid>
-      <link>https://trigger.it/535_194</link>
-    </item>
-    <item>
-      <title>Ore lavorate - Imprese con almeno 500 dipendenti</title>
-      <pubDate>Fri, 28 Jan 2022 10:00:21 GMT</pubDate>
-      <guid>https://trigger.it/534_49</guid>
-      <link>https://trigger.it/534_49</link>
-    </item>
-    <item>
-      <title>Posizioni lavorative - Imprese con almeno 500 dipendenti</title>
-      <pubDate>Fri, 28 Jan 2022 09:59:46 GMT</pubDate>
-      <guid>https://trigger.it/534_50</guid>
-      <link>https://trigger.it/534_50</link>
-    </item>
-    <item>
-      <title>Imprese con almeno 500 dipendenti</title>
-      <pubDate>Fri, 28 Jan 2022 09:59:39 GMT</pubDate>
-      <guid>https://trigger.it/536_193</guid>
-      <link>https://trigger.it/536_193</link>
     </item>
   </channel>
 </rss>
