@@ -5,28 +5,10 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
-      <title>Coltivazioni</title>
-      <pubDate>Wed, 02 Feb 2022 11:46:18 GMT</pubDate>
-      <guid>https://trigger.it/101_1015</guid>
-      <link>https://trigger.it/101_1015</link>
-    </item>
-    <item>
-      <title>Ipca - mensili dal 2001 (base 2015)</title>
-      <pubDate>Wed, 02 Feb 2022 11:22:01 GMT</pubDate>
-      <guid>https://trigger.it/168_760</guid>
-      <link>https://trigger.it/168_760</link>
-    </item>
-    <item>
-      <title>Nic - mensili dal 2016 (base 2015)</title>
-      <pubDate>Wed, 02 Feb 2022 11:20:38 GMT</pubDate>
-      <guid>https://trigger.it/167_744</guid>
-      <link>https://trigger.it/167_744</link>
-    </item>
-    <item>
-      <title>Interruzioni volontarie della gravidanza - Caratteristiche della donna</title>
-      <pubDate>Wed, 02 Feb 2022 02:33:33 GMT</pubDate>
-      <guid>https://trigger.it/42_70</guid>
-      <link>https://trigger.it/42_70</link>
+      <title>Latte e prodotti lattiero caseari</title>
+      <pubDate>Mon, 07 Feb 2022 10:26:05 GMT</pubDate>
+      <guid>https://trigger.it/101_959</guid>
+      <link>https://trigger.it/101_959</link>
     </item>
   </channel>
 </rss>
