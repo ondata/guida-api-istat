@@ -5,12 +5,6 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
-      <title>Fitosanitari</title>
-      <pubDate>Thu, 10 Feb 2022 01:43:18 GMT</pubDate>
-      <guid>https://trigger.it/101_22</guid>
-      <link>https://trigger.it/101_22</link>
-    </item>
-    <item>
       <title>Pensionati</title>
       <pubDate>Wed, 09 Feb 2022 12:04:55 GMT</pubDate>
       <guid>https://trigger.it/46_812</guid>
@@ -27,18 +21,6 @@
       <pubDate>Wed, 09 Feb 2022 08:59:55 GMT</pubDate>
       <guid>https://trigger.it/46_813</guid>
       <link>https://trigger.it/46_813</link>
-    </item>
-    <item>
-      <title>Indice del valore delle vendite del commercio fisso al dettaglio - dati mensili</title>
-      <pubDate>Tue, 08 Feb 2022 10:12:03 GMT</pubDate>
-      <guid>https://trigger.it/120_337</guid>
-      <link>https://trigger.it/120_337</link>
-    </item>
-    <item>
-      <title>Conti dei flussi di materia</title>
-      <pubDate>Tue, 08 Feb 2022 05:11:48 GMT</pubDate>
-      <guid>https://trigger.it/97_334</guid>
-      <link>https://trigger.it/97_334</link>
     </item>
   </channel>
 </rss>
