@@ -5,22 +5,16 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
-      <title>Pensionati</title>
-      <pubDate>Wed, 09 Feb 2022 12:04:55 GMT</pubDate>
-      <guid>https://trigger.it/46_812</guid>
-      <link>https://trigger.it/46_812</link>
+      <title>Spese per la protezione dell'ambiente</title>
+      <pubDate>Tue, 15 Feb 2022 10:56:01 GMT</pubDate>
+      <guid>https://trigger.it/97_953</guid>
+      <link>https://trigger.it/97_953</link>
     </item>
     <item>
-      <title>Indice della produzione industriale</title>
-      <pubDate>Wed, 09 Feb 2022 10:01:18 GMT</pubDate>
-      <guid>https://trigger.it/115_333</guid>
-      <link>https://trigger.it/115_333</link>
-    </item>
-    <item>
-      <title>Pensioni</title>
-      <pubDate>Wed, 09 Feb 2022 08:59:55 GMT</pubDate>
-      <guid>https://trigger.it/46_813</guid>
-      <link>https://trigger.it/46_813</link>
+      <title>Conti dei beni e servizi ambientali</title>
+      <pubDate>Tue, 15 Feb 2022 10:55:56 GMT</pubDate>
+      <guid>https://trigger.it/97_1028</guid>
+      <link>https://trigger.it/97_1028</link>
     </item>
   </channel>
 </rss>
