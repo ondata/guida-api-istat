@@ -5,6 +5,18 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Conti dei flussi di materia</title>
+      <pubDate>Wed, 16 Feb 2022 12:55:26 GMT</pubDate>
+      <guid>https://trigger.it/97_334</guid>
+      <link>https://trigger.it/97_334</link>
+    </item>
+    <item>
+      <title>Coltivazioni</title>
+      <pubDate>Wed, 16 Feb 2022 01:40:58 GMT</pubDate>
+      <guid>https://trigger.it/101_1015</guid>
+      <link>https://trigger.it/101_1015</link>
+    </item>
+    <item>
       <title>Spese per la protezione dell'ambiente</title>
       <pubDate>Tue, 15 Feb 2022 10:56:01 GMT</pubDate>
       <guid>https://trigger.it/97_953</guid>
