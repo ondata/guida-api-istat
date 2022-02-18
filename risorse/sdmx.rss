@@ -5,16 +5,34 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indice dei prezzi all'importazione - dati mensili</title>
+      <pubDate>Thu, 17 Feb 2022 10:19:12 GMT</pubDate>
+      <guid>https://trigger.it/143_222</guid>
+      <link>https://trigger.it/143_222</link>
+    </item>
+    <item>
+      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
+      <pubDate>Thu, 17 Feb 2022 10:13:03 GMT</pubDate>
+      <guid>https://trigger.it/139_176</guid>
+      <link>https://trigger.it/139_176</link>
+    </item>
+    <item>
+      <title>Coltivazioni</title>
+      <pubDate>Thu, 17 Feb 2022 05:57:26 GMT</pubDate>
+      <guid>https://trigger.it/101_1015</guid>
+      <link>https://trigger.it/101_1015</link>
+    </item>
+    <item>
+      <title>Consistenze degli allevamenti</title>
+      <pubDate>Thu, 17 Feb 2022 03:10:34 GMT</pubDate>
+      <guid>https://trigger.it/101_961</guid>
+      <link>https://trigger.it/101_961</link>
+    </item>
+    <item>
       <title>Conti dei flussi di materia</title>
       <pubDate>Wed, 16 Feb 2022 12:55:26 GMT</pubDate>
       <guid>https://trigger.it/97_334</guid>
       <link>https://trigger.it/97_334</link>
-    </item>
-    <item>
-      <title>Coltivazioni</title>
-      <pubDate>Wed, 16 Feb 2022 01:40:58 GMT</pubDate>
-      <guid>https://trigger.it/101_1015</guid>
-      <link>https://trigger.it/101_1015</link>
     </item>
     <item>
       <title>Spese per la protezione dell'ambiente</title>
