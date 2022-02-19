@@ -5,6 +5,48 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indice della produzione nelle costruzioni</title>
+      <pubDate>Fri, 18 Feb 2022 10:05:24 GMT</pubDate>
+      <guid>https://trigger.it/115_362</guid>
+      <link>https://trigger.it/115_362</link>
+    </item>
+    <item>
+      <title>Retribuzioni lorde - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 18 Feb 2022 10:02:04 GMT</pubDate>
+      <guid>https://trigger.it/535_194</guid>
+      <link>https://trigger.it/535_194</link>
+    </item>
+    <item>
+      <title>Ore lavorate - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 18 Feb 2022 10:01:58 GMT</pubDate>
+      <guid>https://trigger.it/534_49</guid>
+      <link>https://trigger.it/534_49</link>
+    </item>
+    <item>
+      <title>Posizioni lavorative - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 18 Feb 2022 10:01:23 GMT</pubDate>
+      <guid>https://trigger.it/534_50</guid>
+      <link>https://trigger.it/534_50</link>
+    </item>
+    <item>
+      <title>Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 18 Feb 2022 10:01:18 GMT</pubDate>
+      <guid>https://trigger.it/536_193</guid>
+      <link>https://trigger.it/536_193</link>
+    </item>
+    <item>
+      <title>Coltivazioni</title>
+      <pubDate>Fri, 18 Feb 2022 05:22:38 GMT</pubDate>
+      <guid>https://trigger.it/101_1015</guid>
+      <link>https://trigger.it/101_1015</link>
+    </item>
+    <item>
+      <title>ICT nelle imprese con almeno 10 addetti</title>
+      <pubDate>Fri, 18 Feb 2022 01:00:18 GMT</pubDate>
+      <guid>https://trigger.it/6_39</guid>
+      <link>https://trigger.it/6_39</link>
+    </item>
+    <item>
       <title>Indice dei prezzi all'importazione - dati mensili</title>
       <pubDate>Thu, 17 Feb 2022 10:19:12 GMT</pubDate>
       <guid>https://trigger.it/143_222</guid>
@@ -15,12 +57,6 @@
       <pubDate>Thu, 17 Feb 2022 10:13:03 GMT</pubDate>
       <guid>https://trigger.it/139_176</guid>
       <link>https://trigger.it/139_176</link>
-    </item>
-    <item>
-      <title>Coltivazioni</title>
-      <pubDate>Thu, 17 Feb 2022 05:57:26 GMT</pubDate>
-      <guid>https://trigger.it/101_1015</guid>
-      <link>https://trigger.it/101_1015</link>
     </item>
     <item>
       <title>Consistenze degli allevamenti</title>
