@@ -5,6 +5,54 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Caratteristiche demografiche degli sposi</title>
+      <pubDate>Mon, 21 Feb 2022 11:18:10 GMT</pubDate>
+      <guid>https://trigger.it/24_447</guid>
+      <link>https://trigger.it/24_447</link>
+    </item>
+    <item>
+      <title>Caratteristiche professionali e territoriali</title>
+      <pubDate>Mon, 21 Feb 2022 11:16:01 GMT</pubDate>
+      <guid>https://trigger.it/24_386</guid>
+      <link>https://trigger.it/24_386</link>
+    </item>
+    <item>
+      <title>Matrimoni - Indicatori</title>
+      <pubDate>Mon, 21 Feb 2022 11:14:23 GMT</pubDate>
+      <guid>https://trigger.it/24_84</guid>
+      <link>https://trigger.it/24_84</link>
+    </item>
+    <item>
+      <title>Cittadinanza degli sposi</title>
+      <pubDate>Mon, 21 Feb 2022 11:11:15 GMT</pubDate>
+      <guid>https://trigger.it/24_446</guid>
+      <link>https://trigger.it/24_446</link>
+    </item>
+    <item>
+      <title>Matrimoni</title>
+      <pubDate>Mon, 21 Feb 2022 11:09:32 GMT</pubDate>
+      <guid>https://trigger.it/24_186</guid>
+      <link>https://trigger.it/24_186</link>
+    </item>
+    <item>
+      <title>Macellazioni</title>
+      <pubDate>Mon, 21 Feb 2022 10:23:40 GMT</pubDate>
+      <guid>https://trigger.it/101_1033</guid>
+      <link>https://trigger.it/101_1033</link>
+    </item>
+    <item>
+      <title>Nati vivi</title>
+      <pubDate>Mon, 21 Feb 2022 03:46:39 GMT</pubDate>
+      <guid>https://trigger.it/25_74</guid>
+      <link>https://trigger.it/25_74</link>
+    </item>
+    <item>
+      <title>Indicatori  di fecondità</title>
+      <pubDate>Mon, 21 Feb 2022 03:34:39 GMT</pubDate>
+      <guid>https://trigger.it/25_326</guid>
+      <link>https://trigger.it/25_326</link>
+    </item>
+    <item>
       <title>Indice della produzione nelle costruzioni</title>
       <pubDate>Fri, 18 Feb 2022 10:05:24 GMT</pubDate>
       <guid>https://trigger.it/115_362</guid>
@@ -63,12 +111,6 @@
       <pubDate>Thu, 17 Feb 2022 03:10:34 GMT</pubDate>
       <guid>https://trigger.it/101_961</guid>
       <link>https://trigger.it/101_961</link>
-    </item>
-    <item>
-      <title>Conti dei flussi di materia</title>
-      <pubDate>Wed, 16 Feb 2022 12:55:26 GMT</pubDate>
-      <guid>https://trigger.it/97_334</guid>
-      <link>https://trigger.it/97_334</link>
     </item>
   </channel>
 </rss>
