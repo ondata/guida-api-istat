@@ -5,6 +5,54 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Nic - pesi dal 2016</title>
+      <pubDate>Tue, 22 Feb 2022 10:55:23 GMT</pubDate>
+      <guid>https://trigger.it/167_743</guid>
+      <link>https://trigger.it/167_743</link>
+    </item>
+    <item>
+      <title>Nic - mensili dal 2016 (base 2015)</title>
+      <pubDate>Tue, 22 Feb 2022 10:53:09 GMT</pubDate>
+      <guid>https://trigger.it/167_744</guid>
+      <link>https://trigger.it/167_744</link>
+    </item>
+    <item>
+      <title>IPCA – Pesi dal 2001</title>
+      <pubDate>Tue, 22 Feb 2022 10:36:44 GMT</pubDate>
+      <guid>https://trigger.it/168_6</guid>
+      <link>https://trigger.it/168_6</link>
+    </item>
+    <item>
+      <title>IPCA a tassazione costante - Dati mensili dal 2002 (base 2015=100)</title>
+      <pubDate>Tue, 22 Feb 2022 10:26:00 GMT</pubDate>
+      <guid>https://trigger.it/168_756</guid>
+      <link>https://trigger.it/168_756</link>
+    </item>
+    <item>
+      <title>Ipca - mensili dal 2001 (base 2015)</title>
+      <pubDate>Tue, 22 Feb 2022 10:24:51 GMT</pubDate>
+      <guid>https://trigger.it/168_760</guid>
+      <link>https://trigger.it/168_760</link>
+    </item>
+    <item>
+      <title>FOI - Pesi  dal 2016</title>
+      <pubDate>Tue, 22 Feb 2022 10:21:42 GMT</pubDate>
+      <guid>https://trigger.it/169_747</guid>
+      <link>https://trigger.it/169_747</link>
+    </item>
+    <item>
+      <title>FOI - Dati mensili dal 2016</title>
+      <pubDate>Tue, 22 Feb 2022 10:16:51 GMT</pubDate>
+      <guid>https://trigger.it/169_745</guid>
+      <link>https://trigger.it/169_745</link>
+    </item>
+    <item>
+      <title>Indicatori  di fecondità</title>
+      <pubDate>Tue, 22 Feb 2022 03:15:01 GMT</pubDate>
+      <guid>https://trigger.it/25_326</guid>
+      <link>https://trigger.it/25_326</link>
+    </item>
+    <item>
       <title>Caratteristiche demografiche degli sposi</title>
       <pubDate>Mon, 21 Feb 2022 11:18:10 GMT</pubDate>
       <guid>https://trigger.it/24_447</guid>
@@ -47,12 +95,6 @@
       <link>https://trigger.it/25_74</link>
     </item>
     <item>
-      <title>Indicatori  di fecondità</title>
-      <pubDate>Mon, 21 Feb 2022 03:34:39 GMT</pubDate>
-      <guid>https://trigger.it/25_326</guid>
-      <link>https://trigger.it/25_326</link>
-    </item>
-    <item>
       <title>Indice della produzione nelle costruzioni</title>
       <pubDate>Fri, 18 Feb 2022 10:05:24 GMT</pubDate>
       <guid>https://trigger.it/115_362</guid>
@@ -93,24 +135,6 @@
       <pubDate>Fri, 18 Feb 2022 01:00:18 GMT</pubDate>
       <guid>https://trigger.it/6_39</guid>
       <link>https://trigger.it/6_39</link>
-    </item>
-    <item>
-      <title>Indice dei prezzi all'importazione - dati mensili</title>
-      <pubDate>Thu, 17 Feb 2022 10:19:12 GMT</pubDate>
-      <guid>https://trigger.it/143_222</guid>
-      <link>https://trigger.it/143_222</link>
-    </item>
-    <item>
-      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
-      <pubDate>Thu, 17 Feb 2022 10:13:03 GMT</pubDate>
-      <guid>https://trigger.it/139_176</guid>
-      <link>https://trigger.it/139_176</link>
-    </item>
-    <item>
-      <title>Consistenze degli allevamenti</title>
-      <pubDate>Thu, 17 Feb 2022 03:10:34 GMT</pubDate>
-      <guid>https://trigger.it/101_961</guid>
-      <link>https://trigger.it/101_961</link>
     </item>
   </channel>
 </rss>
