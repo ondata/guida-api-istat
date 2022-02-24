@@ -5,6 +5,30 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Mortalità per territorio di residenza</title>
+      <pubDate>Wed, 23 Feb 2022 11:15:04 GMT</pubDate>
+      <guid>https://trigger.it/39_494</guid>
+      <link>https://trigger.it/39_494</link>
+    </item>
+    <item>
+      <title>Mortalità per territorio di evento</title>
+      <pubDate>Wed, 23 Feb 2022 11:13:35 GMT</pubDate>
+      <guid>https://trigger.it/39_493</guid>
+      <link>https://trigger.it/39_493</link>
+    </item>
+    <item>
+      <title>Mortalità infantile per territorio di residenza</title>
+      <pubDate>Wed, 23 Feb 2022 11:12:24 GMT</pubDate>
+      <guid>https://trigger.it/39_701</guid>
+      <link>https://trigger.it/39_701</link>
+    </item>
+    <item>
+      <title>Mortalità infantile per territorio di evento</title>
+      <pubDate>Wed, 23 Feb 2022 11:10:51 GMT</pubDate>
+      <guid>https://trigger.it/39_700</guid>
+      <link>https://trigger.it/39_700</link>
+    </item>
+    <item>
       <title>Nic - pesi dal 2016</title>
       <pubDate>Tue, 22 Feb 2022 10:55:23 GMT</pubDate>
       <guid>https://trigger.it/167_743</guid>
@@ -53,36 +77,6 @@
       <link>https://trigger.it/25_326</link>
     </item>
     <item>
-      <title>Caratteristiche demografiche degli sposi</title>
-      <pubDate>Mon, 21 Feb 2022 11:18:10 GMT</pubDate>
-      <guid>https://trigger.it/24_447</guid>
-      <link>https://trigger.it/24_447</link>
-    </item>
-    <item>
-      <title>Caratteristiche professionali e territoriali</title>
-      <pubDate>Mon, 21 Feb 2022 11:16:01 GMT</pubDate>
-      <guid>https://trigger.it/24_386</guid>
-      <link>https://trigger.it/24_386</link>
-    </item>
-    <item>
-      <title>Matrimoni - Indicatori</title>
-      <pubDate>Mon, 21 Feb 2022 11:14:23 GMT</pubDate>
-      <guid>https://trigger.it/24_84</guid>
-      <link>https://trigger.it/24_84</link>
-    </item>
-    <item>
-      <title>Cittadinanza degli sposi</title>
-      <pubDate>Mon, 21 Feb 2022 11:11:15 GMT</pubDate>
-      <guid>https://trigger.it/24_446</guid>
-      <link>https://trigger.it/24_446</link>
-    </item>
-    <item>
-      <title>Matrimoni</title>
-      <pubDate>Mon, 21 Feb 2022 11:09:32 GMT</pubDate>
-      <guid>https://trigger.it/24_186</guid>
-      <link>https://trigger.it/24_186</link>
-    </item>
-    <item>
       <title>Macellazioni</title>
       <pubDate>Mon, 21 Feb 2022 10:23:40 GMT</pubDate>
       <guid>https://trigger.it/101_1033</guid>
@@ -93,48 +87,6 @@
       <pubDate>Mon, 21 Feb 2022 03:46:39 GMT</pubDate>
       <guid>https://trigger.it/25_74</guid>
       <link>https://trigger.it/25_74</link>
-    </item>
-    <item>
-      <title>Indice della produzione nelle costruzioni</title>
-      <pubDate>Fri, 18 Feb 2022 10:05:24 GMT</pubDate>
-      <guid>https://trigger.it/115_362</guid>
-      <link>https://trigger.it/115_362</link>
-    </item>
-    <item>
-      <title>Retribuzioni lorde - Imprese con almeno 500 dipendenti</title>
-      <pubDate>Fri, 18 Feb 2022 10:02:04 GMT</pubDate>
-      <guid>https://trigger.it/535_194</guid>
-      <link>https://trigger.it/535_194</link>
-    </item>
-    <item>
-      <title>Ore lavorate - Imprese con almeno 500 dipendenti</title>
-      <pubDate>Fri, 18 Feb 2022 10:01:58 GMT</pubDate>
-      <guid>https://trigger.it/534_49</guid>
-      <link>https://trigger.it/534_49</link>
-    </item>
-    <item>
-      <title>Posizioni lavorative - Imprese con almeno 500 dipendenti</title>
-      <pubDate>Fri, 18 Feb 2022 10:01:23 GMT</pubDate>
-      <guid>https://trigger.it/534_50</guid>
-      <link>https://trigger.it/534_50</link>
-    </item>
-    <item>
-      <title>Imprese con almeno 500 dipendenti</title>
-      <pubDate>Fri, 18 Feb 2022 10:01:18 GMT</pubDate>
-      <guid>https://trigger.it/536_193</guid>
-      <link>https://trigger.it/536_193</link>
-    </item>
-    <item>
-      <title>Coltivazioni</title>
-      <pubDate>Fri, 18 Feb 2022 05:22:38 GMT</pubDate>
-      <guid>https://trigger.it/101_1015</guid>
-      <link>https://trigger.it/101_1015</link>
-    </item>
-    <item>
-      <title>ICT nelle imprese con almeno 10 addetti</title>
-      <pubDate>Fri, 18 Feb 2022 01:00:18 GMT</pubDate>
-      <guid>https://trigger.it/6_39</guid>
-      <link>https://trigger.it/6_39</link>
     </item>
   </channel>
 </rss>
