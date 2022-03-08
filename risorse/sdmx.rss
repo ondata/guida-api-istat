@@ -5,6 +5,54 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Cause multiple di morte</title>
+      <pubDate>Mon, 07 Mar 2022 11:43:39 GMT</pubDate>
+      <guid>https://trigger.it/39_57</guid>
+      <link>https://trigger.it/39_57</link>
+    </item>
+    <item>
+      <title>Mortalità per territorio di residenza</title>
+      <pubDate>Mon, 07 Mar 2022 11:40:05 GMT</pubDate>
+      <guid>https://trigger.it/39_494</guid>
+      <link>https://trigger.it/39_494</link>
+    </item>
+    <item>
+      <title>Mortalità per territorio di evento</title>
+      <pubDate>Mon, 07 Mar 2022 11:22:19 GMT</pubDate>
+      <guid>https://trigger.it/39_493</guid>
+      <link>https://trigger.it/39_493</link>
+    </item>
+    <item>
+      <title>Aspetti della vita quotidiana</title>
+      <pubDate>Mon, 07 Mar 2022 11:17:30 GMT</pubDate>
+      <guid>https://trigger.it/83_63</guid>
+      <link>https://trigger.it/83_63</link>
+    </item>
+    <item>
+      <title>Mortalità infantile per territorio di residenza</title>
+      <pubDate>Mon, 07 Mar 2022 11:01:04 GMT</pubDate>
+      <guid>https://trigger.it/39_701</guid>
+      <link>https://trigger.it/39_701</link>
+    </item>
+    <item>
+      <title>Mortalità infantile per territorio di evento</title>
+      <pubDate>Mon, 07 Mar 2022 10:54:41 GMT</pubDate>
+      <guid>https://trigger.it/39_700</guid>
+      <link>https://trigger.it/39_700</link>
+    </item>
+    <item>
+      <title>Aspetti della vita quotidiana - Famiglie</title>
+      <pubDate>Mon, 07 Mar 2022 10:12:26 GMT</pubDate>
+      <guid>https://trigger.it/82_87</guid>
+      <link>https://trigger.it/82_87</link>
+    </item>
+    <item>
+      <title>Interruzioni volontarie della gravidanza - Migrazione</title>
+      <pubDate>Mon, 07 Mar 2022 02:04:27 GMT</pubDate>
+      <guid>https://trigger.it/42_210</guid>
+      <link>https://trigger.it/42_210</link>
+    </item>
+    <item>
       <title>Conto economico delle risorse e degli impieghi  e contributi alla crescita del Pil</title>
       <pubDate>Fri, 04 Mar 2022 10:07:03 GMT</pubDate>
       <guid>https://trigger.it/163_156</guid>
@@ -29,64 +77,10 @@
       <link>https://trigger.it/163_88</link>
     </item>
     <item>
-      <title>Tasso di disoccupazione  - dati mensili</title>
-      <pubDate>Thu, 03 Mar 2022 10:03:23 GMT</pubDate>
-      <guid>https://trigger.it/151_874</guid>
-      <link>https://trigger.it/151_874</link>
-    </item>
-    <item>
-      <title>Disoccupati  - dati mensili</title>
-      <pubDate>Thu, 03 Mar 2022 10:03:19 GMT</pubDate>
-      <guid>https://trigger.it/151_877</guid>
-      <link>https://trigger.it/151_877</link>
-    </item>
-    <item>
-      <title>Tasso di inattività  - dati mensili</title>
-      <pubDate>Thu, 03 Mar 2022 10:02:50 GMT</pubDate>
-      <guid>https://trigger.it/152_878</guid>
-      <link>https://trigger.it/152_878</link>
-    </item>
-    <item>
-      <title>Inattivi  - dati mensili</title>
-      <pubDate>Thu, 03 Mar 2022 10:02:45 GMT</pubDate>
-      <guid>https://trigger.it/152_879</guid>
-      <link>https://trigger.it/152_879</link>
-    </item>
-    <item>
-      <title>Tasso di occupazione  - dati mensili</title>
-      <pubDate>Thu, 03 Mar 2022 10:02:11 GMT</pubDate>
-      <guid>https://trigger.it/150_872</guid>
-      <link>https://trigger.it/150_872</link>
-    </item>
-    <item>
-      <title>Tasso di attività  - dati mensili</title>
-      <pubDate>Thu, 03 Mar 2022 10:02:08 GMT</pubDate>
-      <guid>https://trigger.it/150_876</guid>
-      <link>https://trigger.it/150_876</link>
-    </item>
-    <item>
-      <title>Occupati -  dati mensili</title>
-      <pubDate>Thu, 03 Mar 2022 10:01:30 GMT</pubDate>
-      <guid>https://trigger.it/150_875</guid>
-      <link>https://trigger.it/150_875</link>
-    </item>
-    <item>
-      <title>Forze lavoro  - dati mensili</title>
-      <pubDate>Thu, 03 Mar 2022 10:01:22 GMT</pubDate>
-      <guid>https://trigger.it/150_873</guid>
-      <link>https://trigger.it/150_873</link>
-    </item>
-    <item>
       <title>Bilancio energetico</title>
       <pubDate>Thu, 03 Mar 2022 08:28:29 GMT</pubDate>
       <guid>https://trigger.it/18_157</guid>
       <link>https://trigger.it/18_157</link>
-    </item>
-    <item>
-      <title>Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi</title>
-      <pubDate>Wed, 02 Mar 2022 08:08:16 GMT</pubDate>
-      <guid>https://trigger.it/122_54</guid>
-      <link>https://trigger.it/122_54</link>
     </item>
   </channel>
 </rss>
