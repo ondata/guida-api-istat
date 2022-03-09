@@ -5,6 +5,18 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indice del valore delle vendite del commercio fisso al dettaglio - dati mensili</title>
+      <pubDate>Tue, 08 Mar 2022 10:19:33 GMT</pubDate>
+      <guid>https://trigger.it/120_337</guid>
+      <link>https://trigger.it/120_337</link>
+    </item>
+    <item>
+      <title>Latte e prodotti lattiero caseari</title>
+      <pubDate>Tue, 08 Mar 2022 07:00:05 GMT</pubDate>
+      <guid>https://trigger.it/101_959</guid>
+      <link>https://trigger.it/101_959</link>
+    </item>
+    <item>
       <title>Cause multiple di morte</title>
       <pubDate>Mon, 07 Mar 2022 11:43:39 GMT</pubDate>
       <guid>https://trigger.it/39_57</guid>
@@ -75,12 +87,6 @@
       <pubDate>Fri, 04 Mar 2022 10:05:52 GMT</pubDate>
       <guid>https://trigger.it/163_88</guid>
       <link>https://trigger.it/163_88</link>
-    </item>
-    <item>
-      <title>Bilancio energetico</title>
-      <pubDate>Thu, 03 Mar 2022 08:28:29 GMT</pubDate>
-      <guid>https://trigger.it/18_157</guid>
-      <link>https://trigger.it/18_157</link>
     </item>
   </channel>
 </rss>
