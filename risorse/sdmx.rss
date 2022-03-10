@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indice della produzione industriale</title>
+      <pubDate>Wed, 09 Mar 2022 10:00:47 GMT</pubDate>
+      <guid>https://trigger.it/115_333</guid>
+      <link>https://trigger.it/115_333</link>
+    </item>
+    <item>
       <title>Indice del valore delle vendite del commercio fisso al dettaglio - dati mensili</title>
       <pubDate>Tue, 08 Mar 2022 10:19:33 GMT</pubDate>
       <guid>https://trigger.it/120_337</guid>
@@ -63,30 +69,6 @@
       <pubDate>Mon, 07 Mar 2022 02:04:27 GMT</pubDate>
       <guid>https://trigger.it/42_210</guid>
       <link>https://trigger.it/42_210</link>
-    </item>
-    <item>
-      <title>Conto economico delle risorse e degli impieghi  e contributi alla crescita del Pil</title>
-      <pubDate>Fri, 04 Mar 2022 10:07:03 GMT</pubDate>
-      <guid>https://trigger.it/163_156</guid>
-      <link>https://trigger.it/163_156</link>
-    </item>
-    <item>
-      <title>Valore aggiunto, Redditi da lavoro, Investimenti fissi lordi, Spesa per consumi finali famiglie, Costi e margini</title>
-      <pubDate>Fri, 04 Mar 2022 10:06:56 GMT</pubDate>
-      <guid>https://trigger.it/163_24</guid>
-      <link>https://trigger.it/163_24</link>
-    </item>
-    <item>
-      <title>Principali aggregati del Prodotto interno lordo (milioni di euro)</title>
-      <pubDate>Fri, 04 Mar 2022 10:05:59 GMT</pubDate>
-      <guid>https://trigger.it/163_184</guid>
-      <link>https://trigger.it/163_184</link>
-    </item>
-    <item>
-      <title>Occupazione per branca di attività</title>
-      <pubDate>Fri, 04 Mar 2022 10:05:52 GMT</pubDate>
-      <guid>https://trigger.it/163_88</guid>
-      <link>https://trigger.it/163_88</link>
     </item>
   </channel>
 </rss>
