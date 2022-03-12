@@ -5,6 +5,60 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Tasso di occupazione - dati trimestrali destagionalizzati</title>
+      <pubDate>Fri, 11 Mar 2022 10:11:05 GMT</pubDate>
+      <guid>https://trigger.it/150_883</guid>
+      <link>https://trigger.it/150_883</link>
+    </item>
+    <item>
+      <title>Forze di lavoro  - dati destagionalizzati</title>
+      <pubDate>Fri, 11 Mar 2022 10:08:47 GMT</pubDate>
+      <guid>https://trigger.it/150_881</guid>
+      <link>https://trigger.it/150_881</link>
+    </item>
+    <item>
+      <title>Retribuzioni lorde - Imprese con dipendenti</title>
+      <pubDate>Fri, 11 Mar 2022 10:03:31 GMT</pubDate>
+      <guid>https://trigger.it/155_374</guid>
+      <link>https://trigger.it/155_374</link>
+    </item>
+    <item>
+      <title>Posizioni lavorative alle dipendenze</title>
+      <pubDate>Fri, 11 Mar 2022 10:03:02 GMT</pubDate>
+      <guid>https://trigger.it/149_577</guid>
+      <link>https://trigger.it/149_577</link>
+    </item>
+    <item>
+      <title>Indicatori - Imprese con dipendenti</title>
+      <pubDate>Fri, 11 Mar 2022 10:02:58 GMT</pubDate>
+      <guid>https://trigger.it/154_373</guid>
+      <link>https://trigger.it/154_373</link>
+    </item>
+    <item>
+      <title>Mortalità infantile per territorio di residenza</title>
+      <pubDate>Fri, 11 Mar 2022 01:28:52 GMT</pubDate>
+      <guid>https://trigger.it/39_701</guid>
+      <link>https://trigger.it/39_701</link>
+    </item>
+    <item>
+      <title>Mortalità infantile per territorio di evento</title>
+      <pubDate>Fri, 11 Mar 2022 01:24:17 GMT</pubDate>
+      <guid>https://trigger.it/39_700</guid>
+      <link>https://trigger.it/39_700</link>
+    </item>
+    <item>
+      <title>Mortalità per territorio di residenza</title>
+      <pubDate>Fri, 11 Mar 2022 01:23:11 GMT</pubDate>
+      <guid>https://trigger.it/39_494</guid>
+      <link>https://trigger.it/39_494</link>
+    </item>
+    <item>
+      <title>Mortalità per territorio di evento</title>
+      <pubDate>Fri, 11 Mar 2022 01:21:50 GMT</pubDate>
+      <guid>https://trigger.it/39_493</guid>
+      <link>https://trigger.it/39_493</link>
+    </item>
+    <item>
       <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
       <pubDate>Thu, 10 Mar 2022 11:18:29 GMT</pubDate>
       <guid>https://trigger.it/139_176</guid>
