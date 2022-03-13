@@ -5,18 +5,6 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
-      <title>Tasso di occupazione - dati trimestrali destagionalizzati</title>
-      <pubDate>Fri, 11 Mar 2022 10:11:05 GMT</pubDate>
-      <guid>https://trigger.it/150_883</guid>
-      <link>https://trigger.it/150_883</link>
-    </item>
-    <item>
-      <title>Forze di lavoro  - dati destagionalizzati</title>
-      <pubDate>Fri, 11 Mar 2022 10:08:47 GMT</pubDate>
-      <guid>https://trigger.it/150_881</guid>
-      <link>https://trigger.it/150_881</link>
-    </item>
-    <item>
       <title>Retribuzioni lorde - Imprese con dipendenti</title>
       <pubDate>Fri, 11 Mar 2022 10:03:31 GMT</pubDate>
       <guid>https://trigger.it/155_374</guid>
@@ -111,30 +99,6 @@
       <pubDate>Tue, 08 Mar 2022 07:00:05 GMT</pubDate>
       <guid>https://trigger.it/101_959</guid>
       <link>https://trigger.it/101_959</link>
-    </item>
-    <item>
-      <title>Cause multiple di morte</title>
-      <pubDate>Mon, 07 Mar 2022 11:43:39 GMT</pubDate>
-      <guid>https://trigger.it/39_57</guid>
-      <link>https://trigger.it/39_57</link>
-    </item>
-    <item>
-      <title>Aspetti della vita quotidiana</title>
-      <pubDate>Mon, 07 Mar 2022 11:17:30 GMT</pubDate>
-      <guid>https://trigger.it/83_63</guid>
-      <link>https://trigger.it/83_63</link>
-    </item>
-    <item>
-      <title>Aspetti della vita quotidiana - Famiglie</title>
-      <pubDate>Mon, 07 Mar 2022 10:12:26 GMT</pubDate>
-      <guid>https://trigger.it/82_87</guid>
-      <link>https://trigger.it/82_87</link>
-    </item>
-    <item>
-      <title>Interruzioni volontarie della gravidanza - Migrazione</title>
-      <pubDate>Mon, 07 Mar 2022 02:04:27 GMT</pubDate>
-      <guid>https://trigger.it/42_210</guid>
-      <link>https://trigger.it/42_210</link>
     </item>
   </channel>
 </rss>
