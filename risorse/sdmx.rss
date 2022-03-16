@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Cause multiple di morte</title>
+      <pubDate>Tue, 15 Mar 2022 12:42:26 GMT</pubDate>
+      <guid>https://trigger.it/39_57</guid>
+      <link>https://trigger.it/39_57</link>
+    </item>
+    <item>
       <title>Popolazione residente  - bilancio</title>
       <pubDate>Mon, 14 Mar 2022 10:32:30 GMT</pubDate>
       <guid>https://trigger.it/22_315</guid>
@@ -33,66 +39,6 @@
       <pubDate>Fri, 11 Mar 2022 10:02:58 GMT</pubDate>
       <guid>https://trigger.it/154_373</guid>
       <link>https://trigger.it/154_373</link>
-    </item>
-    <item>
-      <title>Mortalità infantile per territorio di residenza</title>
-      <pubDate>Fri, 11 Mar 2022 01:28:52 GMT</pubDate>
-      <guid>https://trigger.it/39_701</guid>
-      <link>https://trigger.it/39_701</link>
-    </item>
-    <item>
-      <title>Mortalità infantile per territorio di evento</title>
-      <pubDate>Fri, 11 Mar 2022 01:24:17 GMT</pubDate>
-      <guid>https://trigger.it/39_700</guid>
-      <link>https://trigger.it/39_700</link>
-    </item>
-    <item>
-      <title>Mortalità per territorio di residenza</title>
-      <pubDate>Fri, 11 Mar 2022 01:23:11 GMT</pubDate>
-      <guid>https://trigger.it/39_494</guid>
-      <link>https://trigger.it/39_494</link>
-    </item>
-    <item>
-      <title>Mortalità per territorio di evento</title>
-      <pubDate>Fri, 11 Mar 2022 01:21:50 GMT</pubDate>
-      <guid>https://trigger.it/39_493</guid>
-      <link>https://trigger.it/39_493</link>
-    </item>
-    <item>
-      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
-      <pubDate>Thu, 10 Mar 2022 11:18:29 GMT</pubDate>
-      <guid>https://trigger.it/139_176</guid>
-      <link>https://trigger.it/139_176</link>
-    </item>
-    <item>
-      <title>Indici dei costi di costruzione - dati mensili</title>
-      <pubDate>Thu, 10 Mar 2022 10:15:11 GMT</pubDate>
-      <guid>https://trigger.it/145_361</guid>
-      <link>https://trigger.it/145_361</link>
-    </item>
-    <item>
-      <title>Prezzi alla produzione dei servizi</title>
-      <pubDate>Thu, 10 Mar 2022 10:10:04 GMT</pubDate>
-      <guid>https://trigger.it/145_376</guid>
-      <link>https://trigger.it/145_376</link>
-    </item>
-    <item>
-      <title>Prezzi alla produzione dell'industria</title>
-      <pubDate>Thu, 10 Mar 2022 10:08:42 GMT</pubDate>
-      <guid>https://trigger.it/145_360</guid>
-      <link>https://trigger.it/145_360</link>
-    </item>
-    <item>
-      <title>Occupazione regolare e irregolare</title>
-      <pubDate>Thu, 10 Mar 2022 10:08:33 GMT</pubDate>
-      <guid>https://trigger.it/92_507</guid>
-      <link>https://trigger.it/92_507</link>
-    </item>
-    <item>
-      <title>Coltivazioni</title>
-      <pubDate>Thu, 10 Mar 2022 04:03:54 GMT</pubDate>
-      <guid>https://trigger.it/101_1015</guid>
-      <link>https://trigger.it/101_1015</link>
     </item>
   </channel>
 </rss>
