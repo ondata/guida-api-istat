@@ -5,6 +5,42 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Aspetti della vita quotidiana</title>
+      <pubDate>Wed, 16 Mar 2022 11:00:37 GMT</pubDate>
+      <guid>https://trigger.it/83_63</guid>
+      <link>https://trigger.it/83_63</link>
+    </item>
+    <item>
+      <title>Aspetti della vita quotidiana - Famiglie</title>
+      <pubDate>Wed, 16 Mar 2022 10:52:24 GMT</pubDate>
+      <guid>https://trigger.it/82_87</guid>
+      <link>https://trigger.it/82_87</link>
+    </item>
+    <item>
+      <title>IPCA a tassazione costante - Dati mensili dal 2002 (base 2015=100)</title>
+      <pubDate>Wed, 16 Mar 2022 10:26:48 GMT</pubDate>
+      <guid>https://trigger.it/168_756</guid>
+      <link>https://trigger.it/168_756</link>
+    </item>
+    <item>
+      <title>Ipca - mensili dal 2001 (base 2015)</title>
+      <pubDate>Wed, 16 Mar 2022 10:24:26 GMT</pubDate>
+      <guid>https://trigger.it/168_760</guid>
+      <link>https://trigger.it/168_760</link>
+    </item>
+    <item>
+      <title>FOI - Dati mensili dal 2016</title>
+      <pubDate>Wed, 16 Mar 2022 10:17:53 GMT</pubDate>
+      <guid>https://trigger.it/169_745</guid>
+      <link>https://trigger.it/169_745</link>
+    </item>
+    <item>
+      <title>Nic - mensili dal 2016 (base 2015)</title>
+      <pubDate>Wed, 16 Mar 2022 10:14:08 GMT</pubDate>
+      <guid>https://trigger.it/167_744</guid>
+      <link>https://trigger.it/167_744</link>
+    </item>
+    <item>
       <title>Cause multiple di morte</title>
       <pubDate>Tue, 15 Mar 2022 12:42:26 GMT</pubDate>
       <guid>https://trigger.it/39_57</guid>
@@ -21,24 +57,6 @@
       <pubDate>Mon, 14 Mar 2022 03:08:17 GMT</pubDate>
       <guid>https://trigger.it/151_884</guid>
       <link>https://trigger.it/151_884</link>
-    </item>
-    <item>
-      <title>Retribuzioni lorde - Imprese con dipendenti</title>
-      <pubDate>Fri, 11 Mar 2022 10:03:31 GMT</pubDate>
-      <guid>https://trigger.it/155_374</guid>
-      <link>https://trigger.it/155_374</link>
-    </item>
-    <item>
-      <title>Posizioni lavorative alle dipendenze</title>
-      <pubDate>Fri, 11 Mar 2022 10:03:02 GMT</pubDate>
-      <guid>https://trigger.it/149_577</guid>
-      <link>https://trigger.it/149_577</link>
-    </item>
-    <item>
-      <title>Indicatori - Imprese con dipendenti</title>
-      <pubDate>Fri, 11 Mar 2022 10:02:58 GMT</pubDate>
-      <guid>https://trigger.it/154_373</guid>
-      <link>https://trigger.it/154_373</link>
     </item>
   </channel>
 </rss>
