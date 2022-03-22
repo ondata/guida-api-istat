@@ -5,6 +5,18 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Macellazioni</title>
+      <pubDate>Mon, 21 Mar 2022 11:25:55 GMT</pubDate>
+      <guid>https://trigger.it/101_1033</guid>
+      <link>https://trigger.it/101_1033</link>
+    </item>
+    <item>
+      <title>Indice dei prezzi all'importazione - dati mensili</title>
+      <pubDate>Mon, 21 Mar 2022 02:44:03 GMT</pubDate>
+      <guid>https://trigger.it/143_222</guid>
+      <link>https://trigger.it/143_222</link>
+    </item>
+    <item>
       <title>Indice della produzione nelle costruzioni</title>
       <pubDate>Fri, 18 Mar 2022 11:04:43 GMT</pubDate>
       <guid>https://trigger.it/115_362</guid>
@@ -17,12 +29,6 @@
       <link>https://trigger.it/139_176</link>
     </item>
     <item>
-      <title>Indice dei prezzi all'importazione - dati mensili</title>
-      <pubDate>Fri, 18 Mar 2022 10:07:45 GMT</pubDate>
-      <guid>https://trigger.it/143_222</guid>
-      <link>https://trigger.it/143_222</link>
-    </item>
-    <item>
       <title>Fiducia delle imprese manifatturiere</title>
       <pubDate>Thu, 17 Mar 2022 10:34:24 GMT</pubDate>
       <guid>https://trigger.it/111_263</guid>
@@ -33,42 +39,6 @@
       <pubDate>Thu, 17 Mar 2022 10:08:43 GMT</pubDate>
       <guid>https://trigger.it/143_497</guid>
       <link>https://trigger.it/143_497</link>
-    </item>
-    <item>
-      <title>Aspetti della vita quotidiana</title>
-      <pubDate>Wed, 16 Mar 2022 11:00:37 GMT</pubDate>
-      <guid>https://trigger.it/83_63</guid>
-      <link>https://trigger.it/83_63</link>
-    </item>
-    <item>
-      <title>Aspetti della vita quotidiana - Famiglie</title>
-      <pubDate>Wed, 16 Mar 2022 10:52:24 GMT</pubDate>
-      <guid>https://trigger.it/82_87</guid>
-      <link>https://trigger.it/82_87</link>
-    </item>
-    <item>
-      <title>IPCA a tassazione costante - Dati mensili dal 2002 (base 2015=100)</title>
-      <pubDate>Wed, 16 Mar 2022 10:26:48 GMT</pubDate>
-      <guid>https://trigger.it/168_756</guid>
-      <link>https://trigger.it/168_756</link>
-    </item>
-    <item>
-      <title>Ipca - mensili dal 2001 (base 2015)</title>
-      <pubDate>Wed, 16 Mar 2022 10:24:26 GMT</pubDate>
-      <guid>https://trigger.it/168_760</guid>
-      <link>https://trigger.it/168_760</link>
-    </item>
-    <item>
-      <title>FOI - Dati mensili dal 2016</title>
-      <pubDate>Wed, 16 Mar 2022 10:17:53 GMT</pubDate>
-      <guid>https://trigger.it/169_745</guid>
-      <link>https://trigger.it/169_745</link>
-    </item>
-    <item>
-      <title>Nic - mensili dal 2016 (base 2015)</title>
-      <pubDate>Wed, 16 Mar 2022 10:14:08 GMT</pubDate>
-      <guid>https://trigger.it/167_744</guid>
-      <link>https://trigger.it/167_744</link>
     </item>
   </channel>
 </rss>
