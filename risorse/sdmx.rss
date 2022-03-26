@@ -5,6 +5,48 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
+      <pubDate>Fri, 25 Mar 2022 11:16:16 GMT</pubDate>
+      <guid>https://trigger.it/139_176</guid>
+      <link>https://trigger.it/139_176</link>
+    </item>
+    <item>
+      <title>Clima di fiducia delle imprese</title>
+      <pubDate>Fri, 25 Mar 2022 10:12:57 GMT</pubDate>
+      <guid>https://trigger.it/6_64</guid>
+      <link>https://trigger.it/6_64</link>
+    </item>
+    <item>
+      <title>Fiducia delle imprese del commercio</title>
+      <pubDate>Fri, 25 Mar 2022 10:11:42 GMT</pubDate>
+      <guid>https://trigger.it/117_266</guid>
+      <link>https://trigger.it/117_266</link>
+    </item>
+    <item>
+      <title>Fiducia delle imprese servizi</title>
+      <pubDate>Fri, 25 Mar 2022 10:10:46 GMT</pubDate>
+      <guid>https://trigger.it/117_262</guid>
+      <link>https://trigger.it/117_262</link>
+    </item>
+    <item>
+      <title>Fiducia delle imprese costruzioni</title>
+      <pubDate>Fri, 25 Mar 2022 10:10:35 GMT</pubDate>
+      <guid>https://trigger.it/111_40</guid>
+      <link>https://trigger.it/111_40</link>
+    </item>
+    <item>
+      <title>Fiducia dei consumatori</title>
+      <pubDate>Fri, 25 Mar 2022 10:09:27 GMT</pubDate>
+      <guid>https://trigger.it/30_264</guid>
+      <link>https://trigger.it/30_264</link>
+    </item>
+    <item>
+      <title>Fiducia delle imprese manifatturiere</title>
+      <pubDate>Fri, 25 Mar 2022 10:08:21 GMT</pubDate>
+      <guid>https://trigger.it/111_263</guid>
+      <link>https://trigger.it/111_263</link>
+    </item>
+    <item>
       <title>Macellazioni</title>
       <pubDate>Mon, 21 Mar 2022 11:25:55 GMT</pubDate>
       <guid>https://trigger.it/101_1033</guid>
