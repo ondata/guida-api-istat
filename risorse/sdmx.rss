@@ -5,6 +5,78 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Ipca - mensili dal 2001 (base 2015)</title>
+      <pubDate>Thu, 31 Mar 2022 11:37:04 GMT</pubDate>
+      <guid>https://trigger.it/168_760</guid>
+      <link>https://trigger.it/168_760</link>
+    </item>
+    <item>
+      <title>Coltivazioni</title>
+      <pubDate>Thu, 31 Mar 2022 11:27:51 GMT</pubDate>
+      <guid>https://trigger.it/101_1015</guid>
+      <link>https://trigger.it/101_1015</link>
+    </item>
+    <item>
+      <title>Nic - mensili dal 2016 (base 2015)</title>
+      <pubDate>Thu, 31 Mar 2022 11:24:59 GMT</pubDate>
+      <guid>https://trigger.it/167_744</guid>
+      <link>https://trigger.it/167_744</link>
+    </item>
+    <item>
+      <title>Tasso di disoccupazione  - dati mensili</title>
+      <pubDate>Thu, 31 Mar 2022 10:03:15 GMT</pubDate>
+      <guid>https://trigger.it/151_874</guid>
+      <link>https://trigger.it/151_874</link>
+    </item>
+    <item>
+      <title>Disoccupati  - dati mensili</title>
+      <pubDate>Thu, 31 Mar 2022 10:03:10 GMT</pubDate>
+      <guid>https://trigger.it/151_877</guid>
+      <link>https://trigger.it/151_877</link>
+    </item>
+    <item>
+      <title>Tasso di inattività  - dati mensili</title>
+      <pubDate>Thu, 31 Mar 2022 10:02:08 GMT</pubDate>
+      <guid>https://trigger.it/152_878</guid>
+      <link>https://trigger.it/152_878</link>
+    </item>
+    <item>
+      <title>Inattivi  - dati mensili</title>
+      <pubDate>Thu, 31 Mar 2022 10:02:03 GMT</pubDate>
+      <guid>https://trigger.it/152_879</guid>
+      <link>https://trigger.it/152_879</link>
+    </item>
+    <item>
+      <title>Tasso di occupazione  - dati mensili</title>
+      <pubDate>Thu, 31 Mar 2022 10:01:28 GMT</pubDate>
+      <guid>https://trigger.it/150_872</guid>
+      <link>https://trigger.it/150_872</link>
+    </item>
+    <item>
+      <title>Tasso di attività  - dati mensili</title>
+      <pubDate>Thu, 31 Mar 2022 10:01:24 GMT</pubDate>
+      <guid>https://trigger.it/150_876</guid>
+      <link>https://trigger.it/150_876</link>
+    </item>
+    <item>
+      <title>Occupati -  dati mensili</title>
+      <pubDate>Thu, 31 Mar 2022 10:00:47 GMT</pubDate>
+      <guid>https://trigger.it/150_875</guid>
+      <link>https://trigger.it/150_875</link>
+    </item>
+    <item>
+      <title>Forze lavoro  - dati mensili</title>
+      <pubDate>Thu, 31 Mar 2022 10:00:37 GMT</pubDate>
+      <guid>https://trigger.it/150_873</guid>
+      <link>https://trigger.it/150_873</link>
+    </item>
+    <item>
+      <title>Popolazione residente  - bilancio</title>
+      <pubDate>Thu, 31 Mar 2022 02:16:55 GMT</pubDate>
+      <guid>https://trigger.it/22_315</guid>
+      <link>https://trigger.it/22_315</link>
+    </item>
+    <item>
       <title>Indici dei costi di costruzione - dati mensili</title>
       <pubDate>Wed, 30 Mar 2022 11:32:29 GMT</pubDate>
       <guid>https://trigger.it/145_361</guid>
@@ -21,12 +93,6 @@
       <pubDate>Wed, 30 Mar 2022 10:08:40 GMT</pubDate>
       <guid>https://trigger.it/114_191</guid>
       <link>https://trigger.it/114_191</link>
-    </item>
-    <item>
-      <title>Coltivazioni</title>
-      <pubDate>Wed, 30 Mar 2022 08:56:08 GMT</pubDate>
-      <guid>https://trigger.it/101_1015</guid>
-      <link>https://trigger.it/101_1015</link>
     </item>
     <item>
       <title>Aspetti della vita quotidiana</title>
