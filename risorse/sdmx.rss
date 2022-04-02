@@ -5,6 +5,18 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Prezzi dei prodotti agricoli</title>
+      <pubDate>Fri, 01 Apr 2022 12:18:01 GMT</pubDate>
+      <guid>https://trigger.it/101_12</guid>
+      <link>https://trigger.it/101_12</link>
+    </item>
+    <item>
+      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
+      <pubDate>Fri, 01 Apr 2022 03:14:12 GMT</pubDate>
+      <guid>https://trigger.it/139_176</guid>
+      <link>https://trigger.it/139_176</link>
+    </item>
+    <item>
       <title>Ipca - mensili dal 2001 (base 2015)</title>
       <pubDate>Thu, 31 Mar 2022 11:37:04 GMT</pubDate>
       <guid>https://trigger.it/168_760</guid>
