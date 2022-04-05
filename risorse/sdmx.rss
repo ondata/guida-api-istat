@@ -5,6 +5,60 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Principali aggregati del Prodotto interno lordo (milioni di euro)</title>
+      <pubDate>Mon, 04 Apr 2022 10:39:47 GMT</pubDate>
+      <guid>https://trigger.it/163_184</guid>
+      <link>https://trigger.it/163_184</link>
+    </item>
+    <item>
+      <title>Produzione e valore aggiunto, Redditi da lavoro, Imposte e contributi alla produzione, Spesa per consumi finali famiglie, Investimenti fissi lordi, Stock di capitale e ammortamenti, Valori pro capite</title>
+      <pubDate>Mon, 04 Apr 2022 10:13:18 GMT</pubDate>
+      <guid>https://trigger.it/92_504</guid>
+      <link>https://trigger.it/92_504</link>
+    </item>
+    <item>
+      <title>Valore aggiunto, Redditi da lavoro, Investimenti fissi lordi, Spesa per consumi finali famiglie, Costi e margini</title>
+      <pubDate>Mon, 04 Apr 2022 09:51:25 GMT</pubDate>
+      <guid>https://trigger.it/163_24</guid>
+      <link>https://trigger.it/163_24</link>
+    </item>
+    <item>
+      <title>Occupazione per branca di attività</title>
+      <pubDate>Mon, 04 Apr 2022 09:51:02 GMT</pubDate>
+      <guid>https://trigger.it/163_88</guid>
+      <link>https://trigger.it/163_88</link>
+    </item>
+    <item>
+      <title>Conto economico delle risorse e degli impieghi  e contributi alla crescita del Pil</title>
+      <pubDate>Mon, 04 Apr 2022 09:50:13 GMT</pubDate>
+      <guid>https://trigger.it/163_156</guid>
+      <link>https://trigger.it/163_156</link>
+    </item>
+    <item>
+      <title>Conto annuale per sottosettore</title>
+      <pubDate>Mon, 04 Apr 2022 09:48:23 GMT</pubDate>
+      <guid>https://trigger.it/95_815</guid>
+      <link>https://trigger.it/95_815</link>
+    </item>
+    <item>
+      <title>Occupazione regolare e irregolare</title>
+      <pubDate>Mon, 04 Apr 2022 09:45:49 GMT</pubDate>
+      <guid>https://trigger.it/92_507</guid>
+      <link>https://trigger.it/92_507</link>
+    </item>
+    <item>
+      <title>Sequenza dei conti</title>
+      <pubDate>Mon, 04 Apr 2022 09:44:29 GMT</pubDate>
+      <guid>https://trigger.it/92_505</guid>
+      <link>https://trigger.it/92_505</link>
+    </item>
+    <item>
+      <title>Principali aggregati del Prodotto interno lordo (milioni di euro)</title>
+      <pubDate>Mon, 04 Apr 2022 09:43:55 GMT</pubDate>
+      <guid>https://trigger.it/92_506</guid>
+      <link>https://trigger.it/92_506</link>
+    </item>
+    <item>
       <title>Prezzi dei prodotti agricoli</title>
       <pubDate>Fri, 01 Apr 2022 12:18:01 GMT</pubDate>
       <guid>https://trigger.it/101_12</guid>
@@ -35,76 +89,10 @@
       <link>https://trigger.it/167_744</link>
     </item>
     <item>
-      <title>Tasso di disoccupazione  - dati mensili</title>
-      <pubDate>Thu, 31 Mar 2022 10:03:15 GMT</pubDate>
-      <guid>https://trigger.it/151_874</guid>
-      <link>https://trigger.it/151_874</link>
-    </item>
-    <item>
-      <title>Disoccupati  - dati mensili</title>
-      <pubDate>Thu, 31 Mar 2022 10:03:10 GMT</pubDate>
-      <guid>https://trigger.it/151_877</guid>
-      <link>https://trigger.it/151_877</link>
-    </item>
-    <item>
-      <title>Tasso di inattività  - dati mensili</title>
-      <pubDate>Thu, 31 Mar 2022 10:02:08 GMT</pubDate>
-      <guid>https://trigger.it/152_878</guid>
-      <link>https://trigger.it/152_878</link>
-    </item>
-    <item>
-      <title>Inattivi  - dati mensili</title>
-      <pubDate>Thu, 31 Mar 2022 10:02:03 GMT</pubDate>
-      <guid>https://trigger.it/152_879</guid>
-      <link>https://trigger.it/152_879</link>
-    </item>
-    <item>
-      <title>Tasso di occupazione  - dati mensili</title>
-      <pubDate>Thu, 31 Mar 2022 10:01:28 GMT</pubDate>
-      <guid>https://trigger.it/150_872</guid>
-      <link>https://trigger.it/150_872</link>
-    </item>
-    <item>
-      <title>Tasso di attività  - dati mensili</title>
-      <pubDate>Thu, 31 Mar 2022 10:01:24 GMT</pubDate>
-      <guid>https://trigger.it/150_876</guid>
-      <link>https://trigger.it/150_876</link>
-    </item>
-    <item>
-      <title>Occupati -  dati mensili</title>
-      <pubDate>Thu, 31 Mar 2022 10:00:47 GMT</pubDate>
-      <guid>https://trigger.it/150_875</guid>
-      <link>https://trigger.it/150_875</link>
-    </item>
-    <item>
-      <title>Forze lavoro  - dati mensili</title>
-      <pubDate>Thu, 31 Mar 2022 10:00:37 GMT</pubDate>
-      <guid>https://trigger.it/150_873</guid>
-      <link>https://trigger.it/150_873</link>
-    </item>
-    <item>
       <title>Popolazione residente  - bilancio</title>
       <pubDate>Thu, 31 Mar 2022 02:16:55 GMT</pubDate>
       <guid>https://trigger.it/22_315</guid>
       <link>https://trigger.it/22_315</link>
-    </item>
-    <item>
-      <title>Indici dei costi di costruzione - dati mensili</title>
-      <pubDate>Wed, 30 Mar 2022 11:32:29 GMT</pubDate>
-      <guid>https://trigger.it/145_361</guid>
-      <link>https://trigger.it/145_361</link>
-    </item>
-    <item>
-      <title>Prezzi alla produzione dell'industria</title>
-      <pubDate>Wed, 30 Mar 2022 11:24:05 GMT</pubDate>
-      <guid>https://trigger.it/145_360</guid>
-      <link>https://trigger.it/145_360</link>
-    </item>
-    <item>
-      <title>Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili</title>
-      <pubDate>Wed, 30 Mar 2022 10:08:40 GMT</pubDate>
-      <guid>https://trigger.it/114_191</guid>
-      <link>https://trigger.it/114_191</link>
     </item>
   </channel>
 </rss>
