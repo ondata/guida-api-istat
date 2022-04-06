@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Conto trimestrale</title>
+      <pubDate>Tue, 05 Apr 2022 10:01:45 GMT</pubDate>
+      <guid>https://trigger.it/95_42</guid>
+      <link>https://trigger.it/95_42</link>
+    </item>
+    <item>
       <title>Principali aggregati del Prodotto interno lordo (milioni di euro)</title>
       <pubDate>Mon, 04 Apr 2022 10:39:47 GMT</pubDate>
       <guid>https://trigger.it/163_184</guid>
@@ -69,30 +75,6 @@
       <pubDate>Fri, 01 Apr 2022 03:14:12 GMT</pubDate>
       <guid>https://trigger.it/139_176</guid>
       <link>https://trigger.it/139_176</link>
-    </item>
-    <item>
-      <title>Ipca - mensili dal 2001 (base 2015)</title>
-      <pubDate>Thu, 31 Mar 2022 11:37:04 GMT</pubDate>
-      <guid>https://trigger.it/168_760</guid>
-      <link>https://trigger.it/168_760</link>
-    </item>
-    <item>
-      <title>Coltivazioni</title>
-      <pubDate>Thu, 31 Mar 2022 11:27:51 GMT</pubDate>
-      <guid>https://trigger.it/101_1015</guid>
-      <link>https://trigger.it/101_1015</link>
-    </item>
-    <item>
-      <title>Nic - mensili dal 2016 (base 2015)</title>
-      <pubDate>Thu, 31 Mar 2022 11:24:59 GMT</pubDate>
-      <guid>https://trigger.it/167_744</guid>
-      <link>https://trigger.it/167_744</link>
-    </item>
-    <item>
-      <title>Popolazione residente  - bilancio</title>
-      <pubDate>Thu, 31 Mar 2022 02:16:55 GMT</pubDate>
-      <guid>https://trigger.it/22_315</guid>
-      <link>https://trigger.it/22_315</link>
     </item>
   </channel>
 </rss>
