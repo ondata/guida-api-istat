@@ -5,40 +5,10 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
-      <title>Tavole  di mortalità</title>
-      <pubDate>Fri, 08 Apr 2022 11:19:51 GMT</pubDate>
-      <guid>https://trigger.it/26_295</guid>
-      <link>https://trigger.it/26_295</link>
-    </item>
-    <item>
-      <title>Stranieri residenti al 1° gennaio</title>
-      <pubDate>Fri, 08 Apr 2022 11:12:30 GMT</pubDate>
-      <guid>https://trigger.it/29_7</guid>
-      <link>https://trigger.it/29_7</link>
-    </item>
-    <item>
-      <title>Popolazione residente  al 1° gennaio</title>
-      <pubDate>Fri, 08 Apr 2022 11:11:08 GMT</pubDate>
-      <guid>https://trigger.it/22_289</guid>
-      <link>https://trigger.it/22_289</link>
-    </item>
-    <item>
-      <title>Indicatori  demografici</title>
-      <pubDate>Fri, 08 Apr 2022 11:09:23 GMT</pubDate>
-      <guid>https://trigger.it/22_293</guid>
-      <link>https://trigger.it/22_293</link>
-    </item>
-    <item>
       <title>Indice del valore delle vendite del commercio fisso al dettaglio - dati mensili</title>
       <pubDate>Fri, 08 Apr 2022 10:13:19 GMT</pubDate>
       <guid>https://trigger.it/120_337</guid>
       <link>https://trigger.it/120_337</link>
-    </item>
-    <item>
-      <title>Occupazione per branca di attività</title>
-      <pubDate>Thu, 07 Apr 2022 10:02:18 GMT</pubDate>
-      <guid>https://trigger.it/94_805</guid>
-      <link>https://trigger.it/94_805</link>
     </item>
   </channel>
 </rss>
