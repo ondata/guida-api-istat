@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indicatori  permessi di costruire</title>
+      <pubDate>Thu, 14 Apr 2022 12:03:14 GMT</pubDate>
+      <guid>https://trigger.it/111_111</guid>
+      <link>https://trigger.it/111_111</link>
+    </item>
+    <item>
       <title>Indice della produzione industriale</title>
       <pubDate>Wed, 13 Apr 2022 10:06:00 GMT</pubDate>
       <guid>https://trigger.it/115_333</guid>
