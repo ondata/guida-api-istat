@@ -5,6 +5,30 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Ipca - mensili dal 2001 (base 2015)</title>
+      <pubDate>Fri, 15 Apr 2022 10:44:52 GMT</pubDate>
+      <guid>https://trigger.it/168_760</guid>
+      <link>https://trigger.it/168_760</link>
+    </item>
+    <item>
+      <title>IPCA a tassazione costante - Dati mensili dal 2002 (base 2015=100)</title>
+      <pubDate>Fri, 15 Apr 2022 10:15:17 GMT</pubDate>
+      <guid>https://trigger.it/168_756</guid>
+      <link>https://trigger.it/168_756</link>
+    </item>
+    <item>
+      <title>FOI - Dati mensili dal 2016</title>
+      <pubDate>Fri, 15 Apr 2022 10:12:39 GMT</pubDate>
+      <guid>https://trigger.it/169_745</guid>
+      <link>https://trigger.it/169_745</link>
+    </item>
+    <item>
+      <title>Nic - mensili dal 2016 (base 2015)</title>
+      <pubDate>Fri, 15 Apr 2022 10:09:58 GMT</pubDate>
+      <guid>https://trigger.it/167_744</guid>
+      <link>https://trigger.it/167_744</link>
+    </item>
+    <item>
       <title>Indicatori  permessi di costruire</title>
       <pubDate>Thu, 14 Apr 2022 12:03:14 GMT</pubDate>
       <guid>https://trigger.it/111_111</guid>
