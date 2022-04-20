@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Misure di produttività</title>
+      <pubDate>Tue, 19 Apr 2022 10:01:57 GMT</pubDate>
+      <guid>https://trigger.it/98_197</guid>
+      <link>https://trigger.it/98_197</link>
+    </item>
+    <item>
       <title>Ipca - mensili dal 2001 (base 2015)</title>
       <pubDate>Fri, 15 Apr 2022 10:44:52 GMT</pubDate>
       <guid>https://trigger.it/168_760</guid>
@@ -27,30 +33,6 @@
       <pubDate>Fri, 15 Apr 2022 10:09:58 GMT</pubDate>
       <guid>https://trigger.it/167_744</guid>
       <link>https://trigger.it/167_744</link>
-    </item>
-    <item>
-      <title>Indicatori  permessi di costruire</title>
-      <pubDate>Thu, 14 Apr 2022 12:03:14 GMT</pubDate>
-      <guid>https://trigger.it/111_111</guid>
-      <link>https://trigger.it/111_111</link>
-    </item>
-    <item>
-      <title>Indice della produzione industriale</title>
-      <pubDate>Wed, 13 Apr 2022 10:06:00 GMT</pubDate>
-      <guid>https://trigger.it/115_333</guid>
-      <link>https://trigger.it/115_333</link>
-    </item>
-    <item>
-      <title>Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi</title>
-      <pubDate>Wed, 13 Apr 2022 04:43:03 GMT</pubDate>
-      <guid>https://trigger.it/122_54</guid>
-      <link>https://trigger.it/122_54</link>
-    </item>
-    <item>
-      <title>Popolazione residente  - bilancio</title>
-      <pubDate>Wed, 13 Apr 2022 01:09:10 GMT</pubDate>
-      <guid>https://trigger.it/22_315</guid>
-      <link>https://trigger.it/22_315</link>
     </item>
   </channel>
 </rss>
