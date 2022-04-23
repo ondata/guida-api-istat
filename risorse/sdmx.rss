@@ -5,6 +5,36 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Uscite annuali per sottosettore</title>
+      <pubDate>Fri, 22 Apr 2022 12:05:34 GMT</pubDate>
+      <guid>https://trigger.it/95_94</guid>
+      <link>https://trigger.it/95_94</link>
+    </item>
+    <item>
+      <title>Occupazione per branca di attività</title>
+      <pubDate>Fri, 22 Apr 2022 12:04:52 GMT</pubDate>
+      <guid>https://trigger.it/94_805</guid>
+      <link>https://trigger.it/94_805</link>
+    </item>
+    <item>
+      <title>Conto annuale per sottosettore</title>
+      <pubDate>Fri, 22 Apr 2022 12:04:38 GMT</pubDate>
+      <guid>https://trigger.it/95_815</guid>
+      <link>https://trigger.it/95_815</link>
+    </item>
+    <item>
+      <title>Conti della Protezione sociale (milioni di euro)</title>
+      <pubDate>Fri, 22 Apr 2022 11:55:14 GMT</pubDate>
+      <guid>https://trigger.it/97_366</guid>
+      <link>https://trigger.it/97_366</link>
+    </item>
+    <item>
+      <title>Indice della produzione nelle costruzioni</title>
+      <pubDate>Fri, 22 Apr 2022 10:10:11 GMT</pubDate>
+      <guid>https://trigger.it/115_362</guid>
+      <link>https://trigger.it/115_362</link>
+    </item>
+    <item>
       <title>Indicatori di bilancio e dati sul personale delle unità istituzionali</title>
       <pubDate>Thu, 21 Apr 2022 09:09:19 GMT</pubDate>
       <guid>https://trigger.it/123_712</guid>
