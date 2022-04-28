@@ -5,34 +5,34 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
-      <title>Uscite annuali per sottosettore</title>
-      <pubDate>Fri, 22 Apr 2022 12:05:34 GMT</pubDate>
-      <guid>https://trigger.it/95_94</guid>
-      <link>https://trigger.it/95_94</link>
+      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
+      <pubDate>Wed, 27 Apr 2022 11:15:24 GMT</pubDate>
+      <guid>https://trigger.it/139_176</guid>
+      <link>https://trigger.it/139_176</link>
     </item>
     <item>
-      <title>Occupazione per branca di attività</title>
-      <pubDate>Fri, 22 Apr 2022 12:04:52 GMT</pubDate>
-      <guid>https://trigger.it/94_805</guid>
-      <link>https://trigger.it/94_805</link>
+      <title>Dimissioni dagli istituti di cura per aborto spontaneo rispetto al luogo di residenza</title>
+      <pubDate>Wed, 27 Apr 2022 11:12:40 GMT</pubDate>
+      <guid>https://trigger.it/42_324</guid>
+      <link>https://trigger.it/42_324</link>
     </item>
     <item>
-      <title>Conto annuale per sottosettore</title>
-      <pubDate>Fri, 22 Apr 2022 12:04:38 GMT</pubDate>
-      <guid>https://trigger.it/95_815</guid>
-      <link>https://trigger.it/95_815</link>
+      <title>Dimissioni dagli istituti di cura per aborto spontaneo rispetto al luogo di nascita</title>
+      <pubDate>Wed, 27 Apr 2022 11:11:25 GMT</pubDate>
+      <guid>https://trigger.it/42_320</guid>
+      <link>https://trigger.it/42_320</link>
     </item>
     <item>
-      <title>Conti della Protezione sociale (milioni di euro)</title>
-      <pubDate>Fri, 22 Apr 2022 11:55:14 GMT</pubDate>
-      <guid>https://trigger.it/97_366</guid>
-      <link>https://trigger.it/97_366</link>
+      <title>Dimissioni dagli istituti di cura per aborto spontaneo rispetto al luogo dell evento</title>
+      <pubDate>Wed, 27 Apr 2022 10:57:55 GMT</pubDate>
+      <guid>https://trigger.it/42_325</guid>
+      <link>https://trigger.it/42_325</link>
     </item>
     <item>
-      <title>Indice della produzione nelle costruzioni</title>
-      <pubDate>Fri, 22 Apr 2022 10:10:11 GMT</pubDate>
-      <guid>https://trigger.it/115_362</guid>
-      <link>https://trigger.it/115_362</link>
+      <title>Macellazioni</title>
+      <pubDate>Wed, 27 Apr 2022 10:56:31 GMT</pubDate>
+      <guid>https://trigger.it/101_1033</guid>
+      <link>https://trigger.it/101_1033</link>
     </item>
   </channel>
 </rss>
