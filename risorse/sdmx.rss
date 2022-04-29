@@ -5,28 +5,94 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Tensione contrattuale</title>
+      <pubDate>Thu, 28 Apr 2022 12:10:54 GMT</pubDate>
+      <guid>https://trigger.it/149_319</guid>
+      <link>https://trigger.it/149_319</link>
+    </item>
+    <item>
+      <title>Retribuzioni contrattuali per tipo di contratto</title>
+      <pubDate>Thu, 28 Apr 2022 12:10:07 GMT</pubDate>
+      <guid>https://trigger.it/155_318</guid>
+      <link>https://trigger.it/155_318</link>
+    </item>
+    <item>
+      <title>Retribuzioni contrattuali per settore economico (Ateco)</title>
+      <pubDate>Thu, 28 Apr 2022 12:09:55 GMT</pubDate>
+      <guid>https://trigger.it/155_358</guid>
+      <link>https://trigger.it/155_358</link>
+    </item>
+    <item>
+      <title>Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili</title>
+      <pubDate>Thu, 28 Apr 2022 11:05:40 GMT</pubDate>
+      <guid>https://trigger.it/114_191</guid>
+      <link>https://trigger.it/114_191</link>
+    </item>
+    <item>
+      <title>Coltivazioni</title>
+      <pubDate>Thu, 28 Apr 2022 10:19:26 GMT</pubDate>
+      <guid>https://trigger.it/101_1015</guid>
+      <link>https://trigger.it/101_1015</link>
+    </item>
+    <item>
+      <title>Clima di fiducia delle imprese</title>
+      <pubDate>Thu, 28 Apr 2022 10:19:16 GMT</pubDate>
+      <guid>https://trigger.it/6_64</guid>
+      <link>https://trigger.it/6_64</link>
+    </item>
+    <item>
+      <title>Fiducia delle imprese servizi</title>
+      <pubDate>Thu, 28 Apr 2022 10:18:33 GMT</pubDate>
+      <guid>https://trigger.it/117_262</guid>
+      <link>https://trigger.it/117_262</link>
+    </item>
+    <item>
+      <title>Fiducia delle imprese del commercio</title>
+      <pubDate>Thu, 28 Apr 2022 10:18:26 GMT</pubDate>
+      <guid>https://trigger.it/117_266</guid>
+      <link>https://trigger.it/117_266</link>
+    </item>
+    <item>
+      <title>Fiducia delle imprese costruzioni</title>
+      <pubDate>Thu, 28 Apr 2022 10:17:36 GMT</pubDate>
+      <guid>https://trigger.it/111_40</guid>
+      <link>https://trigger.it/111_40</link>
+    </item>
+    <item>
+      <title>Dimissioni dagli istituti di cura per aborto spontaneo rispetto al luogo di residenza</title>
+      <pubDate>Thu, 28 Apr 2022 10:17:32 GMT</pubDate>
+      <guid>https://trigger.it/42_324</guid>
+      <link>https://trigger.it/42_324</link>
+    </item>
+    <item>
+      <title>Fiducia delle imprese manifatturiere</title>
+      <pubDate>Thu, 28 Apr 2022 10:15:46 GMT</pubDate>
+      <guid>https://trigger.it/111_263</guid>
+      <link>https://trigger.it/111_263</link>
+    </item>
+    <item>
+      <title>Fiducia dei consumatori</title>
+      <pubDate>Thu, 28 Apr 2022 10:15:25 GMT</pubDate>
+      <guid>https://trigger.it/30_264</guid>
+      <link>https://trigger.it/30_264</link>
+    </item>
+    <item>
+      <title>Dimissioni dagli istituti di cura per aborto spontaneo rispetto al luogo dell evento</title>
+      <pubDate>Thu, 28 Apr 2022 09:14:51 GMT</pubDate>
+      <guid>https://trigger.it/42_325</guid>
+      <link>https://trigger.it/42_325</link>
+    </item>
+    <item>
       <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
       <pubDate>Wed, 27 Apr 2022 11:15:24 GMT</pubDate>
       <guid>https://trigger.it/139_176</guid>
       <link>https://trigger.it/139_176</link>
     </item>
     <item>
-      <title>Dimissioni dagli istituti di cura per aborto spontaneo rispetto al luogo di residenza</title>
-      <pubDate>Wed, 27 Apr 2022 11:12:40 GMT</pubDate>
-      <guid>https://trigger.it/42_324</guid>
-      <link>https://trigger.it/42_324</link>
-    </item>
-    <item>
       <title>Dimissioni dagli istituti di cura per aborto spontaneo rispetto al luogo di nascita</title>
       <pubDate>Wed, 27 Apr 2022 11:11:25 GMT</pubDate>
       <guid>https://trigger.it/42_320</guid>
       <link>https://trigger.it/42_320</link>
-    </item>
-    <item>
-      <title>Dimissioni dagli istituti di cura per aborto spontaneo rispetto al luogo dell evento</title>
-      <pubDate>Wed, 27 Apr 2022 10:57:55 GMT</pubDate>
-      <guid>https://trigger.it/42_325</guid>
-      <link>https://trigger.it/42_325</link>
     </item>
     <item>
       <title>Macellazioni</title>
