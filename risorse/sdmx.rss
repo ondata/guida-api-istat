@@ -5,6 +5,66 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indici dei costi di costruzione - dati mensili</title>
+      <pubDate>Fri, 29 Apr 2022 12:11:59 GMT</pubDate>
+      <guid>https://trigger.it/145_361</guid>
+      <link>https://trigger.it/145_361</link>
+    </item>
+    <item>
+      <title>Ipca - mensili dal 2001 (base 2015)</title>
+      <pubDate>Fri, 29 Apr 2022 11:19:38 GMT</pubDate>
+      <guid>https://trigger.it/168_760</guid>
+      <link>https://trigger.it/168_760</link>
+    </item>
+    <item>
+      <title>Nic - mensili dal 2016 (base 2015)</title>
+      <pubDate>Fri, 29 Apr 2022 11:18:06 GMT</pubDate>
+      <guid>https://trigger.it/167_744</guid>
+      <link>https://trigger.it/167_744</link>
+    </item>
+    <item>
+      <title>Conto economico delle risorse e degli impieghi  e contributi alla crescita del Pil</title>
+      <pubDate>Fri, 29 Apr 2022 10:05:52 GMT</pubDate>
+      <guid>https://trigger.it/163_156</guid>
+      <link>https://trigger.it/163_156</link>
+    </item>
+    <item>
+      <title>Popolazione residente  - bilancio</title>
+      <pubDate>Fri, 29 Apr 2022 10:04:10 GMT</pubDate>
+      <guid>https://trigger.it/22_315</guid>
+      <link>https://trigger.it/22_315</link>
+    </item>
+    <item>
+      <title>Retribuzioni lorde - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 29 Apr 2022 10:01:43 GMT</pubDate>
+      <guid>https://trigger.it/535_194</guid>
+      <link>https://trigger.it/535_194</link>
+    </item>
+    <item>
+      <title>Ore lavorate - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 29 Apr 2022 10:01:37 GMT</pubDate>
+      <guid>https://trigger.it/534_49</guid>
+      <link>https://trigger.it/534_49</link>
+    </item>
+    <item>
+      <title>Posizioni lavorative - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 29 Apr 2022 10:00:51 GMT</pubDate>
+      <guid>https://trigger.it/534_50</guid>
+      <link>https://trigger.it/534_50</link>
+    </item>
+    <item>
+      <title>Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 29 Apr 2022 10:00:41 GMT</pubDate>
+      <guid>https://trigger.it/536_193</guid>
+      <link>https://trigger.it/536_193</link>
+    </item>
+    <item>
+      <title>Prezzi alla produzione dell'industria</title>
+      <pubDate>Fri, 29 Apr 2022 03:39:46 GMT</pubDate>
+      <guid>https://trigger.it/145_360</guid>
+      <link>https://trigger.it/145_360</link>
+    </item>
+    <item>
       <title>Tensione contrattuale</title>
       <pubDate>Thu, 28 Apr 2022 12:10:54 GMT</pubDate>
       <guid>https://trigger.it/149_319</guid>
