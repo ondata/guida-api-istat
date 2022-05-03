@@ -5,6 +5,54 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Tasso di disoccupazione  - dati mensili</title>
+      <pubDate>Mon, 02 May 2022 10:04:13 GMT</pubDate>
+      <guid>https://trigger.it/151_874</guid>
+      <link>https://trigger.it/151_874</link>
+    </item>
+    <item>
+      <title>Disoccupati  - dati mensili</title>
+      <pubDate>Mon, 02 May 2022 10:04:09 GMT</pubDate>
+      <guid>https://trigger.it/151_877</guid>
+      <link>https://trigger.it/151_877</link>
+    </item>
+    <item>
+      <title>Tasso di inattività  - dati mensili</title>
+      <pubDate>Mon, 02 May 2022 10:03:33 GMT</pubDate>
+      <guid>https://trigger.it/152_878</guid>
+      <link>https://trigger.it/152_878</link>
+    </item>
+    <item>
+      <title>Inattivi  - dati mensili</title>
+      <pubDate>Mon, 02 May 2022 10:03:29 GMT</pubDate>
+      <guid>https://trigger.it/152_879</guid>
+      <link>https://trigger.it/152_879</link>
+    </item>
+    <item>
+      <title>Tasso di occupazione  - dati mensili</title>
+      <pubDate>Mon, 02 May 2022 10:02:35 GMT</pubDate>
+      <guid>https://trigger.it/150_872</guid>
+      <link>https://trigger.it/150_872</link>
+    </item>
+    <item>
+      <title>Tasso di attività  - dati mensili</title>
+      <pubDate>Mon, 02 May 2022 10:02:30 GMT</pubDate>
+      <guid>https://trigger.it/150_876</guid>
+      <link>https://trigger.it/150_876</link>
+    </item>
+    <item>
+      <title>Occupati -  dati mensili</title>
+      <pubDate>Mon, 02 May 2022 10:01:45 GMT</pubDate>
+      <guid>https://trigger.it/150_875</guid>
+      <link>https://trigger.it/150_875</link>
+    </item>
+    <item>
+      <title>Forze lavoro  - dati mensili</title>
+      <pubDate>Mon, 02 May 2022 10:01:37 GMT</pubDate>
+      <guid>https://trigger.it/150_873</guid>
+      <link>https://trigger.it/150_873</link>
+    </item>
+    <item>
       <title>Indici dei costi di costruzione - dati mensili</title>
       <pubDate>Fri, 29 Apr 2022 12:11:59 GMT</pubDate>
       <guid>https://trigger.it/145_361</guid>
@@ -141,24 +189,6 @@
       <pubDate>Thu, 28 Apr 2022 09:14:51 GMT</pubDate>
       <guid>https://trigger.it/42_325</guid>
       <link>https://trigger.it/42_325</link>
-    </item>
-    <item>
-      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
-      <pubDate>Wed, 27 Apr 2022 11:15:24 GMT</pubDate>
-      <guid>https://trigger.it/139_176</guid>
-      <link>https://trigger.it/139_176</link>
-    </item>
-    <item>
-      <title>Dimissioni dagli istituti di cura per aborto spontaneo rispetto al luogo di nascita</title>
-      <pubDate>Wed, 27 Apr 2022 11:11:25 GMT</pubDate>
-      <guid>https://trigger.it/42_320</guid>
-      <link>https://trigger.it/42_320</link>
-    </item>
-    <item>
-      <title>Macellazioni</title>
-      <pubDate>Wed, 27 Apr 2022 10:56:31 GMT</pubDate>
-      <guid>https://trigger.it/101_1033</guid>
-      <link>https://trigger.it/101_1033</link>
     </item>
   </channel>
 </rss>
