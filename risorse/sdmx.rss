@@ -5,10 +5,34 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Aspetti della vita quotidiana - Persone</title>
+      <pubDate>Tue, 10 May 2022 11:41:36 GMT</pubDate>
+      <guid>https://trigger.it/83_85</guid>
+      <link>https://trigger.it/83_85</link>
+    </item>
+    <item>
+      <title>Aspetti della vita quotidiana</title>
+      <pubDate>Tue, 10 May 2022 11:37:33 GMT</pubDate>
+      <guid>https://trigger.it/83_63</guid>
+      <link>https://trigger.it/83_63</link>
+    </item>
+    <item>
+      <title>Indice della produzione industriale</title>
+      <pubDate>Tue, 10 May 2022 10:02:25 GMT</pubDate>
+      <guid>https://trigger.it/115_333</guid>
+      <link>https://trigger.it/115_333</link>
+    </item>
+    <item>
       <title>Segnalazioni relative a persone denunciate e arrestate/fermate dalle forze di polizia</title>
-      <pubDate>Mon, 09 May 2022 04:01:38 GMT</pubDate>
+      <pubDate>Tue, 10 May 2022 09:39:07 GMT</pubDate>
       <guid>https://trigger.it/73_342</guid>
       <link>https://trigger.it/73_342</link>
+    </item>
+    <item>
+      <title>Dimissioni dagli istituti di cura per aborto spontaneo rispetto al luogo di residenza</title>
+      <pubDate>Tue, 10 May 2022 01:52:42 GMT</pubDate>
+      <guid>https://trigger.it/42_324</guid>
+      <link>https://trigger.it/42_324</link>
     </item>
     <item>
       <title>Latte e prodotti lattiero caseari</title>
