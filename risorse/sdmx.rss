@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Segnalazioni relative a persone denunciate e arrestate/fermate dalle forze di polizia</title>
+      <pubDate>Wed, 11 May 2022 04:26:23 GMT</pubDate>
+      <guid>https://trigger.it/73_342</guid>
+      <link>https://trigger.it/73_342</link>
+    </item>
+    <item>
       <title>Aspetti della vita quotidiana - Persone</title>
       <pubDate>Tue, 10 May 2022 11:41:36 GMT</pubDate>
       <guid>https://trigger.it/83_85</guid>
@@ -23,12 +29,6 @@
       <link>https://trigger.it/115_333</link>
     </item>
     <item>
-      <title>Segnalazioni relative a persone denunciate e arrestate/fermate dalle forze di polizia</title>
-      <pubDate>Tue, 10 May 2022 09:39:07 GMT</pubDate>
-      <guid>https://trigger.it/73_342</guid>
-      <link>https://trigger.it/73_342</link>
-    </item>
-    <item>
       <title>Dimissioni dagli istituti di cura per aborto spontaneo rispetto al luogo di residenza</title>
       <pubDate>Tue, 10 May 2022 01:52:42 GMT</pubDate>
       <guid>https://trigger.it/42_324</guid>
@@ -39,12 +39,6 @@
       <pubDate>Mon, 09 May 2022 04:00:39 GMT</pubDate>
       <guid>https://trigger.it/101_959</guid>
       <link>https://trigger.it/101_959</link>
-    </item>
-    <item>
-      <title>Indice del valore delle vendite del commercio fisso al dettaglio - dati mensili</title>
-      <pubDate>Fri, 06 May 2022 10:05:11 GMT</pubDate>
-      <guid>https://trigger.it/120_337</guid>
-      <link>https://trigger.it/120_337</link>
     </item>
   </channel>
 </rss>
