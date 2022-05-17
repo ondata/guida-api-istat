@@ -5,6 +5,18 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Segnalazioni relative a persone denunciate e arrestate/fermate dalle forze di polizia</title>
+      <pubDate>Mon, 16 May 2022 11:24:33 GMT</pubDate>
+      <guid>https://trigger.it/73_342</guid>
+      <link>https://trigger.it/73_342</link>
+    </item>
+    <item>
+      <title>Indice dei prezzi all'importazione - dati mensili</title>
+      <pubDate>Mon, 16 May 2022 03:15:57 GMT</pubDate>
+      <guid>https://trigger.it/143_222</guid>
+      <link>https://trigger.it/143_222</link>
+    </item>
+    <item>
       <title>Indicatori di bilancio e dati sul personale delle unità istituzionali</title>
       <pubDate>Fri, 13 May 2022 10:20:10 GMT</pubDate>
       <guid>https://trigger.it/123_712</guid>
