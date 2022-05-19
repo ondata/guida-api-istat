@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Produzione, consumi intermedi e valore aggiunto di agricoltura, silvicoltura e pesca (Nace rev.2)</title>
+      <pubDate>Wed, 18 May 2022 10:07:48 GMT</pubDate>
+      <guid>https://trigger.it/93_48</guid>
+      <link>https://trigger.it/93_48</link>
+    </item>
+    <item>
       <title>FOI - Dati mensili dal 2016</title>
       <pubDate>Tue, 17 May 2022 11:40:06 GMT</pubDate>
       <guid>https://trigger.it/169_745</guid>
@@ -45,12 +51,6 @@
       <pubDate>Tue, 17 May 2022 09:37:41 GMT</pubDate>
       <guid>https://trigger.it/143_222</guid>
       <link>https://trigger.it/143_222</link>
-    </item>
-    <item>
-      <title>Indicatori di bilancio e dati sul personale delle unità istituzionali</title>
-      <pubDate>Fri, 13 May 2022 10:20:10 GMT</pubDate>
-      <guid>https://trigger.it/123_712</guid>
-      <link>https://trigger.it/123_712</link>
     </item>
   </channel>
 </rss>
