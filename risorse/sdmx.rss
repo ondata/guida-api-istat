@@ -5,40 +5,34 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
-      <title>Indice della produzione nelle costruzioni</title>
-      <pubDate>Fri, 20 May 2022 10:05:54 GMT</pubDate>
-      <guid>https://trigger.it/115_362</guid>
-      <link>https://trigger.it/115_362</link>
+      <title>Aspetti della vita quotidiana - Famiglie</title>
+      <pubDate>Wed, 25 May 2022 12:20:27 GMT</pubDate>
+      <guid>https://trigger.it/82_87</guid>
+      <link>https://trigger.it/82_87</link>
     </item>
     <item>
-      <title>Retribuzioni lorde - Imprese con almeno 500 dipendenti</title>
-      <pubDate>Fri, 20 May 2022 10:01:45 GMT</pubDate>
-      <guid>https://trigger.it/535_194</guid>
-      <link>https://trigger.it/535_194</link>
+      <title>Aspetti della vita quotidiana</title>
+      <pubDate>Wed, 25 May 2022 12:16:10 GMT</pubDate>
+      <guid>https://trigger.it/83_63</guid>
+      <link>https://trigger.it/83_63</link>
     </item>
     <item>
-      <title>Ore lavorate - Imprese con almeno 500 dipendenti</title>
-      <pubDate>Fri, 20 May 2022 10:01:39 GMT</pubDate>
-      <guid>https://trigger.it/534_49</guid>
-      <link>https://trigger.it/534_49</link>
+      <title>Delitti denunciati dalle forze di polizia all’autorità giudiziaria</title>
+      <pubDate>Wed, 25 May 2022 04:55:21 GMT</pubDate>
+      <guid>https://trigger.it/73_67</guid>
+      <link>https://trigger.it/73_67</link>
     </item>
     <item>
-      <title>Posizioni lavorative - Imprese con almeno 500 dipendenti</title>
-      <pubDate>Fri, 20 May 2022 10:00:54 GMT</pubDate>
-      <guid>https://trigger.it/534_50</guid>
-      <link>https://trigger.it/534_50</link>
+      <title>Ospiti dei presidi residenziali socio-assistenziali e socio-sanitari</title>
+      <pubDate>Wed, 25 May 2022 04:53:10 GMT</pubDate>
+      <guid>https://trigger.it/49_62</guid>
+      <link>https://trigger.it/49_62</link>
     </item>
     <item>
-      <title>Imprese con almeno 500 dipendenti</title>
-      <pubDate>Fri, 20 May 2022 10:00:44 GMT</pubDate>
-      <guid>https://trigger.it/536_193</guid>
-      <link>https://trigger.it/536_193</link>
-    </item>
-    <item>
-      <title>Macellazioni</title>
-      <pubDate>Fri, 20 May 2022 02:38:38 GMT</pubDate>
-      <guid>https://trigger.it/101_1033</guid>
-      <link>https://trigger.it/101_1033</link>
+      <title>Presidi residenziali socio-assistenziali e socio-sanitari</title>
+      <pubDate>Wed, 25 May 2022 04:45:57 GMT</pubDate>
+      <guid>https://trigger.it/49_37</guid>
+      <link>https://trigger.it/49_37</link>
     </item>
   </channel>
 </rss>
