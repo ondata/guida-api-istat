@@ -5,8 +5,50 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili</title>
+      <pubDate>Thu, 26 May 2022 11:08:24 GMT</pubDate>
+      <guid>https://trigger.it/114_191</guid>
+      <link>https://trigger.it/114_191</link>
+    </item>
+    <item>
+      <title>Fiducia delle imprese servizi</title>
+      <pubDate>Thu, 26 May 2022 10:32:47 GMT</pubDate>
+      <guid>https://trigger.it/117_262</guid>
+      <link>https://trigger.it/117_262</link>
+    </item>
+    <item>
+      <title>Fiducia delle imprese del commercio</title>
+      <pubDate>Thu, 26 May 2022 10:31:51 GMT</pubDate>
+      <guid>https://trigger.it/117_266</guid>
+      <link>https://trigger.it/117_266</link>
+    </item>
+    <item>
+      <title>Fiducia delle imprese costruzioni</title>
+      <pubDate>Thu, 26 May 2022 10:31:47 GMT</pubDate>
+      <guid>https://trigger.it/111_40</guid>
+      <link>https://trigger.it/111_40</link>
+    </item>
+    <item>
+      <title>Fiducia delle imprese manifatturiere</title>
+      <pubDate>Thu, 26 May 2022 10:30:07 GMT</pubDate>
+      <guid>https://trigger.it/111_263</guid>
+      <link>https://trigger.it/111_263</link>
+    </item>
+    <item>
+      <title>Fiducia dei consumatori</title>
+      <pubDate>Thu, 26 May 2022 10:29:46 GMT</pubDate>
+      <guid>https://trigger.it/30_264</guid>
+      <link>https://trigger.it/30_264</link>
+    </item>
+    <item>
+      <title>Clima di fiducia delle imprese</title>
+      <pubDate>Thu, 26 May 2022 10:13:42 GMT</pubDate>
+      <guid>https://trigger.it/6_64</guid>
+      <link>https://trigger.it/6_64</link>
+    </item>
+    <item>
       <title>Aspetti della vita quotidiana - Famiglie</title>
-      <pubDate>Wed, 25 May 2022 12:20:27 GMT</pubDate>
+      <pubDate>Thu, 26 May 2022 08:59:48 GMT</pubDate>
       <guid>https://trigger.it/82_87</guid>
       <link>https://trigger.it/82_87</link>
     </item>
