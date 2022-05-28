@@ -5,6 +5,54 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Tensione contrattuale</title>
+      <pubDate>Fri, 27 May 2022 10:22:56 GMT</pubDate>
+      <guid>https://trigger.it/149_319</guid>
+      <link>https://trigger.it/149_319</link>
+    </item>
+    <item>
+      <title>Retribuzioni contrattuali per tipo di contratto</title>
+      <pubDate>Fri, 27 May 2022 10:22:06 GMT</pubDate>
+      <guid>https://trigger.it/155_318</guid>
+      <link>https://trigger.it/155_318</link>
+    </item>
+    <item>
+      <title>Retribuzioni contrattuali per settore economico (Ateco)</title>
+      <pubDate>Fri, 27 May 2022 10:22:00 GMT</pubDate>
+      <guid>https://trigger.it/155_358</guid>
+      <link>https://trigger.it/155_358</link>
+    </item>
+    <item>
+      <title>Popolazione residente  - bilancio</title>
+      <pubDate>Fri, 27 May 2022 10:18:51 GMT</pubDate>
+      <guid>https://trigger.it/22_315</guid>
+      <link>https://trigger.it/22_315</link>
+    </item>
+    <item>
+      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
+      <pubDate>Fri, 27 May 2022 10:10:36 GMT</pubDate>
+      <guid>https://trigger.it/139_176</guid>
+      <link>https://trigger.it/139_176</link>
+    </item>
+    <item>
+      <title>Aspetti della vita quotidiana</title>
+      <pubDate>Fri, 27 May 2022 06:54:12 GMT</pubDate>
+      <guid>https://trigger.it/83_63</guid>
+      <link>https://trigger.it/83_63</link>
+    </item>
+    <item>
+      <title>Ospiti dei presidi residenziali socio-assistenziali e socio-sanitari</title>
+      <pubDate>Fri, 27 May 2022 04:11:47 GMT</pubDate>
+      <guid>https://trigger.it/49_62</guid>
+      <link>https://trigger.it/49_62</link>
+    </item>
+    <item>
+      <title>Aspetti della vita quotidiana - Persone</title>
+      <pubDate>Fri, 27 May 2022 03:19:34 GMT</pubDate>
+      <guid>https://trigger.it/83_85</guid>
+      <link>https://trigger.it/83_85</link>
+    </item>
+    <item>
       <title>Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili</title>
       <pubDate>Thu, 26 May 2022 11:08:24 GMT</pubDate>
       <guid>https://trigger.it/114_191</guid>
@@ -53,22 +101,10 @@
       <link>https://trigger.it/82_87</link>
     </item>
     <item>
-      <title>Aspetti della vita quotidiana</title>
-      <pubDate>Wed, 25 May 2022 12:16:10 GMT</pubDate>
-      <guid>https://trigger.it/83_63</guid>
-      <link>https://trigger.it/83_63</link>
-    </item>
-    <item>
       <title>Delitti denunciati dalle forze di polizia all’autorità giudiziaria</title>
       <pubDate>Wed, 25 May 2022 04:55:21 GMT</pubDate>
       <guid>https://trigger.it/73_67</guid>
       <link>https://trigger.it/73_67</link>
-    </item>
-    <item>
-      <title>Ospiti dei presidi residenziali socio-assistenziali e socio-sanitari</title>
-      <pubDate>Wed, 25 May 2022 04:53:10 GMT</pubDate>
-      <guid>https://trigger.it/49_62</guid>
-      <link>https://trigger.it/49_62</link>
     </item>
     <item>
       <title>Presidi residenziali socio-assistenziali e socio-sanitari</title>
