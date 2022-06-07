@@ -5,34 +5,10 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
-      <title>Prezzi dei prodotti agricoli</title>
-      <pubDate>Wed, 01 Jun 2022 10:09:59 GMT</pubDate>
-      <guid>https://trigger.it/101_12</guid>
-      <link>https://trigger.it/101_12</link>
-    </item>
-    <item>
-      <title>Delitti denunciati dalle forze di polizia all’autorità giudiziaria</title>
-      <pubDate>Wed, 01 Jun 2022 04:32:22 GMT</pubDate>
-      <guid>https://trigger.it/73_67</guid>
-      <link>https://trigger.it/73_67</link>
-    </item>
-    <item>
-      <title>IPCA – Pesi dal 2001</title>
-      <pubDate>Wed, 01 Jun 2022 02:37:05 GMT</pubDate>
-      <guid>https://trigger.it/168_6</guid>
-      <link>https://trigger.it/168_6</link>
-    </item>
-    <item>
-      <title>Valore aggiunto, Redditi da lavoro, Investimenti fissi lordi, Spesa per consumi finali famiglie, Costi e margini</title>
-      <pubDate>Wed, 01 Jun 2022 02:17:08 GMT</pubDate>
-      <guid>https://trigger.it/163_24</guid>
-      <link>https://trigger.it/163_24</link>
-    </item>
-    <item>
-      <title>Spesa  per interventi e  servizi sociali</title>
-      <pubDate>Wed, 01 Jun 2022 01:04:35 GMT</pubDate>
-      <guid>https://trigger.it/47_940</guid>
-      <link>https://trigger.it/47_940</link>
+      <title>Latte e prodotti lattiero caseari</title>
+      <pubDate>Mon, 06 Jun 2022 11:54:21 GMT</pubDate>
+      <guid>https://trigger.it/101_959</guid>
+      <link>https://trigger.it/101_959</link>
     </item>
   </channel>
 </rss>
