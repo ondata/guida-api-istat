@@ -5,6 +5,48 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Pernottamenti  in viaggio</title>
+      <pubDate>Tue, 07 Jun 2022 12:40:24 GMT</pubDate>
+      <guid>https://trigger.it/68_357</guid>
+      <link>https://trigger.it/68_357</link>
+    </item>
+    <item>
+      <title>Visite in giornata (escursioni)</title>
+      <pubDate>Tue, 07 Jun 2022 12:22:08 GMT</pubDate>
+      <guid>https://trigger.it/68_338</guid>
+      <link>https://trigger.it/68_338</link>
+    </item>
+    <item>
+      <title>Viaggi per caratteristiche del viaggiatore</title>
+      <pubDate>Tue, 07 Jun 2022 11:59:49 GMT</pubDate>
+      <guid>https://trigger.it/68_699</guid>
+      <link>https://trigger.it/68_699</link>
+    </item>
+    <item>
+      <title>Viaggi per motivo</title>
+      <pubDate>Tue, 07 Jun 2022 11:06:00 GMT</pubDate>
+      <guid>https://trigger.it/68_697</guid>
+      <link>https://trigger.it/68_697</link>
+    </item>
+    <item>
+      <title>Persone che hanno viaggiato</title>
+      <pubDate>Tue, 07 Jun 2022 10:16:01 GMT</pubDate>
+      <guid>https://trigger.it/68_356</guid>
+      <link>https://trigger.it/68_356</link>
+    </item>
+    <item>
+      <title>Persone andate o non andate in vacanza</title>
+      <pubDate>Tue, 07 Jun 2022 09:46:01 GMT</pubDate>
+      <guid>https://trigger.it/68_161</guid>
+      <link>https://trigger.it/68_161</link>
+    </item>
+    <item>
+      <title>Viaggi per caratteristiche del viaggio</title>
+      <pubDate>Tue, 07 Jun 2022 01:12:04 GMT</pubDate>
+      <guid>https://trigger.it/68_698</guid>
+      <link>https://trigger.it/68_698</link>
+    </item>
+    <item>
       <title>Latte e prodotti lattiero caseari</title>
       <pubDate>Mon, 06 Jun 2022 11:54:21 GMT</pubDate>
       <guid>https://trigger.it/101_959</guid>
