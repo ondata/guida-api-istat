@@ -5,6 +5,30 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
+      <pubDate>Fri, 10 Jun 2022 11:31:25 GMT</pubDate>
+      <guid>https://trigger.it/139_176</guid>
+      <link>https://trigger.it/139_176</link>
+    </item>
+    <item>
+      <title>Indice della produzione industriale</title>
+      <pubDate>Fri, 10 Jun 2022 10:01:51 GMT</pubDate>
+      <guid>https://trigger.it/115_333</guid>
+      <link>https://trigger.it/115_333</link>
+    </item>
+    <item>
+      <title>Istituti di cura</title>
+      <pubDate>Fri, 10 Jun 2022 09:11:45 GMT</pubDate>
+      <guid>https://trigger.it/43_967</guid>
+      <link>https://trigger.it/43_967</link>
+    </item>
+    <item>
+      <title>Macellazioni</title>
+      <pubDate>Fri, 10 Jun 2022 07:17:44 GMT</pubDate>
+      <guid>https://trigger.it/101_1033</guid>
+      <link>https://trigger.it/101_1033</link>
+    </item>
+    <item>
       <title>Indice del valore delle vendite del commercio fisso al dettaglio - dati mensili</title>
       <pubDate>Wed, 08 Jun 2022 10:09:03 GMT</pubDate>
       <guid>https://trigger.it/120_337</guid>
