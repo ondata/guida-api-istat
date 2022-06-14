@@ -5,6 +5,126 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Retribuzioni lorde - Imprese con dipendenti</title>
+      <pubDate>Mon, 13 Jun 2022 10:17:48 GMT</pubDate>
+      <guid>https://trigger.it/155_374</guid>
+      <link>https://trigger.it/155_374</link>
+    </item>
+    <item>
+      <title>Posizioni lavorative alle dipendenze</title>
+      <pubDate>Mon, 13 Jun 2022 10:17:43 GMT</pubDate>
+      <guid>https://trigger.it/149_577</guid>
+      <link>https://trigger.it/149_577</link>
+    </item>
+    <item>
+      <title>Indicatori - Imprese con dipendenti</title>
+      <pubDate>Mon, 13 Jun 2022 10:17:07 GMT</pubDate>
+      <guid>https://trigger.it/154_373</guid>
+      <link>https://trigger.it/154_373</link>
+    </item>
+    <item>
+      <title>Tasso di disoccupazione - dati trimestrali destagionalizzati</title>
+      <pubDate>Mon, 13 Jun 2022 10:17:02 GMT</pubDate>
+      <guid>https://trigger.it/151_884</guid>
+      <link>https://trigger.it/151_884</link>
+    </item>
+    <item>
+      <title>Tasso di  disoccupazione</title>
+      <pubDate>Mon, 13 Jun 2022 10:16:15 GMT</pubDate>
+      <guid>https://trigger.it/151_914</guid>
+      <link>https://trigger.it/151_914</link>
+    </item>
+    <item>
+      <title>Disoccupati  - dati destagionalizzati</title>
+      <pubDate>Mon, 13 Jun 2022 10:15:44 GMT</pubDate>
+      <guid>https://trigger.it/151_885</guid>
+      <link>https://trigger.it/151_885</link>
+    </item>
+    <item>
+      <title>Disoccupati</title>
+      <pubDate>Mon, 13 Jun 2022 10:15:40 GMT</pubDate>
+      <guid>https://trigger.it/151_929</guid>
+      <link>https://trigger.it/151_929</link>
+    </item>
+    <item>
+      <title>Popolazione  per condizione professionale</title>
+      <pubDate>Mon, 13 Jun 2022 10:14:26 GMT</pubDate>
+      <guid>https://trigger.it/532_930</guid>
+      <link>https://trigger.it/532_930</link>
+    </item>
+    <item>
+      <title>Tasso di inattività - dati trimestrali destagionalizzati</title>
+      <pubDate>Mon, 13 Jun 2022 10:14:18 GMT</pubDate>
+      <guid>https://trigger.it/152_886</guid>
+      <link>https://trigger.it/152_886</link>
+    </item>
+    <item>
+      <title>Tasso di  inattività</title>
+      <pubDate>Mon, 13 Jun 2022 10:13:26 GMT</pubDate>
+      <guid>https://trigger.it/152_913</guid>
+      <link>https://trigger.it/152_913</link>
+    </item>
+    <item>
+      <title>Inattivi - dati trimestrali destagionalizzati</title>
+      <pubDate>Mon, 13 Jun 2022 10:13:23 GMT</pubDate>
+      <guid>https://trigger.it/152_887</guid>
+      <link>https://trigger.it/152_887</link>
+    </item>
+    <item>
+      <title>Inattivi</title>
+      <pubDate>Mon, 13 Jun 2022 10:12:30 GMT</pubDate>
+      <guid>https://trigger.it/152_928</guid>
+      <link>https://trigger.it/152_928</link>
+    </item>
+    <item>
+      <title>Tasso di occupazione - dati trimestrali destagionalizzati</title>
+      <pubDate>Mon, 13 Jun 2022 10:12:26 GMT</pubDate>
+      <guid>https://trigger.it/150_883</guid>
+      <link>https://trigger.it/150_883</link>
+    </item>
+    <item>
+      <title>Tasso di  occupazione</title>
+      <pubDate>Mon, 13 Jun 2022 10:11:39 GMT</pubDate>
+      <guid>https://trigger.it/150_915</guid>
+      <link>https://trigger.it/150_915</link>
+    </item>
+    <item>
+      <title>Tasso di attività  - dati destagionalizzati</title>
+      <pubDate>Mon, 13 Jun 2022 10:11:35 GMT</pubDate>
+      <guid>https://trigger.it/150_880</guid>
+      <link>https://trigger.it/150_880</link>
+    </item>
+    <item>
+      <title>Tasso di  attività</title>
+      <pubDate>Mon, 13 Jun 2022 10:10:57 GMT</pubDate>
+      <guid>https://trigger.it/150_916</guid>
+      <link>https://trigger.it/150_916</link>
+    </item>
+    <item>
+      <title>Occupati -  dati destagionalizzati</title>
+      <pubDate>Mon, 13 Jun 2022 10:10:11 GMT</pubDate>
+      <guid>https://trigger.it/150_882</guid>
+      <link>https://trigger.it/150_882</link>
+    </item>
+    <item>
+      <title>Occupati  (migliaia)</title>
+      <pubDate>Mon, 13 Jun 2022 10:10:08 GMT</pubDate>
+      <guid>https://trigger.it/150_938</guid>
+      <link>https://trigger.it/150_938</link>
+    </item>
+    <item>
+      <title>Forze di lavoro  - dati destagionalizzati</title>
+      <pubDate>Mon, 13 Jun 2022 10:09:33 GMT</pubDate>
+      <guid>https://trigger.it/150_881</guid>
+      <link>https://trigger.it/150_881</link>
+    </item>
+    <item>
+      <title>Forze di  lavoro</title>
+      <pubDate>Mon, 13 Jun 2022 10:09:27 GMT</pubDate>
+      <guid>https://trigger.it/150_908</guid>
+      <link>https://trigger.it/150_908</link>
+    </item>
+    <item>
       <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
       <pubDate>Fri, 10 Jun 2022 11:31:25 GMT</pubDate>
       <guid>https://trigger.it/139_176</guid>
@@ -27,12 +147,6 @@
       <pubDate>Fri, 10 Jun 2022 07:17:44 GMT</pubDate>
       <guid>https://trigger.it/101_1033</guid>
       <link>https://trigger.it/101_1033</link>
-    </item>
-    <item>
-      <title>Indice del valore delle vendite del commercio fisso al dettaglio - dati mensili</title>
-      <pubDate>Wed, 08 Jun 2022 10:09:03 GMT</pubDate>
-      <guid>https://trigger.it/120_337</guid>
-      <link>https://trigger.it/120_337</link>
     </item>
   </channel>
 </rss>
