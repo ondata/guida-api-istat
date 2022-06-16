@@ -5,6 +5,114 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi</title>
+      <pubDate>Wed, 15 Jun 2022 11:39:37 GMT</pubDate>
+      <guid>https://trigger.it/122_54</guid>
+      <link>https://trigger.it/122_54</link>
+    </item>
+    <item>
+      <title>Presenza di problemi nella zona di residenza delle famiglie</title>
+      <pubDate>Wed, 15 Jun 2022 10:43:19 GMT</pubDate>
+      <guid>https://trigger.it/33_291</guid>
+      <link>https://trigger.it/33_291</link>
+    </item>
+    <item>
+      <title>Giudizio sul reddito minimo per arrivare a fine mese senza difficoltà</title>
+      <pubDate>Wed, 15 Jun 2022 10:39:02 GMT</pubDate>
+      <guid>https://trigger.it/34_220</guid>
+      <link>https://trigger.it/34_220</link>
+    </item>
+    <item>
+      <title>Giudizio sulla condizione economica percepita</title>
+      <pubDate>Wed, 15 Jun 2022 10:35:45 GMT</pubDate>
+      <guid>https://trigger.it/34_226</guid>
+      <link>https://trigger.it/34_226</link>
+    </item>
+    <item>
+      <title>Famiglie che hanno  difficoltà nel pagamento di alcune spese</title>
+      <pubDate>Wed, 15 Jun 2022 10:32:44 GMT</pubDate>
+      <guid>https://trigger.it/34_219</guid>
+      <link>https://trigger.it/34_219</link>
+    </item>
+    <item>
+      <title>Famiglie che non riescono  a risparmiare o a far fronte a spese impreviste</title>
+      <pubDate>Wed, 15 Jun 2022 10:31:21 GMT</pubDate>
+      <guid>https://trigger.it/34_216</guid>
+      <link>https://trigger.it/34_216</link>
+    </item>
+    <item>
+      <title>Famiglie che non possono permettersi alcune voci di spesa</title>
+      <pubDate>Wed, 15 Jun 2022 10:30:22 GMT</pubDate>
+      <guid>https://trigger.it/34_280</guid>
+      <link>https://trigger.it/34_280</link>
+    </item>
+    <item>
+      <title>Famiglie che non possono permettersi alcuni beni durevoli</title>
+      <pubDate>Wed, 15 Jun 2022 10:29:12 GMT</pubDate>
+      <guid>https://trigger.it/34_218</guid>
+      <link>https://trigger.it/34_218</link>
+    </item>
+    <item>
+      <title>Famiglie che considerano un carico pesante alcune spese per l'abitazione o il rimborso di debiti</title>
+      <pubDate>Wed, 15 Jun 2022 10:27:48 GMT</pubDate>
+      <guid>https://trigger.it/34_217</guid>
+      <link>https://trigger.it/34_217</link>
+    </item>
+    <item>
+      <title>Famiglie con pagamaneti arretrati</title>
+      <pubDate>Wed, 15 Jun 2022 10:26:00 GMT</pubDate>
+      <guid>https://trigger.it/34_215</guid>
+      <link>https://trigger.it/34_215</link>
+    </item>
+    <item>
+      <title>Reddito  netto familiare</title>
+      <pubDate>Wed, 15 Jun 2022 10:23:27 GMT</pubDate>
+      <guid>https://trigger.it/32_292</guid>
+      <link>https://trigger.it/32_292</link>
+    </item>
+    <item>
+      <title>Quinto di reddito equivalente</title>
+      <pubDate>Wed, 15 Jun 2022 10:22:10 GMT</pubDate>
+      <guid>https://trigger.it/32_38</guid>
+      <link>https://trigger.it/32_38</link>
+    </item>
+    <item>
+      <title>Indicatori sulla distribuzione reddito netto familiare</title>
+      <pubDate>Wed, 15 Jun 2022 09:59:03 GMT</pubDate>
+      <guid>https://trigger.it/32_221</guid>
+      <link>https://trigger.it/32_221</link>
+    </item>
+    <item>
+      <title>Fonte principale di reddito familiare</title>
+      <pubDate>Wed, 15 Jun 2022 09:53:27 GMT</pubDate>
+      <guid>https://trigger.it/32_223</guid>
+      <link>https://trigger.it/32_223</link>
+    </item>
+    <item>
+      <title>Titolo di godimento dell'abitazione</title>
+      <pubDate>Wed, 15 Jun 2022 09:50:35 GMT</pubDate>
+      <guid>https://trigger.it/33_290</guid>
+      <link>https://trigger.it/33_290</link>
+    </item>
+    <item>
+      <title>Spesa per l'abitazione</title>
+      <pubDate>Wed, 15 Jun 2022 09:49:32 GMT</pubDate>
+      <guid>https://trigger.it/33_225</guid>
+      <link>https://trigger.it/33_225</link>
+    </item>
+    <item>
+      <title>Problemi nell'abitazione</title>
+      <pubDate>Wed, 15 Jun 2022 09:47:44 GMT</pubDate>
+      <guid>https://trigger.it/33_4</guid>
+      <link>https://trigger.it/33_4</link>
+    </item>
+    <item>
+      <title>Affollamento nell'abitazione</title>
+      <pubDate>Wed, 15 Jun 2022 09:44:22 GMT</pubDate>
+      <guid>https://trigger.it/33_179</guid>
+      <link>https://trigger.it/33_179</link>
+    </item>
+    <item>
       <title>Retribuzioni lorde - Imprese con dipendenti</title>
       <pubDate>Mon, 13 Jun 2022 10:17:48 GMT</pubDate>
       <guid>https://trigger.it/155_374</guid>
@@ -21,132 +129,6 @@
       <pubDate>Mon, 13 Jun 2022 10:17:07 GMT</pubDate>
       <guid>https://trigger.it/154_373</guid>
       <link>https://trigger.it/154_373</link>
-    </item>
-    <item>
-      <title>Tasso di disoccupazione - dati trimestrali destagionalizzati</title>
-      <pubDate>Mon, 13 Jun 2022 10:17:02 GMT</pubDate>
-      <guid>https://trigger.it/151_884</guid>
-      <link>https://trigger.it/151_884</link>
-    </item>
-    <item>
-      <title>Tasso di  disoccupazione</title>
-      <pubDate>Mon, 13 Jun 2022 10:16:15 GMT</pubDate>
-      <guid>https://trigger.it/151_914</guid>
-      <link>https://trigger.it/151_914</link>
-    </item>
-    <item>
-      <title>Disoccupati  - dati destagionalizzati</title>
-      <pubDate>Mon, 13 Jun 2022 10:15:44 GMT</pubDate>
-      <guid>https://trigger.it/151_885</guid>
-      <link>https://trigger.it/151_885</link>
-    </item>
-    <item>
-      <title>Disoccupati</title>
-      <pubDate>Mon, 13 Jun 2022 10:15:40 GMT</pubDate>
-      <guid>https://trigger.it/151_929</guid>
-      <link>https://trigger.it/151_929</link>
-    </item>
-    <item>
-      <title>Popolazione  per condizione professionale</title>
-      <pubDate>Mon, 13 Jun 2022 10:14:26 GMT</pubDate>
-      <guid>https://trigger.it/532_930</guid>
-      <link>https://trigger.it/532_930</link>
-    </item>
-    <item>
-      <title>Tasso di inattività - dati trimestrali destagionalizzati</title>
-      <pubDate>Mon, 13 Jun 2022 10:14:18 GMT</pubDate>
-      <guid>https://trigger.it/152_886</guid>
-      <link>https://trigger.it/152_886</link>
-    </item>
-    <item>
-      <title>Tasso di  inattività</title>
-      <pubDate>Mon, 13 Jun 2022 10:13:26 GMT</pubDate>
-      <guid>https://trigger.it/152_913</guid>
-      <link>https://trigger.it/152_913</link>
-    </item>
-    <item>
-      <title>Inattivi - dati trimestrali destagionalizzati</title>
-      <pubDate>Mon, 13 Jun 2022 10:13:23 GMT</pubDate>
-      <guid>https://trigger.it/152_887</guid>
-      <link>https://trigger.it/152_887</link>
-    </item>
-    <item>
-      <title>Inattivi</title>
-      <pubDate>Mon, 13 Jun 2022 10:12:30 GMT</pubDate>
-      <guid>https://trigger.it/152_928</guid>
-      <link>https://trigger.it/152_928</link>
-    </item>
-    <item>
-      <title>Tasso di occupazione - dati trimestrali destagionalizzati</title>
-      <pubDate>Mon, 13 Jun 2022 10:12:26 GMT</pubDate>
-      <guid>https://trigger.it/150_883</guid>
-      <link>https://trigger.it/150_883</link>
-    </item>
-    <item>
-      <title>Tasso di  occupazione</title>
-      <pubDate>Mon, 13 Jun 2022 10:11:39 GMT</pubDate>
-      <guid>https://trigger.it/150_915</guid>
-      <link>https://trigger.it/150_915</link>
-    </item>
-    <item>
-      <title>Tasso di attività  - dati destagionalizzati</title>
-      <pubDate>Mon, 13 Jun 2022 10:11:35 GMT</pubDate>
-      <guid>https://trigger.it/150_880</guid>
-      <link>https://trigger.it/150_880</link>
-    </item>
-    <item>
-      <title>Tasso di  attività</title>
-      <pubDate>Mon, 13 Jun 2022 10:10:57 GMT</pubDate>
-      <guid>https://trigger.it/150_916</guid>
-      <link>https://trigger.it/150_916</link>
-    </item>
-    <item>
-      <title>Occupati -  dati destagionalizzati</title>
-      <pubDate>Mon, 13 Jun 2022 10:10:11 GMT</pubDate>
-      <guid>https://trigger.it/150_882</guid>
-      <link>https://trigger.it/150_882</link>
-    </item>
-    <item>
-      <title>Occupati  (migliaia)</title>
-      <pubDate>Mon, 13 Jun 2022 10:10:08 GMT</pubDate>
-      <guid>https://trigger.it/150_938</guid>
-      <link>https://trigger.it/150_938</link>
-    </item>
-    <item>
-      <title>Forze di lavoro  - dati destagionalizzati</title>
-      <pubDate>Mon, 13 Jun 2022 10:09:33 GMT</pubDate>
-      <guid>https://trigger.it/150_881</guid>
-      <link>https://trigger.it/150_881</link>
-    </item>
-    <item>
-      <title>Forze di  lavoro</title>
-      <pubDate>Mon, 13 Jun 2022 10:09:27 GMT</pubDate>
-      <guid>https://trigger.it/150_908</guid>
-      <link>https://trigger.it/150_908</link>
-    </item>
-    <item>
-      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
-      <pubDate>Fri, 10 Jun 2022 11:31:25 GMT</pubDate>
-      <guid>https://trigger.it/139_176</guid>
-      <link>https://trigger.it/139_176</link>
-    </item>
-    <item>
-      <title>Indice della produzione industriale</title>
-      <pubDate>Fri, 10 Jun 2022 10:01:51 GMT</pubDate>
-      <guid>https://trigger.it/115_333</guid>
-      <link>https://trigger.it/115_333</link>
-    </item>
-    <item>
-      <title>Istituti di cura</title>
-      <pubDate>Fri, 10 Jun 2022 09:11:45 GMT</pubDate>
-      <guid>https://trigger.it/43_967</guid>
-      <link>https://trigger.it/43_967</link>
-    </item>
-    <item>
-      <title>Macellazioni</title>
-      <pubDate>Fri, 10 Jun 2022 07:17:44 GMT</pubDate>
-      <guid>https://trigger.it/101_1033</guid>
-      <link>https://trigger.it/101_1033</link>
     </item>
   </channel>
 </rss>
