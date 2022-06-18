@@ -5,6 +5,30 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indice dei prezzi all'importazione - dati mensili</title>
+      <pubDate>Fri, 17 Jun 2022 12:29:34 GMT</pubDate>
+      <guid>https://trigger.it/143_222</guid>
+      <link>https://trigger.it/143_222</link>
+    </item>
+    <item>
+      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
+      <pubDate>Fri, 17 Jun 2022 11:16:00 GMT</pubDate>
+      <guid>https://trigger.it/139_176</guid>
+      <link>https://trigger.it/139_176</link>
+    </item>
+    <item>
+      <title>Indice della produzione nelle costruzioni</title>
+      <pubDate>Fri, 17 Jun 2022 10:16:33 GMT</pubDate>
+      <guid>https://trigger.it/115_362</guid>
+      <link>https://trigger.it/115_362</link>
+    </item>
+    <item>
+      <title>Gettito delle imposte ambientali</title>
+      <pubDate>Fri, 17 Jun 2022 09:53:57 GMT</pubDate>
+      <guid>https://trigger.it/97_26</guid>
+      <link>https://trigger.it/97_26</link>
+    </item>
+    <item>
       <title>IPCA a tassazione costante - Dati mensili dal 2002 (base 2015=100)</title>
       <pubDate>Thu, 16 Jun 2022 10:24:34 GMT</pubDate>
       <guid>https://trigger.it/168_756</guid>
