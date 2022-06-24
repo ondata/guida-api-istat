@@ -5,6 +5,18 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Coltivazioni</title>
+      <pubDate>Thu, 23 Jun 2022 11:43:42 GMT</pubDate>
+      <guid>https://trigger.it/101_1015</guid>
+      <link>https://trigger.it/101_1015</link>
+    </item>
+    <item>
+      <title>Prodotti agroalimentari di qualità DOP/IGP e STG</title>
+      <pubDate>Thu, 23 Jun 2022 03:33:20 GMT</pubDate>
+      <guid>https://trigger.it/101_1030</guid>
+      <link>https://trigger.it/101_1030</link>
+    </item>
+    <item>
       <title>Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi</title>
       <pubDate>Wed, 22 Jun 2022 03:41:15 GMT</pubDate>
       <guid>https://trigger.it/122_54</guid>
