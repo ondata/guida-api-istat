@@ -5,6 +5,30 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili</title>
+      <pubDate>Tue, 28 Jun 2022 10:03:56 GMT</pubDate>
+      <guid>https://trigger.it/114_191</guid>
+      <link>https://trigger.it/114_191</link>
+    </item>
+    <item>
+      <title>Aspetti della vita quotidiana - Famiglie</title>
+      <pubDate>Tue, 28 Jun 2022 09:57:42 GMT</pubDate>
+      <guid>https://trigger.it/82_87</guid>
+      <link>https://trigger.it/82_87</link>
+    </item>
+    <item>
+      <title>Aspetti della vita quotidiana - Persone</title>
+      <pubDate>Tue, 28 Jun 2022 09:46:07 GMT</pubDate>
+      <guid>https://trigger.it/83_85</guid>
+      <link>https://trigger.it/83_85</link>
+    </item>
+    <item>
+      <title>Aspetti della vita quotidiana</title>
+      <pubDate>Tue, 28 Jun 2022 09:38:16 GMT</pubDate>
+      <guid>https://trigger.it/83_63</guid>
+      <link>https://trigger.it/83_63</link>
+    </item>
+    <item>
       <title>Prezzi delle abitazioni</title>
       <pubDate>Mon, 27 Jun 2022 10:56:58 GMT</pubDate>
       <guid>https://trigger.it/143_497</guid>
@@ -93,18 +117,6 @@
       <pubDate>Fri, 24 Jun 2022 09:56:55 GMT</pubDate>
       <guid>https://trigger.it/155_358</guid>
       <link>https://trigger.it/155_358</link>
-    </item>
-    <item>
-      <title>Coltivazioni</title>
-      <pubDate>Thu, 23 Jun 2022 11:43:42 GMT</pubDate>
-      <guid>https://trigger.it/101_1015</guid>
-      <link>https://trigger.it/101_1015</link>
-    </item>
-    <item>
-      <title>Prodotti agroalimentari di qualità DOP/IGP e STG</title>
-      <pubDate>Thu, 23 Jun 2022 03:33:20 GMT</pubDate>
-      <guid>https://trigger.it/101_1030</guid>
-      <link>https://trigger.it/101_1030</link>
     </item>
   </channel>
 </rss>
