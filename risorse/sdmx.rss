@@ -5,6 +5,24 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Macellazioni</title>
+      <pubDate>Mon, 04 Jul 2022 09:51:21 GMT</pubDate>
+      <guid>https://trigger.it/101_1033</guid>
+      <link>https://trigger.it/101_1033</link>
+    </item>
+    <item>
+      <title>Personale sanitario</title>
+      <pubDate>Mon, 04 Jul 2022 03:59:36 GMT</pubDate>
+      <guid>https://trigger.it/43_973</guid>
+      <link>https://trigger.it/43_973</link>
+    </item>
+    <item>
+      <title>Latte e prodotti lattiero caseari</title>
+      <pubDate>Mon, 04 Jul 2022 03:07:37 GMT</pubDate>
+      <guid>https://trigger.it/101_959</guid>
+      <link>https://trigger.it/101_959</link>
+    </item>
+    <item>
       <title>Ipca - mensili dal 2001 (base 2015)</title>
       <pubDate>Fri, 01 Jul 2022 11:16:15 GMT</pubDate>
       <guid>https://trigger.it/168_760</guid>
