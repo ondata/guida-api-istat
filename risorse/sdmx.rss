@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indice del valore delle vendite del commercio fisso al dettaglio - dati mensili</title>
+      <pubDate>Mon, 11 Jul 2022 10:07:38 GMT</pubDate>
+      <guid>https://trigger.it/120_337</guid>
+      <link>https://trigger.it/120_337</link>
+    </item>
+    <item>
       <title>Spese nuove serie</title>
       <pubDate>Fri, 08 Jul 2022 11:37:53 GMT</pubDate>
       <guid>https://trigger.it/31_739</guid>
