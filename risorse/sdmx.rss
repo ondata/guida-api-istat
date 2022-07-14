@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Popolazione residente  - bilancio</title>
+      <pubDate>Wed, 13 Jul 2022 10:02:15 GMT</pubDate>
+      <guid>https://trigger.it/22_315</guid>
+      <link>https://trigger.it/22_315</link>
+    </item>
+    <item>
       <title>Servizi  socio-educativi per la prima infanzia</title>
       <pubDate>Tue, 12 Jul 2022 10:39:17 GMT</pubDate>
       <guid>https://trigger.it/47_850</guid>
@@ -15,18 +21,6 @@
       <pubDate>Mon, 11 Jul 2022 10:07:38 GMT</pubDate>
       <guid>https://trigger.it/120_337</guid>
       <link>https://trigger.it/120_337</link>
-    </item>
-    <item>
-      <title>Spese nuove serie</title>
-      <pubDate>Fri, 08 Jul 2022 11:37:53 GMT</pubDate>
-      <guid>https://trigger.it/31_739</guid>
-      <link>https://trigger.it/31_739</link>
-    </item>
-    <item>
-      <title>Indice della produzione industriale</title>
-      <pubDate>Fri, 08 Jul 2022 10:02:23 GMT</pubDate>
-      <guid>https://trigger.it/115_333</guid>
-      <link>https://trigger.it/115_333</link>
     </item>
   </channel>
 </rss>
