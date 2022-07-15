@@ -5,6 +5,18 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Macellazioni</title>
+      <pubDate>Thu, 14 Jul 2022 11:50:04 GMT</pubDate>
+      <guid>https://trigger.it/101_1033</guid>
+      <link>https://trigger.it/101_1033</link>
+    </item>
+    <item>
+      <title>Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi</title>
+      <pubDate>Thu, 14 Jul 2022 03:28:35 GMT</pubDate>
+      <guid>https://trigger.it/122_54</guid>
+      <link>https://trigger.it/122_54</link>
+    </item>
+    <item>
       <title>Popolazione residente  - bilancio</title>
       <pubDate>Wed, 13 Jul 2022 10:02:15 GMT</pubDate>
       <guid>https://trigger.it/22_315</guid>
