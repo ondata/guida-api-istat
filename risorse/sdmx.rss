@@ -5,6 +5,18 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indicatori di bilancio e dati sul personale delle unità istituzionali</title>
+      <pubDate>Wed, 20 Jul 2022 12:11:51 GMT</pubDate>
+      <guid>https://trigger.it/123_712</guid>
+      <link>https://trigger.it/123_712</link>
+    </item>
+    <item>
+      <title>Indice della produzione nelle costruzioni</title>
+      <pubDate>Wed, 20 Jul 2022 10:10:17 GMT</pubDate>
+      <guid>https://trigger.it/115_362</guid>
+      <link>https://trigger.it/115_362</link>
+    </item>
+    <item>
       <title>Indice dei prezzi all'importazione - dati mensili</title>
       <pubDate>Mon, 18 Jul 2022 10:25:45 GMT</pubDate>
       <guid>https://trigger.it/143_222</guid>
@@ -21,36 +33,6 @@
       <pubDate>Mon, 18 Jul 2022 09:56:24 GMT</pubDate>
       <guid>https://trigger.it/46_813</guid>
       <link>https://trigger.it/46_813</link>
-    </item>
-    <item>
-      <title>Povertà nuove serie</title>
-      <pubDate>Fri, 15 Jul 2022 12:06:23 GMT</pubDate>
-      <guid>https://trigger.it/34_727</guid>
-      <link>https://trigger.it/34_727</link>
-    </item>
-    <item>
-      <title>IPCA a tassazione costante - Dati mensili dal 2002 (base 2015=100)</title>
-      <pubDate>Fri, 15 Jul 2022 10:23:44 GMT</pubDate>
-      <guid>https://trigger.it/168_756</guid>
-      <link>https://trigger.it/168_756</link>
-    </item>
-    <item>
-      <title>Ipca - mensili dal 2001 (base 2015)</title>
-      <pubDate>Fri, 15 Jul 2022 10:22:26 GMT</pubDate>
-      <guid>https://trigger.it/168_760</guid>
-      <link>https://trigger.it/168_760</link>
-    </item>
-    <item>
-      <title>FOI - Dati mensili dal 2016</title>
-      <pubDate>Fri, 15 Jul 2022 10:15:51 GMT</pubDate>
-      <guid>https://trigger.it/169_745</guid>
-      <link>https://trigger.it/169_745</link>
-    </item>
-    <item>
-      <title>Nic - mensili dal 2016 (base 2015)</title>
-      <pubDate>Fri, 15 Jul 2022 10:13:44 GMT</pubDate>
-      <guid>https://trigger.it/167_744</guid>
-      <link>https://trigger.it/167_744</link>
     </item>
   </channel>
 </rss>
