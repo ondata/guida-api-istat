@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Conto economico delle Aziende sanitarie locali, aziende ospedaliere, aziende ospedaliere universitarie, Policlinici e IRCCS - migliaia di euro</title>
+      <pubDate>Thu, 21 Jul 2022 10:41:38 GMT</pubDate>
+      <guid>https://trigger.it/124_722</guid>
+      <link>https://trigger.it/124_722</link>
+    </item>
+    <item>
       <title>Indicatori di bilancio e dati sul personale delle unità istituzionali</title>
       <pubDate>Wed, 20 Jul 2022 12:11:51 GMT</pubDate>
       <guid>https://trigger.it/123_712</guid>
