@@ -5,6 +5,36 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indici dei costi di costruzione - dati mensili</title>
+      <pubDate>Fri, 29 Jul 2022 12:18:16 GMT</pubDate>
+      <guid>https://trigger.it/145_361</guid>
+      <link>https://trigger.it/145_361</link>
+    </item>
+    <item>
+      <title>Prezzi alla produzione dell'industria</title>
+      <pubDate>Fri, 29 Jul 2022 12:16:48 GMT</pubDate>
+      <guid>https://trigger.it/145_360</guid>
+      <link>https://trigger.it/145_360</link>
+    </item>
+    <item>
+      <title>Ipca - mensili dal 2001 (base 2015)</title>
+      <pubDate>Fri, 29 Jul 2022 11:15:41 GMT</pubDate>
+      <guid>https://trigger.it/168_760</guid>
+      <link>https://trigger.it/168_760</link>
+    </item>
+    <item>
+      <title>Nic - mensili dal 2016 (base 2015)</title>
+      <pubDate>Fri, 29 Jul 2022 11:12:19 GMT</pubDate>
+      <guid>https://trigger.it/167_744</guid>
+      <link>https://trigger.it/167_744</link>
+    </item>
+    <item>
+      <title>Conto economico delle risorse e degli impieghi  e contributi alla crescita del Pil</title>
+      <pubDate>Fri, 29 Jul 2022 10:05:57 GMT</pubDate>
+      <guid>https://trigger.it/163_156</guid>
+      <link>https://trigger.it/163_156</link>
+    </item>
+    <item>
       <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
       <pubDate>Thu, 28 Jul 2022 11:14:51 GMT</pubDate>
       <guid>https://trigger.it/139_176</guid>
