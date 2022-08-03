@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Previsioni della popolazione  - Anni 2016-2065</title>
+      <pubDate>Tue, 02 Aug 2022 11:03:19 GMT</pubDate>
+      <guid>https://trigger.it/165_889</guid>
+      <link>https://trigger.it/165_889</link>
+    </item>
+    <item>
       <title>Popolazione residente  - bilancio</title>
       <pubDate>Mon, 01 Aug 2022 10:07:40 GMT</pubDate>
       <guid>https://trigger.it/22_315</guid>
@@ -93,24 +99,6 @@
       <pubDate>Fri, 29 Jul 2022 10:05:57 GMT</pubDate>
       <guid>https://trigger.it/163_156</guid>
       <link>https://trigger.it/163_156</link>
-    </item>
-    <item>
-      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
-      <pubDate>Thu, 28 Jul 2022 11:14:51 GMT</pubDate>
-      <guid>https://trigger.it/139_176</guid>
-      <link>https://trigger.it/139_176</link>
-    </item>
-    <item>
-      <title>Coltivazioni</title>
-      <pubDate>Thu, 28 Jul 2022 10:27:59 GMT</pubDate>
-      <guid>https://trigger.it/101_1015</guid>
-      <link>https://trigger.it/101_1015</link>
-    </item>
-    <item>
-      <title>Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili</title>
-      <pubDate>Thu, 28 Jul 2022 10:13:05 GMT</pubDate>
-      <guid>https://trigger.it/114_191</guid>
-      <link>https://trigger.it/114_191</link>
     </item>
   </channel>
 </rss>
