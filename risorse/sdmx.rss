@@ -5,100 +5,22 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indice del valore delle vendite del commercio fisso al dettaglio - dati mensili</title>
+      <pubDate>Wed, 03 Aug 2022 10:09:42 GMT</pubDate>
+      <guid>https://trigger.it/120_337</guid>
+      <link>https://trigger.it/120_337</link>
+    </item>
+    <item>
       <title>Previsioni della popolazione  - Anni 2016-2065</title>
       <pubDate>Tue, 02 Aug 2022 11:03:19 GMT</pubDate>
       <guid>https://trigger.it/165_889</guid>
       <link>https://trigger.it/165_889</link>
     </item>
     <item>
-      <title>Popolazione residente  - bilancio</title>
-      <pubDate>Mon, 01 Aug 2022 10:07:40 GMT</pubDate>
-      <guid>https://trigger.it/22_315</guid>
-      <link>https://trigger.it/22_315</link>
-    </item>
-    <item>
-      <title>Tasso di disoccupazione  - dati mensili</title>
-      <pubDate>Mon, 01 Aug 2022 10:02:45 GMT</pubDate>
-      <guid>https://trigger.it/151_874</guid>
-      <link>https://trigger.it/151_874</link>
-    </item>
-    <item>
-      <title>Disoccupati  - dati mensili</title>
-      <pubDate>Mon, 01 Aug 2022 10:02:42 GMT</pubDate>
-      <guid>https://trigger.it/151_877</guid>
-      <link>https://trigger.it/151_877</link>
-    </item>
-    <item>
-      <title>Tasso di inattività  - dati mensili</title>
-      <pubDate>Mon, 01 Aug 2022 10:02:06 GMT</pubDate>
-      <guid>https://trigger.it/152_878</guid>
-      <link>https://trigger.it/152_878</link>
-    </item>
-    <item>
-      <title>Inattivi  - dati mensili</title>
-      <pubDate>Mon, 01 Aug 2022 10:02:03 GMT</pubDate>
-      <guid>https://trigger.it/152_879</guid>
-      <link>https://trigger.it/152_879</link>
-    </item>
-    <item>
-      <title>Tasso di occupazione  - dati mensili</title>
-      <pubDate>Mon, 01 Aug 2022 10:01:27 GMT</pubDate>
-      <guid>https://trigger.it/150_872</guid>
-      <link>https://trigger.it/150_872</link>
-    </item>
-    <item>
-      <title>Tasso di attività  - dati mensili</title>
-      <pubDate>Mon, 01 Aug 2022 10:01:24 GMT</pubDate>
-      <guid>https://trigger.it/150_876</guid>
-      <link>https://trigger.it/150_876</link>
-    </item>
-    <item>
-      <title>Occupati -  dati mensili</title>
-      <pubDate>Mon, 01 Aug 2022 10:00:46 GMT</pubDate>
-      <guid>https://trigger.it/150_875</guid>
-      <link>https://trigger.it/150_875</link>
-    </item>
-    <item>
-      <title>Forze lavoro  - dati mensili</title>
-      <pubDate>Mon, 01 Aug 2022 10:00:37 GMT</pubDate>
-      <guid>https://trigger.it/150_873</guid>
-      <link>https://trigger.it/150_873</link>
-    </item>
-    <item>
       <title>Latte e prodotti lattiero caseari</title>
       <pubDate>Mon, 01 Aug 2022 08:56:25 GMT</pubDate>
       <guid>https://trigger.it/101_959</guid>
       <link>https://trigger.it/101_959</link>
-    </item>
-    <item>
-      <title>Indici dei costi di costruzione - dati mensili</title>
-      <pubDate>Fri, 29 Jul 2022 12:18:16 GMT</pubDate>
-      <guid>https://trigger.it/145_361</guid>
-      <link>https://trigger.it/145_361</link>
-    </item>
-    <item>
-      <title>Prezzi alla produzione dell'industria</title>
-      <pubDate>Fri, 29 Jul 2022 12:16:48 GMT</pubDate>
-      <guid>https://trigger.it/145_360</guid>
-      <link>https://trigger.it/145_360</link>
-    </item>
-    <item>
-      <title>Ipca - mensili dal 2001 (base 2015)</title>
-      <pubDate>Fri, 29 Jul 2022 11:15:41 GMT</pubDate>
-      <guid>https://trigger.it/168_760</guid>
-      <link>https://trigger.it/168_760</link>
-    </item>
-    <item>
-      <title>Nic - mensili dal 2016 (base 2015)</title>
-      <pubDate>Fri, 29 Jul 2022 11:12:19 GMT</pubDate>
-      <guid>https://trigger.it/167_744</guid>
-      <link>https://trigger.it/167_744</link>
-    </item>
-    <item>
-      <title>Conto economico delle risorse e degli impieghi  e contributi alla crescita del Pil</title>
-      <pubDate>Fri, 29 Jul 2022 10:05:57 GMT</pubDate>
-      <guid>https://trigger.it/163_156</guid>
-      <link>https://trigger.it/163_156</link>
     </item>
   </channel>
 </rss>
