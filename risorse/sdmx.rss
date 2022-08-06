@@ -5,6 +5,18 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Latte e prodotti lattiero caseari</title>
+      <pubDate>Fri, 05 Aug 2022 11:08:48 GMT</pubDate>
+      <guid>https://trigger.it/101_959</guid>
+      <link>https://trigger.it/101_959</link>
+    </item>
+    <item>
+      <title>Indice della produzione industriale</title>
+      <pubDate>Fri, 05 Aug 2022 10:03:11 GMT</pubDate>
+      <guid>https://trigger.it/115_333</guid>
+      <link>https://trigger.it/115_333</link>
+    </item>
+    <item>
       <title>Indice del valore delle vendite del commercio fisso al dettaglio - dati mensili</title>
       <pubDate>Wed, 03 Aug 2022 10:09:42 GMT</pubDate>
       <guid>https://trigger.it/120_337</guid>
@@ -15,12 +27,6 @@
       <pubDate>Tue, 02 Aug 2022 11:03:19 GMT</pubDate>
       <guid>https://trigger.it/165_889</guid>
       <link>https://trigger.it/165_889</link>
-    </item>
-    <item>
-      <title>Latte e prodotti lattiero caseari</title>
-      <pubDate>Mon, 01 Aug 2022 08:56:25 GMT</pubDate>
-      <guid>https://trigger.it/101_959</guid>
-      <link>https://trigger.it/101_959</link>
     </item>
   </channel>
 </rss>
