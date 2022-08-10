@@ -5,6 +5,36 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Macellazioni</title>
+      <pubDate>Tue, 09 Aug 2022 12:07:13 GMT</pubDate>
+      <guid>https://trigger.it/101_1033</guid>
+      <link>https://trigger.it/101_1033</link>
+    </item>
+    <item>
+      <title>Retribuzioni lorde - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Tue, 09 Aug 2022 10:02:32 GMT</pubDate>
+      <guid>https://trigger.it/535_194</guid>
+      <link>https://trigger.it/535_194</link>
+    </item>
+    <item>
+      <title>Ore lavorate - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Tue, 09 Aug 2022 10:02:25 GMT</pubDate>
+      <guid>https://trigger.it/534_49</guid>
+      <link>https://trigger.it/534_49</link>
+    </item>
+    <item>
+      <title>Posizioni lavorative - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Tue, 09 Aug 2022 10:01:41 GMT</pubDate>
+      <guid>https://trigger.it/534_50</guid>
+      <link>https://trigger.it/534_50</link>
+    </item>
+    <item>
+      <title>Imprese con almeno 500 dipendenti</title>
+      <pubDate>Tue, 09 Aug 2022 10:01:27 GMT</pubDate>
+      <guid>https://trigger.it/536_193</guid>
+      <link>https://trigger.it/536_193</link>
+    </item>
+    <item>
       <title>Latte e prodotti lattiero caseari</title>
       <pubDate>Fri, 05 Aug 2022 11:08:48 GMT</pubDate>
       <guid>https://trigger.it/101_959</guid>
