@@ -5,6 +5,18 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Aspetti della vita quotidiana - Persone</title>
+      <pubDate>Tue, 16 Aug 2022 10:39:34 GMT</pubDate>
+      <guid>https://trigger.it/83_85</guid>
+      <link>https://trigger.it/83_85</link>
+    </item>
+    <item>
+      <title>Aspetti della vita quotidiana</title>
+      <pubDate>Tue, 16 Aug 2022 10:37:50 GMT</pubDate>
+      <guid>https://trigger.it/83_63</guid>
+      <link>https://trigger.it/83_63</link>
+    </item>
+    <item>
       <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
       <pubDate>Fri, 12 Aug 2022 10:45:57 GMT</pubDate>
       <guid>https://trigger.it/139_176</guid>
