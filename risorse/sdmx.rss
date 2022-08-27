@@ -5,6 +5,42 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Clima di fiducia delle imprese</title>
+      <pubDate>Fri, 26 Aug 2022 10:31:54 GMT</pubDate>
+      <guid>https://trigger.it/6_64</guid>
+      <link>https://trigger.it/6_64</link>
+    </item>
+    <item>
+      <title>Fiducia delle imprese del commercio</title>
+      <pubDate>Fri, 26 Aug 2022 10:20:57 GMT</pubDate>
+      <guid>https://trigger.it/117_266</guid>
+      <link>https://trigger.it/117_266</link>
+    </item>
+    <item>
+      <title>Fiducia delle imprese servizi</title>
+      <pubDate>Fri, 26 Aug 2022 10:20:52 GMT</pubDate>
+      <guid>https://trigger.it/117_262</guid>
+      <link>https://trigger.it/117_262</link>
+    </item>
+    <item>
+      <title>Fiducia delle imprese costruzioni</title>
+      <pubDate>Fri, 26 Aug 2022 10:20:46 GMT</pubDate>
+      <guid>https://trigger.it/111_40</guid>
+      <link>https://trigger.it/111_40</link>
+    </item>
+    <item>
+      <title>Fiducia delle imprese manifatturiere</title>
+      <pubDate>Fri, 26 Aug 2022 10:19:20 GMT</pubDate>
+      <guid>https://trigger.it/111_263</guid>
+      <link>https://trigger.it/111_263</link>
+    </item>
+    <item>
+      <title>Fiducia dei consumatori</title>
+      <pubDate>Fri, 26 Aug 2022 10:18:20 GMT</pubDate>
+      <guid>https://trigger.it/30_264</guid>
+      <link>https://trigger.it/30_264</link>
+    </item>
+    <item>
       <title>Spesa  per interventi e  servizi sociali</title>
       <pubDate>Thu, 25 Aug 2022 11:23:06 GMT</pubDate>
       <guid>https://trigger.it/47_940</guid>
