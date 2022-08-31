@@ -5,6 +5,18 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indice del fatturato dei servizi</title>
+      <pubDate>Tue, 30 Aug 2022 11:03:24 GMT</pubDate>
+      <guid>https://trigger.it/119_367</guid>
+      <link>https://trigger.it/119_367</link>
+    </item>
+    <item>
+      <title>Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili</title>
+      <pubDate>Tue, 30 Aug 2022 10:06:49 GMT</pubDate>
+      <guid>https://trigger.it/114_191</guid>
+      <link>https://trigger.it/114_191</link>
+    </item>
+    <item>
       <title>Clima di fiducia delle imprese</title>
       <pubDate>Fri, 26 Aug 2022 10:31:54 GMT</pubDate>
       <guid>https://trigger.it/6_64</guid>
@@ -39,18 +51,6 @@
       <pubDate>Fri, 26 Aug 2022 10:18:20 GMT</pubDate>
       <guid>https://trigger.it/30_264</guid>
       <link>https://trigger.it/30_264</link>
-    </item>
-    <item>
-      <title>Spesa  per interventi e  servizi sociali</title>
-      <pubDate>Thu, 25 Aug 2022 11:23:06 GMT</pubDate>
-      <guid>https://trigger.it/47_940</guid>
-      <link>https://trigger.it/47_940</link>
-    </item>
-    <item>
-      <title>Servizi  socio-educativi per la prima infanzia</title>
-      <pubDate>Thu, 25 Aug 2022 08:53:50 GMT</pubDate>
-      <guid>https://trigger.it/47_850</guid>
-      <link>https://trigger.it/47_850</link>
     </item>
   </channel>
 </rss>
