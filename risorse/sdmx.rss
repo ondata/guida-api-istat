@@ -5,6 +5,66 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Prezzi alla produzione dell'industria</title>
+      <pubDate>Wed, 31 Aug 2022 12:55:43 GMT</pubDate>
+      <guid>https://trigger.it/145_360</guid>
+      <link>https://trigger.it/145_360</link>
+    </item>
+    <item>
+      <title>Prezzi alla produzione dei servizi</title>
+      <pubDate>Wed, 31 Aug 2022 12:20:08 GMT</pubDate>
+      <guid>https://trigger.it/145_376</guid>
+      <link>https://trigger.it/145_376</link>
+    </item>
+    <item>
+      <title>Indici dei costi di costruzione - dati mensili</title>
+      <pubDate>Wed, 31 Aug 2022 12:03:14 GMT</pubDate>
+      <guid>https://trigger.it/145_361</guid>
+      <link>https://trigger.it/145_361</link>
+    </item>
+    <item>
+      <title>Ipca - mensili dal 2001 (base 2015)</title>
+      <pubDate>Wed, 31 Aug 2022 11:12:36 GMT</pubDate>
+      <guid>https://trigger.it/168_760</guid>
+      <link>https://trigger.it/168_760</link>
+    </item>
+    <item>
+      <title>Nic - mensili dal 2016 (base 2015)</title>
+      <pubDate>Wed, 31 Aug 2022 11:10:48 GMT</pubDate>
+      <guid>https://trigger.it/167_744</guid>
+      <link>https://trigger.it/167_744</link>
+    </item>
+    <item>
+      <title>Tensione contrattuale</title>
+      <pubDate>Wed, 31 Aug 2022 11:02:03 GMT</pubDate>
+      <guid>https://trigger.it/149_319</guid>
+      <link>https://trigger.it/149_319</link>
+    </item>
+    <item>
+      <title>Retribuzioni contrattuali per tipo di contratto</title>
+      <pubDate>Wed, 31 Aug 2022 11:01:00 GMT</pubDate>
+      <guid>https://trigger.it/155_318</guid>
+      <link>https://trigger.it/155_318</link>
+    </item>
+    <item>
+      <title>Retribuzioni contrattuali per settore economico (Ateco)</title>
+      <pubDate>Wed, 31 Aug 2022 11:00:44 GMT</pubDate>
+      <guid>https://trigger.it/155_358</guid>
+      <link>https://trigger.it/155_358</link>
+    </item>
+    <item>
+      <title>Spese delle unità istituzionali centrali e locali</title>
+      <pubDate>Wed, 31 Aug 2022 09:06:37 GMT</pubDate>
+      <guid>https://trigger.it/124_732</guid>
+      <link>https://trigger.it/124_732</link>
+    </item>
+    <item>
+      <title>Entrate delle unità istituzionali centrali e locali</title>
+      <pubDate>Wed, 31 Aug 2022 09:05:33 GMT</pubDate>
+      <guid>https://trigger.it/124_730</guid>
+      <link>https://trigger.it/124_730</link>
+    </item>
+    <item>
       <title>Indice del fatturato dei servizi</title>
       <pubDate>Tue, 30 Aug 2022 11:03:24 GMT</pubDate>
       <guid>https://trigger.it/119_367</guid>
@@ -15,42 +75,6 @@
       <pubDate>Tue, 30 Aug 2022 10:06:49 GMT</pubDate>
       <guid>https://trigger.it/114_191</guid>
       <link>https://trigger.it/114_191</link>
-    </item>
-    <item>
-      <title>Clima di fiducia delle imprese</title>
-      <pubDate>Fri, 26 Aug 2022 10:31:54 GMT</pubDate>
-      <guid>https://trigger.it/6_64</guid>
-      <link>https://trigger.it/6_64</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese del commercio</title>
-      <pubDate>Fri, 26 Aug 2022 10:20:57 GMT</pubDate>
-      <guid>https://trigger.it/117_266</guid>
-      <link>https://trigger.it/117_266</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese servizi</title>
-      <pubDate>Fri, 26 Aug 2022 10:20:52 GMT</pubDate>
-      <guid>https://trigger.it/117_262</guid>
-      <link>https://trigger.it/117_262</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese costruzioni</title>
-      <pubDate>Fri, 26 Aug 2022 10:20:46 GMT</pubDate>
-      <guid>https://trigger.it/111_40</guid>
-      <link>https://trigger.it/111_40</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese manifatturiere</title>
-      <pubDate>Fri, 26 Aug 2022 10:19:20 GMT</pubDate>
-      <guid>https://trigger.it/111_263</guid>
-      <link>https://trigger.it/111_263</link>
-    </item>
-    <item>
-      <title>Fiducia dei consumatori</title>
-      <pubDate>Fri, 26 Aug 2022 10:18:20 GMT</pubDate>
-      <guid>https://trigger.it/30_264</guid>
-      <link>https://trigger.it/30_264</link>
     </item>
   </channel>
 </rss>
