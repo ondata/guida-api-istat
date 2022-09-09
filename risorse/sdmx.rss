@@ -5,6 +5,24 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Popolazione  per condizione professionale</title>
+      <pubDate>Thu, 08 Sep 2022 11:06:43 GMT</pubDate>
+      <guid>https://trigger.it/532_930</guid>
+      <link>https://trigger.it/532_930</link>
+    </item>
+    <item>
+      <title>Inattivi</title>
+      <pubDate>Thu, 08 Sep 2022 10:47:18 GMT</pubDate>
+      <guid>https://trigger.it/152_928</guid>
+      <link>https://trigger.it/152_928</link>
+    </item>
+    <item>
+      <title>Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi</title>
+      <pubDate>Thu, 08 Sep 2022 05:19:00 GMT</pubDate>
+      <guid>https://trigger.it/122_54</guid>
+      <link>https://trigger.it/122_54</link>
+    </item>
+    <item>
       <title>Disoccupati</title>
       <pubDate>Wed, 07 Sep 2022 11:45:37 GMT</pubDate>
       <guid>https://trigger.it/151_929</guid>
@@ -21,12 +39,6 @@
       <pubDate>Wed, 07 Sep 2022 10:06:48 GMT</pubDate>
       <guid>https://trigger.it/120_337</guid>
       <link>https://trigger.it/120_337</link>
-    </item>
-    <item>
-      <title>Inattivi</title>
-      <pubDate>Wed, 07 Sep 2022 04:26:56 GMT</pubDate>
-      <guid>https://trigger.it/152_928</guid>
-      <link>https://trigger.it/152_928</link>
     </item>
     <item>
       <title>Tasso di  occupazione</title>
