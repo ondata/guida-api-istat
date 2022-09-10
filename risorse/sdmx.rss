@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Popolazione residente  - bilancio</title>
+      <pubDate>Fri, 09 Sep 2022 10:05:40 GMT</pubDate>
+      <guid>https://trigger.it/22_315</guid>
+      <link>https://trigger.it/22_315</link>
+    </item>
+    <item>
       <title>Popolazione  per condizione professionale</title>
       <pubDate>Thu, 08 Sep 2022 11:06:43 GMT</pubDate>
       <guid>https://trigger.it/532_930</guid>
