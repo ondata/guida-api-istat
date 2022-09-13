@@ -5,82 +5,28 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Prezzi dei prodotti agricoli</title>
+      <pubDate>Mon, 12 Sep 2022 10:55:22 GMT</pubDate>
+      <guid>https://trigger.it/101_12</guid>
+      <link>https://trigger.it/101_12</link>
+    </item>
+    <item>
+      <title>Indice della produzione industriale</title>
+      <pubDate>Mon, 12 Sep 2022 10:02:52 GMT</pubDate>
+      <guid>https://trigger.it/115_333</guid>
+      <link>https://trigger.it/115_333</link>
+    </item>
+    <item>
       <title>Popolazione residente  - bilancio</title>
       <pubDate>Fri, 09 Sep 2022 10:05:40 GMT</pubDate>
       <guid>https://trigger.it/22_315</guid>
       <link>https://trigger.it/22_315</link>
     </item>
     <item>
-      <title>Popolazione  per condizione professionale</title>
-      <pubDate>Thu, 08 Sep 2022 11:06:43 GMT</pubDate>
-      <guid>https://trigger.it/532_930</guid>
-      <link>https://trigger.it/532_930</link>
-    </item>
-    <item>
-      <title>Inattivi</title>
-      <pubDate>Thu, 08 Sep 2022 10:47:18 GMT</pubDate>
-      <guid>https://trigger.it/152_928</guid>
-      <link>https://trigger.it/152_928</link>
-    </item>
-    <item>
       <title>Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi</title>
       <pubDate>Thu, 08 Sep 2022 05:19:00 GMT</pubDate>
       <guid>https://trigger.it/122_54</guid>
       <link>https://trigger.it/122_54</link>
-    </item>
-    <item>
-      <title>Disoccupati</title>
-      <pubDate>Wed, 07 Sep 2022 11:45:37 GMT</pubDate>
-      <guid>https://trigger.it/151_929</guid>
-      <link>https://trigger.it/151_929</link>
-    </item>
-    <item>
-      <title>Latte e prodotti lattiero caseari</title>
-      <pubDate>Wed, 07 Sep 2022 10:08:35 GMT</pubDate>
-      <guid>https://trigger.it/101_959</guid>
-      <link>https://trigger.it/101_959</link>
-    </item>
-    <item>
-      <title>Indice del valore delle vendite del commercio fisso al dettaglio - dati mensili</title>
-      <pubDate>Wed, 07 Sep 2022 10:06:48 GMT</pubDate>
-      <guid>https://trigger.it/120_337</guid>
-      <link>https://trigger.it/120_337</link>
-    </item>
-    <item>
-      <title>Tasso di  occupazione</title>
-      <pubDate>Wed, 07 Sep 2022 04:07:13 GMT</pubDate>
-      <guid>https://trigger.it/150_915</guid>
-      <link>https://trigger.it/150_915</link>
-    </item>
-    <item>
-      <title>Tasso di  disoccupazione</title>
-      <pubDate>Wed, 07 Sep 2022 04:04:12 GMT</pubDate>
-      <guid>https://trigger.it/151_914</guid>
-      <link>https://trigger.it/151_914</link>
-    </item>
-    <item>
-      <title>Tasso di  attività</title>
-      <pubDate>Wed, 07 Sep 2022 04:00:51 GMT</pubDate>
-      <guid>https://trigger.it/150_916</guid>
-      <link>https://trigger.it/150_916</link>
-    </item>
-    <item>
-      <title>Tasso di  inattività</title>
-      <pubDate>Wed, 07 Sep 2022 03:54:30 GMT</pubDate>
-      <guid>https://trigger.it/152_913</guid>
-      <link>https://trigger.it/152_913</link>
-    </item>
-    <item>
-      <title>Occupati  (migliaia)</title>
-      <pubDate>Wed, 07 Sep 2022 03:50:06 GMT</pubDate>
-      <guid>https://trigger.it/150_938</guid>
-      <link>https://trigger.it/150_938</link>
-    </item>
-    <item>
-      <title>Forze di  lavoro</title>
-      <pubDate>Wed, 07 Sep 2022 03:37:17 GMT</pubDate>
-      <guid>https://trigger.it/150_908</guid>
-      <link>https://trigger.it/150_908</link>
     </item>
   </channel>
 </rss>
