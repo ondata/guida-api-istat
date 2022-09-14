@@ -5,6 +5,138 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
+      <pubDate>Tue, 13 Sep 2022 11:12:46 GMT</pubDate>
+      <guid>https://trigger.it/139_176</guid>
+      <link>https://trigger.it/139_176</link>
+    </item>
+    <item>
+      <title>Tasso di disoccupazione - dati trimestrali destagionalizzati</title>
+      <pubDate>Tue, 13 Sep 2022 10:12:13 GMT</pubDate>
+      <guid>https://trigger.it/151_884</guid>
+      <link>https://trigger.it/151_884</link>
+    </item>
+    <item>
+      <title>Tasso di  disoccupazione</title>
+      <pubDate>Tue, 13 Sep 2022 10:11:28 GMT</pubDate>
+      <guid>https://trigger.it/151_914</guid>
+      <link>https://trigger.it/151_914</link>
+    </item>
+    <item>
+      <title>Disoccupati  - dati destagionalizzati</title>
+      <pubDate>Tue, 13 Sep 2022 10:10:57 GMT</pubDate>
+      <guid>https://trigger.it/151_885</guid>
+      <link>https://trigger.it/151_885</link>
+    </item>
+    <item>
+      <title>Disoccupati</title>
+      <pubDate>Tue, 13 Sep 2022 10:10:54 GMT</pubDate>
+      <guid>https://trigger.it/151_929</guid>
+      <link>https://trigger.it/151_929</link>
+    </item>
+    <item>
+      <title>Popolazione  per condizione professionale</title>
+      <pubDate>Tue, 13 Sep 2022 10:09:57 GMT</pubDate>
+      <guid>https://trigger.it/532_930</guid>
+      <link>https://trigger.it/532_930</link>
+    </item>
+    <item>
+      <title>Tasso di inattività - dati trimestrali destagionalizzati</title>
+      <pubDate>Tue, 13 Sep 2022 10:09:51 GMT</pubDate>
+      <guid>https://trigger.it/152_886</guid>
+      <link>https://trigger.it/152_886</link>
+    </item>
+    <item>
+      <title>Tasso di  inattività</title>
+      <pubDate>Tue, 13 Sep 2022 10:09:16 GMT</pubDate>
+      <guid>https://trigger.it/152_913</guid>
+      <link>https://trigger.it/152_913</link>
+    </item>
+    <item>
+      <title>Inattivi - dati trimestrali destagionalizzati</title>
+      <pubDate>Tue, 13 Sep 2022 10:09:13 GMT</pubDate>
+      <guid>https://trigger.it/152_887</guid>
+      <link>https://trigger.it/152_887</link>
+    </item>
+    <item>
+      <title>Inattivi</title>
+      <pubDate>Tue, 13 Sep 2022 10:08:17 GMT</pubDate>
+      <guid>https://trigger.it/152_928</guid>
+      <link>https://trigger.it/152_928</link>
+    </item>
+    <item>
+      <title>Tasso di occupazione - dati trimestrali destagionalizzati</title>
+      <pubDate>Tue, 13 Sep 2022 10:08:11 GMT</pubDate>
+      <guid>https://trigger.it/150_883</guid>
+      <link>https://trigger.it/150_883</link>
+    </item>
+    <item>
+      <title>Tasso di  occupazione</title>
+      <pubDate>Tue, 13 Sep 2022 10:07:26 GMT</pubDate>
+      <guid>https://trigger.it/150_915</guid>
+      <link>https://trigger.it/150_915</link>
+    </item>
+    <item>
+      <title>Tasso di attività  - dati destagionalizzati</title>
+      <pubDate>Tue, 13 Sep 2022 10:07:23 GMT</pubDate>
+      <guid>https://trigger.it/150_880</guid>
+      <link>https://trigger.it/150_880</link>
+    </item>
+    <item>
+      <title>Tasso di  attività</title>
+      <pubDate>Tue, 13 Sep 2022 10:06:42 GMT</pubDate>
+      <guid>https://trigger.it/150_916</guid>
+      <link>https://trigger.it/150_916</link>
+    </item>
+    <item>
+      <title>Occupati -  dati destagionalizzati</title>
+      <pubDate>Tue, 13 Sep 2022 10:06:05 GMT</pubDate>
+      <guid>https://trigger.it/150_882</guid>
+      <link>https://trigger.it/150_882</link>
+    </item>
+    <item>
+      <title>Occupati  (migliaia)</title>
+      <pubDate>Tue, 13 Sep 2022 10:06:00 GMT</pubDate>
+      <guid>https://trigger.it/150_938</guid>
+      <link>https://trigger.it/150_938</link>
+    </item>
+    <item>
+      <title>Forze di lavoro  - dati destagionalizzati</title>
+      <pubDate>Tue, 13 Sep 2022 10:05:21 GMT</pubDate>
+      <guid>https://trigger.it/150_881</guid>
+      <link>https://trigger.it/150_881</link>
+    </item>
+    <item>
+      <title>Forze di  lavoro</title>
+      <pubDate>Tue, 13 Sep 2022 10:05:16 GMT</pubDate>
+      <guid>https://trigger.it/150_908</guid>
+      <link>https://trigger.it/150_908</link>
+    </item>
+    <item>
+      <title>Retribuzioni lorde - Imprese con dipendenti</title>
+      <pubDate>Tue, 13 Sep 2022 10:04:05 GMT</pubDate>
+      <guid>https://trigger.it/155_374</guid>
+      <link>https://trigger.it/155_374</link>
+    </item>
+    <item>
+      <title>Posizioni lavorative alle dipendenze</title>
+      <pubDate>Tue, 13 Sep 2022 10:04:00 GMT</pubDate>
+      <guid>https://trigger.it/149_577</guid>
+      <link>https://trigger.it/149_577</link>
+    </item>
+    <item>
+      <title>Indicatori - Imprese con dipendenti</title>
+      <pubDate>Tue, 13 Sep 2022 10:03:09 GMT</pubDate>
+      <guid>https://trigger.it/154_373</guid>
+      <link>https://trigger.it/154_373</link>
+    </item>
+    <item>
+      <title>Indicatori di bilancio e dati sul personale delle unità istituzionali</title>
+      <pubDate>Tue, 13 Sep 2022 01:35:40 GMT</pubDate>
+      <guid>https://trigger.it/123_712</guid>
+      <link>https://trigger.it/123_712</link>
+    </item>
+    <item>
       <title>Prezzi dei prodotti agricoli</title>
       <pubDate>Mon, 12 Sep 2022 10:55:22 GMT</pubDate>
       <guid>https://trigger.it/101_12</guid>
@@ -15,18 +147,6 @@
       <pubDate>Mon, 12 Sep 2022 10:02:52 GMT</pubDate>
       <guid>https://trigger.it/115_333</guid>
       <link>https://trigger.it/115_333</link>
-    </item>
-    <item>
-      <title>Popolazione residente  - bilancio</title>
-      <pubDate>Fri, 09 Sep 2022 10:05:40 GMT</pubDate>
-      <guid>https://trigger.it/22_315</guid>
-      <link>https://trigger.it/22_315</link>
-    </item>
-    <item>
-      <title>Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi</title>
-      <pubDate>Thu, 08 Sep 2022 05:19:00 GMT</pubDate>
-      <guid>https://trigger.it/122_54</guid>
-      <link>https://trigger.it/122_54</link>
     </item>
   </channel>
 </rss>
