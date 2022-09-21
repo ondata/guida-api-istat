@@ -5,6 +5,108 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Presenza di problemi nella zona di residenza delle famiglie</title>
+      <pubDate>Tue, 20 Sep 2022 12:39:21 GMT</pubDate>
+      <guid>https://trigger.it/33_291</guid>
+      <link>https://trigger.it/33_291</link>
+    </item>
+    <item>
+      <title>Titolo di godimento dell'abitazione</title>
+      <pubDate>Tue, 20 Sep 2022 12:35:35 GMT</pubDate>
+      <guid>https://trigger.it/33_290</guid>
+      <link>https://trigger.it/33_290</link>
+    </item>
+    <item>
+      <title>Spesa per l'abitazione</title>
+      <pubDate>Tue, 20 Sep 2022 12:34:48 GMT</pubDate>
+      <guid>https://trigger.it/33_225</guid>
+      <link>https://trigger.it/33_225</link>
+    </item>
+    <item>
+      <title>Problemi nell'abitazione</title>
+      <pubDate>Tue, 20 Sep 2022 12:31:45 GMT</pubDate>
+      <guid>https://trigger.it/33_4</guid>
+      <link>https://trigger.it/33_4</link>
+    </item>
+    <item>
+      <title>Affollamento nell'abitazione</title>
+      <pubDate>Tue, 20 Sep 2022 12:31:04 GMT</pubDate>
+      <guid>https://trigger.it/33_179</guid>
+      <link>https://trigger.it/33_179</link>
+    </item>
+    <item>
+      <title>Reddito  netto familiare</title>
+      <pubDate>Tue, 20 Sep 2022 12:26:25 GMT</pubDate>
+      <guid>https://trigger.it/32_292</guid>
+      <link>https://trigger.it/32_292</link>
+    </item>
+    <item>
+      <title>Fonte principale di reddito familiare</title>
+      <pubDate>Tue, 20 Sep 2022 12:25:45 GMT</pubDate>
+      <guid>https://trigger.it/32_223</guid>
+      <link>https://trigger.it/32_223</link>
+    </item>
+    <item>
+      <title>Giudizio sul reddito minimo per arrivare a fine mese senza difficoltà</title>
+      <pubDate>Tue, 20 Sep 2022 12:12:26 GMT</pubDate>
+      <guid>https://trigger.it/34_220</guid>
+      <link>https://trigger.it/34_220</link>
+    </item>
+    <item>
+      <title>Giudizio sulla condizione economica percepita</title>
+      <pubDate>Tue, 20 Sep 2022 12:11:43 GMT</pubDate>
+      <guid>https://trigger.it/34_226</guid>
+      <link>https://trigger.it/34_226</link>
+    </item>
+    <item>
+      <title>Famiglie che hanno  difficoltà nel pagamento di alcune spese</title>
+      <pubDate>Tue, 20 Sep 2022 12:10:44 GMT</pubDate>
+      <guid>https://trigger.it/34_219</guid>
+      <link>https://trigger.it/34_219</link>
+    </item>
+    <item>
+      <title>Famiglie che non riescono  a risparmiare o a far fronte a spese impreviste</title>
+      <pubDate>Tue, 20 Sep 2022 12:09:21 GMT</pubDate>
+      <guid>https://trigger.it/34_216</guid>
+      <link>https://trigger.it/34_216</link>
+    </item>
+    <item>
+      <title>Famiglie che non possono permettersi alcune voci di spesa</title>
+      <pubDate>Tue, 20 Sep 2022 12:08:46 GMT</pubDate>
+      <guid>https://trigger.it/34_280</guid>
+      <link>https://trigger.it/34_280</link>
+    </item>
+    <item>
+      <title>Famiglie che non possono permettersi alcuni beni durevoli</title>
+      <pubDate>Tue, 20 Sep 2022 11:25:17 GMT</pubDate>
+      <guid>https://trigger.it/34_218</guid>
+      <link>https://trigger.it/34_218</link>
+    </item>
+    <item>
+      <title>Famiglie che considerano un carico pesante alcune spese per l'abitazione o il rimborso di debiti</title>
+      <pubDate>Tue, 20 Sep 2022 11:21:48 GMT</pubDate>
+      <guid>https://trigger.it/34_217</guid>
+      <link>https://trigger.it/34_217</link>
+    </item>
+    <item>
+      <title>Famiglie con pagamaneti arretrati</title>
+      <pubDate>Tue, 20 Sep 2022 11:17:42 GMT</pubDate>
+      <guid>https://trigger.it/34_215</guid>
+      <link>https://trigger.it/34_215</link>
+    </item>
+    <item>
+      <title>Ricerca e Sviluppo</title>
+      <pubDate>Tue, 20 Sep 2022 10:05:14 GMT</pubDate>
+      <guid>https://trigger.it/6_20</guid>
+      <link>https://trigger.it/6_20</link>
+    </item>
+    <item>
+      <title>Produzione industriale in quantità e valore</title>
+      <pubDate>Tue, 20 Sep 2022 04:24:03 GMT</pubDate>
+      <guid>https://trigger.it/115_168</guid>
+      <link>https://trigger.it/115_168</link>
+    </item>
+    <item>
       <title>Latte e prodotti lattiero caseari</title>
       <pubDate>Mon, 19 Sep 2022 11:20:56 GMT</pubDate>
       <guid>https://trigger.it/101_959</guid>
