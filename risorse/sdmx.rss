@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indice della produzione nelle costruzioni</title>
+      <pubDate>Wed, 21 Sep 2022 10:06:03 GMT</pubDate>
+      <guid>https://trigger.it/115_362</guid>
+      <link>https://trigger.it/115_362</link>
+    </item>
+    <item>
       <title>Presenza di problemi nella zona di residenza delle famiglie</title>
       <pubDate>Tue, 20 Sep 2022 12:39:21 GMT</pubDate>
       <guid>https://trigger.it/33_291</guid>
@@ -123,90 +129,6 @@
       <pubDate>Mon, 19 Sep 2022 10:24:27 GMT</pubDate>
       <guid>https://trigger.it/143_497</guid>
       <link>https://trigger.it/143_497</link>
-    </item>
-    <item>
-      <title>Tasso di  disoccupazione</title>
-      <pubDate>Mon, 19 Sep 2022 10:24:02 GMT</pubDate>
-      <guid>https://trigger.it/151_914</guid>
-      <link>https://trigger.it/151_914</link>
-    </item>
-    <item>
-      <title>Tasso di  occupazione</title>
-      <pubDate>Mon, 19 Sep 2022 10:23:05 GMT</pubDate>
-      <guid>https://trigger.it/150_915</guid>
-      <link>https://trigger.it/150_915</link>
-    </item>
-    <item>
-      <title>Tasso di  inattività</title>
-      <pubDate>Mon, 19 Sep 2022 10:21:42 GMT</pubDate>
-      <guid>https://trigger.it/152_913</guid>
-      <link>https://trigger.it/152_913</link>
-    </item>
-    <item>
-      <title>Tasso di  attività</title>
-      <pubDate>Mon, 19 Sep 2022 10:20:40 GMT</pubDate>
-      <guid>https://trigger.it/150_916</guid>
-      <link>https://trigger.it/150_916</link>
-    </item>
-    <item>
-      <title>Forze di  lavoro</title>
-      <pubDate>Mon, 19 Sep 2022 10:18:37 GMT</pubDate>
-      <guid>https://trigger.it/150_908</guid>
-      <link>https://trigger.it/150_908</link>
-    </item>
-    <item>
-      <title>Inattivi</title>
-      <pubDate>Mon, 19 Sep 2022 10:17:54 GMT</pubDate>
-      <guid>https://trigger.it/152_928</guid>
-      <link>https://trigger.it/152_928</link>
-    </item>
-    <item>
-      <title>Disoccupati</title>
-      <pubDate>Mon, 19 Sep 2022 10:16:21 GMT</pubDate>
-      <guid>https://trigger.it/151_929</guid>
-      <link>https://trigger.it/151_929</link>
-    </item>
-    <item>
-      <title>Occupati  (migliaia)</title>
-      <pubDate>Mon, 19 Sep 2022 10:15:15 GMT</pubDate>
-      <guid>https://trigger.it/150_938</guid>
-      <link>https://trigger.it/150_938</link>
-    </item>
-    <item>
-      <title>Popolazione  per condizione professionale</title>
-      <pubDate>Mon, 19 Sep 2022 10:13:48 GMT</pubDate>
-      <guid>https://trigger.it/532_930</guid>
-      <link>https://trigger.it/532_930</link>
-    </item>
-    <item>
-      <title>IPCA a tassazione costante - Dati mensili dal 2002 (base 2015=100)</title>
-      <pubDate>Fri, 16 Sep 2022 11:18:45 GMT</pubDate>
-      <guid>https://trigger.it/168_756</guid>
-      <link>https://trigger.it/168_756</link>
-    </item>
-    <item>
-      <title>Ipca - mensili dal 2001 (base 2015)</title>
-      <pubDate>Fri, 16 Sep 2022 11:17:29 GMT</pubDate>
-      <guid>https://trigger.it/168_760</guid>
-      <link>https://trigger.it/168_760</link>
-    </item>
-    <item>
-      <title>FOI - Dati mensili dal 2016</title>
-      <pubDate>Fri, 16 Sep 2022 11:12:07 GMT</pubDate>
-      <guid>https://trigger.it/169_745</guid>
-      <link>https://trigger.it/169_745</link>
-    </item>
-    <item>
-      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
-      <pubDate>Fri, 16 Sep 2022 10:14:47 GMT</pubDate>
-      <guid>https://trigger.it/139_176</guid>
-      <link>https://trigger.it/139_176</link>
-    </item>
-    <item>
-      <title>Indice dei prezzi all'importazione - dati mensili</title>
-      <pubDate>Fri, 16 Sep 2022 10:12:36 GMT</pubDate>
-      <guid>https://trigger.it/143_222</guid>
-      <link>https://trigger.it/143_222</link>
     </item>
   </channel>
 </rss>
