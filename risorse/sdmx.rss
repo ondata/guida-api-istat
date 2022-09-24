@@ -5,6 +5,72 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Coltivazioni</title>
+      <pubDate>Fri, 23 Sep 2022 11:42:36 GMT</pubDate>
+      <guid>https://trigger.it/101_1015</guid>
+      <link>https://trigger.it/101_1015</link>
+    </item>
+    <item>
+      <title>Macellazioni</title>
+      <pubDate>Fri, 23 Sep 2022 10:41:39 GMT</pubDate>
+      <guid>https://trigger.it/101_1033</guid>
+      <link>https://trigger.it/101_1033</link>
+    </item>
+    <item>
+      <title>Conto annuale per sottosettore</title>
+      <pubDate>Fri, 23 Sep 2022 10:12:51 GMT</pubDate>
+      <guid>https://trigger.it/95_815</guid>
+      <link>https://trigger.it/95_815</link>
+    </item>
+    <item>
+      <title>Produzione e valore aggiunto, Redditi da lavoro, Imposte e contributi alla produzione, Spesa per consumi finali famiglie, Investimenti fissi lordi, Stock di capitale e ammortamenti, Valori pro capite</title>
+      <pubDate>Fri, 23 Sep 2022 10:10:59 GMT</pubDate>
+      <guid>https://trigger.it/92_504</guid>
+      <link>https://trigger.it/92_504</link>
+    </item>
+    <item>
+      <title>Sequenza dei conti</title>
+      <pubDate>Fri, 23 Sep 2022 10:09:39 GMT</pubDate>
+      <guid>https://trigger.it/92_505</guid>
+      <link>https://trigger.it/92_505</link>
+    </item>
+    <item>
+      <title>Principali aggregati del Prodotto interno lordo (milioni di euro)</title>
+      <pubDate>Fri, 23 Sep 2022 10:09:07 GMT</pubDate>
+      <guid>https://trigger.it/92_506</guid>
+      <link>https://trigger.it/92_506</link>
+    </item>
+    <item>
+      <title>Occupazione regolare e irregolare</title>
+      <pubDate>Fri, 23 Sep 2022 10:09:02 GMT</pubDate>
+      <guid>https://trigger.it/92_507</guid>
+      <link>https://trigger.it/92_507</link>
+    </item>
+    <item>
+      <title>Retribuzioni lorde - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 23 Sep 2022 10:01:40 GMT</pubDate>
+      <guid>https://trigger.it/535_194</guid>
+      <link>https://trigger.it/535_194</link>
+    </item>
+    <item>
+      <title>Ore lavorate - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 23 Sep 2022 10:01:35 GMT</pubDate>
+      <guid>https://trigger.it/534_49</guid>
+      <link>https://trigger.it/534_49</link>
+    </item>
+    <item>
+      <title>Posizioni lavorative - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 23 Sep 2022 10:00:55 GMT</pubDate>
+      <guid>https://trigger.it/534_50</guid>
+      <link>https://trigger.it/534_50</link>
+    </item>
+    <item>
+      <title>Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 23 Sep 2022 10:00:42 GMT</pubDate>
+      <guid>https://trigger.it/536_193</guid>
+      <link>https://trigger.it/536_193</link>
+    </item>
+    <item>
       <title>Indice della produzione nelle costruzioni</title>
       <pubDate>Wed, 21 Sep 2022 10:06:03 GMT</pubDate>
       <guid>https://trigger.it/115_362</guid>
