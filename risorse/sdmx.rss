@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
+      <pubDate>Tue, 27 Sep 2022 10:09:20 GMT</pubDate>
+      <guid>https://trigger.it/139_176</guid>
+      <link>https://trigger.it/139_176</link>
+    </item>
+    <item>
       <title>Coltivazioni</title>
       <pubDate>Fri, 23 Sep 2022 11:42:36 GMT</pubDate>
       <guid>https://trigger.it/101_1015</guid>
