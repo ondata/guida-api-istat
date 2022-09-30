@@ -5,6 +5,36 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Prezzi alla produzione dell'industria</title>
+      <pubDate>Thu, 29 Sep 2022 10:03:55 GMT</pubDate>
+      <guid>https://trigger.it/145_360</guid>
+      <link>https://trigger.it/145_360</link>
+    </item>
+    <item>
+      <title>Indici dei costi di costruzione - dati mensili</title>
+      <pubDate>Thu, 29 Sep 2022 10:03:09 GMT</pubDate>
+      <guid>https://trigger.it/145_361</guid>
+      <link>https://trigger.it/145_361</link>
+    </item>
+    <item>
+      <title>Tensione contrattuale</title>
+      <pubDate>Thu, 29 Sep 2022 09:58:56 GMT</pubDate>
+      <guid>https://trigger.it/149_319</guid>
+      <link>https://trigger.it/149_319</link>
+    </item>
+    <item>
+      <title>Retribuzioni contrattuali per tipo di contratto</title>
+      <pubDate>Thu, 29 Sep 2022 09:58:09 GMT</pubDate>
+      <guid>https://trigger.it/155_318</guid>
+      <link>https://trigger.it/155_318</link>
+    </item>
+    <item>
+      <title>Retribuzioni contrattuali per settore economico (Ateco)</title>
+      <pubDate>Thu, 29 Sep 2022 09:57:55 GMT</pubDate>
+      <guid>https://trigger.it/155_358</guid>
+      <link>https://trigger.it/155_358</link>
+    </item>
+    <item>
       <title>Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili</title>
       <pubDate>Wed, 28 Sep 2022 11:08:07 GMT</pubDate>
       <guid>https://trigger.it/114_191</guid>
