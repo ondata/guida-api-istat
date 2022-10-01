@@ -5,6 +5,66 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Ipca - mensili dal 2001 (base 2015)</title>
+      <pubDate>Fri, 30 Sep 2022 11:33:03 GMT</pubDate>
+      <guid>https://trigger.it/168_760</guid>
+      <link>https://trigger.it/168_760</link>
+    </item>
+    <item>
+      <title>Nic - mensili dal 2016 (base 2015)</title>
+      <pubDate>Fri, 30 Sep 2022 11:12:25 GMT</pubDate>
+      <guid>https://trigger.it/167_744</guid>
+      <link>https://trigger.it/167_744</link>
+    </item>
+    <item>
+      <title>Tasso di disoccupazione  - dati mensili</title>
+      <pubDate>Fri, 30 Sep 2022 10:03:11 GMT</pubDate>
+      <guid>https://trigger.it/151_874</guid>
+      <link>https://trigger.it/151_874</link>
+    </item>
+    <item>
+      <title>Disoccupati  - dati mensili</title>
+      <pubDate>Fri, 30 Sep 2022 10:03:05 GMT</pubDate>
+      <guid>https://trigger.it/151_877</guid>
+      <link>https://trigger.it/151_877</link>
+    </item>
+    <item>
+      <title>Tasso di inattività  - dati mensili</title>
+      <pubDate>Fri, 30 Sep 2022 10:02:29 GMT</pubDate>
+      <guid>https://trigger.it/152_878</guid>
+      <link>https://trigger.it/152_878</link>
+    </item>
+    <item>
+      <title>Inattivi  - dati mensili</title>
+      <pubDate>Fri, 30 Sep 2022 10:02:24 GMT</pubDate>
+      <guid>https://trigger.it/152_879</guid>
+      <link>https://trigger.it/152_879</link>
+    </item>
+    <item>
+      <title>Tasso di occupazione  - dati mensili</title>
+      <pubDate>Fri, 30 Sep 2022 10:01:44 GMT</pubDate>
+      <guid>https://trigger.it/150_872</guid>
+      <link>https://trigger.it/150_872</link>
+    </item>
+    <item>
+      <title>Tasso di attività  - dati mensili</title>
+      <pubDate>Fri, 30 Sep 2022 10:01:39 GMT</pubDate>
+      <guid>https://trigger.it/150_876</guid>
+      <link>https://trigger.it/150_876</link>
+    </item>
+    <item>
+      <title>Occupati -  dati mensili</title>
+      <pubDate>Fri, 30 Sep 2022 10:01:04 GMT</pubDate>
+      <guid>https://trigger.it/150_875</guid>
+      <link>https://trigger.it/150_875</link>
+    </item>
+    <item>
+      <title>Forze lavoro  - dati mensili</title>
+      <pubDate>Fri, 30 Sep 2022 10:00:51 GMT</pubDate>
+      <guid>https://trigger.it/150_873</guid>
+      <link>https://trigger.it/150_873</link>
+    </item>
+    <item>
       <title>Prezzi alla produzione dell'industria</title>
       <pubDate>Thu, 29 Sep 2022 10:03:55 GMT</pubDate>
       <guid>https://trigger.it/145_360</guid>
