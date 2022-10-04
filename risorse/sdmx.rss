@@ -5,6 +5,18 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Popolazione residente  - bilancio</title>
+      <pubDate>Mon, 03 Oct 2022 10:14:35 GMT</pubDate>
+      <guid>https://trigger.it/22_315</guid>
+      <link>https://trigger.it/22_315</link>
+    </item>
+    <item>
+      <title>Prezzi alla produzione dell'industria</title>
+      <pubDate>Mon, 03 Oct 2022 10:03:43 GMT</pubDate>
+      <guid>https://trigger.it/145_360</guid>
+      <link>https://trigger.it/145_360</link>
+    </item>
+    <item>
       <title>Ipca - mensili dal 2001 (base 2015)</title>
       <pubDate>Fri, 30 Sep 2022 11:33:03 GMT</pubDate>
       <guid>https://trigger.it/168_760</guid>
@@ -65,12 +77,6 @@
       <link>https://trigger.it/150_873</link>
     </item>
     <item>
-      <title>Prezzi alla produzione dell'industria</title>
-      <pubDate>Thu, 29 Sep 2022 10:03:55 GMT</pubDate>
-      <guid>https://trigger.it/145_360</guid>
-      <link>https://trigger.it/145_360</link>
-    </item>
-    <item>
       <title>Indici dei costi di costruzione - dati mensili</title>
       <pubDate>Thu, 29 Sep 2022 10:03:09 GMT</pubDate>
       <guid>https://trigger.it/145_361</guid>
@@ -93,48 +99,6 @@
       <pubDate>Thu, 29 Sep 2022 09:57:55 GMT</pubDate>
       <guid>https://trigger.it/155_358</guid>
       <link>https://trigger.it/155_358</link>
-    </item>
-    <item>
-      <title>Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili</title>
-      <pubDate>Wed, 28 Sep 2022 11:08:07 GMT</pubDate>
-      <guid>https://trigger.it/114_191</guid>
-      <link>https://trigger.it/114_191</link>
-    </item>
-    <item>
-      <title>Clima di fiducia delle imprese</title>
-      <pubDate>Wed, 28 Sep 2022 10:09:32 GMT</pubDate>
-      <guid>https://trigger.it/6_64</guid>
-      <link>https://trigger.it/6_64</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese del commercio</title>
-      <pubDate>Wed, 28 Sep 2022 10:09:28 GMT</pubDate>
-      <guid>https://trigger.it/117_266</guid>
-      <link>https://trigger.it/117_266</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese servizi</title>
-      <pubDate>Wed, 28 Sep 2022 10:08:43 GMT</pubDate>
-      <guid>https://trigger.it/117_262</guid>
-      <link>https://trigger.it/117_262</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese costruzioni</title>
-      <pubDate>Wed, 28 Sep 2022 10:08:36 GMT</pubDate>
-      <guid>https://trigger.it/111_40</guid>
-      <link>https://trigger.it/111_40</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese manifatturiere</title>
-      <pubDate>Wed, 28 Sep 2022 10:07:31 GMT</pubDate>
-      <guid>https://trigger.it/111_263</guid>
-      <link>https://trigger.it/111_263</link>
-    </item>
-    <item>
-      <title>Fiducia dei consumatori</title>
-      <pubDate>Wed, 28 Sep 2022 10:06:45 GMT</pubDate>
-      <guid>https://trigger.it/30_264</guid>
-      <link>https://trigger.it/30_264</link>
     </item>
   </channel>
 </rss>
