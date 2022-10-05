@@ -5,16 +5,22 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Latte e prodotti lattiero caseari</title>
+      <pubDate>Tue, 04 Oct 2022 10:34:27 GMT</pubDate>
+      <guid>https://trigger.it/101_959</guid>
+      <link>https://trigger.it/101_959</link>
+    </item>
+    <item>
+      <title>Macellazioni</title>
+      <pubDate>Tue, 04 Oct 2022 03:02:10 GMT</pubDate>
+      <guid>https://trigger.it/101_1033</guid>
+      <link>https://trigger.it/101_1033</link>
+    </item>
+    <item>
       <title>Popolazione residente  - bilancio</title>
       <pubDate>Mon, 03 Oct 2022 10:14:35 GMT</pubDate>
       <guid>https://trigger.it/22_315</guid>
       <link>https://trigger.it/22_315</link>
-    </item>
-    <item>
-      <title>Prezzi alla produzione dell'industria</title>
-      <pubDate>Mon, 03 Oct 2022 10:03:43 GMT</pubDate>
-      <guid>https://trigger.it/145_360</guid>
-      <link>https://trigger.it/145_360</link>
     </item>
     <item>
       <title>Ipca - mensili dal 2001 (base 2015)</title>
@@ -27,78 +33,6 @@
       <pubDate>Fri, 30 Sep 2022 11:12:25 GMT</pubDate>
       <guid>https://trigger.it/167_744</guid>
       <link>https://trigger.it/167_744</link>
-    </item>
-    <item>
-      <title>Tasso di disoccupazione  - dati mensili</title>
-      <pubDate>Fri, 30 Sep 2022 10:03:11 GMT</pubDate>
-      <guid>https://trigger.it/151_874</guid>
-      <link>https://trigger.it/151_874</link>
-    </item>
-    <item>
-      <title>Disoccupati  - dati mensili</title>
-      <pubDate>Fri, 30 Sep 2022 10:03:05 GMT</pubDate>
-      <guid>https://trigger.it/151_877</guid>
-      <link>https://trigger.it/151_877</link>
-    </item>
-    <item>
-      <title>Tasso di inattività  - dati mensili</title>
-      <pubDate>Fri, 30 Sep 2022 10:02:29 GMT</pubDate>
-      <guid>https://trigger.it/152_878</guid>
-      <link>https://trigger.it/152_878</link>
-    </item>
-    <item>
-      <title>Inattivi  - dati mensili</title>
-      <pubDate>Fri, 30 Sep 2022 10:02:24 GMT</pubDate>
-      <guid>https://trigger.it/152_879</guid>
-      <link>https://trigger.it/152_879</link>
-    </item>
-    <item>
-      <title>Tasso di occupazione  - dati mensili</title>
-      <pubDate>Fri, 30 Sep 2022 10:01:44 GMT</pubDate>
-      <guid>https://trigger.it/150_872</guid>
-      <link>https://trigger.it/150_872</link>
-    </item>
-    <item>
-      <title>Tasso di attività  - dati mensili</title>
-      <pubDate>Fri, 30 Sep 2022 10:01:39 GMT</pubDate>
-      <guid>https://trigger.it/150_876</guid>
-      <link>https://trigger.it/150_876</link>
-    </item>
-    <item>
-      <title>Occupati -  dati mensili</title>
-      <pubDate>Fri, 30 Sep 2022 10:01:04 GMT</pubDate>
-      <guid>https://trigger.it/150_875</guid>
-      <link>https://trigger.it/150_875</link>
-    </item>
-    <item>
-      <title>Forze lavoro  - dati mensili</title>
-      <pubDate>Fri, 30 Sep 2022 10:00:51 GMT</pubDate>
-      <guid>https://trigger.it/150_873</guid>
-      <link>https://trigger.it/150_873</link>
-    </item>
-    <item>
-      <title>Indici dei costi di costruzione - dati mensili</title>
-      <pubDate>Thu, 29 Sep 2022 10:03:09 GMT</pubDate>
-      <guid>https://trigger.it/145_361</guid>
-      <link>https://trigger.it/145_361</link>
-    </item>
-    <item>
-      <title>Tensione contrattuale</title>
-      <pubDate>Thu, 29 Sep 2022 09:58:56 GMT</pubDate>
-      <guid>https://trigger.it/149_319</guid>
-      <link>https://trigger.it/149_319</link>
-    </item>
-    <item>
-      <title>Retribuzioni contrattuali per tipo di contratto</title>
-      <pubDate>Thu, 29 Sep 2022 09:58:09 GMT</pubDate>
-      <guid>https://trigger.it/155_318</guid>
-      <link>https://trigger.it/155_318</link>
-    </item>
-    <item>
-      <title>Retribuzioni contrattuali per settore economico (Ateco)</title>
-      <pubDate>Thu, 29 Sep 2022 09:57:55 GMT</pubDate>
-      <guid>https://trigger.it/155_358</guid>
-      <link>https://trigger.it/155_358</link>
     </item>
   </channel>
 </rss>
