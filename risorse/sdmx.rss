@@ -5,16 +5,22 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi</title>
+      <pubDate>Wed, 12 Oct 2022 10:29:54 GMT</pubDate>
+      <guid>https://trigger.it/122_54</guid>
+      <link>https://trigger.it/122_54</link>
+    </item>
+    <item>
+      <title>Trasporto aereo</title>
+      <pubDate>Wed, 12 Oct 2022 02:21:09 GMT</pubDate>
+      <guid>https://trigger.it/121_331</guid>
+      <link>https://trigger.it/121_331</link>
+    </item>
+    <item>
       <title>Indice della produzione industriale</title>
       <pubDate>Tue, 11 Oct 2022 10:02:28 GMT</pubDate>
       <guid>https://trigger.it/115_333</guid>
       <link>https://trigger.it/115_333</link>
-    </item>
-    <item>
-      <title>Indice del valore delle vendite del commercio fisso al dettaglio - dati mensili</title>
-      <pubDate>Fri, 07 Oct 2022 10:12:46 GMT</pubDate>
-      <guid>https://trigger.it/120_337</guid>
-      <link>https://trigger.it/120_337</link>
     </item>
   </channel>
 </rss>
