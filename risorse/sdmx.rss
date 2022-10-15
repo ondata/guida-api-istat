@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indicatori  permessi di costruire</title>
+      <pubDate>Fri, 14 Oct 2022 10:02:42 GMT</pubDate>
+      <guid>https://trigger.it/111_111</guid>
+      <link>https://trigger.it/111_111</link>
+    </item>
+    <item>
       <title>Unità locali e addetti</title>
       <pubDate>Thu, 13 Oct 2022 12:19:19 GMT</pubDate>
       <guid>https://trigger.it/183_285</guid>
