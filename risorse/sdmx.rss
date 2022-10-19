@@ -5,6 +5,24 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Entrate delle unità istituzionali locali (euro)</title>
+      <pubDate>Tue, 18 Oct 2022 12:20:58 GMT</pubDate>
+      <guid>https://trigger.it/124_231</guid>
+      <link>https://trigger.it/124_231</link>
+    </item>
+    <item>
+      <title>Indice dei prezzi all'importazione - dati mensili</title>
+      <pubDate>Tue, 18 Oct 2022 10:14:49 GMT</pubDate>
+      <guid>https://trigger.it/143_222</guid>
+      <link>https://trigger.it/143_222</link>
+    </item>
+    <item>
+      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
+      <pubDate>Tue, 18 Oct 2022 10:14:36 GMT</pubDate>
+      <guid>https://trigger.it/139_176</guid>
+      <link>https://trigger.it/139_176</link>
+    </item>
+    <item>
       <title>Ipca - mensili dal 2001 (base 2015)</title>
       <pubDate>Mon, 17 Oct 2022 10:30:26 GMT</pubDate>
       <guid>https://trigger.it/168_760</guid>
@@ -39,114 +57,6 @@
       <pubDate>Fri, 14 Oct 2022 10:02:42 GMT</pubDate>
       <guid>https://trigger.it/111_111</guid>
       <link>https://trigger.it/111_111</link>
-    </item>
-    <item>
-      <title>Presenza di problemi nella zona di residenza delle famiglie</title>
-      <pubDate>Thu, 13 Oct 2022 05:24:53 GMT</pubDate>
-      <guid>https://trigger.it/33_291</guid>
-      <link>https://trigger.it/33_291</link>
-    </item>
-    <item>
-      <title>Titolo di godimento dell'abitazione</title>
-      <pubDate>Thu, 13 Oct 2022 05:21:46 GMT</pubDate>
-      <guid>https://trigger.it/33_290</guid>
-      <link>https://trigger.it/33_290</link>
-    </item>
-    <item>
-      <title>Spesa per l'abitazione</title>
-      <pubDate>Thu, 13 Oct 2022 05:20:02 GMT</pubDate>
-      <guid>https://trigger.it/33_225</guid>
-      <link>https://trigger.it/33_225</link>
-    </item>
-    <item>
-      <title>Problemi nell'abitazione</title>
-      <pubDate>Thu, 13 Oct 2022 05:18:39 GMT</pubDate>
-      <guid>https://trigger.it/33_4</guid>
-      <link>https://trigger.it/33_4</link>
-    </item>
-    <item>
-      <title>Affollamento nell'abitazione</title>
-      <pubDate>Thu, 13 Oct 2022 05:17:12 GMT</pubDate>
-      <guid>https://trigger.it/33_179</guid>
-      <link>https://trigger.it/33_179</link>
-    </item>
-    <item>
-      <title>Reddito  netto familiare</title>
-      <pubDate>Thu, 13 Oct 2022 05:13:56 GMT</pubDate>
-      <guid>https://trigger.it/32_292</guid>
-      <link>https://trigger.it/32_292</link>
-    </item>
-    <item>
-      <title>Quinto di reddito equivalente</title>
-      <pubDate>Thu, 13 Oct 2022 05:12:14 GMT</pubDate>
-      <guid>https://trigger.it/32_38</guid>
-      <link>https://trigger.it/32_38</link>
-    </item>
-    <item>
-      <title>Indicatori sulla distribuzione reddito netto familiare</title>
-      <pubDate>Thu, 13 Oct 2022 05:10:39 GMT</pubDate>
-      <guid>https://trigger.it/32_221</guid>
-      <link>https://trigger.it/32_221</link>
-    </item>
-    <item>
-      <title>Fonte principale di reddito familiare</title>
-      <pubDate>Thu, 13 Oct 2022 05:08:50 GMT</pubDate>
-      <guid>https://trigger.it/32_223</guid>
-      <link>https://trigger.it/32_223</link>
-    </item>
-    <item>
-      <title>Giudizio sulla condizione economica percepita</title>
-      <pubDate>Thu, 13 Oct 2022 05:07:04 GMT</pubDate>
-      <guid>https://trigger.it/34_226</guid>
-      <link>https://trigger.it/34_226</link>
-    </item>
-    <item>
-      <title>Trasporto marittimo</title>
-      <pubDate>Thu, 13 Oct 2022 05:05:38 GMT</pubDate>
-      <guid>https://trigger.it/121_393</guid>
-      <link>https://trigger.it/121_393</link>
-    </item>
-    <item>
-      <title>Giudizio sul reddito minimo per arrivare a fine mese senza difficoltà</title>
-      <pubDate>Thu, 13 Oct 2022 05:03:06 GMT</pubDate>
-      <guid>https://trigger.it/34_220</guid>
-      <link>https://trigger.it/34_220</link>
-    </item>
-    <item>
-      <title>Famiglie che hanno  difficoltà nel pagamento di alcune spese</title>
-      <pubDate>Thu, 13 Oct 2022 05:01:20 GMT</pubDate>
-      <guid>https://trigger.it/34_219</guid>
-      <link>https://trigger.it/34_219</link>
-    </item>
-    <item>
-      <title>Famiglie che non riescono  a risparmiare o a far fronte a spese impreviste</title>
-      <pubDate>Thu, 13 Oct 2022 05:00:00 GMT</pubDate>
-      <guid>https://trigger.it/34_216</guid>
-      <link>https://trigger.it/34_216</link>
-    </item>
-    <item>
-      <title>Famiglie che non possono permettersi alcune voci di spesa</title>
-      <pubDate>Thu, 13 Oct 2022 04:58:22 GMT</pubDate>
-      <guid>https://trigger.it/34_280</guid>
-      <link>https://trigger.it/34_280</link>
-    </item>
-    <item>
-      <title>Famiglie che non possono permettersi alcuni beni durevoli</title>
-      <pubDate>Thu, 13 Oct 2022 04:55:41 GMT</pubDate>
-      <guid>https://trigger.it/34_218</guid>
-      <link>https://trigger.it/34_218</link>
-    </item>
-    <item>
-      <title>Famiglie che considerano un carico pesante alcune spese per l'abitazione o il rimborso di debiti</title>
-      <pubDate>Thu, 13 Oct 2022 04:53:58 GMT</pubDate>
-      <guid>https://trigger.it/34_217</guid>
-      <link>https://trigger.it/34_217</link>
-    </item>
-    <item>
-      <title>Famiglie con pagamaneti arretrati</title>
-      <pubDate>Thu, 13 Oct 2022 04:49:39 GMT</pubDate>
-      <guid>https://trigger.it/34_215</guid>
-      <link>https://trigger.it/34_215</link>
     </item>
   </channel>
 </rss>
