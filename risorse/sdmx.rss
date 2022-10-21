@@ -5,6 +5,12 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Indice della produzione nelle costruzioni</title>
+      <pubDate>Thu, 20 Oct 2022 10:12:34 GMT</pubDate>
+      <guid>https://trigger.it/115_362</guid>
+      <link>https://trigger.it/115_362</link>
+    </item>
+    <item>
       <title>Entrate delle unità istituzionali locali (euro)</title>
       <pubDate>Tue, 18 Oct 2022 12:20:58 GMT</pubDate>
       <guid>https://trigger.it/124_231</guid>
