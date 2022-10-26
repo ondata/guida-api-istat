@@ -5,6 +5,36 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Coltivazioni</title>
+      <pubDate>Tue, 25 Oct 2022 09:49:53 GMT</pubDate>
+      <guid>https://trigger.it/101_1015</guid>
+      <link>https://trigger.it/101_1015</link>
+    </item>
+    <item>
+      <title>Entrate delle unità istituzionali locali (euro)</title>
+      <pubDate>Tue, 25 Oct 2022 09:22:10 GMT</pubDate>
+      <guid>https://trigger.it/124_231</guid>
+      <link>https://trigger.it/124_231</link>
+    </item>
+    <item>
+      <title>Spese delle unità istituzionali centrali e locali</title>
+      <pubDate>Tue, 25 Oct 2022 09:20:35 GMT</pubDate>
+      <guid>https://trigger.it/124_732</guid>
+      <link>https://trigger.it/124_732</link>
+    </item>
+    <item>
+      <title>Entrate delle unità istituzionali centrali e locali</title>
+      <pubDate>Tue, 25 Oct 2022 09:19:54 GMT</pubDate>
+      <guid>https://trigger.it/124_730</guid>
+      <link>https://trigger.it/124_730</link>
+    </item>
+    <item>
+      <title>Fitosanitari</title>
+      <pubDate>Tue, 25 Oct 2022 07:29:55 GMT</pubDate>
+      <guid>https://trigger.it/101_22</guid>
+      <link>https://trigger.it/101_22</link>
+    </item>
+    <item>
       <title>Macellazioni</title>
       <pubDate>Mon, 24 Oct 2022 10:03:36 GMT</pubDate>
       <guid>https://trigger.it/101_1033</guid>
@@ -57,18 +87,6 @@
       <pubDate>Fri, 21 Oct 2022 10:00:27 GMT</pubDate>
       <guid>https://trigger.it/536_193</guid>
       <link>https://trigger.it/536_193</link>
-    </item>
-    <item>
-      <title>Entrate delle unità istituzionali centrali e locali</title>
-      <pubDate>Fri, 21 Oct 2022 02:44:15 GMT</pubDate>
-      <guid>https://trigger.it/124_730</guid>
-      <link>https://trigger.it/124_730</link>
-    </item>
-    <item>
-      <title>Indice della produzione nelle costruzioni</title>
-      <pubDate>Thu, 20 Oct 2022 10:12:34 GMT</pubDate>
-      <guid>https://trigger.it/115_362</guid>
-      <link>https://trigger.it/115_362</link>
     </item>
   </channel>
 </rss>
