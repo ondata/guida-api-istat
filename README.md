@@ -3,6 +3,7 @@ Per <strong>domande</strong> e/o <strong>suggerimenti</strong> su questa guida, 
 </div>
 <br>
 
+- [Feed RSS](#feed-rss)
 - [Perché questa guida](#perché-questa-guida)
 - [Come interrogare le API](#come-interrogare-le-api)
   - [Che strumenti usare](#che-strumenti-usare)
@@ -22,6 +23,12 @@ Per <strong>domande</strong> e/o <strong>suggerimenti</strong> su questa guida, 
 - [Sitografia](#sitografia)
 - [Cheatsheet di riferimento](#cheatsheet-di-riferimento)
 - [Webinar dedicato](#webinar-dedicato)
+
+
+## Feed RSS
+
+Abbiamo creato un feed RSS per seguire gli aggiornamenti dei dataset rilasciati attraverso il web service SDMX del data warehouse I.Stat:<br>
+<https://ondata.github.io/guida-api-istat/risorse/sdmx.rss>
 
 ## Perché questa guida
 
