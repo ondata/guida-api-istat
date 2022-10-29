@@ -5,148 +5,148 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
-      <title>Tensione contrattuale</title>
-      <pubDate>Fri, 28 Oct 2022 12:08:28 GMT</pubDate>
-      <guid>https://trigger.it/149_319</guid>
-      <link>https://trigger.it/149_319</link>
-    </item>
-    <item>
-      <title>Retribuzioni contrattuali per tipo di contratto</title>
-      <pubDate>Fri, 28 Oct 2022 12:07:51 GMT</pubDate>
-      <guid>https://trigger.it/155_318</guid>
-      <link>https://trigger.it/155_318</link>
-    </item>
-    <item>
-      <title>Retribuzioni contrattuali per settore economico (Ateco)</title>
-      <pubDate>Fri, 28 Oct 2022 12:07:44 GMT</pubDate>
-      <guid>https://trigger.it/155_358</guid>
-      <link>https://trigger.it/155_358</link>
-    </item>
-    <item>
-      <title>Ipca - mensili dal 2001 (base 2015)</title>
-      <pubDate>Fri, 28 Oct 2022 11:22:23 GMT</pubDate>
-      <guid>https://trigger.it/168_760</guid>
-      <link>https://trigger.it/168_760</link>
-    </item>
-    <item>
-      <title>Nic - mensili dal 2016 (base 2015)</title>
-      <pubDate>Fri, 28 Oct 2022 11:21:37 GMT</pubDate>
-      <guid>https://trigger.it/167_744</guid>
-      <link>https://trigger.it/167_744</link>
-    </item>
-    <item>
-      <title>Prezzi alla produzione dell'industria</title>
-      <pubDate>Fri, 28 Oct 2022 10:09:50 GMT</pubDate>
-      <guid>https://trigger.it/145_360</guid>
-      <link>https://trigger.it/145_360</link>
-    </item>
-    <item>
-      <title>Indici dei costi di costruzione - dati mensili</title>
-      <pubDate>Fri, 28 Oct 2022 10:07:26 GMT</pubDate>
-      <guid>https://trigger.it/145_361</guid>
-      <link>https://trigger.it/145_361</link>
-    </item>
-    <item>
-      <title>Latte e prodotti lattiero caseari</title>
-      <pubDate>Fri, 28 Oct 2022 07:34:03 GMT</pubDate>
-      <guid>https://trigger.it/101_959</guid>
-      <link>https://trigger.it/101_959</link>
-    </item>
-    <item>
-      <title>Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili</title>
-      <pubDate>Thu, 27 Oct 2022 11:06:00 GMT</pubDate>
-      <guid>https://trigger.it/114_191</guid>
-      <link>https://trigger.it/114_191</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese servizi</title>
-      <pubDate>Thu, 27 Oct 2022 10:12:47 GMT</pubDate>
-      <guid>https://trigger.it/117_262</guid>
-      <link>https://trigger.it/117_262</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese del commercio</title>
-      <pubDate>Thu, 27 Oct 2022 10:11:51 GMT</pubDate>
-      <guid>https://trigger.it/117_266</guid>
-      <link>https://trigger.it/117_266</link>
-    </item>
-    <item>
-      <title>Clima di fiducia delle imprese</title>
-      <pubDate>Thu, 27 Oct 2022 10:11:05 GMT</pubDate>
-      <guid>https://trigger.it/6_64</guid>
-      <link>https://trigger.it/6_64</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese costruzioni</title>
-      <pubDate>Thu, 27 Oct 2022 10:11:01 GMT</pubDate>
-      <guid>https://trigger.it/111_40</guid>
-      <link>https://trigger.it/111_40</link>
-    </item>
-    <item>
-      <title>Fiducia delle imprese manifatturiere</title>
-      <pubDate>Thu, 27 Oct 2022 10:09:48 GMT</pubDate>
-      <guid>https://trigger.it/111_263</guid>
-      <link>https://trigger.it/111_263</link>
-    </item>
-    <item>
-      <title>Fiducia dei consumatori</title>
-      <pubDate>Thu, 27 Oct 2022 10:09:35 GMT</pubDate>
-      <guid>https://trigger.it/30_264</guid>
-      <link>https://trigger.it/30_264</link>
-    </item>
-    <item>
-      <title>Entrate delle unità istituzionali centrali e locali</title>
-      <pubDate>Thu, 27 Oct 2022 07:47:44 GMT</pubDate>
-      <guid>https://trigger.it/124_730</guid>
-      <link>https://trigger.it/124_730</link>
-    </item>
-    <item>
-      <title>Entrate delle unità istituzionali locali (euro)</title>
-      <pubDate>Thu, 27 Oct 2022 07:47:28 GMT</pubDate>
-      <guid>https://trigger.it/124_231</guid>
-      <link>https://trigger.it/124_231</link>
-    </item>
-    <item>
-      <title>Spese delle unità istituzionali centrali e locali</title>
-      <pubDate>Thu, 27 Oct 2022 07:46:38 GMT</pubDate>
-      <guid>https://trigger.it/124_732</guid>
-      <link>https://trigger.it/124_732</link>
-    </item>
-    <item>
-      <title>Atti notarili</title>
-      <pubDate>Thu, 27 Oct 2022 03:54:19 GMT</pubDate>
-      <guid>https://trigger.it/77_47</guid>
-      <link>https://trigger.it/77_47</link>
-    </item>
-    <item>
-      <title>Convenzioni contenute negli atti notarili</title>
-      <pubDate>Thu, 27 Oct 2022 03:52:26 GMT</pubDate>
-      <guid>https://trigger.it/77_68</guid>
-      <link>https://trigger.it/77_68</link>
-    </item>
-    <item>
-      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
-      <pubDate>Wed, 26 Oct 2022 10:18:49 GMT</pubDate>
-      <guid>https://trigger.it/139_176</guid>
-      <link>https://trigger.it/139_176</link>
-    </item>
-    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_COLTIVAZIONI</guid>
       <title>Coltivazioni</title>
       <pubDate>Tue, 25 Oct 2022 09:49:53 GMT</pubDate>
-      <guid>https://trigger.it/101_1015</guid>
-      <link>https://trigger.it/101_1015</link>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_COLTIVAZIONI</link>
     </item>
     <item>
-      <title>Fitosanitari</title>
-      <pubDate>Tue, 25 Oct 2022 07:29:55 GMT</pubDate>
-      <guid>https://trigger.it/101_22</guid>
-      <link>https://trigger.it/101_22</link>
-    </item>
-    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_MACELLAZIONI</guid>
       <title>Macellazioni</title>
       <pubDate>Mon, 24 Oct 2022 10:03:36 GMT</pubDate>
-      <guid>https://trigger.it/101_1033</guid>
-      <link>https://trigger.it/101_1033</link>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_MACELLAZIONI</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_FITOSANITARI</guid>
+      <title>Fitosanitari</title>
+      <pubDate>Tue, 25 Oct 2022 07:29:55 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_FITOSANITARI</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_LATTE</guid>
+      <title>Latte e prodotti lattiero caseari</title>
+      <pubDate>Fri, 28 Oct 2022 07:34:03 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_LATTE</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDIMPRMAN</guid>
+      <title>Fiducia delle imprese manifatturiere</title>
+      <pubDate>Thu, 27 Oct 2022 10:09:48 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDIMPRMAN</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDIMPRCOSTR</guid>
+      <title>Fiducia delle imprese costruzioni</title>
+      <pubDate>Thu, 27 Oct 2022 10:11:01 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDIMPRCOSTR</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_ORDFATT</guid>
+      <title>Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili</title>
+      <pubDate>Thu, 27 Oct 2022 11:06:00 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_ORDFATT</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDIMPRSERV</guid>
+      <title>Fiducia delle imprese servizi</title>
+      <pubDate>Thu, 27 Oct 2022 10:12:47 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDIMPRSERV</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDCOMM</guid>
+      <title>Fiducia delle imprese del commercio</title>
+      <pubDate>Thu, 27 Oct 2022 10:11:51 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDCOMM</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_ENTIST</guid>
+      <title>Entrate delle unità istituzionali locali (euro)</title>
+      <pubDate>Thu, 27 Oct 2022 07:47:28 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_ENTIST</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_ENTIST_PA</guid>
+      <title>Entrate delle unità istituzionali centrali e locali</title>
+      <pubDate>Thu, 27 Oct 2022 07:47:44 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_ENTIST_PA</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_SPEIST_PA</guid>
+      <title>Spese delle unità istituzionali centrali e locali</title>
+      <pubDate>Thu, 27 Oct 2022 07:46:38 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_SPEIST_PA</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_COEIMPEX1</guid>
+      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
+      <pubDate>Wed, 26 Oct 2022 10:18:49 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_COEIMPEX1</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_PREZZPIND_1</guid>
+      <title>Prezzi alla produzione dell'industria</title>
+      <pubDate>Fri, 28 Oct 2022 10:09:50 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_PREZZPIND_1</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FABBRESID_1</guid>
+      <title>Indici dei costi di costruzione - dati mensili</title>
+      <pubDate>Fri, 28 Oct 2022 10:07:26 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FABBRESID_1</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRCONTR1T</guid>
+      <title>Tensione contrattuale</title>
+      <pubDate>Fri, 28 Oct 2022 12:08:28 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRCONTR1T</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRCONTR1C</guid>
+      <title>Retribuzioni contrattuali per tipo di contratto</title>
+      <pubDate>Fri, 28 Oct 2022 12:07:51 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRCONTR1C</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRATECO1</guid>
+      <title>Retribuzioni contrattuali per settore economico (Ateco)</title>
+      <pubDate>Fri, 28 Oct 2022 12:07:44 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRATECO1</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_NIC1B2015</guid>
+      <title>Nic - mensili dal 2016 (base 2015)</title>
+      <pubDate>Fri, 28 Oct 2022 11:21:37 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_NIC1B2015</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_IPCA1B2015</guid>
+      <title>Ipca - mensili dal 2001 (base 2015)</title>
+      <pubDate>Fri, 28 Oct 2022 11:22:23 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_IPCA1B2015</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDCONS</guid>
+      <title>Fiducia dei consumatori</title>
+      <pubDate>Thu, 27 Oct 2022 10:09:35 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDCONS</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_IESI</guid>
+      <title>Clima di fiducia delle imprese</title>
+      <pubDate>Thu, 27 Oct 2022 10:11:05 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_IESI</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_ATT_NOTAR</guid>
+      <title>Atti notarili</title>
+      <pubDate>Thu, 27 Oct 2022 03:54:19 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_ATT_NOTAR</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=SEP_GIUSTSIC_NOT_CONV</guid>
+      <title>Convenzioni contenute negli atti notarili</title>
+      <pubDate>Thu, 27 Oct 2022 03:52:26 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=SEP_GIUSTSIC_NOT_CONV</link>
     </item>
   </channel>
 </rss>
