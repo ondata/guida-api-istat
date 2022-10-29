@@ -33,7 +33,7 @@ if [ $code -eq 200 ]; then
   mlr --j2c label id,guid "$folder"/rawdata/tmp_dataflow.jsonl >"$folder"/rawdata/tmp_dataflow.csv
 
   # add the name of the dataset to SDMX info
-  mlr --csv join --ul -j guid -f "$folder"/../risorse/aggiornamenti.csv then unsparsify "$folder"/rawdata/tmp_dataflow.csv >"$folder"/rawdata/tmp_aggiornamenti.csv
+  mlr --csv join --ul -j guid -f "$folder"/../risorse/aggiornamenti.csv then unsparsify  then sort -r pubDate "$folder"/rawdata/tmp_dataflow.csv >"$folder"/rawdata/tmp_aggiornamenti.csv
 
   # mv the tmp file to the final file
   mv "$folder"/rawdata/tmp_aggiornamenti.csv "$folder"/../risorse/aggiornamenti.csv
