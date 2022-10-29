@@ -5,6 +5,54 @@
     <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <title>Tensione contrattuale</title>
+      <pubDate>Fri, 28 Oct 2022 12:08:28 GMT</pubDate>
+      <guid>https://trigger.it/149_319</guid>
+      <link>https://trigger.it/149_319</link>
+    </item>
+    <item>
+      <title>Retribuzioni contrattuali per tipo di contratto</title>
+      <pubDate>Fri, 28 Oct 2022 12:07:51 GMT</pubDate>
+      <guid>https://trigger.it/155_318</guid>
+      <link>https://trigger.it/155_318</link>
+    </item>
+    <item>
+      <title>Retribuzioni contrattuali per settore economico (Ateco)</title>
+      <pubDate>Fri, 28 Oct 2022 12:07:44 GMT</pubDate>
+      <guid>https://trigger.it/155_358</guid>
+      <link>https://trigger.it/155_358</link>
+    </item>
+    <item>
+      <title>Ipca - mensili dal 2001 (base 2015)</title>
+      <pubDate>Fri, 28 Oct 2022 11:22:23 GMT</pubDate>
+      <guid>https://trigger.it/168_760</guid>
+      <link>https://trigger.it/168_760</link>
+    </item>
+    <item>
+      <title>Nic - mensili dal 2016 (base 2015)</title>
+      <pubDate>Fri, 28 Oct 2022 11:21:37 GMT</pubDate>
+      <guid>https://trigger.it/167_744</guid>
+      <link>https://trigger.it/167_744</link>
+    </item>
+    <item>
+      <title>Prezzi alla produzione dell'industria</title>
+      <pubDate>Fri, 28 Oct 2022 10:09:50 GMT</pubDate>
+      <guid>https://trigger.it/145_360</guid>
+      <link>https://trigger.it/145_360</link>
+    </item>
+    <item>
+      <title>Indici dei costi di costruzione - dati mensili</title>
+      <pubDate>Fri, 28 Oct 2022 10:07:26 GMT</pubDate>
+      <guid>https://trigger.it/145_361</guid>
+      <link>https://trigger.it/145_361</link>
+    </item>
+    <item>
+      <title>Latte e prodotti lattiero caseari</title>
+      <pubDate>Fri, 28 Oct 2022 07:34:03 GMT</pubDate>
+      <guid>https://trigger.it/101_959</guid>
+      <link>https://trigger.it/101_959</link>
+    </item>
+    <item>
       <title>Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili</title>
       <pubDate>Thu, 27 Oct 2022 11:06:00 GMT</pubDate>
       <guid>https://trigger.it/114_191</guid>
