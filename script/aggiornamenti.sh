@@ -42,7 +42,8 @@ if [ $code -eq 200 ]; then
   mlr --csv put '$guid=$id;$guid="http://dati.istat.it/Index.aspx?DataSetCode=".$guid;$link=$guid' then cut -x -f id "$folder"/../risorse/aggiornamenti.csv >"$folder"/../risorse/tmp_rss.csv
 
   # build the RSS
-  ogr2ogr  -f geoRSS  -dsco TITLE="Aggiornamento dati ISTAT" -dsco LINK="https://ondata.github.io/guida-api-istat/risorse/sdmx.rss" -dsco DESCRIPTION="Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT"  "$folder"/../risorse/sdmx.rss "$folder"/../risorse/tmp_rss.csv -oo AUTODETECT_TYPE=YES
+  ogr2ogr  -f geoRSS  -dsco TITLE="Associazione onData | Aggiornamento dataset SDMX IStat" -dsco LINK="https://ondata.github.io/guida-api-istat/risorse/sdmx.rss" -dsco DESCRIPTION="Un feed RSS sugli aggiornamenti dei dataset rilasciati attraverso il web service SDMX del data warehouse I.Stat"  "$folder"/../risorse/sdmx.rss "$folder"/../risorse/tmp_rss.csv -oo AUTODETECT_TYPE=YES
 fi
+
 
 

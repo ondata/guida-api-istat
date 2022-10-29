@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:georss="http://www.georss.org/georss">
   <channel>
-    <title>Aggiornamento dati ISTAT</title>
-    <description>Un feed per sapere quando c'è un aggiornamento sulle basi ISTAT</description>
+    <title>Associazione onData | Aggiornamento dataset SDMX IStat</title>
+    <description>Un feed RSS sugli aggiornamenti dei dataset rilasciati attraverso il web service SDMX del data warehouse I.Stat</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
       <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRCONTR1T</guid>
