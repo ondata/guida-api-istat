@@ -142,11 +142,5 @@
       <pubDate>Tue, 25 Oct 2022 07:29:55 GMT</pubDate>
       <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_FITOSANITARI</link>
     </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_MACELLAZIONI</guid>
-      <title>Macellazioni</title>
-      <pubDate>Mon, 24 Oct 2022 10:03:36 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_MACELLAZIONI</link>
-    </item>
   </channel>
 </rss>
