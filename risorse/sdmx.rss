@@ -130,17 +130,5 @@
       <pubDate>Wed, 26 Oct 2022 10:18:49 GMT</pubDate>
       <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_COEIMPEX1</link>
     </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_COLTIVAZIONI</guid>
-      <title>Coltivazioni</title>
-      <pubDate>Tue, 25 Oct 2022 09:49:53 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_COLTIVAZIONI</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_FITOSANITARI</guid>
-      <title>Fitosanitari</title>
-      <pubDate>Tue, 25 Oct 2022 07:29:55 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_FITOSANITARI</link>
-    </item>
   </channel>
 </rss>
