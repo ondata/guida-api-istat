@@ -5,6 +5,12 @@
     <description>Un feed RSS sugli aggiornamenti dei dataset rilasciati attraverso il web service SDMX del data warehouse I.Stat</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_SQCQ</guid>
+      <title>Conto economico delle risorse e degli impieghi  e contributi alla crescita del Pil</title>
+      <pubDate>Mon, 31 Oct 2022 10:03:39 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_SQCQ</link>
+    </item>
+    <item>
       <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRCONTR1T</guid>
       <title>Tensione contrattuale</title>
       <pubDate>Fri, 28 Oct 2022 12:08:28 GMT</pubDate>
@@ -123,12 +129,6 @@
       <title>Convenzioni contenute negli atti notarili</title>
       <pubDate>Thu, 27 Oct 2022 03:52:26 GMT</pubDate>
       <link>http://dati.istat.it/Index.aspx?DataSetCode=SEP_GIUSTSIC_NOT_CONV</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_COEIMPEX1</guid>
-      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
-      <pubDate>Wed, 26 Oct 2022 10:18:49 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_COEIMPEX1</link>
     </item>
   </channel>
 </rss>
