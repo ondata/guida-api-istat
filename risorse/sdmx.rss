@@ -10,53 +10,5 @@
       <pubDate>Mon, 31 Oct 2022 10:03:39 GMT</pubDate>
       <link>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_SQCQ</link>
     </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRCONTR1T</guid>
-      <title>Tensione contrattuale</title>
-      <pubDate>Fri, 28 Oct 2022 12:08:28 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRCONTR1T</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRCONTR1C</guid>
-      <title>Retribuzioni contrattuali per tipo di contratto</title>
-      <pubDate>Fri, 28 Oct 2022 12:07:51 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRCONTR1C</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRATECO1</guid>
-      <title>Retribuzioni contrattuali per settore economico (Ateco)</title>
-      <pubDate>Fri, 28 Oct 2022 12:07:44 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRATECO1</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_IPCA1B2015</guid>
-      <title>Ipca - mensili dal 2001 (base 2015)</title>
-      <pubDate>Fri, 28 Oct 2022 11:22:23 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_IPCA1B2015</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_NIC1B2015</guid>
-      <title>Nic - mensili dal 2016 (base 2015)</title>
-      <pubDate>Fri, 28 Oct 2022 11:21:37 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_NIC1B2015</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_PREZZPIND_1</guid>
-      <title>Prezzi alla produzione dell'industria</title>
-      <pubDate>Fri, 28 Oct 2022 10:09:50 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_PREZZPIND_1</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FABBRESID_1</guid>
-      <title>Indici dei costi di costruzione - dati mensili</title>
-      <pubDate>Fri, 28 Oct 2022 10:07:26 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FABBRESID_1</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_LATTE</guid>
-      <title>Latte e prodotti lattiero caseari</title>
-      <pubDate>Fri, 28 Oct 2022 07:34:03 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_LATTE</link>
-    </item>
   </channel>
 </rss>
