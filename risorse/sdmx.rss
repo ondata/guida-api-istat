@@ -5,6 +5,18 @@
     <description>Un feed RSS sugli aggiornamenti dei dataset rilasciati attraverso il web service SDMX del data warehouse I.Stat</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_FITOSANITARI</guid>
+      <title>Fitosanitari</title>
+      <pubDate>Fri, 04 Nov 2022 12:57:10 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_FITOSANITARI</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCIS_POPORESBIL1</guid>
+      <title>Popolazione residente  - bilancio</title>
+      <pubDate>Fri, 04 Nov 2022 10:06:44 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCIS_POPORESBIL1</link>
+    </item>
+    <item>
       <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCCV_TAXDISOCCUMENS1</guid>
       <title>Tasso di disoccupazione  - dati mensili</title>
       <pubDate>Thu, 03 Nov 2022 10:20:33 GMT</pubDate>
