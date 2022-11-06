@@ -70,11 +70,5 @@
       <pubDate>Thu, 03 Nov 2022 10:18:13 GMT</pubDate>
       <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_LATTE</link>
     </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_SQCQ</guid>
-      <title>Conto economico delle risorse e degli impieghi  e contributi alla crescita del Pil</title>
-      <pubDate>Mon, 31 Oct 2022 10:03:39 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_SQCQ</link>
-    </item>
   </channel>
 </rss>
