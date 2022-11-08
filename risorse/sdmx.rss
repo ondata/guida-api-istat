@@ -5,6 +5,18 @@
     <description>Un feed RSS sugli aggiornamenti dei dataset rilasciati attraverso il web service SDMX del data warehouse I.Stat</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=SEP_PA_CONTI_STATOPATR</guid>
+      <title>Stato patrimoniale delle camere di commercio - euro</title>
+      <pubDate>Mon, 07 Nov 2022 04:57:05 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=SEP_PA_CONTI_STATOPATR</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_CONTECON_CC</guid>
+      <title>Conto economico delle camere di commercio - euro</title>
+      <pubDate>Mon, 07 Nov 2022 04:48:29 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_CONTECON_CC</link>
+    </item>
+    <item>
       <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_FITOSANITARI</guid>
       <title>Fitosanitari</title>
       <pubDate>Fri, 04 Nov 2022 12:57:10 GMT</pubDate>
@@ -15,54 +27,6 @@
       <title>Popolazione residente  - bilancio</title>
       <pubDate>Fri, 04 Nov 2022 10:06:44 GMT</pubDate>
       <link>http://dati.istat.it/Index.aspx?DataSetCode=DCIS_POPORESBIL1</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCCV_TAXDISOCCUMENS1</guid>
-      <title>Tasso di disoccupazione  - dati mensili</title>
-      <pubDate>Thu, 03 Nov 2022 10:20:33 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCCV_TAXDISOCCUMENS1</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCCV_DISOCCUPTMENS1</guid>
-      <title>Disoccupati  - dati mensili</title>
-      <pubDate>Thu, 03 Nov 2022 10:20:30 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCCV_DISOCCUPTMENS1</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCCV_TAXINATTMENS1</guid>
-      <title>Tasso di inattività  - dati mensili</title>
-      <pubDate>Thu, 03 Nov 2022 10:20:00 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCCV_TAXINATTMENS1</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCCV_INATTIVMENS1</guid>
-      <title>Inattivi  - dati mensili</title>
-      <pubDate>Thu, 03 Nov 2022 10:19:57 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCCV_INATTIVMENS1</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCCV_TAXOCCUMENS1</guid>
-      <title>Tasso di occupazione  - dati mensili</title>
-      <pubDate>Thu, 03 Nov 2022 10:19:14 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCCV_TAXOCCUMENS1</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCCV_TAXATVTMENS1</guid>
-      <title>Tasso di attività  - dati mensili</title>
-      <pubDate>Thu, 03 Nov 2022 10:19:11 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCCV_TAXATVTMENS1</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCCV_OCCUPATIMENS1</guid>
-      <title>Occupati -  dati mensili</title>
-      <pubDate>Thu, 03 Nov 2022 10:18:32 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCCV_OCCUPATIMENS1</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCCV_FORZLVMENS1</guid>
-      <title>Forze lavoro  - dati mensili</title>
-      <pubDate>Thu, 03 Nov 2022 10:18:23 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCCV_FORZLVMENS1</link>
     </item>
     <item>
       <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_LATTE</guid>
