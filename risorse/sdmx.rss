@@ -5,6 +5,18 @@
     <description>Un feed RSS sugli aggiornamenti dei dataset rilasciati attraverso il web service SDMX del data warehouse I.Stat</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_COMMDET_1</guid>
+      <title>Indice del valore delle vendite del commercio fisso al dettaglio - dati mensili</title>
+      <pubDate>Tue, 08 Nov 2022 10:16:51 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_COMMDET_1</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=SEP_GIUSTSIC_PEN_DELITTI</guid>
+      <title>Delitti denunciati dalle forze di polizia all’autorità giudiziaria</title>
+      <pubDate>Tue, 08 Nov 2022 02:47:49 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=SEP_GIUSTSIC_PEN_DELITTI</link>
+    </item>
+    <item>
       <guid>http://dati.istat.it/Index.aspx?DataSetCode=SEP_PA_CONTI_STATOPATR</guid>
       <title>Stato patrimoniale delle camere di commercio - euro</title>
       <pubDate>Mon, 07 Nov 2022 04:57:05 GMT</pubDate>
@@ -21,18 +33,6 @@
       <title>Fitosanitari</title>
       <pubDate>Fri, 04 Nov 2022 12:57:10 GMT</pubDate>
       <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_FITOSANITARI</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCIS_POPORESBIL1</guid>
-      <title>Popolazione residente  - bilancio</title>
-      <pubDate>Fri, 04 Nov 2022 10:06:44 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCIS_POPORESBIL1</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_LATTE</guid>
-      <title>Latte e prodotti lattiero caseari</title>
-      <pubDate>Thu, 03 Nov 2022 10:18:13 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_LATTE</link>
     </item>
   </channel>
 </rss>
