@@ -28,11 +28,5 @@
       <pubDate>Mon, 07 Nov 2022 04:48:29 GMT</pubDate>
       <link>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_CONTECON_CC</link>
     </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_FITOSANITARI</guid>
-      <title>Fitosanitari</title>
-      <pubDate>Fri, 04 Nov 2022 12:57:10 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_FITOSANITARI</link>
-    </item>
   </channel>
 </rss>
