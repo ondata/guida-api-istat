@@ -5,6 +5,12 @@
     <description>Un feed RSS sugli aggiornamenti dei dataset rilasciati attraverso il web service SDMX del data warehouse I.Stat</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_INDXPRODIND_1</guid>
+      <title>Indice della produzione industriale</title>
+      <pubDate>Thu, 10 Nov 2022 10:08:27 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_INDXPRODIND_1</link>
+    </item>
+    <item>
       <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_COMMDET_1</guid>
       <title>Indice del valore delle vendite del commercio fisso al dettaglio - dati mensili</title>
       <pubDate>Tue, 08 Nov 2022 10:16:51 GMT</pubDate>
