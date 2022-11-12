@@ -5,6 +5,12 @@
     <description>Un feed RSS sugli aggiornamenti dei dataset rilasciati attraverso il web service SDMX del data warehouse I.Stat</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_TUR</guid>
+      <title>Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi</title>
+      <pubDate>Fri, 11 Nov 2022 01:00:21 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_TUR</link>
+    </item>
+    <item>
       <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_INDXPRODIND_1</guid>
       <title>Indice della produzione industriale</title>
       <pubDate>Thu, 10 Nov 2022 10:08:27 GMT</pubDate>
