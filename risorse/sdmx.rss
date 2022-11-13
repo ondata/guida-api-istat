@@ -22,23 +22,5 @@
       <pubDate>Tue, 08 Nov 2022 10:16:51 GMT</pubDate>
       <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_COMMDET_1</link>
     </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=SEP_GIUSTSIC_PEN_DELITTI</guid>
-      <title>Delitti denunciati dalle forze di polizia all’autorità giudiziaria</title>
-      <pubDate>Tue, 08 Nov 2022 02:47:49 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=SEP_GIUSTSIC_PEN_DELITTI</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=SEP_PA_CONTI_STATOPATR</guid>
-      <title>Stato patrimoniale delle camere di commercio - euro</title>
-      <pubDate>Mon, 07 Nov 2022 04:57:05 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=SEP_PA_CONTI_STATOPATR</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_CONTECON_CC</guid>
-      <title>Conto economico delle camere di commercio - euro</title>
-      <pubDate>Mon, 07 Nov 2022 04:48:29 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_CONTECON_CC</link>
-    </item>
   </channel>
 </rss>
