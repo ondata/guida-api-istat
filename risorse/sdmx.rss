@@ -5,6 +5,12 @@
     <description>Un feed RSS sugli aggiornamenti dei dataset rilasciati attraverso il web service SDMX del data warehouse I.Stat</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=SEP_GIUSTSIC_PEN_SEGNAL</guid>
+      <title>Segnalazioni relative a persone denunciate e arrestate/fermate dalle forze di polizia</title>
+      <pubDate>Tue, 15 Nov 2022 03:28:38 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=SEP_GIUSTSIC_PEN_SEGNAL</link>
+    </item>
+    <item>
       <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCIS_ACQCITIZ</guid>
       <title>Acquisizioni di cittadinanza</title>
       <pubDate>Mon, 14 Nov 2022 11:51:30 GMT</pubDate>
@@ -15,12 +21,6 @@
       <title>Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi</title>
       <pubDate>Fri, 11 Nov 2022 01:00:21 GMT</pubDate>
       <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_TUR</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_INDXPRODIND_1</guid>
-      <title>Indice della produzione industriale</title>
-      <pubDate>Thu, 10 Nov 2022 10:08:27 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_INDXPRODIND_1</link>
     </item>
   </channel>
 </rss>
