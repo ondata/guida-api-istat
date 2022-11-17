@@ -5,6 +5,36 @@
     <description>Un feed RSS sugli aggiornamenti dei dataset rilasciati attraverso il web service SDMX del data warehouse I.Stat</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_IPCATC1B2015</guid>
+      <title>IPCA a tassazione costante - Dati mensili dal 2002 (base 2015=100)</title>
+      <pubDate>Wed, 16 Nov 2022 10:30:35 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_IPCATC1B2015</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_IPCA1B2015</guid>
+      <title>Ipca - mensili dal 2001 (base 2015)</title>
+      <pubDate>Wed, 16 Nov 2022 10:27:23 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_IPCA1B2015</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_FOI1B2015</guid>
+      <title>FOI - Dati mensili dal 2016</title>
+      <pubDate>Wed, 16 Nov 2022 10:25:17 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_FOI1B2015</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_NIC1B2015</guid>
+      <title>Nic - mensili dal 2016 (base 2015)</title>
+      <pubDate>Wed, 16 Nov 2022 10:23:56 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_NIC1B2015</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCIS_PERMSOGG1</guid>
+      <title>Permessi di soggiorno dei cittadini non comunitari</title>
+      <pubDate>Wed, 16 Nov 2022 04:30:38 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCIS_PERMSOGG1</link>
+    </item>
+    <item>
       <guid>http://dati.istat.it/Index.aspx?DataSetCode=SEP_GIUSTSIC_PEN_SEGNAL</guid>
       <title>Segnalazioni relative a persone denunciate e arrestate/fermate dalle forze di polizia</title>
       <pubDate>Tue, 15 Nov 2022 03:28:38 GMT</pubDate>
@@ -15,12 +45,6 @@
       <title>Acquisizioni di cittadinanza</title>
       <pubDate>Mon, 14 Nov 2022 11:51:30 GMT</pubDate>
       <link>http://dati.istat.it/Index.aspx?DataSetCode=DCIS_ACQCITIZ</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_TUR</guid>
-      <title>Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi</title>
-      <pubDate>Fri, 11 Nov 2022 01:00:21 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_TUR</link>
     </item>
   </channel>
 </rss>

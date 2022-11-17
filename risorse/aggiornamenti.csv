@@ -1,4 +1,8 @@
 guid,title,pubDate,id
+168_756,IPCA a tassazione costante - Dati mensili dal 2002 (base 2015=100),2022-11-16T10:30:35,DCSP_IPCATC1B2015
+168_760,Ipca - mensili dal 2001 (base 2015),2022-11-16T10:27:23,DCSP_IPCA1B2015
+169_745,FOI - Dati mensili dal 2016,2022-11-16T10:25:17,DCSP_FOI1B2015
+167_744,Nic - mensili dal 2016 (base 2015),2022-11-16T10:23:56,DCSP_NIC1B2015
+29_348,Permessi di soggiorno dei cittadini non comunitari,2022-11-16T04:30:38,DCIS_PERMSOGG1
 73_342,Segnalazioni relative a persone denunciate e arrestate/fermate dalle forze di polizia,2022-11-15T03:28:38,SEP_GIUSTSIC_PEN_SEGNAL
 29_849,Acquisizioni di cittadinanza,2022-11-14T11:51:30,DCIS_ACQCITIZ
-122_54,Capacità degli esercizi ricettivi e Movimento dei clienti negli esercizi ricettivi,2022-11-11T01:00:21,DCSC_TUR
