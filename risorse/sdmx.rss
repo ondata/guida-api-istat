@@ -5,6 +5,24 @@
     <description>Un feed RSS sugli aggiornamenti dei dataset rilasciati attraverso il web service SDMX del data warehouse I.Stat</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_IMPAMB1</guid>
+      <title>Gettito delle imposte ambientali</title>
+      <pubDate>Thu, 17 Nov 2022 11:05:24 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_IMPAMB1</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_PREIMPIND</guid>
+      <title>Indice dei prezzi all'importazione - dati mensili</title>
+      <pubDate>Thu, 17 Nov 2022 10:42:16 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_PREIMPIND</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_COEIMPEX1</guid>
+      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
+      <pubDate>Thu, 17 Nov 2022 10:26:10 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_COEIMPEX1</link>
+    </item>
+    <item>
       <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_IPCATC1B2015</guid>
       <title>IPCA a tassazione costante - Dati mensili dal 2002 (base 2015=100)</title>
       <pubDate>Wed, 16 Nov 2022 10:30:35 GMT</pubDate>
