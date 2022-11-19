@@ -5,6 +5,36 @@
     <description>Un feed RSS sugli aggiornamenti dei dataset rilasciati attraverso il web service SDMX del data warehouse I.Stat</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_GI_ORE</guid>
+      <title>Ore lavorate - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 18 Nov 2022 11:14:11 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_GI_ORE</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_GI_OCC</guid>
+      <title>Posizioni lavorative - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 18 Nov 2022 11:13:33 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_GI_OCC</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_GI_RE</guid>
+      <title>Retribuzioni lorde - Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 18 Nov 2022 11:11:32 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_GI_RE</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_GI_COS</guid>
+      <title>Imprese con almeno 500 dipendenti</title>
+      <pubDate>Fri, 18 Nov 2022 11:09:50 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_GI_COS</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_INDXPRODCOSTR_1</guid>
+      <title>Indice della produzione nelle costruzioni</title>
+      <pubDate>Fri, 18 Nov 2022 10:04:38 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_INDXPRODCOSTR_1</link>
+    </item>
+    <item>
       <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_IMPAMB1</guid>
       <title>Gettito delle imposte ambientali</title>
       <pubDate>Thu, 17 Nov 2022 11:05:24 GMT</pubDate>
