@@ -5,6 +5,24 @@
     <description>Un feed RSS sugli aggiornamenti dei dataset rilasciati attraverso il web service SDMX del data warehouse I.Stat</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_MACELLAZIONI</guid>
+      <title>Macellazioni</title>
+      <pubDate>Mon, 21 Nov 2022 11:14:53 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_MACELLAZIONI</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_DOPIGP</guid>
+      <title>Prodotti agroalimentari di qualità DOP/IGP e STG</title>
+      <pubDate>Mon, 21 Nov 2022 03:41:26 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_DOPIGP</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_GI_COS</guid>
+      <title>Imprese con almeno 500 dipendenti</title>
+      <pubDate>Mon, 21 Nov 2022 03:11:35 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_GI_COS</link>
+    </item>
+    <item>
       <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_GI_ORE</guid>
       <title>Ore lavorate - Imprese con almeno 500 dipendenti</title>
       <pubDate>Fri, 18 Nov 2022 11:14:11 GMT</pubDate>
@@ -23,22 +41,10 @@
       <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_GI_RE</link>
     </item>
     <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_GI_COS</guid>
-      <title>Imprese con almeno 500 dipendenti</title>
-      <pubDate>Fri, 18 Nov 2022 11:09:50 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_GI_COS</link>
-    </item>
-    <item>
       <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_INDXPRODCOSTR_1</guid>
       <title>Indice della produzione nelle costruzioni</title>
       <pubDate>Fri, 18 Nov 2022 10:04:38 GMT</pubDate>
       <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_INDXPRODCOSTR_1</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_IMPAMB1</guid>
-      <title>Gettito delle imposte ambientali</title>
-      <pubDate>Thu, 17 Nov 2022 11:05:24 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_IMPAMB1</link>
     </item>
     <item>
       <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_PREIMPIND</guid>
@@ -51,36 +57,6 @@
       <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
       <pubDate>Thu, 17 Nov 2022 10:26:10 GMT</pubDate>
       <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_COEIMPEX1</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_IPCATC1B2015</guid>
-      <title>IPCA a tassazione costante - Dati mensili dal 2002 (base 2015=100)</title>
-      <pubDate>Wed, 16 Nov 2022 10:30:35 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_IPCATC1B2015</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_IPCA1B2015</guid>
-      <title>Ipca - mensili dal 2001 (base 2015)</title>
-      <pubDate>Wed, 16 Nov 2022 10:27:23 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_IPCA1B2015</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_FOI1B2015</guid>
-      <title>FOI - Dati mensili dal 2016</title>
-      <pubDate>Wed, 16 Nov 2022 10:25:17 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_FOI1B2015</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_NIC1B2015</guid>
-      <title>Nic - mensili dal 2016 (base 2015)</title>
-      <pubDate>Wed, 16 Nov 2022 10:23:56 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_NIC1B2015</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCIS_PERMSOGG1</guid>
-      <title>Permessi di soggiorno dei cittadini non comunitari</title>
-      <pubDate>Wed, 16 Nov 2022 04:30:38 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCIS_PERMSOGG1</link>
     </item>
   </channel>
 </rss>
