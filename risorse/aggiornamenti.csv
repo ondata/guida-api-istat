@@ -1,10 +1,14 @@
 guid,title,pubDate,id
-101_1033,Macellazioni,2022-11-21T11:14:53,DCSP_MACELLAZIONI
+101_1033,Macellazioni,2022-11-22T11:06:04,DCSP_MACELLAZIONI
+160_755,Spese degli enti nazionali previdenza e assistenza sociale - S13 (migliaia di euro),2022-11-22T10:46:39,DCAR_ENTPREVSPE_PA
+160_234,Spese degli enti previdenziali (migliaia di euro),2022-11-22T10:46:21,SEP_PA_ENTIPREV_ENTRATE
+160_754,Enti nazionali di previdenza e assistenza sociale S13 - entrate (migliaia di euro),2022-11-22T10:45:14,DCAR_ENTPREVENT_PA
+160_235,Enti previdenziali - entrate (migliaia di euro),2022-11-22T10:44:32,DCAR_ENTPREVENT_PA
+160_753,Numero dei dipendenti degli enti nazionali previdenza e assistenza sociale - S13,2022-11-22T10:43:30,DCAR_ENTPREVDIP_PA
+160_233,Numero dei dipendenti degli enti previdenziali,2022-11-22T10:42:50,DCAR_ENTPREVDIP
 101_1030,Prodotti agroalimentari di qualità DOP/IGP e STG,2022-11-21T03:41:26,DCSP_DOPIGP
 536_193,Imprese con almeno 500 dipendenti,2022-11-21T03:11:35,DCSC_GI_COS
 534_49,Ore lavorate - Imprese con almeno 500 dipendenti,2022-11-18T11:14:11,DCSC_GI_ORE
 534_50,Posizioni lavorative - Imprese con almeno 500 dipendenti,2022-11-18T11:13:33,DCSC_GI_OCC
 535_194,Retribuzioni lorde - Imprese con almeno 500 dipendenti,2022-11-18T11:11:32,DCSC_GI_RE
 115_362,Indice della produzione nelle costruzioni,2022-11-18T10:04:38,DCSC_INDXPRODCOSTR_1
-143_222,Indice dei prezzi all'importazione - dati mensili,2022-11-17T10:42:16,DCSC_PREIMPIND
-139_176,Importazioni ed esportazioni per paese e merce Ateco 2007,2022-11-17T10:26:10,DCSP_COEIMPEX1
