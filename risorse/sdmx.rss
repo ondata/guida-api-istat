@@ -52,35 +52,5 @@
       <pubDate>Mon, 21 Nov 2022 03:41:26 GMT</pubDate>
       <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_DOPIGP</link>
     </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_GI_COS</guid>
-      <title>Imprese con almeno 500 dipendenti</title>
-      <pubDate>Mon, 21 Nov 2022 03:11:35 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_GI_COS</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_GI_ORE</guid>
-      <title>Ore lavorate - Imprese con almeno 500 dipendenti</title>
-      <pubDate>Fri, 18 Nov 2022 11:14:11 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_GI_ORE</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_GI_OCC</guid>
-      <title>Posizioni lavorative - Imprese con almeno 500 dipendenti</title>
-      <pubDate>Fri, 18 Nov 2022 11:13:33 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_GI_OCC</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_GI_RE</guid>
-      <title>Retribuzioni lorde - Imprese con almeno 500 dipendenti</title>
-      <pubDate>Fri, 18 Nov 2022 11:11:32 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_GI_RE</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_INDXPRODCOSTR_1</guid>
-      <title>Indice della produzione nelle costruzioni</title>
-      <pubDate>Fri, 18 Nov 2022 10:04:38 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_INDXPRODCOSTR_1</link>
-    </item>
   </channel>
 </rss>
