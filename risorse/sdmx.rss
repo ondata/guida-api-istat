@@ -5,6 +5,66 @@
     <description>Un feed RSS sugli aggiornamenti dei dataset rilasciati attraverso il web service SDMX del data warehouse I.Stat</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_COEIMPEX1</guid>
+      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
+      <pubDate>Fri, 25 Nov 2022 11:13:20 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_COEIMPEX1</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDCOMM</guid>
+      <title>Fiducia delle imprese del commercio</title>
+      <pubDate>Fri, 25 Nov 2022 10:18:12 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDCOMM</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDIMPRSERV</guid>
+      <title>Fiducia delle imprese servizi</title>
+      <pubDate>Fri, 25 Nov 2022 10:18:08 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDIMPRSERV</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDIMPRMAN</guid>
+      <title>Fiducia delle imprese manifatturiere</title>
+      <pubDate>Fri, 25 Nov 2022 10:16:54 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDIMPRMAN</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDIMPRCOSTR</guid>
+      <title>Fiducia delle imprese costruzioni</title>
+      <pubDate>Fri, 25 Nov 2022 10:16:34 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDIMPRCOSTR</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_IESI</guid>
+      <title>Clima di fiducia delle imprese</title>
+      <pubDate>Fri, 25 Nov 2022 10:15:56 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_IESI</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDCONS</guid>
+      <title>Fiducia dei consumatori</title>
+      <pubDate>Fri, 25 Nov 2022 10:14:19 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDCONS</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRCONTR1T</guid>
+      <title>Tensione contrattuale</title>
+      <pubDate>Fri, 25 Nov 2022 10:00:36 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRCONTR1T</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRCONTR1C</guid>
+      <title>Retribuzioni contrattuali per tipo di contratto</title>
+      <pubDate>Fri, 25 Nov 2022 09:59:57 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRCONTR1C</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRATECO1</guid>
+      <title>Retribuzioni contrattuali per settore economico (Ateco)</title>
+      <pubDate>Fri, 25 Nov 2022 09:59:47 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRATECO1</link>
+    </item>
+    <item>
       <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_MACELLAZIONI</guid>
       <title>Macellazioni</title>
       <pubDate>Tue, 22 Nov 2022 11:06:04 GMT</pubDate>
