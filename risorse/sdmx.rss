@@ -106,11 +106,5 @@
       <pubDate>Tue, 22 Nov 2022 10:42:50 GMT</pubDate>
       <link>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_ENTPREVDIP</link>
     </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_DOPIGP</guid>
-      <title>Prodotti agroalimentari di qualità DOP/IGP e STG</title>
-      <pubDate>Mon, 21 Nov 2022 03:41:26 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_DOPIGP</link>
-    </item>
   </channel>
 </rss>
