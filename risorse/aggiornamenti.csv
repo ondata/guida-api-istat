@@ -1,18 +1,8 @@
 guid,title,pubDate,id
 139_176,Importazioni ed esportazioni per paese e merce Ateco 2007,2022-11-25T11:13:20,DCSP_COEIMPEX1
-117_266,Fiducia delle imprese del commercio,2022-11-25T10:18:12,DCSC_FIDCOMM
-117_262,Fiducia delle imprese servizi,2022-11-25T10:18:08,DCSC_FIDIMPRSERV
-111_263,Fiducia delle imprese manifatturiere,2022-11-25T10:16:54,DCSC_FIDIMPRMAN
 111_40,Fiducia delle imprese costruzioni,2022-11-25T10:16:34,DCSC_FIDIMPRCOSTR
 6_64,Clima di fiducia delle imprese,2022-11-25T10:15:56,DCSC_IESI
 30_264,Fiducia dei consumatori,2022-11-25T10:14:19,DCSC_FIDCONS
 149_319,Tensione contrattuale,2022-11-25T10:00:36,DCSC_RETRCONTR1T
 155_318,Retribuzioni contrattuali per tipo di contratto,2022-11-25T09:59:57,DCSC_RETRCONTR1C
 155_358,Retribuzioni contrattuali per settore economico (Ateco),2022-11-25T09:59:47,DCSC_RETRATECO1
-101_1033,Macellazioni,2022-11-22T11:06:04,DCSP_MACELLAZIONI
-160_755,Spese degli enti nazionali previdenza e assistenza sociale - S13 (migliaia di euro),2022-11-22T10:46:39,DCAR_ENTPREVSPE_PA
-160_234,Spese degli enti previdenziali (migliaia di euro),2022-11-22T10:46:21,SEP_PA_ENTIPREV_ENTRATE
-160_754,Enti nazionali di previdenza e assistenza sociale S13 - entrate (migliaia di euro),2022-11-22T10:45:14,DCAR_ENTPREVENT_PA
-160_235,Enti previdenziali - entrate (migliaia di euro),2022-11-22T10:44:32,DCAR_ENTPREVENT_PA
-160_753,Numero dei dipendenti degli enti nazionali previdenza e assistenza sociale - S13,2022-11-22T10:43:30,DCAR_ENTPREVDIP_PA
-160_233,Numero dei dipendenti degli enti previdenziali,2022-11-22T10:42:50,DCAR_ENTPREVDIP

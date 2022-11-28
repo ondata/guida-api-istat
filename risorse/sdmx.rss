@@ -11,24 +11,6 @@
       <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_COEIMPEX1</link>
     </item>
     <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDCOMM</guid>
-      <title>Fiducia delle imprese del commercio</title>
-      <pubDate>Fri, 25 Nov 2022 10:18:12 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDCOMM</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDIMPRSERV</guid>
-      <title>Fiducia delle imprese servizi</title>
-      <pubDate>Fri, 25 Nov 2022 10:18:08 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDIMPRSERV</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDIMPRMAN</guid>
-      <title>Fiducia delle imprese manifatturiere</title>
-      <pubDate>Fri, 25 Nov 2022 10:16:54 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDIMPRMAN</link>
-    </item>
-    <item>
       <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDIMPRCOSTR</guid>
       <title>Fiducia delle imprese costruzioni</title>
       <pubDate>Fri, 25 Nov 2022 10:16:34 GMT</pubDate>
@@ -63,48 +45,6 @@
       <title>Retribuzioni contrattuali per settore economico (Ateco)</title>
       <pubDate>Fri, 25 Nov 2022 09:59:47 GMT</pubDate>
       <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRATECO1</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_MACELLAZIONI</guid>
-      <title>Macellazioni</title>
-      <pubDate>Tue, 22 Nov 2022 11:06:04 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_MACELLAZIONI</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_ENTPREVSPE_PA</guid>
-      <title>Spese degli enti nazionali previdenza e assistenza sociale - S13 (migliaia di euro)</title>
-      <pubDate>Tue, 22 Nov 2022 10:46:39 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_ENTPREVSPE_PA</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=SEP_PA_ENTIPREV_ENTRATE</guid>
-      <title>Spese degli enti previdenziali (migliaia di euro)</title>
-      <pubDate>Tue, 22 Nov 2022 10:46:21 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=SEP_PA_ENTIPREV_ENTRATE</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_ENTPREVENT_PA</guid>
-      <title>Enti nazionali di previdenza e assistenza sociale S13 - entrate (migliaia di euro)</title>
-      <pubDate>Tue, 22 Nov 2022 10:45:14 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_ENTPREVENT_PA</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_ENTPREVENT_PA</guid>
-      <title>Enti previdenziali - entrate (migliaia di euro)</title>
-      <pubDate>Tue, 22 Nov 2022 10:44:32 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_ENTPREVENT_PA</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_ENTPREVDIP_PA</guid>
-      <title>Numero dei dipendenti degli enti nazionali previdenza e assistenza sociale - S13</title>
-      <pubDate>Tue, 22 Nov 2022 10:43:30 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_ENTPREVDIP_PA</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_ENTPREVDIP</guid>
-      <title>Numero dei dipendenti degli enti previdenziali</title>
-      <pubDate>Tue, 22 Nov 2022 10:42:50 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCAR_ENTPREVDIP</link>
     </item>
   </channel>
 </rss>
