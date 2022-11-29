@@ -5,6 +5,24 @@
     <description>Un feed RSS sugli aggiornamenti dei dataset rilasciati attraverso il web service SDMX del data warehouse I.Stat</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_CONTIEMATMREV2</guid>
+      <title>Emissioni atmosferiche NAMEA (NACE Rev.2)</title>
+      <pubDate>Mon, 28 Nov 2022 12:59:09 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_CONTIEMATMREV2</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_PRODUTTIVITA</guid>
+      <title>Misure di produttività</title>
+      <pubDate>Mon, 28 Nov 2022 11:27:06 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_PRODUTTIVITA</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_COLTIVAZIONI</guid>
+      <title>Coltivazioni</title>
+      <pubDate>Mon, 28 Nov 2022 06:10:26 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_COLTIVAZIONI</link>
+    </item>
+    <item>
       <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_COEIMPEX1</guid>
       <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
       <pubDate>Fri, 25 Nov 2022 11:13:20 GMT</pubDate>
