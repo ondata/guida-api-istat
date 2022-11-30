@@ -1,11 +1,13 @@
 guid,title,pubDate,id
+145_360,Prezzi alla produzione dell'industria,2022-11-29T11:14:39,DCSC_PREZZPIND_1
+145_376,Prezzi alla produzione dei servizi,2022-11-29T11:10:56,DCSC_PREZPRODSERV_1
+145_361,Indici dei costi di costruzione - dati mensili,2022-11-29T11:10:13,DCSC_FABBRESID_1
+114_191,Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili,2022-11-29T10:11:16,DCSC_ORDFATT
+41_983,"Incidenti, morti e feriti - comuni",2022-11-29T06:36:18,DCIS_INCIDMORFER_COM
 97_187,Emissioni atmosferiche NAMEA (NACE Rev.2),2022-11-28T12:59:09,DCCN_CONTIEMATMREV2
 98_197,Misure di produttività,2022-11-28T11:27:06,DCCN_PRODUTTIVITA
 101_1015,Coltivazioni,2022-11-28T06:10:26,DCSP_COLTIVAZIONI
 139_176,Importazioni ed esportazioni per paese e merce Ateco 2007,2022-11-25T11:13:20,DCSP_COEIMPEX1
-111_40,Fiducia delle imprese costruzioni,2022-11-25T10:16:34,DCSC_FIDIMPRCOSTR
-6_64,Clima di fiducia delle imprese,2022-11-25T10:15:56,DCSC_IESI
-30_264,Fiducia dei consumatori,2022-11-25T10:14:19,DCSC_FIDCONS
 149_319,Tensione contrattuale,2022-11-25T10:00:36,DCSC_RETRCONTR1T
 155_318,Retribuzioni contrattuali per tipo di contratto,2022-11-25T09:59:57,DCSC_RETRCONTR1C
 155_358,Retribuzioni contrattuali per settore economico (Ateco),2022-11-25T09:59:47,DCSC_RETRATECO1

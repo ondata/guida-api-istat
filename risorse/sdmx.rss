@@ -5,6 +5,36 @@
     <description>Un feed RSS sugli aggiornamenti dei dataset rilasciati attraverso il web service SDMX del data warehouse I.Stat</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_PREZZPIND_1</guid>
+      <title>Prezzi alla produzione dell'industria</title>
+      <pubDate>Tue, 29 Nov 2022 11:14:39 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_PREZZPIND_1</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_PREZPRODSERV_1</guid>
+      <title>Prezzi alla produzione dei servizi</title>
+      <pubDate>Tue, 29 Nov 2022 11:10:56 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_PREZPRODSERV_1</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FABBRESID_1</guid>
+      <title>Indici dei costi di costruzione - dati mensili</title>
+      <pubDate>Tue, 29 Nov 2022 11:10:13 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FABBRESID_1</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_ORDFATT</guid>
+      <title>Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili</title>
+      <pubDate>Tue, 29 Nov 2022 10:11:16 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_ORDFATT</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCIS_INCIDMORFER_COM</guid>
+      <title>Incidenti, morti e feriti - comuni</title>
+      <pubDate>Tue, 29 Nov 2022 06:36:18 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCIS_INCIDMORFER_COM</link>
+    </item>
+    <item>
       <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_CONTIEMATMREV2</guid>
       <title>Emissioni atmosferiche NAMEA (NACE Rev.2)</title>
       <pubDate>Mon, 28 Nov 2022 12:59:09 GMT</pubDate>
@@ -27,24 +57,6 @@
       <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
       <pubDate>Fri, 25 Nov 2022 11:13:20 GMT</pubDate>
       <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_COEIMPEX1</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDIMPRCOSTR</guid>
-      <title>Fiducia delle imprese costruzioni</title>
-      <pubDate>Fri, 25 Nov 2022 10:16:34 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDIMPRCOSTR</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_IESI</guid>
-      <title>Clima di fiducia delle imprese</title>
-      <pubDate>Fri, 25 Nov 2022 10:15:56 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_IESI</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDCONS</guid>
-      <title>Fiducia dei consumatori</title>
-      <pubDate>Fri, 25 Nov 2022 10:14:19 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FIDCONS</link>
     </item>
     <item>
       <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRCONTR1T</guid>
