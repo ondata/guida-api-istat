@@ -5,6 +5,54 @@
     <description>Un feed RSS sugli aggiornamenti dei dataset rilasciati attraverso il web service SDMX del data warehouse I.Stat</description>
     <link>https://ondata.github.io/guida-api-istat/risorse/sdmx.rss</link>
     <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FATTSERVIZ_1</guid>
+      <title>Indice del fatturato dei servizi</title>
+      <pubDate>Wed, 30 Nov 2022 11:59:22 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FATTSERVIZ_1</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_QNA</guid>
+      <title>Valore aggiunto, Redditi da lavoro, Investimenti fissi lordi, Spesa per consumi finali famiglie, Costi e margini</title>
+      <pubDate>Wed, 30 Nov 2022 10:04:52 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_QNA</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_SQCQ</guid>
+      <title>Conto economico delle risorse e degli impieghi  e contributi alla crescita del Pil</title>
+      <pubDate>Wed, 30 Nov 2022 10:04:30 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_SQCQ</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_PILQ</guid>
+      <title>Principali aggregati del Prodotto interno lordo (milioni di euro)</title>
+      <pubDate>Wed, 30 Nov 2022 10:04:02 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_PILQ</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_OCCQSEC2010</guid>
+      <title>Occupazione per branca di attività</title>
+      <pubDate>Wed, 30 Nov 2022 10:03:53 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCCN_OCCQSEC2010</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCIS_MUSVIS_COM</guid>
+      <title>Musei ed istituzioni similari - comuni</title>
+      <pubDate>Wed, 30 Nov 2022 04:05:26 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCIS_MUSVIS_COM</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_IPCA1B2015</guid>
+      <title>Ipca - mensili dal 2001 (base 2015)</title>
+      <pubDate>Wed, 30 Nov 2022 02:38:48 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_IPCA1B2015</link>
+    </item>
+    <item>
+      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_NIC1B2015</guid>
+      <title>Nic - mensili dal 2016 (base 2015)</title>
+      <pubDate>Wed, 30 Nov 2022 02:38:04 GMT</pubDate>
+      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_NIC1B2015</link>
+    </item>
+    <item>
       <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_PREZZPIND_1</guid>
       <title>Prezzi alla produzione dell'industria</title>
       <pubDate>Tue, 29 Nov 2022 11:14:39 GMT</pubDate>
@@ -51,30 +99,6 @@
       <title>Coltivazioni</title>
       <pubDate>Mon, 28 Nov 2022 06:10:26 GMT</pubDate>
       <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_COLTIVAZIONI</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_COEIMPEX1</guid>
-      <title>Importazioni ed esportazioni per paese e merce Ateco 2007</title>
-      <pubDate>Fri, 25 Nov 2022 11:13:20 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_COEIMPEX1</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRCONTR1T</guid>
-      <title>Tensione contrattuale</title>
-      <pubDate>Fri, 25 Nov 2022 10:00:36 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRCONTR1T</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRCONTR1C</guid>
-      <title>Retribuzioni contrattuali per tipo di contratto</title>
-      <pubDate>Fri, 25 Nov 2022 09:59:57 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRCONTR1C</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRATECO1</guid>
-      <title>Retribuzioni contrattuali per settore economico (Ateco)</title>
-      <pubDate>Fri, 25 Nov 2022 09:59:47 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_RETRATECO1</link>
     </item>
   </channel>
 </rss>
