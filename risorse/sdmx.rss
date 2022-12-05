@@ -106,35 +106,5 @@
       <pubDate>Wed, 30 Nov 2022 02:38:04 GMT</pubDate>
       <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSP_NIC1B2015</link>
     </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_PREZZPIND_1</guid>
-      <title>Prezzi alla produzione dell'industria</title>
-      <pubDate>Tue, 29 Nov 2022 11:14:39 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_PREZZPIND_1</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_PREZPRODSERV_1</guid>
-      <title>Prezzi alla produzione dei servizi</title>
-      <pubDate>Tue, 29 Nov 2022 11:10:56 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_PREZPRODSERV_1</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FABBRESID_1</guid>
-      <title>Indici dei costi di costruzione - dati mensili</title>
-      <pubDate>Tue, 29 Nov 2022 11:10:13 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_FABBRESID_1</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_ORDFATT</guid>
-      <title>Indice dei nuovi ordinativi e del fatturato dei prodotti industriali - dati mensili</title>
-      <pubDate>Tue, 29 Nov 2022 10:11:16 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCSC_ORDFATT</link>
-    </item>
-    <item>
-      <guid>http://dati.istat.it/Index.aspx?DataSetCode=DCIS_INCIDMORFER_COM</guid>
-      <title>Incidenti, morti e feriti - comuni</title>
-      <pubDate>Tue, 29 Nov 2022 06:36:18 GMT</pubDate>
-      <link>http://dati.istat.it/Index.aspx?DataSetCode=DCIS_INCIDMORFER_COM</link>
-    </item>
   </channel>
 </rss>
