@@ -21,6 +21,12 @@ jobs:
         sudo apt-get install miller
         sudo apt-get install dos2unix
         sudo apt-get install gdal-bin
+        sudo apt install tor
+        sudo sh -c "echo 'SOCKSPort 9050 # Default' >> /etc/tor/torrc"
+        sudo sh -c "echo 'ExitNodes {it} StrictNodes 1' >> /etc/tor/torrc"
+        sudo systemctl start tor
+        sudo service tor stop
+        sudo service tor start
     - name: scarica i dati
       run: |-
         cd ./script
