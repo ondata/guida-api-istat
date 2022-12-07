@@ -1,11 +1,18 @@
 guid,title,pubDate,id
-97_26,Gettito delle imposte ambientali,2022-11-17T11:05:24,DCCN_IMPAMB1
-143_222,Indice dei prezzi all'importazione - dati mensili,2022-11-17T10:42:16,DCSC_PREIMPIND
-139_176,Importazioni ed esportazioni per paese e merce Ateco 2007,2022-11-17T10:26:10,DCSP_COEIMPEX1
-168_756,IPCA a tassazione costante - Dati mensili dal 2002 (base 2015=100),2022-11-16T10:30:35,DCSP_IPCATC1B2015
-168_760,Ipca - mensili dal 2001 (base 2015),2022-11-16T10:27:23,DCSP_IPCA1B2015
-169_745,FOI - Dati mensili dal 2016,2022-11-16T10:25:17,DCSP_FOI1B2015
-167_744,Nic - mensili dal 2016 (base 2015),2022-11-16T10:23:56,DCSP_NIC1B2015
-29_348,Permessi di soggiorno dei cittadini non comunitari,2022-11-16T04:30:38,DCIS_PERMSOGG1
-73_342,Segnalazioni relative a persone denunciate e arrestate/fermate dalle forze di polizia,2022-11-15T03:28:38,SEP_GIUSTSIC_PEN_SEGNAL
-29_849,Acquisizioni di cittadinanza,2022-11-14T11:51:30,DCIS_ACQCITIZ
+151_874,Tasso di disoccupazione  - dati mensili,2022-12-01T10:02:18,DCCV_TAXDISOCCUMENS1
+151_877,Disoccupati  - dati mensili,2022-12-01T10:02:14,DCCV_DISOCCUPTMENS1
+152_878,Tasso di inattività  - dati mensili,2022-12-01T10:01:43,DCCV_TAXINATTMENS1
+152_879,Inattivi  - dati mensili,2022-12-01T10:01:40,DCCV_INATTIVMENS1
+150_872,Tasso di occupazione  - dati mensili,2022-12-01T10:01:06,DCCV_TAXOCCUMENS1
+150_876,Tasso di attività  - dati mensili,2022-12-01T10:01:03,DCCV_TAXATVTMENS1
+150_875,Occupati -  dati mensili,2022-12-01T10:00:30,DCCV_OCCUPATIMENS1
+150_873,Forze lavoro  - dati mensili,2022-12-01T10:00:23,DCCV_FORZLVMENS1
+101_959,Latte e prodotti lattiero caseari,2022-12-01T01:30:29,DCSP_LATTE
+119_367,Indice del fatturato dei servizi,2022-11-30T11:59:22,DCSC_FATTSERVIZ_1
+163_24,"Valore aggiunto, Redditi da lavoro, Investimenti fissi lordi, Spesa per consumi finali famiglie, Costi e margini",2022-11-30T10:04:52,DCCN_QNA
+163_156,Conto economico delle risorse e degli impieghi  e contributi alla crescita del Pil,2022-11-30T10:04:30,DCCN_SQCQ
+163_184,Principali aggregati del Prodotto interno lordo (milioni di euro),2022-11-30T10:04:02,DCCN_PILQ
+163_88,Occupazione per branca di attività,2022-11-30T10:03:53,DCCN_OCCQSEC2010
+60_1004,Musei ed istituzioni similari - comuni,2022-11-30T04:05:26,DCIS_MUSVIS_COM
+168_760,Ipca - mensili dal 2001 (base 2015),2022-11-30T02:38:48,DCSP_IPCA1B2015
+167_744,Nic - mensili dal 2016 (base 2015),2022-11-30T02:38:04,DCSP_NIC1B2015
