@@ -15,16 +15,20 @@ dataflow="http://sdmx.istat.it/SDMXWS/rest/dataflow/IT1"
 URLbase="http://dati.istat.it/Index.aspx?DataSetCode="
 
 # leggi la risposta HTTP del sito
-code=$(curl -v -s -L -o /dev/null -w '%{http_code}' "$URL")
+#code=$(curl -v -s -L -o /dev/null -w '%{http_code}' "$URL")
+
+http --download https://www.istat.it/js/rsssep.php -o "$folder"/tmp_istat.xml
+
+ret=$?
 
 # se il sito è raggiungibile scarica i dati
-if [ $code -eq 200 ]; then
-  curl -v -L "$URL" | xq '.rss.channel.item' | mlr --j2c cut -x -r -f ":" then sort -r pubDate >"$folder"/rawdata/tmp_aggiornamenti.csv
+if [ $ret -eq 0 ]; then
+  <"$folder"/tmp_istat.xml xq '.rss.channel.item' | mlr --j2c cut -x -r -f ":" then sort -r pubDate >"$folder"/rawdata/tmp_aggiornamenti.csv
   cp "$folder"/rawdata/tmp_aggiornamenti.csv "$folder"/../risorse/aggiornamenti.csv
   dos2unix "$folder"/../risorse/aggiornamenti.csv
 
   # download the dataflows
-  curl -v -kL "$dataflow" >"$folder"/rawdata/tmp_dataflow.xml
+  http -b --follow "$dataflow" >"$folder"/rawdata/tmp_dataflow.xml
 
   # extract id and name from dataflows
   <"$folder"/rawdata/tmp_dataflow.xml xq -c '."message:Structure"."message:Structures"."structure:Dataflows"."structure:Dataflow"[]|{id:."structure:Structure".Ref."@id",code:."@id"}' >"$folder"/rawdata/tmp_dataflow.jsonl
