@@ -17,7 +17,7 @@ URLbase="http://dati.istat.it/Index.aspx?DataSetCode="
 # leggi la risposta HTTP del sito
 #code=$(curl -v -s -L -o /dev/null -w '%{http_code}' "$URL")
 
-http --verify=no --download https://www.istat.it/js/rsssep.php -o "$folder"/tmp_istat.xml
+http --ignore-stdin --verify=no --download https://www.istat.it/js/rsssep.php -o "$folder"/tmp_istat.xml
 
 ret=$?
 
@@ -28,7 +28,7 @@ if [ $ret -eq 0 ]; then
   dos2unix "$folder"/../risorse/aggiornamenti.csv
 
   # download the dataflows
-  http --verify=no -b --follow "$dataflow" >"$folder"/rawdata/tmp_dataflow.xml
+  http --ignore-stdin --verify=no -b --follow "$dataflow" >"$folder"/rawdata/tmp_dataflow.xml
 
   # extract id and name from dataflows
   <"$folder"/rawdata/tmp_dataflow.xml xq -c '."message:Structure"."message:Structures"."structure:Dataflows"."structure:Dataflow"[]|{id:."structure:Structure".Ref."@id",code:."@id"}' >"$folder"/rawdata/tmp_dataflow.jsonl
