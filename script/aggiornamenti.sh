@@ -15,11 +15,11 @@ dataflow="http://sdmx.istat.it/SDMXWS/rest/dataflow/IT1"
 URLbase="http://dati.istat.it/Index.aspx?DataSetCode="
 
 # leggi la risposta HTTP del sito
-code=$(curl -v -s -kL -o /dev/null -w '%{http_code}' "$URL")
+code=$(curl -v -s -L -o /dev/null -w '%{http_code}' "$URL")
 
 # se il sito è raggiungibile scarica i dati
 if [ $code -eq 200 ]; then
-  curl -v -kL "$URL" | xq '.rss.channel.item' | mlr --j2c cut -x -r -f ":" then sort -r pubDate >"$folder"/rawdata/tmp_aggiornamenti.csv
+  curl -v -L "$URL" | xq '.rss.channel.item' | mlr --j2c cut -x -r -f ":" then sort -r pubDate >"$folder"/rawdata/tmp_aggiornamenti.csv
   cp "$folder"/rawdata/tmp_aggiornamenti.csv "$folder"/../risorse/aggiornamenti.csv
   dos2unix "$folder"/../risorse/aggiornamenti.csv
 
