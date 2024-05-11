@@ -3,7 +3,6 @@ Per <strong>domande</strong> e/o <strong>suggerimenti</strong> su questa guida, 
 </div>
 <br>
 
-- [Feed RSS](#feed-rss)
 - [Perché questa guida](#perché-questa-guida)
 - [Come interrogare le API](#come-interrogare-le-api)
   - [Che strumenti usare](#che-strumenti-usare)
@@ -25,10 +24,6 @@ Per <strong>domande</strong> e/o <strong>suggerimenti</strong> su questa guida, 
 - [Webinar dedicato](#webinar-dedicato)
 
 
-## Feed RSS
-
-Abbiamo creato un feed RSS per seguire gli aggiornamenti dei dataset rilasciati attraverso il web service SDMX del data warehouse I.Stat:<br>
-<https://ondata.github.io/guida-api-istat/risorse/sdmx.rss>
 
 ## Perché questa guida
 
@@ -41,6 +36,11 @@ La mancanza di informazioni in merito e le opportunità che vengono offerte, ci 
 Se vuoi proporre una modifica/integrazione/correzione a questa guida, [questo](https://github.com/ondata/guida-api-istat/blob/master/README.md) è il file e [questo](https://github.com/ondata/guida-api-istat) è il repository che ospita il progetto.
 
 ## Come interrogare le API
+
+---
+👉 **Nota bene**: questa guida è stata scritta nel 2020. **L'*endpoint*. non è più quello indicato a seguire**, ma è quello indicato [qui](https://esploradati.istat.it/SDMXWS). Potrai replicare quanto indicato, ma cambiando l'URL dell'*endpoint*.
+
+---
 
 L'URL base di accesso è `http://sdmx.istat.it/SDMXWS/rest/`. Da questo si possono interrogare i **metadati** e i **dati**, con una chiamata `HTTP` in `GET`. Quindi pressoché **da qualsiasi client**.
 
