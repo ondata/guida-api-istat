@@ -3,7 +3,7 @@ name: crea archivio jiku_istat
 on:
   repository_dispatch:
   schedule:
-    - cron:  '10 9 * * MON'
+    - cron:  '10 6 * * MON'
   workflow_dispatch:
 
 jobs:
