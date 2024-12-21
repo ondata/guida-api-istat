@@ -4,3 +4,4 @@ reference/*
 41_*
 .vscode/settings.json
 .DS_Store
+*Zone.Identifier
