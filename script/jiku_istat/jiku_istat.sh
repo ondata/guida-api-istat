@@ -1,5 +1,10 @@
 #!/bin/bash
 
+### requisiti ###
+# jq, https://github.com/jqlang/jq
+# miller, https://miller.readthedocs.io/en/6.13.0/
+### requisiti ###
+
 set -x
 set -e
 set -u
