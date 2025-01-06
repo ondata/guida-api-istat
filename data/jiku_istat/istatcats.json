@@ -19467,6 +19467,13 @@
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCV_TUR_RIC_CAPI"
 },
 {
+  "dataflowId": "6_1095_DF_DCCN_ISTITUZ_TNA1_B19_1",
+  "refId": "DCCN_ISTITUZ_TNA1_B19",
+  "enName": "Disposable income of the households in the italian regions - editions from January 2020 to December 2023",
+  "itName": "Reddito disponibile delle famiglie nelle regioni italiane - edizioni gennaio 2020 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_ISTITUZ_TNA1_B19"
+},
+{
   "dataflowId": "6_20",
   "refId": "DCSP_RS",
   "enName": "Research and Development",
@@ -19570,6 +19577,41 @@
   "enName": "Business expenditure by economic activity (Nace 2 digit)",
   "itName": "Spesa delle imprese per settore economico (Ateco 2 cifre)",
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_RS"
+},
+{
+  "dataflowId": "6_379_DF_DCCN_OCCTSEC2010_B19_1",
+  "refId": "DCCN_OCCTSEC2010_B19",
+  "enName": "Employment - regions - editions from January 2020 to December 2023",
+  "itName": "Occupazione regionale - edizioni gennaio 2020 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_OCCTSEC2010_B19"
+},
+{
+  "dataflowId": "6_379_DF_DCCN_OCCTSEC2010_B19_2",
+  "refId": "DCCN_OCCTSEC2010_B19",
+  "enName": "Employment - provinces - editions from January 2020 to December 2023",
+  "itName": "Occupazione provinciale - edizioni gennaio 2020 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_OCCTSEC2010_B19"
+},
+{
+  "dataflowId": "6_379_DF_DCCN_OCCTSEC2010_B19_3",
+  "refId": "DCCN_OCCTSEC2010_B19",
+  "enName": "Rate of undeclared work - editions from January 2020 to December 2023",
+  "itName": "Tasso di irregolarità - edizioni gennaio 2020 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_OCCTSEC2010_B19"
+},
+{
+  "dataflowId": "6_379_DF_DCCN_OCCTSEC2010_B19_4",
+  "refId": "DCCN_OCCTSEC2010_B19",
+  "enName": "Annual average population - editions from January 2020 to December 2023",
+  "itName": "Popolazione media annua - edizioni gennaio 2020 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_OCCTSEC2010_B19"
+},
+{
+  "dataflowId": "6_382_DF_DCCN_SQCT_B19_1",
+  "refId": "DCCN_SQCT_B19",
+  "enName": "Sequence of accounts - editions from January 2020 to December 2023",
+  "itName": "Sequenza dei conti - edizioni gennaio 2020 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_SQCT_B19"
 },
 {
   "dataflowId": "6_39",
@@ -20081,6 +20123,13 @@
   "enName": "Hampering factors of innovation and employees class",
   "itName": "Fattori che hanno scoraggiato attività di innovazione e classe di addetti",
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_498_DF_DCCN_PILT_B19_1",
+  "refId": "DCCN_PILT_B19",
+  "enName": "Gross domestic product supply side - editions from January 2020 to December 2023",
+  "itName": "Prodotto interno lordo lato produzione - edizioni gennaio 2020 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_PILT_B19"
 },
 {
   "dataflowId": "6_64",
@@ -24614,50 +24663,50 @@
 {
   "dataflowId": "93_500",
   "refId": "DCCN_TNA",
-  "enName": "National Accounts regional main aggregates",
-  "itName": "Principali aggregati territoriali di Contabilità Nazionale",
+  "enName": "National Accounts regional main aggregates - editions from January 2020 to December 2023",
+  "itName": "Principali aggregati territoriali di Contabilità Nazionale - edizioni gennaio 2020 - dicembre 2023",
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_TNA"
 },
 {
   "dataflowId": "93_500_DF_DCCN_TNA_1",
   "refId": "DCCN_TNA",
-  "enName": "Value added by industry",
-  "itName": "Valore aggiunto per branca di attività",
+  "enName": "Value added by industry - editions from January 2020 to December 2023",
+  "itName": "Valore aggiunto per branca di attività - edizioni gennaio 2020 - dicembre 2023",
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_TNA"
 },
 {
   "dataflowId": "93_500_DF_DCCN_TNA_2",
   "refId": "DCCN_TNA",
-  "enName": "Compensation of employees and its components by industry",
-  "itName": "Redditi da lavoro dipendente e componenti per branca di attività",
+  "enName": "Compensation of employees and its components by industry - editions from January 2020 to December 2023",
+  "itName": "Redditi da lavoro dipendente e componenti per branca di attività - edizioni gennaio 2020 - dicembre 2023",
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_TNA"
 },
 {
   "dataflowId": "93_500_DF_DCCN_TNA_3",
   "refId": "DCCN_TNA",
-  "enName": "Final consumption expenditure of households by expenditure item (Coicop 2 digit) and durability",
-  "itName": "Spesa per consumi finali delle famiglie per voce di spesa (Coicop 2 cifre) e durata",
+  "enName": "Final consumption expenditure of households by expenditure item (Coicop 2 digit) and durability - editions from January 2020 to December 2023",
+  "itName": "Spesa per consumi finali delle famiglie per voce di spesa (Coicop 2 cifre) e durata - edizioni gennaio 2020 - dicembre 2023",
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_TNA"
 },
 {
   "dataflowId": "93_500_DF_DCCN_TNA_4",
   "refId": "DCCN_TNA",
-  "enName": "Final consumption expenditure of general government by function",
-  "itName": "Spesa per consumi finali della Pa per funzione di spesa",
+  "enName": "Final consumption expenditure of general government by function - editions from January 2020 to December 2023",
+  "itName": "Spesa per consumi finali della Pa per funzione di spesa - edizioni gennaio 2020 - dicembre 2023",
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_TNA"
 },
 {
   "dataflowId": "93_500_DF_DCCN_TNA_5",
   "refId": "DCCN_TNA",
-  "enName": "Gross fixed capital formation breakdown by industry",
-  "itName": "Investimenti fissi lordi per branca proprietaria",
+  "enName": "Gross fixed capital formation breakdown by industry - editions from January 2020 to December 2023",
+  "itName": "Investimenti fissi lordi per branca proprietaria - edizioni gennaio 2020 - dicembre 2023",
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_TNA"
 },
 {
   "dataflowId": "93_500_DF_DCCN_TNA_6",
   "refId": "DCCN_TNA",
-  "enName": "Per capita values",
-  "itName": "Valori pro capite",
+  "enName": "Per capita values - editions from January 2020 to December 2023",
+  "itName": "Valori pro capite - edizioni gennaio 2020 - dicembre 2023",
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_TNA"
 },
 {
