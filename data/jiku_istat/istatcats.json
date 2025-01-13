@@ -22673,6 +22673,83 @@
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCV_1522UTENTI4"
 },
 {
+  "dataflowId": "7_1027_DF_DCCN_PEFA_B19_1",
+  "refId": "DCCN_PEFA_B19",
+  "enName": "Supply and use: scheme - editions from December  2019 to December 2023",
+  "itName": "Risorse e impieghi: schema di sintesi - edizioni dicembre 2019 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_PEFA_B19"
+},
+{
+  "dataflowId": "7_1027_DF_DCCN_PEFA_B19_2",
+  "refId": "DCCN_PEFA_B19",
+  "enName": "Supply by activity and energy flow - editions from December  2019 to December 2023",
+  "itName": "Risorse per attività e tipo di flusso - edizioni dicembre 2019 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_PEFA_B19"
+},
+{
+  "dataflowId": "7_1027_DF_DCCN_PEFA_B19_3",
+  "refId": "DCCN_PEFA_B19",
+  "enName": "Use by activity and energy flow - editions from December  2019 to December 2023",
+  "itName": "Impieghi per attività e tipo di flusso - edizioni dicembre 2019 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_PEFA_B19"
+},
+{
+  "dataflowId": "7_1027_DF_DCCN_PEFA_B19_4",
+  "refId": "DCCN_PEFA_B19",
+  "enName": "Emission-relevant use by activity and energy flow (related to fuel combustion) - editions from December  2019 to December 2023",
+  "itName": "Impieghi rilevanti per le emissioni atmosferiche (impieghi da combustione) - edizioni dicembre 2019 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_PEFA_B19"
+},
+{
+  "dataflowId": "7_1027_DF_DCCN_PEFA_B19_5",
+  "refId": "DCCN_PEFA_B19",
+  "enName": "Vectors of key energy indicators - editions from December  2019 to December 2023",
+  "itName": "Vettori di indicatori chiave sui flussi di energia - edizioni dicembre 2019 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_PEFA_B19"
+},
+{
+  "dataflowId": "7_1027_DF_DCCN_PEFA_B19_6",
+  "refId": "DCCN_PEFA_B19",
+  "enName": "Bridge table: energy consumption - editions from December  2019 to December 2023",
+  "itName": "Tavola di raccordo: consumo di energia - edizioni dicembre 2019 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_PEFA_B19"
+},
+{
+  "dataflowId": "7_1027_DF_DCCN_PEFA_B19_7",
+  "refId": "DCCN_PEFA_B19",
+  "enName": "Use of energy flows by type - editions from December  2019 to December 2023",
+  "itName": "Impieghi dei flussi di energia per tipo di uso - edizioni dicembre 2019 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_PEFA_B19"
+},
+{
+  "dataflowId": "7_1027_DF_DCCN_PEFA_B19_8",
+  "refId": "DCCN_PEFA_B19",
+  "enName": "Energy intensity - editions from December  2019 to December 2023",
+  "itName": "Intensità energetica - edizioni dicembre 2019 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_PEFA_B19"
+},
+{
+  "dataflowId": "7_1027_DF_DCCN_PEFA_B19_9",
+  "refId": "DCCN_PEFA_B19",
+  "enName": "Emission intensity of energy consumption - editions from December  2019 to December 2023",
+  "itName": "Intensità di emissione  dei consumi energetici - edizioni dicembre 2019 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_PEFA_B19"
+},
+{
+  "dataflowId": "7_1028_DF_DCCN_EGSS_B19_1",
+  "refId": "DCCN_EGSS_B19",
+  "enName": "Output, value added, exports - editions from February  2020 to December 2023",
+  "itName": "Produzione, valore aggiunto, esportazioni - edizioni febbraio 2020 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_EGSS_B19"
+},
+{
+  "dataflowId": "7_1028_DF_DCCN_EGSS_B19_2",
+  "refId": "DCCN_EGSS_B19",
+  "enName": "Employment (full time equivalent) - editions from February  2020 to December 2023",
+  "itName": "Occupazione (unità di lavoro) - edizioni febbraio 2020 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_EGSS_B19"
+},
+{
   "dataflowId": "7_26_DF_DCCN_IMPAMB1_B19_1",
   "refId": "DCCN_IMPAMB1_B19",
   "enName": "Tax category - editions from October 2019 to July 2024",
