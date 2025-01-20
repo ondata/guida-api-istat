@@ -19756,8 +19756,8 @@
 {
   "dataflowId": "6_39_DF_DCSP_ICT_9",
   "refId": "DCSP_ICT",
-  "enName": "Big Data analysis",
-  "itName": "Analisi di Big Data",
+  "enName": "Data analysis and Big Data",
+  "itName": "Analisi di dati e Big Data",
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_ICT"
 },
 {
@@ -22750,6 +22750,41 @@
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_EGSS_B19"
 },
 {
+  "dataflowId": "7_187_DF_DCCN_CONTIEMATMREV2_B19_1",
+  "refId": "DCCN_CONTIEMATMREV2_B19",
+  "enName": "Production activities - editions from November  2019 to December 2023",
+  "itName": "Attività produttive - edizioni novembre 2019 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_CONTIEMATMREV2_B19"
+},
+{
+  "dataflowId": "7_187_DF_DCCN_CONTIEMATMREV2_B19_2",
+  "refId": "DCCN_CONTIEMATMREV2_B19",
+  "enName": "Households - editions from November  2019 to December 2023",
+  "itName": "Famiglie - edizioni novembre 2019 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_CONTIEMATMREV2_B19"
+},
+{
+  "dataflowId": "7_187_DF_DCCN_CONTIEMATMREV2_B19_3",
+  "refId": "DCCN_CONTIEMATMREV2_B19",
+  "enName": "Bridging items between NAMEA total and UNFCCC/CLRTAP total - editions from November  2019 to December 2023",
+  "itName": "Raccordo tra totale NAMEA e totale UNFCCC/CLRTAP - edizioni novembre 2019 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_CONTIEMATMREV2_B19"
+},
+{
+  "dataflowId": "7_187_DF_DCCN_CONTIEMATMREV2_B19_4",
+  "refId": "DCCN_CONTIEMATMREV2_B19",
+  "enName": "Intensity of output and value added - editions from November  2019 to December 2023",
+  "itName": "Intensità della produzione e del valore aggiunto - edizioni novembre 2019 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_CONTIEMATMREV2_B19"
+},
+{
+  "dataflowId": "7_187_DF_DCCN_CONTIEMATMREV2_B19_5",
+  "refId": "DCCN_CONTIEMATMREV2_B19",
+  "enName": "Intensity of employment - editions from November  2019 to December 2023",
+  "itName": "Intensità della occupazione - edizioni novembre 2019 - dicembre 2023",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_CONTIEMATMREV2_B19"
+},
+{
   "dataflowId": "7_26_DF_DCCN_IMPAMB1_B19_1",
   "refId": "DCCN_IMPAMB1_B19",
   "enName": "Tax category - editions from October 2019 to July 2024",
@@ -24638,6 +24673,48 @@
   "enName": "Disposable income of the households in the italian regions",
   "itName": "Reddito disponibile delle famiglie nelle regioni italiane",
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_ISTITUZ_TNA1"
+},
+{
+  "dataflowId": "93_1227_DF_DCCN_TNA1_1",
+  "refId": "DCCN_TNA1",
+  "enName": "Value added by industry",
+  "itName": "Valore aggiunto per branca di attività",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_TNA1"
+},
+{
+  "dataflowId": "93_1227_DF_DCCN_TNA1_2",
+  "refId": "DCCN_TNA1",
+  "enName": "Compensation of employees and its components by industry",
+  "itName": "Redditi da lavoro dipendente e componenti per branca di attività",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_TNA1"
+},
+{
+  "dataflowId": "93_1227_DF_DCCN_TNA1_3",
+  "refId": "DCCN_TNA1",
+  "enName": "Final consumption expenditure of households by expenditure item (Coicop 2018 2 digit) and durability",
+  "itName": "Spesa per consumi finali delle famiglie per voce di spesa (Coicop 2018 2 cifre) e durata",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_TNA1"
+},
+{
+  "dataflowId": "93_1227_DF_DCCN_TNA1_4",
+  "refId": "DCCN_TNA1",
+  "enName": "Final consumption expenditure of general government by function",
+  "itName": "Spesa per consumi finali della Pa per funzione di spesa",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_TNA1"
+},
+{
+  "dataflowId": "93_1227_DF_DCCN_TNA1_5",
+  "refId": "DCCN_TNA1",
+  "enName": "Gross fixed capital formation breakdown by industry",
+  "itName": "Investimenti fissi lordi per branca proprietaria",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_TNA1"
+},
+{
+  "dataflowId": "93_1227_DF_DCCN_TNA1_6",
+  "refId": "DCCN_TNA1",
+  "enName": "Per capita values",
+  "itName": "Valori pro capite",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_TNA1"
 },
 {
   "dataflowId": "93_209",
