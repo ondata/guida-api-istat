@@ -24675,6 +24675,13 @@
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_ISTITUZ_TNA1"
 },
 {
+  "dataflowId": "93_1227",
+  "refId": "DCCN_TNA1",
+  "enName": "National Accounts regional main aggregates",
+  "itName": "Principali aggregati territoriali di Contabilità Nazionale",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_TNA1"
+},
+{
   "dataflowId": "93_1227_DF_DCCN_TNA1_1",
   "refId": "DCCN_TNA1",
   "enName": "Value added by industry",
