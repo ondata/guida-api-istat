@@ -14093,8 +14093,8 @@
 {
   "dataflowId": "39_1_DF_DCIS_IND_MORT_EDU_1",
   "refId": "DCIS_IND_MORT_EDU",
-  "enName": "Cause, sex and educational level",
-  "itName": "Causa, sesso e titolo di studio",
+  "enName": "Indicators of inequality - cause, sex, age and educational level",
+  "itName": "Indicatori di mortalità - causa, sesso, età e titolo di studio",
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCIS_IND_MORT_EDU"
 },
 {
@@ -25886,6 +25886,13 @@
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=VIRTUALDSD"
 },
 {
+  "dataflowId": "DF_BULK_HVD",
+  "refId": "VIRTUALDSD",
+  "enName": "HVD",
+  "itName": "HVD",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=VIRTUALDSD"
+},
+{
   "dataflowId": "DF_BULK_LOCALUNITS",
   "refId": "VIRTUALDSD",
   "enName": "Local units - Employment 2018-2019-2020-2021-2022",
@@ -26283,6 +26290,13 @@
   "enName": "Agricultural units and agricoltural area by crops and altimetric zone",
   "itName": "Unità agricole con superficie agricola utilizzata per tipo di coltivazione e zona altimetrica",
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCAT_CENSAGRIC2020_UA_CROPS"
+},
+{
+  "dataflowId": "DF_DCSS_POP_DEMCITMIG_TV_1",
+  "refId": "DCSS_POP_DEMCITMIG_TV",
+  "enName": "Resident population by age groups (five-year) and gender",
+  "itName": "Popolazione residente per classi di età (quinquennali) e sesso",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_POP_DEMCITMIG_TV"
 },
 {
   "dataflowId": "DF_DIFF_REPORT",
