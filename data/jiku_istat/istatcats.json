@@ -14093,8 +14093,8 @@
 {
   "dataflowId": "39_1_DF_DCIS_IND_MORT_EDU_1",
   "refId": "DCIS_IND_MORT_EDU",
-  "enName": "Indicators of inequality - cause, sex, age and educational level",
-  "itName": "Indicatori di mortalità - causa, sesso, età e titolo di studio",
+  "enName": "Indicators of inequality by cause and educational level",
+  "itName": "Indicatori di mortalità per causa e titolo di studio",
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCIS_IND_MORT_EDU"
 },
 {
@@ -22820,6 +22820,34 @@
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_IMPAMB1_B19"
 },
 {
+  "dataflowId": "7_953",
+  "refId": "DCCN_SPESAPROTAMB_B19",
+  "enName": "Environmental protection expenditure - editions from February  2020 to Februaryr 2024",
+  "itName": "Spese per la protezione dell'ambiente - edizioni febbraio 2020 - febbraio 2024",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_SPESAPROTAMB_B19"
+},
+{
+  "dataflowId": "7_953_DF_DCCN_SPESAPROTAMB_B19_1",
+  "refId": "DCCN_SPESAPROTAMB_B19",
+  "enName": "National expenditure - editions from February  2020 to Februaryr 2024",
+  "itName": "Spesa nazionale - edizioni febbraio 2020 - febbraio 2024",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_SPESAPROTAMB_B19"
+},
+{
+  "dataflowId": "7_953_DF_DCCN_SPESAPROTAMB_B19_2",
+  "refId": "DCCN_SPESAPROTAMB_B19",
+  "enName": "Economic aggregates by institutional sector - editions from February  2020 to Februaryr 2024",
+  "itName": "Aggregati economici per settore istituzionale - edizioni febbraio 2020 - febbraio 2024",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_SPESAPROTAMB_B19"
+},
+{
+  "dataflowId": "7_953_DF_DCCN_SPESAPROTAMB_B19_3",
+  "refId": "DCCN_SPESAPROTAMB_B19",
+  "enName": "Gross fixed capital formation and ancillary output of corporations as ancillary producers by economic activity - editions from February  2020 to Februaryr 2024",
+  "itName": "Investimenti e produzione ausiliaria delle società come produttori ausiliari per attività economica - edizioni febbraio 2020 - febbraio 2024",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCN_SPESAPROTAMB_B19"
+},
+{
   "dataflowId": "82_87",
   "refId": "DCCV_AVQ_FAMIGLIE",
   "enName": "Aspects of daily life - Household",
@@ -26292,10 +26320,45 @@
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCAT_CENSAGRIC2020_UA_CROPS"
 },
 {
+  "dataflowId": "DF_DCSS_POP_DEMCITMIG_SETA_1",
+  "refId": "DCSS_POP_DEMCITMIG_SETA_TV",
+  "enName": "Resident population by single age, gender and citizenship",
+  "itName": "Popolazione residente per singole età, sesso e cittadinanza",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_POP_DEMCITMIG_SETA_TV"
+},
+{
   "dataflowId": "DF_DCSS_POP_DEMCITMIG_TV_1",
   "refId": "DCSS_POP_DEMCITMIG_TV",
   "enName": "Resident population by age groups (five-year) and gender",
   "itName": "Popolazione residente per classi di età (quinquennali) e sesso",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_POP_DEMCITMIG_TV"
+},
+{
+  "dataflowId": "DF_DCSS_POP_DEMCITMIG_TV_2",
+  "refId": "DCSS_POP_DEMCITMIG_TV",
+  "enName": "Resident population by age groups (ten-year), gender and citizenship",
+  "itName": "Popolazione residente per classi di età (decennali), sesso e cittadinanza",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_POP_DEMCITMIG_TV"
+},
+{
+  "dataflowId": "DF_DCSS_POP_DEMCITMIG_TV_3",
+  "refId": "DCSS_POP_DEMCITMIG_TV",
+  "enName": "Resident foreign population by geographical area and countries of citizenship",
+  "itName": "Popolazione straniera residente per area geografica e paesi di cittadinanza",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_POP_DEMCITMIG_TV"
+},
+{
+  "dataflowId": "DF_DCSS_POP_DEMCITMIG_TV_4",
+  "refId": "DCSS_POP_DEMCITMIG_TV",
+  "enName": "Main countries of citizenship (municipalities with more than 20,000 inhab.)",
+  "itName": "Principali paesi di cittadinanza (comuni con più di 20.000 ab.)",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_POP_DEMCITMIG_TV"
+},
+{
+  "dataflowId": "DF_DCSS_POP_DEMCITMIG_TV_5",
+  "refId": "DCSS_POP_DEMCITMIG_TV",
+  "enName": "Demographic indicators",
+  "itName": "Indicatori demografici",
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_POP_DEMCITMIG_TV"
 },
 {
