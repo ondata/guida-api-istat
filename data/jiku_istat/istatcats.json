@@ -8841,6 +8841,13 @@
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCIS_POPRES1"
 },
 {
+  "dataflowId": "22_289_LT",
+  "refId": "DCIS_POPRES1",
+  "enName": "Resident population on 1st January - province Latina",
+  "itName": "Popolazione residente al 1° gennaio - provincia di Latina",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCIS_POPRES1"
+},
+{
   "dataflowId": "22_293",
   "refId": "DCIS_INDDEMOG1",
   "enName": "Demographic  indicators",
@@ -9028,6 +9035,13 @@
   "enName": "Veneto",
   "itName": "Veneto",
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCIS_POPORESBIL1"
+},
+{
+  "dataflowId": "22_389",
+  "refId": "DCIS_POPRES1",
+  "enName": "Resident population on 1st January - latest available year",
+  "itName": "Popolazione residente al 1° gennaio - ultimo anno disponibile",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCIS_POPRES1"
 },
 {
   "dataflowId": "24_1149",
@@ -20125,6 +20139,300 @@
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
 },
 {
+  "dataflowId": "6_471_TS",
+  "refId": "DCSP_LACIS",
+  "enName": "Innovation in companies with at least 10 persons employed - until 2020",
+  "itName": "Innovazione nelle imprese con almeno 10 addetti - fino al 2020",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_1",
+  "refId": "DCSP_LACIS",
+  "enName": "Data summary",
+  "itName": "Principali dati",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_10",
+  "refId": "DCSP_LACIS",
+  "enName": "Geographic market and size class of persons employed",
+  "itName": "Mercato di riferimento e classe di addetti",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_11",
+  "refId": "DCSP_LACIS",
+  "enName": "Geographic market and economic activities (Nace 2 digit)",
+  "itName": "Mercato di riferimento e settori economici (Ateco 2 cifre)",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_12",
+  "refId": "DCSP_LACIS",
+  "enName": "Employees with a tertiary degree and size class of persons employed",
+  "itName": "Addetti laureati e classe di addetti",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_13",
+  "refId": "DCSP_LACIS",
+  "enName": "Employees with a tertiary degree and economic activities (Nace 2 digit)",
+  "itName": "Addetti laureati e settori economici (Ateco 2 cifre)",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_14",
+  "refId": "DCSP_LACIS",
+  "enName": "Status of product and/or process innovative activity and size class of persons employed copy",
+  "itName": "Implementazione dell'attività innovativa di prodotto e/o processo e classe di addetti",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_15",
+  "refId": "DCSP_LACIS",
+  "enName": "Status of product and/or process innovative activity and economic activities (Nace 2 digit)",
+  "itName": "Implementazione dell'attività innovativa di prodotto e/o processo e settori economici (Ateco 2 cifre)",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_16",
+  "refId": "DCSP_LACIS",
+  "enName": "Type of financial support and size class of persons employed",
+  "itName": "Tipo di finanziamento e classe di addetti",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_17",
+  "refId": "DCSP_LACIS",
+  "enName": "Type of finacial support and economic activities (Nace 2 digit)",
+  "itName": "Tipo di finaziamento e settori economici (Ateco 2 cifre)",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_18",
+  "refId": "DCSP_LACIS",
+  "enName": "Type of product/process innovation and size class of persons employed",
+  "itName": "Tipo di innovazione di prodotto/processo introdotta e classe di addetti",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_19",
+  "refId": "DCSP_LACIS",
+  "enName": "Type of product/process innovation and economic activities (Nace 2 digit)",
+  "itName": "Tipo di innovazione di prodotto/processo introdotta e settori economici (Ateco 2 cifre)",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_2",
+  "refId": "DCSP_LACIS",
+  "enName": "Type of innovative activity and size class of persons employed",
+  "itName": "Tipo di attività innovativa e classe di addetti",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_20",
+  "refId": "DCSP_LACIS",
+  "enName": "Methods of developing and size class of persons employed",
+  "itName": "Metodi di sviluppo dell'innovazione di prodotto/processo e classe di addetti",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_21",
+  "refId": "DCSP_LACIS",
+  "enName": "Methods of developing and economic activities (Nace 2 digit)",
+  "itName": "Metodi di sviluppo dell'innovazione di prodotto/processo e settori economici (Ateco 2 cifre)",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_22",
+  "refId": "DCSP_LACIS",
+  "enName": "Turnover from new products and size class of persons employed",
+  "itName": "Fatturato derivante da nuovi prodotti e classe di addetti",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_23",
+  "refId": "DCSP_LACIS",
+  "enName": "Turnover from new peoducts and economic activities (Nace 2 digit)",
+  "itName": "Fatturato derivante da nuovi prodotti e settori economici (Ateco 2 cifre)",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_24",
+  "refId": "DCSP_LACIS",
+  "enName": "Type of innovation expenditure and size class of persons employed",
+  "itName": "Tipo di spesa per l'innovazione e classe di addetti",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_25",
+  "refId": "DCSP_LACIS",
+  "enName": "Type of innovation expenditure and economic activities (Nace 2 digit)",
+  "itName": "Tipo di spesa per l'innovazione e settori economici (Ateco 2 cifre)",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_26",
+  "refId": "DCSP_LACIS",
+  "enName": "Localization of cooperation partner and size class of persons employed",
+  "itName": "Localizzazione del partner della cooperazione e classe di addetti",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_27",
+  "refId": "DCSP_LACIS",
+  "enName": "Localization of cooperation partner and economic activities (Nace 2 digit)",
+  "itName": "Localizzazione del partner della cooperazione e settori economici (Ateco 2 cifre)",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_28",
+  "refId": "DCSP_LACIS",
+  "enName": "Type of cooperation partner and size class of persons employed",
+  "itName": "Tipo di partner della cooperazione e classe di addetti",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_29",
+  "refId": "DCSP_LACIS",
+  "enName": "Type of cooperation partner and economic activities (Nace 2 digit)",
+  "itName": "Tipo di partner della cooperazione e settori economici (Ateco 2 cifre)",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_3",
+  "refId": "DCSP_LACIS",
+  "enName": "Type of innovative activity and economic activities (Nace 2 digit)",
+  "itName": "Tipo di attività innovativa e settori economici (Ateco 2 cifre)",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_30",
+  "refId": "DCSP_LACIS",
+  "enName": "Regional data",
+  "itName": "Dati regionali",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_31",
+  "refId": "DCSP_LACIS",
+  "enName": "Detailed regional data",
+  "itName": "Approfondimenti sui dati regionali",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_32",
+  "refId": "DCSP_LACIS",
+  "enName": "Enterprise strategies and employees class",
+  "itName": "Strategie aziendali e classe di addetti",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_33",
+  "refId": "DCSP_LACIS",
+  "enName": "Enterprise strategies and economic sector (Nace 2 digit)",
+  "itName": "Strategie aziendali e settori economici (Ateco 2 cifre)",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_34",
+  "refId": "DCSP_LACIS",
+  "enName": "Types of sold products and services and employees class",
+  "itName": "Tipi di prodotti e servizi venduti e classe di addetti",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_35",
+  "refId": "DCSP_LACIS",
+  "enName": "Types of sold products and services and economic sector (Nace 2 digit)",
+  "itName": "Tipi di prodotti e servizi venduti e settori economici (Ateco 2 cifre)",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_36",
+  "refId": "DCSP_LACIS",
+  "enName": "Types of intellectual property protection and employees class",
+  "itName": "Forme di tutela della proprietà industriale e classe di addetti",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_37",
+  "refId": "DCSP_LACIS",
+  "enName": "Types of intellectual property protection and economic sector (Nace 2 digit)",
+  "itName": "Forme di tutela della proprietà industriale e settori economici (Ateco 2 cifre)",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_38",
+  "refId": "DCSP_LACIS",
+  "enName": "Acquisition of machinery, technical services and knowledge and employees class",
+  "itName": "Tecnologia, servizi tecnici e conoscenze acquisite e classe di addetti",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_39",
+  "refId": "DCSP_LACIS",
+  "enName": "Acquisition of machinery, technical services and knowledge and economic sector (Nace 2 digit)",
+  "itName": "Tecnologia, servizi tecnici e conoscenze acquisite e settori economici (Ateco 2 cifre)",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_4",
+  "refId": "DCSP_LACIS",
+  "enName": "Age of enterprise and employees class",
+  "itName": "Età dell'impresa e classe di addetti",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_40",
+  "refId": "DCSP_LACIS",
+  "enName": "Methods of organising work by level of importance and employees class",
+  "itName": "Pratiche di organizzazione del lavoro e classe di addetti",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_41",
+  "refId": "DCSP_LACIS",
+  "enName": "Methods of organising work by level of importance and economic sector (Nace 2 digit)",
+  "itName": "Pratiche di organizzazione del lavoro e settori economici (Ateco 2 cifre)",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_5",
+  "refId": "DCSP_LACIS",
+  "enName": "Age of enterprise and employees class and economic sector (Nace 2 digit)",
+  "itName": "Età dell'impresa e classe di addetti e settori economici (Ateco 2 digit)",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_6",
+  "refId": "DCSP_LACIS",
+  "enName": "Impact of legislation and economic sector (Nace 2 digit)",
+  "itName": "Impatto degli interventi legislativo-normativi e settori economici (Ateco 2 digit)",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_7",
+  "refId": "DCSP_LACIS",
+  "enName": "Impact of legislation and employees class",
+  "itName": "Impatto degli interventi legislativo-normativi e classe di addetti",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_8",
+  "refId": "DCSP_LACIS",
+  "enName": "Hampering factors of innovation and economic sector (Nace 2 digit)",
+  "itName": "Fattori che hanno scoraggiato attività di innovazione e settori economici (Ateco 2 digit)",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
+  "dataflowId": "6_471_TS_DF_DCSP_LACIS_9",
+  "refId": "DCSP_LACIS",
+  "enName": "Hampering factors of innovation and employees class",
+  "itName": "Fattori che hanno scoraggiato attività di innovazione e classe di addetti",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSP_LACIS"
+},
+{
   "dataflowId": "6_498_DF_DCCN_PILT_B19_1",
   "refId": "DCCN_PILT_B19",
   "enName": "Gross domestic product supply side - editions from January 2020 to December 2023",
@@ -25529,6 +25837,13 @@
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCCV_CARGEOMOR_ST_COM"
 },
 {
+  "dataflowId": "DCSS_POPRES_SERIES",
+  "refId": "DCSS_POP_DEMCITMIG_TV",
+  "enName": "Resident population -Time series",
+  "itName": "Popolazione residente - Serie storica",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_POP_DEMCITMIG_TV"
+},
+{
   "dataflowId": "DF_BES_TERRIT",
   "refId": "BES_TERRIT",
   "enName": "Bes at local level",
@@ -26320,6 +26635,41 @@
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCAT_CENSAGRIC2020_UA_CROPS"
 },
 {
+  "dataflowId": "DF_DCSS_ISTR_LAV_PEN_2_TV_1",
+  "refId": "DCSS_ISTR_LAV_PEN_2_TV",
+  "enName": "Resident population 9 years and over by educational attainment and age",
+  "itName": "Popolazione residente di 9 anni e più per grado istruzione ed età",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_ISTR_LAV_PEN_2_TV"
+},
+{
+  "dataflowId": "DF_DCSS_ISTR_LAV_PEN_2_TV_2",
+  "refId": "DCSS_ISTR_LAV_PEN_2_TV",
+  "enName": "Resident population 9 years and over by educational attainment and citizenship",
+  "itName": "Popolazione residente di 9 anni e più per grado istruzione e cittadinanza",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_ISTR_LAV_PEN_2_TV"
+},
+{
+  "dataflowId": "DF_DCSS_ISTR_LAV_PEN_2_TV_3",
+  "refId": "DCSS_ISTR_LAV_PEN_2_TV",
+  "enName": "Resident population 15 years and over by current activity status and age",
+  "itName": "Popolazione residente di 15 anni e più per condizione professionale ed età",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_ISTR_LAV_PEN_2_TV"
+},
+{
+  "dataflowId": "DF_DCSS_ISTR_LAV_PEN_2_TV_4",
+  "refId": "DCSS_ISTR_LAV_PEN_2_TV",
+  "enName": "Resident population 15 years and over by current activity status by citizenship",
+  "itName": "Popolazione residente di 15 anni e più per condizione professionale per cittadinanza",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_ISTR_LAV_PEN_2_TV"
+},
+{
+  "dataflowId": "DF_DCSS_ISTR_LAV_PEN_2_TV_5",
+  "refId": "DCSS_ISTR_LAV_PEN_2_TV",
+  "enName": "Resident population commuting daily for studying or working",
+  "itName": "Popolazione residente che si sposta giornalmente per studio o lavoro",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_ISTR_LAV_PEN_2_TV"
+},
+{
   "dataflowId": "DF_DCSS_POP_DEMCITMIG_SETA_1",
   "refId": "DCSS_POP_DEMCITMIG_SETA_TV",
   "enName": "Resident population by single age, gender and citizenship",
@@ -26360,6 +26710,13 @@
   "enName": "Demographic indicators",
   "itName": "Indicatori demografici",
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_POP_DEMCITMIG_TV"
+},
+{
+  "dataflowId": "DF_DCSS_POP_LEGALE_TV",
+  "refId": "DCSS_POP_LEGALE_TV",
+  "enName": "Population de jure as published in GU Serie Generale n.53 del 03-03-2023 - Suppl. Ordinario n.10",
+  "itName": "Popolazione legale pubblicata nella GU Serie Generale n.53 del 03-03-2023 - Suppl. Ordinario n.10",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_POP_LEGALE_TV"
 },
 {
   "dataflowId": "DF_DIFF_REPORT",
