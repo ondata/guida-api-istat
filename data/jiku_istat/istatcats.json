@@ -26635,17 +26635,150 @@
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCAT_CENSAGRIC2020_UA_CROPS"
 },
 {
+  "dataflowId": "DF_DCSS_ABITAZIONI_TV_1",
+  "refId": "DCSS_ABITAZIONI_TV",
+  "enName": "Occupancy status of conventional dwellings",
+  "itName": "Abitazioni occupate e non occupate",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_ABITAZIONI_TV"
+},
+{
+  "dataflowId": "DF_DCSS_ABITAZIONI_TV_2",
+  "refId": "DCSS_ABITAZIONI_TV",
+  "enName": "Occupied conventional dwellings by type of ownership",
+  "itName": "Abitazioni occupate a titolo di proprietà, affitto, altro titolo",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_ABITAZIONI_TV"
+},
+{
+  "dataflowId": "DF_DCSS_CONVIVENZE_TV_1",
+  "refId": "DCSS_CONVIVENZE_TV",
+  "enName": "Resident population in institutional household by type of institutional household, gender, age class and citizenship - provinces and large cities",
+  "itName": "Popolazione residente in convivenza per tipo di convivenza, sesso, classi di età e cittadinanza - province e grandi comuni",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_CONVIVENZE_TV"
+},
+{
+  "dataflowId": "DF_DCSS_CONVIVENZE_TV_2",
+  "refId": "DCSS_CONVIVENZE_TV",
+  "enName": "Resident population in institutional household by type of institutional household and gender - municipalities",
+  "itName": "Popolazione residente in convivenza per tipo di convivenza e sesso - comuni",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_CONVIVENZE_TV"
+},
+{
+  "dataflowId": "DF_DCSS_CONVIVENZE_TV_3",
+  "refId": "DCSS_CONVIVENZE_TV",
+  "enName": "Institutional households with at least one resident person by number of members in institutional household - provinces and large cities",
+  "itName": "Convivenze anagrafiche per numero di componenti in convivenza - province e grandi comuni",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_CONVIVENZE_TV"
+},
+{
+  "dataflowId": "DF_DCSS_CONVIVENZE_TV_4",
+  "refId": "DCSS_CONVIVENZE_TV",
+  "enName": "Institutional households with at least one resident person by type of institutional household - municipalities",
+  "itName": "Convivenze anagrafiche per tipo di convivenza - comuni",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_CONVIVENZE_TV"
+},
+{
+  "dataflowId": "DF_DCSS_FAMIGLIE_TV_1",
+  "refId": "DCSS_FAMIGLIE_TV",
+  "enName": "Private households",
+  "itName": "Famiglie",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_FAMIGLIE_TV"
+},
+{
+  "dataflowId": "DF_DCSS_FAMIGLIE_TV_2",
+  "refId": "DCSS_FAMIGLIE_TV",
+  "enName": "Private household with at least a resident foreign one persons",
+  "itName": "Famiglie con almeno uno straniero residente",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_FAMIGLIE_TV"
+},
+{
+  "dataflowId": "DF_DCSS_FAMIGLIE_TV_3",
+  "refId": "DCSS_FAMIGLIE_TV",
+  "enName": "Private households with all foreign members",
+  "itName": "Famiglie con tutti i componenti stranieri",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_FAMIGLIE_TV"
+},
+{
+  "dataflowId": "DF_DCSS_FAM_POP_TV_1",
+  "refId": "DCSS_FAM_POP_TV",
+  "enName": "Number of private households and resident population in private household",
+  "itName": "Numero di famiglie e popolazione residente in famiglia",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_FAM_POP_TV"
+},
+{
+  "dataflowId": "DF_DCSS_FAM_POP_TV_2",
+  "refId": "DCSS_FAM_POP_TV",
+  "enName": "Average number of members per private household",
+  "itName": "Numero medio di componenti per famiglia",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_FAM_POP_TV"
+},
+{
+  "dataflowId": "DF_DCSS_HCUE_COM_1_COM",
+  "refId": "DCSS_HCUE_COM_TV",
+  "enName": "Population by legal marital status",
+  "itName": "Popolazione per stato civile",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_HCUE_COM_TV"
+},
+{
+  "dataflowId": "DF_DCSS_HCUE_COM_2_COM",
+  "refId": "DCSS_HCUE_COM_TV",
+  "enName": "Population by position in private household or not in private household",
+  "itName": "Popolazione per posizione in famiglia o non in famiglia",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_HCUE_COM_TV"
+},
+{
+  "dataflowId": "DF_DCSS_HCUE_COM_3_COM",
+  "refId": "DCSS_HCUE_COM_TV",
+  "enName": "Population by place  of birth",
+  "itName": "Popolazione per paese di nascita",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_HCUE_COM_TV"
+},
+{
+  "dataflowId": "DF_DCSS_HCUE_COM_4_COM",
+  "refId": "DCSS_HCUE_COM_TV",
+  "enName": "Private households by type of private household",
+  "itName": "Famiglie per tipo di famiglia",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_HCUE_COM_TV"
+},
+{
+  "dataflowId": "DF_DCSS_HCUE_COM_5_COM",
+  "refId": "DCSS_HCUE_COM_TV",
+  "enName": "Family nuclei by type of family nucleus",
+  "itName": "Nuclei familiari per tipo di nucleo familiare",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_HCUE_COM_TV"
+},
+{
+  "dataflowId": "DF_DCSS_HCUE_COM_6_COM",
+  "refId": "DCSS_HCUE_COM_TV",
+  "enName": "Family nuclei by number of members",
+  "itName": "Nuclei familiari per numero di componenti",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_HCUE_COM_TV"
+},
+{
+  "dataflowId": "DF_DCSS_HCUE_COM_7_COM",
+  "refId": "DCSS_HCUE_COM_TV",
+  "enName": "Occupied and unoccupied conventional dwellings by type of building",
+  "itName": "Abitazioni occupate e non occupate per tipo di edificio",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_HCUE_COM_TV"
+},
+{
+  "dataflowId": "DF_DCSS_HCUE_COM_8_COM",
+  "refId": "DCSS_HCUE_COM_TV",
+  "enName": "Living quarters",
+  "itName": "Alloggi occupati",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_HCUE_COM_TV"
+},
+{
   "dataflowId": "DF_DCSS_ISTR_LAV_PEN_2_TV_1",
   "refId": "DCSS_ISTR_LAV_PEN_2_TV",
   "enName": "Resident population 9 years and over by educational attainment and age",
-  "itName": "Popolazione residente di 9 anni e più per grado istruzione ed età",
+  "itName": "Popolazione residente di 9 anni e più per grado di istruzione ed età",
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_ISTR_LAV_PEN_2_TV"
 },
 {
   "dataflowId": "DF_DCSS_ISTR_LAV_PEN_2_TV_2",
   "refId": "DCSS_ISTR_LAV_PEN_2_TV",
   "enName": "Resident population 9 years and over by educational attainment and citizenship",
-  "itName": "Popolazione residente di 9 anni e più per grado istruzione e cittadinanza",
+  "itName": "Popolazione residente di 9 anni e più per grado di istruzione e cittadinanza",
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_ISTR_LAV_PEN_2_TV"
 },
 {
@@ -26658,8 +26791,8 @@
 {
   "dataflowId": "DF_DCSS_ISTR_LAV_PEN_2_TV_4",
   "refId": "DCSS_ISTR_LAV_PEN_2_TV",
-  "enName": "Resident population 15 years and over by current activity status by citizenship",
-  "itName": "Popolazione residente di 15 anni e più per condizione professionale per cittadinanza",
+  "enName": "Resident population 15 years and over by current activity status and citizenship",
+  "itName": "Popolazione residente di 15 anni e più per condizione professionale e cittadinanza",
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_ISTR_LAV_PEN_2_TV"
 },
 {
@@ -26668,6 +26801,13 @@
   "enName": "Resident population commuting daily for studying or working",
   "itName": "Popolazione residente che si sposta giornalmente per studio o lavoro",
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_ISTR_LAV_PEN_2_TV"
+},
+{
+  "dataflowId": "DF_DCSS_POP_CAMPI_ATTR_TV_1",
+  "refId": "DCSS_POP_CAMPI_ATTR_TV",
+  "enName": "Authorized and not authorized settlement",
+  "itName": "Campi attrezzati, insediamenti tollerati e spontanei",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_POP_CAMPI_ATTR_TV"
 },
 {
   "dataflowId": "DF_DCSS_POP_DEMCITMIG_SETA_1",
@@ -26717,6 +26857,13 @@
   "enName": "Population de jure as published in GU Serie Generale n.53 del 03-03-2023 - Suppl. Ordinario n.10",
   "itName": "Popolazione legale pubblicata nella GU Serie Generale n.53 del 03-03-2023 - Suppl. Ordinario n.10",
   "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_POP_LEGALE_TV"
+},
+{
+  "dataflowId": "DF_DCSS_SENZA_TETTO_TV_1",
+  "refId": "DCSS_SENZA_TETTO_TV",
+  "enName": "Primary and secondary homeless",
+  "itName": "Senza tetto e senza fissa dimora",
+  "getMetadataURL": "https://esploradati.istat.it/METADATA_API/api/getMetadata?metadataSetId=MDS_DIFF_REPORT&reportId=DCSS_SENZA_TETTO_TV"
 },
 {
   "dataflowId": "DF_DIFF_REPORT",
