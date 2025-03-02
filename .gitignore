@@ -5,3 +5,5 @@ reference/*
 .vscode/settings.json
 .DS_Store
 *Zone.Identifier
+.aider*
+script/jiku_istat/*.json

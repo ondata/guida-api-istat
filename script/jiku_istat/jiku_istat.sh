@@ -32,7 +32,16 @@ mkdir -p "$folder"/../../data/jiku_istat
 
 log "Download dati ISTAT..."
 # verifica che l'URL risponda e scarica i dati
-if ! curl -kL "https://esploradati.istat.it/SDMXWS/rest/v2/structure/dataflow/IT1/*/1.0" | tee >(wc -c >/dev/null || { log "ERROR: Download fallito"; exit 1; }) | jq -c '.data.dataflows[]|{id:.id,enName:.names.en,itName:.names.it,structure:.structure}' | mlr --jsonl put '$structure=sub(sub($structure,".+:",""),"\(.+","");' then rename structure,refId >"$folder"/tmp/istatcats.jsonl; then
+if ! curl -kL "https://esploradati.istat.it/SDMXWS/rest/v2/structure/dataflow/IT1/*/1.0" > "$folder"/dati.json && cat "$folder"/dati.json | tee >(wc -c >/dev/null || { log "ERROR: Download fallito"; exit 1; }) | jq -c '.data.dataflows[]|{id:.id,enName:.names.en,itName:.names.it,structure:.structure}' | mlr --jsonl put '$structure=sub(sub($structure,".+:",""),"\(.+","");' then rename structure,refId >"$folder"/tmp/istatcats.jsonl; then
+    log "ERROR: Elaborazione dati fallita"
+    exit 1
+fi
+
+# Estrai elementi con "Toscana" nel nome e salvali in Toscana.json
+log "Estrazione dati Toscana..."
+jq '.data.dataflows[] | select(.names.it | contains("Toscana") or .names.en | contains("Toscana"))' "$folder"/dati.json > "$folder"/Toscana.json
+
+# verifica numero minimo righe
     log "ERROR: Elaborazione dati fallita"
     exit 1
 fi
