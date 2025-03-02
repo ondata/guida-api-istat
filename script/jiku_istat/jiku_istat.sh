@@ -42,8 +42,8 @@ if ! cat "${folder}"/tmp/dati.json | jq -c '.data.dataflows[]|{id:.id,enName:.na
     exit 1
 fi
 
-jq '[.data.dataflows[] | select(.structure == "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IT1:DCIS_RICPOPRES2011(1.0)")]' "${folder}"/dati.json > "${folder}"/DCIS_RICPOPRES2011.json
-jq '[.data.dataflows[] | select(.name == "Toscana")]' "${folder}"/dati.json > "${folder}"/Toscana.json
+#jq '[.data.dataflows[] | select(.structure == "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IT1:DCIS_RICPOPRES2011(1.0)")]' "${folder}"/dati.json > "${folder}"/DCIS_RICPOPRES2011.json
+#jq '[.data.dataflows[] | select(.name == "Toscana")]' "${folder}"/dati.json > "${folder}"/Toscana.json
 
 # verifica numero minimo righe
 if [ "$(wc -l <"${folder}"/tmp/istatcats.jsonl)" -le 100 ]; then
