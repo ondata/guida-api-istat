@@ -6,3 +6,4 @@ reference/*
 .DS_Store
 *Zone.Identifier
 .aider*
+script/jiku_istat/*.json
