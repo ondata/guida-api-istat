@@ -7,3 +7,5 @@ reference/*
 *Zone.Identifier
 .aider*
 script/jiku_istat/*.json
+!script/jiku_istat/Toscana.json
+!script/jiku_istat/DCIS_RICPOPRES2011.json
