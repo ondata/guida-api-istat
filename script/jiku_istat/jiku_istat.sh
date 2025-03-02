@@ -87,7 +87,7 @@ jq -c '.[]' "${folder}"/../../data/jiku_istat/istatcats.json > "${folder}"/../..
 
 mlr --jsonl join -j refId -f "${folder}"/../../data/jiku_istat/istatcats.jsonl then unsparsify then sort -t refId,dataflowId "${folder}"/../../data/jiku_istat/descrizioni.jsonl > "${folder}"/tmp.jsonl
 
-mlr --ijsonl --ojsonl cat "${folder}"/tmp.jsonl > "${folder}"/../../data/jiku_istat/istatcats.json
+mlr --ijsonl --ojson cat "${folder}"/tmp.jsonl > "${folder}"/../../data/jiku_istat/istatcats.json
 
 
 # Pulizia finale
