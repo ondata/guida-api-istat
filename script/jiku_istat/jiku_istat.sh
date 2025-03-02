@@ -37,6 +37,15 @@ if ! curl -kL "https://esploradati.istat.it/SDMXWS/rest/v2/structure/dataflow/IT
     exit 1
 fi
 
+# Estrai elementi con "Toscana" nel nome e salvali in Toscana.json
+log "Estrazione dati Toscana..."
+jq '.data.dataflows[] | select(.names.it | contains("Toscana") or .names.en | contains("Toscana"))' "$folder"/dati.json > "$folder"/Toscana.json
+
+# verifica numero minimo righe
+    log "ERROR: Elaborazione dati fallita"
+    exit 1
+fi
+
 # verifica numero minimo righe
 if [ "$(wc -l <"$folder"/tmp/istatcats.jsonl)" -le 100 ]; then
     log "ERROR: Il file contiene meno di 100 righe"
