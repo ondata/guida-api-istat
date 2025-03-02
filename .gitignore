@@ -5,3 +5,4 @@ reference/*
 .vscode/settings.json
 .DS_Store
 *Zone.Identifier
+.aider*
