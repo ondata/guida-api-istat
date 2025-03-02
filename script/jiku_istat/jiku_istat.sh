@@ -32,7 +32,7 @@ mkdir -p "$folder"/../../data/jiku_istat
 
 log "Download dati ISTAT..."
 # verifica che l'URL risponda e scarica i dati
-if ! curl -kL "https://esploradati.istat.it/SDMXWS/rest/v2/structure/dataflow/IT1/*/1.0" | tee >(wc -c >/dev/null || { log "ERROR: Download fallito"; exit 1; }) | jq -c '.data.dataflows[]|{id:.id,enName:.names.en,itName:.names.it,structure:.structure}' | mlr --jsonl put '$structure=sub(sub($structure,".+:",""),"\(.+","");' then rename structure,refId >"$folder"/tmp/istatcats.jsonl; then
+if ! curl -kL "https://esploradati.istat.it/SDMXWS/rest/v2/structure/dataflow/IT1/*/1.0" > "$folder"/dati.json && cat "$folder"/dati.json | tee >(wc -c >/dev/null || { log "ERROR: Download fallito"; exit 1; }) | jq -c '.data.dataflows[]|{id:.id,enName:.names.en,itName:.names.it,structure:.structure}' | mlr --jsonl put '$structure=sub(sub($structure,".+:",""),"\(.+","");' then rename structure,refId >"$folder"/tmp/istatcats.jsonl; then
     log "ERROR: Elaborazione dati fallita"
     exit 1
 fi
