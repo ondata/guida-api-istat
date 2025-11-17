@@ -62,16 +62,31 @@ Le specifiche OpenAPI documentano in dettaglio:
 
 **Nota implementazione**: l'endpoint ISTAT supporta selezione formato solo tramite header `Accept`, non tramite parametro `format` (diversamente da quanto specificato in OpenAPI).
 
-**Nota**: la guida che segue utilizza ancora esempi con il vecchio endpoint `http://sdmx.istat.it/SDMXWS/rest/` per compatibilità storica, ma tutti gli esempi funzionano sostituendo con il nuovo endpoint `https://esploradati.istat.it/SDMXWS/rest`.
+**⚠️ IMPORTANTE - Situazione endpoint (aggiornamento novembre 2025):**
+
+L'endpoint ufficiale `https://esploradati.istat.it/SDMXWS/rest` presenta alcuni problemi confermati da ISTAT Contact Centre:
+
+1. **`/rest/v2/data`** documentato ma non ancora implementato
+2. **`/rest/data`** funzionante ma con **bug filtri temporali**: per anno N usare `endperiod=N-1`
+3. **Performance**: più lento (2+ minuti) rispetto endpoint legacy
+
+**Raccomandazione attuale:**
+
+Usare **endpoint ufficiale** `https://esploradati.istat.it/SDMXWS/rest/data` applicando workaround temporale.
+
+**Esempio workaround bug:**
+
+```bash
+# Per dati 2023, usare endperiod=2022 (bug confermato ISTAT)
+curl -kL -H "Accept: text/csv" \
+  "https://esploradati.istat.it/SDMXWS/rest/data/IT1,22_289/A..JAN.9.TOTAL.99/?startperiod=2023&endperiod=2022"
+```
+
+📄 **Dettagli completi bug e workaround**: [processing/note-endpoint-esploradati.md](processing/note-endpoint-esploradati.md)
 
 ## Come interrogare le API
 
----
-👉 **Nota bene**: questa guida è stata scritta nel 2020 con il vecchio endpoint. A partire dal 2024, **l'endpoint ufficiale è** `https://esploradati.istat.it/SDMXWS/rest` **(API v2.0.0)**. Tutti gli esempi funzionano sostituendo l'URL. Per le specifiche complete vedi [sezione OpenAPI](#specifiche-openapi-ufficiali).
-
----
-
-L'URL base di accesso è `http://sdmx.istat.it/SDMXWS/rest/`. Da questo si possono interrogare i **metadati** e i **dati**, con una chiamata `HTTP` in `GET`. Quindi pressoché **da qualsiasi client**.
+L'URL base di accesso ufficiale è `https://esploradati.istat.it/SDMXWS/rest`. Da questo si possono interrogare i **metadati** e i **dati**, con una chiamata `HTTP` in `GET`. Quindi pressoché **da qualsiasi client**.
 
 Sono dati esposti secondo lo standard [**SDMX**](https://sdmx.org/).
 
