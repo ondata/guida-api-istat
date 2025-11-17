@@ -126,7 +126,7 @@ In alternativa è possibile usare un software di API development e testing, ad e
 Questa è la struttura dell'URL per accedere ai **metadati**:
 
 ```
-http://sdmx.istat.it/SDMXWS/rest/resource/agencyID/resourceID/version/itemID?queryStringParameters
+https://esploradati.istat.it/SDMXWS/rest/resource/agencyID/resourceID/version/itemID?queryStringParameters
 ```
 
 Alcune note:
@@ -158,7 +158,7 @@ Alcune note:
     - Tipo specifico: es. `codelist`, `datastructure`, `conceptscheme`
 
 
-Un esempio è quello che restituisce i **`dataflow`**, ovvero l'elenco dei flussi di dati interrogabili.<br>Per averlo restituito l'URL è <http://sdmx.istat.it/SDMXWS/rest/dataflow/IT1>.
+Un esempio è quello che restituisce i **`dataflow`**, ovvero l'elenco dei flussi di dati interrogabili.<br>Per averlo restituito l'URL è <https://esploradati.istat.it/SDMXWS/rest/dataflow/IT1>.
 
 Si ottiene in risposta un file XML come [questo](rawdata/dataflow.xml), che all'interno contiene dei blocchi come quello sottostante, in cui ai dati su "Incidenti, morti e feriti - comuni" è associato l'id `41_983`.
 
@@ -179,7 +179,7 @@ L'elenco ad oggi (3 maggio 2020) dei dataset interrogabili è composto da circa 
 Questa è la struttura dell'URL per accedere ai **dati**:
 
 ```
-http://sdmx.istat.it/SDMXWS/rest/data/flowRef/key/providerRef?queryStringParameters
+https://esploradati.istat.it/SDMXWS/rest/data/flowRef/key/providerRef?queryStringParameters
 ```
 
 Alcune note:
@@ -219,7 +219,7 @@ Alcune note:
   **Storico:**
   - `includeHistory`: se `true`, include versioni precedenti dei dati
 
-Visto che l'unico parametro obbligatorio è l'ID del *dataflow*, per scaricare quello di sopra sugli incidenti stradali l'URL sarà (**OCCHIO CHE SUL BROWSER pesa**, sono 53 MB di file XML, meglio non fare click e leggerlo soltanto) <http://sdmx.istat.it/SDMXWS/rest/data/41_983>.
+Visto che l'unico parametro obbligatorio è l'ID del *dataflow*, per scaricare quello di sopra sugli incidenti stradali l'URL sarà (**OCCHIO CHE SUL BROWSER pesa**, sono 53 MB di file XML, meglio non fare click e leggerlo soltanto) <https://esploradati.istat.it/SDMXWS/rest/data/41_983>.
 
 ### Verificare disponibilità dati (availableconstraint)
 
@@ -260,7 +260,7 @@ Per gli esempi sottostanti verrà usata l'*utility* cURL, in quanto disponibile 
 Il formato di output di default è l'XML.
 
 ```bash
-curl -kL "http://sdmx.istat.it/SDMXWS/rest/data/41_983" >./41_983.xml
+curl -kL "https://esploradati.istat.it/SDMXWS/rest/data/41_983" >./41_983.xml
 ```
 
 ### Cambiare formato di output
@@ -270,13 +270,13 @@ Basta impostare in modo adeguato l'header `HTTP`.
 In CSV:
 
 ```bash
-curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.istat.it/SDMXWS/rest/data/41_983" >./41_983.csv
+curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "https://esploradati.istat.it/SDMXWS/rest/data/41_983" >./41_983.csv
 ```
 
 In JSON (dati):
 
 ```bash
-curl -kL -H "Accept: application/json" "http://sdmx.istat.it/SDMXWS/rest/data/41_983" >./41_983.json
+curl -kL -H "Accept: application/json" "https://esploradati.istat.it/SDMXWS/rest/data/41_983" >./41_983.json
 ```
 
 In JSON (metadati/strutture):
@@ -318,15 +318,36 @@ curl -kL "https://esploradati.istat.it/SDMXWS/rest/data/115_333?startPeriod=2020
 
 ### Limitare numero osservazioni
 
-Utile per anteprime o test:
+**🚀 STRUMENTO FONDAMENTALE per esplorazione e sviluppo**
+
+I parametri `firstNObservations` e `lastNObservations` sono essenziali per:
+
+- **Test rapidi** prima di download completi (GB di dati)
+- **Verifica struttura** senza attendere tempi lunghi
+- **Anteprime** per capire se i filtri funzionano
+- **Sviluppo** durante creazione query complesse
 
 ```bash
-# Prime 100 osservazioni (dalla più vecchia)
-curl -kL "https://esploradati.istat.it/SDMXWS/rest/data/41_983?firstNObservations=100" >./41_983_first100.xml
+# Prime 10 osservazioni (dalla più vecchia) - perfetto per test
+curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" \
+  "https://esploradati.istat.it/SDMXWS/rest/data/41_983?firstNObservations=10"
 
-# Ultime 50 osservazioni (dalla più recente)
-curl -kL "https://esploradati.istat.it/SDMXWS/rest/data/41_983?lastNObservations=50" >./41_983_last50.xml
+# Ultime 5 osservazioni (dalla più recente) - verifica dati recenti
+curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" \
+  "https://esploradati.istat.it/SDMXWS/rest/data/41_983?lastNObservations=5"
+
+# Combinato con filtri - test su subset specifici
+curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" \
+  "https://esploradati.istat.it/SDMXWS/rest/data/41_983/A.082053.KILLINJ.F?firstNObservations=3"
 ```
+
+**Best practice:**
+1. **Sempre testare** con `firstNObservations=5-10` prima di download completi
+2. **Verificare filtri** con limiti per evitare download errati
+3. **Usare `lastNObservations`** per controllare dati più recenti
+4. **Rimuovere limiti** solo quando la query è verificata
+
+⚠️ **Attenzione**: Dataset completi possono essere **centinaia di MB o GB** - usa sempre limiti per test!
 
 ### Ottenere solo chiavi serie (senza dati)
 
@@ -358,7 +379,7 @@ Per applicare dei filtri è **necessario** **conoscere** quale sia lo **schema d
 Per leggere lo schema dati di `DCIS_INCIDMORFER_COM`, si potrà lanciare questa chiamata:
 
 ```bash
-curl -kL "http://sdmx.istat.it/SDMXWS/rest/datastructure/IT1/DCIS_INCIDMORFER_COM/" >./DCIS_INCIDMORFER_COM.xml
+curl -kL "https://esploradati.istat.it/SDMXWS/rest/datastructure/IT1/DCIS_INCIDMORFER_COM/" >./DCIS_INCIDMORFER_COM.xml
 ```
 
 Nel file [XML di output](esempi/DCIS_INCIDMORFER_COM.xml) c'è il tag `structure:DimensionList` (vedi sotto), che contiene la lista delle dimensioni, ovvero lo schema dati del dataset.<br>
@@ -420,7 +441,7 @@ In questo elenco le dimensioni con id `FREQ`, `ESITO`, `ITTER107`,`TIPO_DATO` e 
 Ma qual è il **significato** di `FREQ`, `ESITO`, `ITTER107`,`TIPO_DATO` e `SELECT_TIME`?
 
 La risposta a questa domanda ce la dà la risorsa di metadati - il *package* - denominata `codelist`. Si può interrogare sempre per ID, ma bisogna conoscere l'ID dei vari campi, che è scritto nel file XML di sopra.<br>
-Ad esempio in corrispondenza del campo `FREQ` si legge `<Ref id="CL_FREQ" version="1.0" agencyID="IT1" package="codelist" class="Codelist" />`, ovvero che l'ID corrispondente in `codelist` è `CL_FREQ`. L'URL da lanciare per avere le informazioi su questo campo, sarà un altro URL per interrogare metadati e in particolare http://sdmx.istat.it/SDMXWS/rest/codelist/IT1/CL_FREQ.
+Ad esempio in corrispondenza del campo `FREQ` si legge `<Ref id="CL_FREQ" version="1.0" agencyID="IT1" package="codelist" class="Codelist" />`, ovvero che l'ID corrispondente in `codelist` è `CL_FREQ`. L'URL da lanciare per avere le informazioi su questo campo, sarà un altro URL per interrogare metadati e in particolare https://esploradati.istat.it/SDMXWS/rest/codelist/IT1/CL_FREQ.
 
 In output un [file XML](esempi/CL_FREQ.xml), dove si legge che si tratta della "Frequenza". Nell'XML si leggono anche i valori possibili per questa **dimensione**, che per `CL_FREQ` corrispondono alle sottostanti coppie di ID e valore.
 
@@ -446,7 +467,7 @@ Per ricavarli è possibile sfruttare la risorsa `availableconstraint`, che in te
 Per conoscere ad esempio quelle del dataflow `41_983` l'URL è:
 
 ```
-http://sdmx.istat.it/SDMXWS/rest/availableconstraint/41_983
+https://esploradati.istat.it/SDMXWS/rest/availableconstraint/41_983
 ```
 
 In output un file XML come [questo](esempi/availableconstraint.xml), in cui ad esempio si legge che per questo specificico *dataflow* il valore disponibile per la dimensione `FREQ` (Frequenza) è `A`, ovvero quella annuale.
@@ -461,36 +482,50 @@ In output un file XML come [questo](esempi/availableconstraint.xml), in cui ad e
 
 #### Costruire l'URL per filtrare un dataflow, fare una query per attributo
 
-Una ***query*** per **attributo/i**, ne deve **elencare i valori** nell'URL secondo questo schema:
+**Come costruire i filtri passo dopo passo:**
 
+1. **Identifica le dimensioni** dal `datastructure` nell'ordine esatto
+2. **Crea la stringa filtro** con valori separati da `.` (punto)
+3. **Usa `.`** per dimensioni senza filtro, **valore specifico** per quelle filtrate
+
+**Schema URL:**
 ```
-http://sdmx.istat.it/SDMXWS/rest/data/flowRef/valoreCampo1.valoreCampo2.valoreCampo3/
+https://esploradati.istat.it/SDMXWS/rest/data/flowRef/dim1.dim2.dim3.dim4.dim5/
 ```
 
-Questo di sopra è un caso di uno schema dati con tre campi; i valori vanno separati con un `.` (punto). Se il valore non è specificato, nessun filtro per quel campo/dimensione sarà applicato. Quindi un URL come
+**Esempio pratico - incidenti stradali:**
 
-```
-http://sdmx.istat.it/SDMXWS/rest/data/flowRef/../
-```
+Dal `datastructure` `DCIS_INCIDMORFER_COM` abbiamo 4 dimensioni in questo ordine:
+1. `FREQ` (frequenza) - posizione 1
+2. `REF_AREA` (territorio/comune) - posizione 2  
+3. `DATA_TYPE` (tipo dato) - posizione 3
+4. `RESULT` (risultato) - posizione 4
 
-equivale a non applicare alcun filtro.
-
-Per il *dataflow* che stiamo usando per questa guida, un esempio potrebbe essere quello di tutti gli incidenti con feriti (**valore** `F`). Il campo è `ESITO`, che nello schema dati è il **secondo** campo. Qui i **campi/dimensioni** a disposizione sono **5**, quindi per applicare questo filtro dovremo aggiungere nell'URL la stringa `.F...` (5 campi, di cui il secondo valorizzato e gli altri vuoti) e lanciare:
+**Caso 1 - Tutti i feriti a Palermo:**
+- FREQ: `A` (annuale) 
+- REF_AREA: `082053` (Palermo)
+- DATA_TYPE: `KILLINJ` (incidenti)
+- RESULT: `F` (feriti)
 
 ```bash
-curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.istat.it/SDMXWS/rest/data/41_983/.F..." >filtro_esempio01.csv
+curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "https://esploradati.istat.it/SDMXWS/rest/data/41_983/A.082053.KILLINJ.F" >palermo_feriti.csv
 ```
 
-Si otterrà un CSV con filtrati 145.000 record, sul totale di 435.000.
-
-Tra i campi anche `ITTER107` (è il terzo), che è quello del codice comunale ISTAT. Se voglio quindi ottenere i dati sugli incidenti stradali con feriti, nella città di Palermo (codice comunale ISTAT `082053`) - filtro `.F.082053..` - il comando sarà:
-
+**Caso 2 - Tutti i dati di Palermo (senza filtro su RESULT):**
 ```bash
-curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.istat.it/SDMXWS/rest/data/41_983/.F.082053.." >filtro_esempio02.csv
+curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "https://esploradati.istat.it/SDMXWS/rest/data/41_983/A.082053.KILLINJ." >palermo_tutti.csv
 ```
 
-Sono 18 record, uno per ogni anno (questo dataset espone dati aggregati per anno dal 2001 al 2018).<br>
-Qui sotto un grafico d'esempio generato proprio con i dati di output di questa *query*.
+**Caso 3 - Più comuni con `+`:**
+```bash
+curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "https://esploradati.istat.it/SDMXWS/rest/data/41_983/A.082053+072006.KILLINJ.F" >palermo_bari_feriti.csv
+```
+
+**Regole importanti:**
+- **Ordine fisso**: Rispetta sempre l'ordine delle dimensioni dal `datastructure`
+- **Numero esatto**: Includi tutte le dimensioni con `.` se non filtrate
+- **Valori multipli**: Usa `+` per OR logico nella stessa dimensione
+- **Nessun filtro**: Usa `../` per dati completi senza filtri
 
 <div id="vis" class="vl-responsive"></div>
 
@@ -504,16 +539,40 @@ Qui sotto un grafico d'esempio generato proprio con i dati di output di questa *
 
 <br>
 
-Si possono inserire più valori per lo stesso campo, separandoli con il carattere `+`. Se ad esempio si vogliono aggiungere anche gli incidenti con feriti, del comune di Bari (codice ISTAT `072006`) - filtro `.F.082053+072006..` - il comando sarà:
+**Consigli per esplorazione:**
+
+1. **Prima di filtrare**: Usa `availableconstraint` per vedere quali valori esistono
+2. **🔥 SEMPRE testare con limiti**: Aggiungi `?firstNObservations=10` prima di qualsiasi download
+3. **Verifica ordine**: Controlla sempre `position` nel `datastructure`
+4. **Approccio iterativo**: Test → Verifica → Download completo
+
+Esempio completo con esplorazione:
 
 ```bash
-curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.istat.it/SDMXWS/rest/data/41_983/.F.082053+072006.." >filtro_esempio03.csv
+# 1. Vedi valori disponibili per territorio
+curl -kL "https://esploradati.istat.it/SDMXWS/rest/availableconstraint/41_983/REF_AREA"
+
+# 2. 🔥 Test con pochi record (FONDAMENTALE)
+curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" \
+  "https://esploradati.istat.it/SDMXWS/rest/data/41_983/A.082053.KILLINJ.F?firstNObservations=5"
+
+# 3. Download completo se il test è corretto
+curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" \
+  "https://esploradati.istat.it/SDMXWS/rest/data/41_983/A.082053.KILLINJ.F" >palermo_feriti_completo.csv
 ```
 
-Il ultimo una *query* i cui aggiungere un `queryStringParameters`, in particolare `startPeriod`, ovvero impostare il periodo a partire dal quale si vogliono dati. Si possono usare date in formato `ISO8601` e se quindi si vogliono i dati a partire dall'anno 2015, il comando sarà:
+**Filtro temporale aggiuntivo:**
+
+Per limitare il periodo temporale, aggiungi `startPeriod` e/o `endPeriod`:
 
 ```bash
-curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.istat.it/SDMXWS/rest/data/41_983/?startPeriod=2015" >./filtro_esempio04.csv
+# Dati dal 2015 in poi
+curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" \
+  "https://esploradati.istat.it/SDMXWS/rest/data/41_983/A.082053.KILLINJ.F?startPeriod=2015" >palermo_feriti_2015.csv
+
+# Solo anno 2022-2023
+curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" \
+  "https://esploradati.istat.it/SDMXWS/rest/data/41_983/A.082053.KILLINJ.F?startPeriod=2022&endPeriod=2023" >palermo_feriti_2022_23.csv
 ```
 
 ## Come interrogare le API con Postman
@@ -602,7 +661,7 @@ Se vuoi **sostenere** le nostre **attività**, puoi farlo [donando il tuo **5x10
 Lo **SDMX Technical Standards Working Group** ha creato un [*cheatsheet*](https://github.com/sdmx-twg/sdmx-rest/raw/master/v2_1/ws/rest/docs/rest_cheat_sheet.pdf) molto leggibile e didattico, da cui abbiamo preso fortemente spunto. Lo riportiamo a seguire.<br>
 **NOTA BENE**: alcune delle opzioni di sotto potrebbero essere non attive presso l'*endpoint* di ISTAT.
 
-**Structural metadata queries:**<br>`http://sdmx.istat.it/SDMXWS/rest/resource/agencyID/resourceID/version/itemID?queryStringParameters`
+**Structural metadata queries:**<br>`https://esploradati.istat.it/SDMXWS/rest/resource/agencyID/resourceID/version/itemID?queryStringParameters`
 
 | Path parameter | Description | Default |
 | --- | --- | --- |
@@ -614,7 +673,7 @@ Lo **SDMX Technical Standards Working Group** ha creato un [*cheatsheet*](https:
 | **detail** | Desired amount of information. Values: allstubs, referencestubs, allcompletestubs, referencecompletestubs, referencepartial, full. | full |
 | **references** | References to be returned with the artefact. Values: none, parents, parentsandsiblings, children, descendants, all, any type of resource. | none |
 
-**Data queries:**<br>`http://sdmx.istat.it/SDMXWS/rest/data/flowRef/key/providerRef?queryStringParameters`
+**Data queries:**<br>`https://esploradati.istat.it/SDMXWS/rest/data/flowRef/key/providerRef?queryStringParameters`
 
 | Path parameter | Description | Default |
 | --- | --- | --- |
