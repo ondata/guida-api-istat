@@ -6,15 +6,28 @@ Ricetta per scaricare i dati sulla popolazione residente regionale per gli anni 
 
 ## Cosa serve
 
-1. Shell Linux;
-2. Installare Curl;
-3. Installare VisiData;
+1. Shell Linux
+2. Curl
+3. VisiData
+
+## Nota endpoint
+
+Questa ricetta usa l'endpoint ufficiale `https://esploradati.istat.it/SDMXWS/rest` con workaround per bug filtri temporali.
+
+**Bug ISTAT**: per anno N usare `endperiod=N-1`
+
+Dettagli: [../processing/note-endpoint-esploradati.md](../processing/note-endpoint-esploradati.md)
 
 ## Comando da lanciare da shell linux
 
+```bash
+# Scarica dal 2011 al 2024 (bug: per 2024 usare endperiod=2023)
+curl -kL -H "Accept: text/csv" \
+  "https://esploradati.istat.it/SDMXWS/rest/data/IT1,22_289/A.ITC1+ITC2+ITC3+ITC4+ITD1+ITD2+ITD3+ITD4+ITD5+ITE1+ITE2+ITE3+ITE4+ITF1+ITF2+ITF3+ITF4+ITF5+ITF6+ITG1+ITG2.JAN.9.TOTAL.99/?startperiod=2011&endperiod=2023" \
+  >popResRegioni.csv
 ```
-curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.istat.it/SDMXWS/rest/data/22_289/.TOTAL.ITC1+ITC2+ITC3+ITC4+ITD1+ITD2+ITD3+ITD4+ITD5+ITE1+ITE2+ITE3+ITE4+ITF1+ITF2+ITF3+ITF4+ITF5+ITF6+ITG1+ITG2.9.99../?startPeriod=2011" >popResRegioni12-20.csv
-```
+
+**Nota**: il comando richiede circa 2 minuti per completare.
 
 In output si ottiene un file CSV con 18 campi, molti dei quali sono inutili e vanno eliminati; quelli da conservare sono `ITTER107` (che contiene i _NUTS2_), `TIME_PERIOD` (gli _anni_) e `OBS_VALUEQ` (valori della _popolazione_):
 

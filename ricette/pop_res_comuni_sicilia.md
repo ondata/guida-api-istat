@@ -6,15 +6,28 @@ Ricetta per scaricare i dati sulla popolazione residente comunali per gli anni d
 
 ## Cosa serve
 
-1. Shell Linux;
-2. Installare Curl;
-3. Installare VisiData;
+1. Shell Linux
+2. Curl
+3. VisiData
+
+## Nota endpoint
+
+Questa ricetta usa l'endpoint ufficiale `https://esploradati.istat.it/SDMXWS/rest` con workaround per bug filtri temporali.
+
+**Bug ISTAT**: per anno N usare `endperiod=N-1`
+
+Dettagli: [../processing/note-endpoint-esploradati.md](../processing/note-endpoint-esploradati.md)
 
 ## Comando da lanciare da shell linux
 
+```bash
+# Scarica dal 2011 al 2024 (bug: per 2024 usare endperiod=2023)
+curl -kL -H "Accept: text/csv" \
+  "https://esploradati.istat.it/SDMXWS/rest/data/IT1,22_289/A..JAN.9.TOTAL.99/?startperiod=2011&endperiod=2023" \
+  >filtro_tot_comuni.csv
 ```
-curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.istat.it/SDMXWS/rest/data/22_289/.TOTAL..9.99../?startPeriod=2011" >filtro_tot_comuni.csv
-```
+
+**Nota**: il comando richiede diversi minuti per completare (scarica tutti i comuni italiani).
 
 In output si ottiene un file CSV con 18 campi, molti dei quali sono inutili e vanno eliminati; quelli da conservare sono `ITTER107` (che contiene i codici ISTAT dei comuni), `TIME_PERIOD` (gli _anni_) e `OBS_VALUEQ` (valori della _popolazione_):
 
