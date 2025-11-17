@@ -4,7 +4,9 @@ Per <strong>domande</strong> e/o <strong>suggerimenti</strong> su questa guida, 
 <br>
 
 - [Perché questa guida](#perché-questa-guida)
+- [Specifiche OpenAPI ufficiali](#specifiche-openapi-ufficiali)
 - [Come interrogare le API](#come-interrogare-le-api)
+  - [SEP (Single Exit Point)](#sep-single-exit-point)
   - [Che strumenti usare](#che-strumenti-usare)
   - [Accedere ai metadati](#accedere-ai-metadati)
   - [Accedere ai dati](#accedere-ai-dati)
@@ -35,16 +37,59 @@ La mancanza di informazioni in merito e le opportunità che vengono offerte, ci 
 
 Se vuoi proporre una modifica/integrazione/correzione a questa guida, [questo](https://github.com/ondata/guida-api-istat/blob/master/README.md) è il file e [questo](https://github.com/ondata/guida-api-istat) è il repository che ospita il progetto.
 
+## Specifiche OpenAPI ufficiali
+
+A partire dal 2024, il Team per la Trasformazione Digitale ha pubblicato le **specifiche OpenAPI v3** ufficiali delle API ISTAT SDMX (versione **2.0.0**).
+
+**Risorse ufficiali:**
+
+- **Specifica OpenAPI completa**: [istat-sdmx-rest.yaml](https://raw.githubusercontent.com/teamdigitale/api-openapi-samples/master/external-apis/istat-sdmx-rest.yaml)
+- **Endpoint base corrente**: `https://esploradati.istat.it/SDMXWS/rest`
+- **Documentazione ISTAT**: [Web Service SDMX](https://www.istat.it/it/metodi-e-strumenti/web-service-sdmx)
+
+Le specifiche OpenAPI documentano in dettaglio:
+
+- Tutti gli endpoint disponibili (data, metadata, availableconstraint)
+- Parametri di query con esempi (startPeriod, endPeriod, detail, references)
+- Formati di risposta supportati (XML, JSON, CSV, RDF)
+- Codici di errore HTTP
+- Schemi SDMX per periodi temporali
+
+**Nota**: la guida che segue utilizza ancora esempi con il vecchio endpoint `http://sdmx.istat.it/SDMXWS/rest/` per compatibilità storica, ma tutti gli esempi funzionano sostituendo con il nuovo endpoint `https://esploradati.istat.it/SDMXWS/rest`.
+
 ## Come interrogare le API
 
 ---
-👉 **Nota bene**: questa guida è stata scritta nel 2020. **L'*endpoint*. non è più quello indicato a seguire**, ma è quello indicato [qui](https://esploradati.istat.it/SDMXWS). Potrai replicare quanto indicato, ma cambiando l'URL dell'*endpoint*.
+👉 **Nota bene**: questa guida è stata scritta nel 2020 con il vecchio endpoint. A partire dal 2024, **l'endpoint ufficiale è** `https://esploradati.istat.it/SDMXWS/rest` **(API v2.0.0)**. Tutti gli esempi funzionano sostituendo l'URL. Per le specifiche complete vedi [sezione OpenAPI](#specifiche-openapi-ufficiali).
 
 ---
 
 L'URL base di accesso è `http://sdmx.istat.it/SDMXWS/rest/`. Da questo si possono interrogare i **metadati** e i **dati**, con una chiamata `HTTP` in `GET`. Quindi pressoché **da qualsiasi client**.
 
 Sono dati esposti secondo lo standard [**SDMX**](https://sdmx.org/).
+
+### SEP (Single Exit Point)
+
+Il **Single Exit Point** (SEP) è l'interfaccia API esposta da ISTAT per l'accesso machine-to-machine ai dati del database [I.Stat](http://dati.istat.it).
+
+Caratteristiche del SEP:
+
+- **Gratuito e liberamente disponibile**: nessuna autenticazione richiesta
+- **Formati multipli**: XML, JSON, CSV, RDF
+- **Standard SDMX**: conforme ISO 17369
+- **Selezione formato**: tramite HTTP content negotiation oppure parametro `format` nella query
+
+Esempio selezione formato con parametro:
+
+```bash
+# Lista dataflow in JSON
+curl 'https://esploradati.istat.it/SDMXWS/rest/dataflow?format=jsonstructure'
+
+# Dataset in JSON
+curl 'https://esploradati.istat.it/SDMXWS/rest/data/IT1,115_333,1.2?startPeriod=2018&endPeriod=2018&format=jsondata'
+```
+
+**Importante**: per limitare il volume delle risposte (che possono superare diversi GB), restringere sempre le query con filtri appropriati.
 
 ### Che strumenti usare
 
