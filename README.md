@@ -10,15 +10,20 @@ Per <strong>domande</strong> e/o <strong>suggerimenti</strong> su questa guida, 
   - [Che strumenti usare](#che-strumenti-usare)
   - [Accedere ai metadati](#accedere-ai-metadati)
   - [Accedere ai dati](#accedere-ai-dati)
+  - [Verificare disponibilità dati (availableconstraint)](#verificare-disponibilità-dati-availableconstraint)
 - [Qualche esempio](#qualche-esempio)
   - [Scaricare i dati in blocco](#scaricare-i-dati-in-blocco)
   - [Cambiare formato di output](#cambiare-formato-di-output)
+  - [Filtrare per periodo temporale](#filtrare-per-periodo-temporale)
+  - [Limitare numero osservazioni](#limitare-numero-osservazioni)
+  - [Ottenere solo chiavi serie (senza dati)](#ottenere-solo-chiavi-serie-senza-dati)
   - [Applicare dei filtri](#applicare-dei-filtri)
     - [Schema dati](#schema-dati)
     - [Quali codici/valori sono disponibili per filtrare un determinato dataflow per dimensione](#quali-codicivalori-sono-disponibili-per-filtrare-un-determinato-dataflow-per-dimensione)
     - [Costruire l'URL per filtrare un dataflow, fare una query per attributo](#costruire-lurl-per-filtrare-un-dataflow-fare-una-query-per-attributo)
 - [Come interrogare le API con Postman](#come-interrogare-le-api-con-postman)
 - [Altre banche dati ISTAT accessibili allo stesso modo](#altre-banche-dati-istat-accessibili-allo-stesso-modo)
+- [Codici di risposta HTTP](#codici-di-risposta-http)
 - [Note](#note)
 - [Sostieni le nostre attività](#sostieni-le-nostre-attività)
 - [Sitografia](#sitografia)
@@ -51,9 +56,11 @@ Le specifiche OpenAPI documentano in dettaglio:
 
 - Tutti gli endpoint disponibili (data, metadata, availableconstraint)
 - Parametri di query con esempi (startPeriod, endPeriod, detail, references)
-- Formati di risposta supportati (XML, JSON, CSV, RDF)
+- Formati di risposta supportati (XML, JSON, CSV, RDF) tramite content negotiation
 - Codici di errore HTTP
 - Schemi SDMX per periodi temporali
+
+**Nota implementazione**: l'endpoint ISTAT supporta selezione formato solo tramite header `Accept`, non tramite parametro `format` (diversamente da quanto specificato in OpenAPI).
 
 **Nota**: la guida che segue utilizza ancora esempi con il vecchio endpoint `http://sdmx.istat.it/SDMXWS/rest/` per compatibilità storica, ma tutti gli esempi funzionano sostituendo con il nuovo endpoint `https://esploradati.istat.it/SDMXWS/rest`.
 
@@ -77,16 +84,18 @@ Caratteristiche del SEP:
 - **Gratuito e liberamente disponibile**: nessuna autenticazione richiesta
 - **Formati multipli**: XML, JSON, CSV, RDF
 - **Standard SDMX**: conforme ISO 17369
-- **Selezione formato**: tramite HTTP content negotiation oppure parametro `format` nella query
+- **Selezione formato**: tramite HTTP content negotiation (header `Accept`)
 
-Esempio selezione formato con parametro:
+Esempio selezione formato:
 
 ```bash
-# Lista dataflow in JSON
-curl 'https://esploradati.istat.it/SDMXWS/rest/dataflow?format=jsonstructure'
+# Metadati in JSON
+curl -H "Accept: application/vnd.sdmx.structure+json;version=1.0" \
+  'https://esploradati.istat.it/SDMXWS/rest/dataflow/IT1/115_333/1.0'
 
-# Dataset in JSON
-curl 'https://esploradati.istat.it/SDMXWS/rest/data/IT1,115_333,1.2?startPeriod=2018&endPeriod=2018&format=jsondata'
+# Dati in JSON
+curl -H "Accept: application/json" \
+  'https://esploradati.istat.it/SDMXWS/rest/data/IT1,115_333?startPeriod=2018&endPeriod=2018'
 ```
 
 **Importante**: per limitare il volume delle risposte (che possono superare diversi GB), restringere sempre le query con filtri appropriati.
@@ -107,15 +116,31 @@ http://sdmx.istat.it/SDMXWS/rest/resource/agencyID/resourceID/version/itemID?que
 
 Alcune note:
 
-- `resource` (**obbligatorio**), la risorsa che si vuole interrogare (tra queste `categorisation`, `categoryscheme`, `codelist`, `conceptscheme`, `contentconstraint`, `dataflow` e `datastructure`);
-- `agencyID`, l'identiticativo dell'agenzia che esponi i dati (qui è `IT1`);
-- `resourceID`, l'ID della risorsa che si vuole interrogare (successivamente qualche esempio);
-- `version`, la versione dell'artefatto che si vuole interrogare;
-- `itemID`, l'ID dell'elemento (per schemi di elementi) o della gerarchia (per elenchi di codici gerarchici) da restituire;
-- `queryStringParameters`
-  - `detail`, la quantità desiderata di informazioni. I valori possibili sono `allstubs`, `referencestubs`, `allcompletestubs`, `referencecompletestubs`, `referencepartial` e `full` e di *default* è `full`.
-di riferimento parziale, completo.
-  - `references`, riferimenti relativi da restituire. I valori possibili sono  `none`, `parents`,  `parentsandsiblings`, `children`, `descendants`, `all`, `any` e di *default* è `none`.
+- `resource` (**obbligatorio**), tipo di risorsa strutturale. Valori principali:
+  - `dataflow`, `datastructure`: flussi dati e schemi
+  - `codelist`, `conceptscheme`: liste codici e concetti
+  - `categoryscheme`, `categorisation`: categorizzazioni
+  - `contentconstraint`: vincoli disponibilità dati
+- `agencyID`, identificativo agenzia (qui è `IT1`). Multipli con `+` (es. `IT1+ECB`), `all` per tutte
+- `resourceID`, ID risorsa. Multipli con `+` (es. `CL_FREQ+CL_CONF_STATUS`), `all` per tutte
+- `version`, versione artefatto. Valori: `latest` (ultima produzione), `all` (tutte), o specifica (es. `1.0`)
+- `itemID`, ID elemento/gerarchia da restituire
+- `queryStringParameters`:
+  - `detail`: livello dettaglio metadati (default `full`)
+    - `full`: tutte le informazioni disponibili
+    - `allstubs`: tutti gli artefatti come stub (solo ID e nome)
+    - `referencestubs`: artefatti referenziati come stub
+    - `referencepartial`: solo elementi usati (flag isPartial=true)
+    - `allcompletestubs`: stub completi con descrizione e annotazioni
+    - `referencecompletestubs`: stub completi per artefatti referenziati
+  - `references`: artefatti correlati da restituire (default `none`)
+    - `none`: nessun riferimento
+    - `parents`: artefatti che usano quello richiesto
+    - `parentsandsiblings`: parents + artefatti da loro referenziati
+    - `children`: artefatti referenziati da quello richiesto
+    - `descendants`: riferimenti ricorsivi (tutti i livelli)
+    - `all`: combinazione parentsandsiblings + descendants
+    - Tipo specifico: es. `codelist`, `datastructure`, `conceptscheme`
 
 
 Un esempio è quello che restituisce i **`dataflow`**, ovvero l'elenco dei flussi di dati interrogabili.<br>Per averlo restituito l'URL è <http://sdmx.istat.it/SDMXWS/rest/dataflow/IT1>.
@@ -144,20 +169,68 @@ http://sdmx.istat.it/SDMXWS/rest/data/flowRef/key/providerRef?queryStringParamet
 
 Alcune note:
 
-- `flowRef` (**obbligatorio**), l'ID del `dataflow` che si vuole interrogare;
-- `key`, i parametri che si vogliono aggiungere per personalizzare la *query* (ad esempio soltanto gli incidenti avvenuti nel comune di Bari e Palermo);
-- `providerRef`, l'identiticativo dell'agenzia che esponi i dati (qui è `IT1`);
-- `queryStringParameters`, sono quelli sottostanti. In questa prima release ne descriviamo soltanto alcuni.
-  - `startPeriod`, la data da cui iniziare a estrarre informazioni, in formato `ISO8601` (ad esempio ` 2014-01`, ` 2014-01-01`, ecc.) o in formato SDMX (`2014-Q3` per il terzo quarto del 2014 o `2014-W53` per la cinquantatreesima settimana);
-  - `endPeriod`, come sopra ma la data di fine intervallo;
-  - `updatedAfter`;
-  - `firstNObservations`;
-  - `lastNObservations`;
-  - `dimensionAtObservation`;
-  - `detail`;
-  - `includeHistory`.
+- `flowRef` (**obbligatorio**), l'ID del `dataflow` che si vuole interrogare. Formati possibili:
+  - Semplice: `115_333` (solo ID)
+  - Con agenzia: `IT1,115_333`
+  - Con versione: `IT1,115_333,1.2`
+- `key`, i parametri dimensionali per filtrare i dati. Sintassi:
+  - Chiave completa: `M.DE.000000.ANR` (valori separati da punto)
+  - Wildcard: `..000000.ANR` (punto doppio = tutti i valori)
+  - OR logico: `A+M.DE.000000.ANR` (simbolo + = valori multipli)
+- `providerRef`, l'identificativo dell'agenzia (qui è `IT1`);
+- `queryStringParameters`, parametri di query disponibili:
+
+  **Filtri temporali:**
+  - `startPeriod`, `endPeriod`: filtro periodo (inclusivo). Formati supportati:
+    - ISO 8601: `2020`, `2020-01`, `2020-01-15`
+    - SDMX: `2020-Q1` (trimestre), `2020-W01` (settimana), `2020-S1` (semestre), `2020-D001` (giorno)
+  - `updatedAfter`: solo dati modificati dopo timestamp (formato ISO 8601 date-time)
+
+  **Limitazione osservazioni:**
+  - `firstNObservations`: numero massimo osservazioni dalla più vecchia (es. `firstNObservations=100`)
+  - `lastNObservations`: numero massimo osservazioni dalla più recente (es. `lastNObservations=50`)
+
+  **Formato dati:**
+  - `dimensionAtObservation`: struttura risposta
+    - `TIME_PERIOD` (default): vista time-series
+    - ID dimensione: vista cross-sectional
+    - `AllDimensions`: vista flat
+  - `detail`: quantità informazioni
+    - `full` (default): tutti i dati e attributi
+    - `dataonly`: solo osservazioni, senza attributi
+    - `serieskeysonly`: solo chiavi serie (utile per overview senza scaricare dati)
+    - `nodata`: solo metadati e attributi, senza osservazioni
+
+  **Storico:**
+  - `includeHistory`: se `true`, include versioni precedenti dei dati
 
 Visto che l'unico parametro obbligatorio è l'ID del *dataflow*, per scaricare quello di sopra sugli incidenti stradali l'URL sarà (**OCCHIO CHE SUL BROWSER pesa**, sono 53 MB di file XML, meglio non fare click e leggerlo soltanto) <http://sdmx.istat.it/SDMXWS/rest/data/41_983>.
+
+### Verificare disponibilità dati (availableconstraint)
+
+Prima di scaricare grandi volumi di dati, è utile verificare quali combinazioni di dimensioni sono effettivamente disponibili.
+
+Endpoint:
+
+```
+/availableconstraint/{flow}/{key}/{componentID}?mode={exact|available}
+```
+
+Parametri:
+
+- `flow`, `key`: come per endpoint data
+- `componentID`: ID dimensione per cui ottenere disponibilità (o `all` per tutte)
+- `mode`: tipo di constraint
+  - `exact`: valori presenti nei dati che corrispondono alla query
+  - `available`: valori validi che possono essere aggiunti alla query corrente
+
+Esempio - verificare disponibilità per tutte le dimensioni:
+
+```bash
+curl 'https://esploradati.istat.it/SDMXWS/rest/availableconstraint/115_333/all/all?mode=available'
+```
+
+Restituisce ContentConstraint con Cube Region contenente valori disponibili per ogni dimensione.
 
 [`torna su`](#perché-questa-guida)
 
@@ -185,10 +258,67 @@ In CSV:
 curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "http://sdmx.istat.it/SDMXWS/rest/data/41_983" >./41_983.csv
 ```
 
-In JSON:
+In JSON (dati):
 
 ```bash
 curl -kL -H "Accept: application/json" "http://sdmx.istat.it/SDMXWS/rest/data/41_983" >./41_983.json
+```
+
+In JSON (metadati/strutture):
+
+```bash
+# Header specifico per strutture SDMX in JSON
+curl -kL -H "Accept: application/vnd.sdmx.structure+json;version=1.0" "https://esploradati.istat.it/SDMXWS/rest/dataflow/IT1/115_333/1.0" >./dataflow.json
+```
+
+### Filtrare per periodo temporale
+
+Usare `startPeriod` e `endPeriod` per limitare l'intervallo temporale.
+
+**Formati ISO 8601:**
+
+```bash
+# Anno
+curl -kL "https://esploradati.istat.it/SDMXWS/rest/data/41_983?startPeriod=2020&endPeriod=2021" >./41_983_2020-2021.xml
+
+# Mese
+curl -kL "https://esploradati.istat.it/SDMXWS/rest/data/115_333?startPeriod=2020-01&endPeriod=2020-12" >./115_333_2020.xml
+
+# Giorno
+curl -kL "https://esploradati.istat.it/SDMXWS/rest/data/115_333?startPeriod=2020-01-01&endPeriod=2020-01-31" >./115_333_gen2020.xml
+```
+
+**Formati SDMX:**
+
+```bash
+# Trimestre (Q1-Q4)
+curl -kL "https://esploradati.istat.it/SDMXWS/rest/data/115_333?startPeriod=2020-Q1&endPeriod=2020-Q4" >./115_333_2020_trimestri.xml
+
+# Semestre (S1-S2)
+curl -kL "https://esploradati.istat.it/SDMXWS/rest/data/115_333?startPeriod=2020-S1&endPeriod=2020-S2" >./115_333_2020_semestri.xml
+
+# Settimana (W01-W53)
+curl -kL "https://esploradati.istat.it/SDMXWS/rest/data/115_333?startPeriod=2020-W01&endPeriod=2020-W10" >./115_333_2020_settimane.xml
+```
+
+### Limitare numero osservazioni
+
+Utile per anteprime o test:
+
+```bash
+# Prime 100 osservazioni (dalla più vecchia)
+curl -kL "https://esploradati.istat.it/SDMXWS/rest/data/41_983?firstNObservations=100" >./41_983_first100.xml
+
+# Ultime 50 osservazioni (dalla più recente)
+curl -kL "https://esploradati.istat.it/SDMXWS/rest/data/41_983?lastNObservations=50" >./41_983_last50.xml
+```
+
+### Ottenere solo chiavi serie (senza dati)
+
+Parametro `detail=serieskeysonly` restituisce solo elenco serie senza osservazioni (utile per esplorare dataset grandi):
+
+```bash
+curl -kL "https://esploradati.istat.it/SDMXWS/rest/data/41_983?detail=serieskeysonly" >./41_983_keys.xml
 ```
 
 ### Applicare dei filtri
@@ -393,6 +523,33 @@ A seguire, come esempio, gli *end-point* REST dell'elenco dei *dataflow* (le tab
 - Censimento popolazione e abitazioni 2011: <http://sdmx.istat.it/WS_CENSPOP/rest/dataflow/IT1/>
 - Censimento industria e servizi 2011: <http://sdmx.istat.it/WS_CIS/rest/dataflow/IT1/>
 
+## Codici di risposta HTTP
+
+Le API ISTAT SDMX restituiscono i seguenti codici di stato HTTP:
+
+**Successo:**
+
+- `200 OK`: richiesta completata con successo
+- `304 Not Modified`: contenuto non modificato (con header `If-Modified-Since`)
+
+**Errori client:**
+
+- `400 Bad Request`: sintassi query non valida
+- `406 Not Acceptable`: formato richiesto non supportato
+- `413 Request Entity Too Large`: risposta troppo grande (ridurre scope query)
+- `414 URI Too Long`: URL troppo lungo (semplificare filtri)
+
+**Errori server:**
+
+- `500 Internal Server Error`: errore generico server
+- `503 Service Unavailable`: servizio temporaneamente non disponibile
+
+**Best practice:**
+
+- Usare `If-Modified-Since` header per ridurre traffico (risposta 304 se nessun cambiamento)
+- Limitare sempre query con filtri temporali e dimensionali per evitare 413/414
+- In caso 503, implementare retry con backoff esponenziale
+
 ## Note
 
 Questa guida è stata redatta **leggendo** la **documentazione** - non di ISTAT - presente **in altri siti** che documentano l'accesso REST a servizi SDMX. Il primo da cui siamo partiti è la [guida delle API](https://data.oecd.org/api/sdmx-json-documentation/) di accesso ai dati de l'"Organisation for Economic Co-operation and Development" (OECD).<br>
@@ -407,14 +564,21 @@ In ultimo, la cosa più importante: **chiediamo a ISTAT di documentare l'accesso
 Se vuoi **sostenere** le nostre **attività**, puoi farlo [donando il tuo **5x1000**](https://sostieni.ondata.it/).
 
 ## Sitografia
-- I.Stat data warehouse [http://dati.istat.it/](http://dati.istat.it/);
-- Pagina dei Web Service di ISTAT <https://www.istat.it/it/metodi-e-strumenti/web-service-sdmx>;
-- Registro delle meta informazione dei dati statistici di diffusione di ISTAT in formato SDMX <http://sdmx.istat.it/sdmxMetaRepository/>;
-- "How to build a rest query to retrieve eurostat data" <https://ec.europa.eu/eurostat/web/sdmx-web-services/a-few-useful-points>;
-- "sdmx-rest Tips for consumers" <https://github.com/sdmx-twg/sdmx-rest/wiki/Tips-for-consumers>;
-- "SDMX Technical Standards Working Group" <https://github.com/sdmx-twg>;
-- "SDMX - SDMX 2.1 Web services guidelines 2013" <https://sdmx.org/wp-content/uploads/SDMX_2-1-1-SECTION_07_WebServicesGuidelines_2013-04.pdf>;
-- "SDMX RESTful web services specification" <https://github.com/sdmx-twg/sdmx-rest>.
+
+**ISTAT e specifiche ufficiali:**
+
+- Specifiche OpenAPI v3 ufficiali ISTAT SDMX REST API v2.0.0 <https://raw.githubusercontent.com/teamdigitale/api-openapi-samples/master/external-apis/istat-sdmx-rest.yaml>
+- I.Stat data warehouse <http://dati.istat.it/>
+- Pagina dei Web Service di ISTAT <https://www.istat.it/it/metodi-e-strumenti/web-service-sdmx>
+- Registro delle meta informazione dei dati statistici di diffusione di ISTAT in formato SDMX <http://sdmx.istat.it/sdmxMetaRepository/>
+
+**Standard SDMX e guide:**
+
+- SDMX RESTful web services specification <https://github.com/sdmx-twg/sdmx-rest>
+- SDMX Technical Standards Working Group <https://github.com/sdmx-twg>
+- sdmx-rest Tips for consumers <https://github.com/sdmx-twg/sdmx-rest/wiki/Tips-for-consumers>
+- SDMX 2.1 Web services guidelines 2013 <https://sdmx.org/wp-content/uploads/SDMX_2-1-1-SECTION_07_WebServicesGuidelines_2013-04.pdf>
+- How to build a rest query to retrieve eurostat data <https://ec.europa.eu/eurostat/web/sdmx-web-services/a-few-useful-points>
 
 [`torna su`](#perché-questa-guida)
 

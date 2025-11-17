@@ -11,7 +11,7 @@ mkdir -p "$folder"/rawdata
 mkdir -p "$folder"/../risorse
 
 URL="https://www.istat.it/js/rsssep.php"
-dataflow="http://sdmx.istat.it/SDMXWS/rest/dataflow/IT1"
+dataflow="https://esploradati.istat.it/SDMXWS/rest/dataflow/IT1"
 URLbase="http://dati.istat.it/Index.aspx?DataSetCode="
 
 # leggi la risposta HTTP del sito

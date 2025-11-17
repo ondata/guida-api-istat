@@ -17,7 +17,7 @@ mkdir -p "$folder"/processing
 
 for i in categorisation categoryscheme codelist conceptscheme contentconstraint dataflow datastructure; do
   if [[ ! -f "$folder"/rawdata/"$i".xml ]]; then
-    curl -kL "http://sdmx.istat.it/SDMXWS/rest/$i/IT1" >"$folder"/rawdata/"$i".xml
+    curl -kL "https://esploradati.istat.it/SDMXWS/rest/$i/IT1" >"$folder"/rawdata/"$i".xml
   fi
 done
 
@@ -40,7 +40,7 @@ mkdir -p "$folder"/rawdata/"$datastructure"
 mkdir -p "$folder"/processing/"$datastructure"
 
 # scarica info datastructure
-curl -kL "http://sdmx.istat.it/SDMXWS/rest/datastructure/all/$datastructure" >"$folder"/rawdata/"$datastructure"/datastructure.xml
+curl -kL "https://esploradati.istat.it/SDMXWS/rest/datastructure/all/$datastructure" >"$folder"/rawdata/"$datastructure"/datastructure.xml
 xq <"$folder"/rawdata/"$datastructure"/datastructure.xml . >"$folder"/processing/"$datastructure"/datastructure.json
 
 # estrai dimesioni della datastructure
