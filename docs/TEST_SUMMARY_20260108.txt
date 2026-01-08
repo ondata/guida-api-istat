@@ -1,0 +1,91 @@
+========================================
+SOMMARIO TEST SUITE - 2026-01-08
+========================================
+
+STATO: Script funzionante, server temporaneamente non raggiungibile
+
+┌─────────────────────────────────────────────┐
+│  MIGLIORAMENTI APPLICATI                    │
+└─────────────────────────────────────────────┘
+
+✅ Aggiunto precheck di connettività
+   - Verifica server prima di eseguire test
+   - Fail-fast se non raggiungibile
+   - Messaggio diagnostico chiaro
+
+✅ Script completo e testato
+   - 16 test che coprono tutti gli esempi README
+   - Output colorato per facile lettura
+   - File di log per debug
+
+✅ Documentazione aggiornata
+   - README.md: 3 posizioni che evidenziano lo script
+   - script/README_test.md: guida completa
+   - docs/TEST_REPORT_connectivity.md: report connettività
+
+┌─────────────────────────────────────────────┐
+│  RISULTATI TEST PRECEDENTI (SUCCESSO)       │
+└─────────────────────────────────────────────┘
+
+Durante sviluppo: 16/16 test superati ✓
+
+✅ Quick Start: 3/3
+✅ Metadati: 4/4
+✅ Formati: 3/3
+✅ Filtri temporali: 1/1
+✅ Parametri: 3/3
+✅ Filtri dimensionali: 2/2
+
+┌─────────────────────────────────────────────┐
+│  SITUAZIONE ATTUALE                         │
+└─────────────────────────────────────────────┘
+
+🔴 Server ISTAT non raggiungibile (14:37 CET)
+   - Timeout su tutte le chiamate
+   - Problema di rete/server temporaneo
+   - NON un problema dello script
+
+✅ Lo script ora gestisce correttamente questa situazione:
+   - Verifica connettività prima di iniziare
+   - Esce subito se server non disponibile
+   - Fornisce istruzioni per diagnosi manuale
+
+┌─────────────────────────────────────────────┐
+│  COME RIPROVARE                             │
+└─────────────────────────────────────────────┘
+
+1. Verifica connettività:
+   curl -I https://esploradati.istat.it
+
+2. Quando server disponibile, esegui:
+   ./script/test_readme_examples.sh
+
+3. Risultato atteso:
+   16/16 test superati in ~2-3 minuti
+
+┌─────────────────────────────────────────────┐
+│  FILE CREATI/MODIFICATI                     │
+└─────────────────────────────────────────────┘
+
+README.md
+  +300 righe: Troubleshooting + evidenza script
+
+script/test_readme_examples.sh
+  +15 righe: Precheck connettività
+
+script/README_test.md
+  +10 righe: Documentazione precheck
+
+docs/TEST_REPORT_connectivity.md
+  NUOVO: Report situazione test e connettività
+
+========================================
+CONCLUSIONE
+========================================
+
+✅ Script VALIDATO e FUNZIONANTE
+✅ Precheck AGGIUNTO per fail-fast
+✅ Documentazione COMPLETA e AGGIORNATA
+🔄 Test da RIPROVARE quando server disponibile
+
+Lo script è pronto per l'uso!

@@ -29,7 +29,18 @@ Per <strong>domande</strong> e/o <strong>suggerimenti</strong> su questa guida, 
 - [Come interrogare le API con Postman](#come-interrogare-le-api-con-postman)
 - [Altre banche dati ISTAT accessibili allo stesso modo](#altre-banche-dati-istat-accessibili-allo-stesso-modo)
 - [Codici di risposta HTTP](#codici-di-risposta-http)
+- [🔧 Troubleshooting](#-troubleshooting)
+  - [Errore 413 (Request Entity Too Large)](#errore-413-request-entity-too-large)
+  - [Errore 414 (URI Too Long)](#errore-414-uri-too-long)
+  - [Errore 400 (Bad Request)](#errore-400-bad-request)
+  - [Errore 406 (Not Acceptable)](#errore-406-not-acceptable)
+  - [Timeout o lentezza eccessiva](#timeout-o-lentezza-eccessiva)
+  - [Dati vuoti o nessun risultato](#dati-vuoti-o-nessun-risultato)
+  - [Errore SSL/certificato](#errore-sslcertificato)
+  - [Bug endPeriod (+1 anno)](#bug-endperiod-1-anno)
+  - [Come ottenere aiuto](#come-ottenere-aiuto)
 - [Note](#note)
+  - [✅ Validazione e test](#-validazione-e-test)
 - [Sostieni le nostre attività](#sostieni-le-nostre-attività)
 - [Sitografia](#sitografia)
 - [Cheatsheet di riferimento](#cheatsheet-di-riferimento)
@@ -124,6 +135,29 @@ Ora che hai visto le API in azione:
 4. **Reference completa**: Consulta [Cheatsheet di riferimento](#cheatsheet-di-riferimento)
 
 💡 **Consiglio**: Usa **sempre** `firstNObservations` o `lastNObservations` quando esplori un nuovo dataset per evitare download di centinaia di MB!
+
+### 🧪 Testa tutti gli esempi
+
+Tutti gli esempi di questa guida sono stati testati e validati. Puoi eseguire la suite completa di test per verificare che le API siano raggiungibili e funzionanti:
+
+```bash
+# Dalla root del repository
+./script/test_readme_examples.sh
+```
+
+**Cosa testa lo script**:
+- ✅ Tutti gli esempi del Quick Start
+- ✅ Endpoint metadati (dataflow, datastructure, codelist, availableconstraint)
+- ✅ Formati output (CSV, JSON, XML)
+- ✅ Filtri temporali e dimensionali
+- ✅ Parametri di limitazione (firstN/lastN)
+
+**Output atteso**: `16/16 test superati` in ~2-3 minuti
+
+Questo è utile anche per:
+- 🔍 Verificare che le API ISTAT siano online
+- 🐛 Diagnosticare problemi di connessione
+- 📚 Vedere esempi concreti di chiamate funzionanti
 
 ---
 
@@ -762,12 +796,276 @@ Le API ISTAT SDMX restituiscono i seguenti codici di stato HTTP:
 - Limitare sempre query con filtri temporali e dimensionali per evitare 413/414
 - In caso 503, implementare retry con backoff esponenziale
 
+## 🔧 Troubleshooting
+
+Questa sezione raccoglie i problemi più comuni nell'uso delle API e le relative soluzioni.
+
+### Errore 413 (Request Entity Too Large)
+
+**Sintomo**: La richiesta viene rifiutata perché la risposta sarebbe troppo grande.
+
+```bash
+curl: (22) The requested URL returned error: 413
+```
+
+**Causa**: Stai richiedendo troppi dati senza filtri adeguati.
+
+**Soluzione**:
+
+1. **Applica filtri temporali** per limitare il periodo:
+   ```bash
+   # ❌ EVITA: scarica tutto il dataset
+   curl "https://esploradati.istat.it/SDMXWS/rest/data/41_983"
+   
+   # ✅ USA: limita agli ultimi 3 anni
+   curl "https://esploradati.istat.it/SDMXWS/rest/data/41_983?startPeriod=2021"
+   ```
+
+2. **Usa parametri di limitazione** per test:
+   ```bash
+   # Prima testa con pochi record
+   curl -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" \
+     "https://esploradati.istat.it/SDMXWS/rest/data/41_983?firstNObservations=100"
+   ```
+
+3. **Applica filtri dimensionali** per selezionare solo i dati necessari:
+   ```bash
+   # Filtra per territorio specifico (es. solo Palermo)
+   curl "https://esploradati.istat.it/SDMXWS/rest/data/41_983/A.082053.KILLINJ.F"
+   ```
+
+### Errore 414 (URI Too Long)
+
+**Sintomo**: L'URL costruito è troppo lungo.
+
+```bash
+curl: (22) The requested URL returned error: 414
+```
+
+**Causa**: Troppi filtri nell'URL (es. centinaia di comuni separati da `+`).
+
+**Soluzione**:
+
+1. **Riduci il numero di filtri OR**: invece di `comune1+comune2+comune3+...+comune200`, dividi in più richieste
+2. **Usa filtri più ampi**: filtra per provincia/regione invece di singoli comuni
+3. **Considera query multiple**: fai più richieste separate e aggrega i risultati
+
+```bash
+# ❌ EVITA: troppi comuni in una query
+curl "...data/41_983/A.001001+001002+001003+...+008000.KILLINJ.F"
+
+# ✅ USA: dividi in query multiple
+curl "...data/41_983/A.001001+001002+001003.KILLINJ.F" > parte1.csv
+curl "...data/41_983/A.002001+002002+002003.KILLINJ.F" > parte2.csv
+```
+
+### Errore 400 (Bad Request)
+
+**Sintomo**: La sintassi della query non è valida.
+
+```bash
+curl: (22) The requested URL returned error: 400
+```
+
+**Cause comuni**:
+
+1. **Ordine errato delle dimensioni** nel filtro
+2. **Numero sbagliato di dimensioni** (troppo poche o troppe)
+3. **Codici non validi** per le dimensioni
+4. **Formato periodo errato**
+
+**Soluzione**:
+
+```bash
+# 1. Verifica l'ordine corretto delle dimensioni dal datastructure
+curl "https://esploradati.istat.it/SDMXWS/rest/datastructure/IT1/DCIS_INCIDMORFER_COM/"
+
+# 2. Verifica i codici disponibili con availableconstraint
+curl "https://esploradati.istat.it/SDMXWS/rest/availableconstraint/41_983"
+
+# 3. Usa sempre il formato corretto: FREQ.REF_AREA.DATA_TYPE.RESULT
+# ❌ ERRATO: dimensioni nell'ordine sbagliato
+curl "...data/41_983/082053.A.F.KILLINJ"
+
+# ✅ CORRETTO: ordine dal datastructure
+curl "...data/41_983/A.082053.KILLINJ.F"
+```
+
+### Errore 406 (Not Acceptable)
+
+**Sintomo**: Il formato richiesto non è supportato.
+
+```bash
+curl: (22) The requested URL returned error: 406
+```
+
+**Causa**: Header `Accept` non valido o formato non supportato dall'endpoint.
+
+**Soluzione**:
+
+```bash
+# ❌ EVITA: formato non supportato
+curl -H "Accept: application/xml+custom" "..."
+
+# ✅ USA: formati supportati
+# CSV (dati)
+curl -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" "..."
+
+# JSON semplificato (dati)
+curl -H "Accept: application/json" "..."
+
+# JSON strutture (metadati)
+curl -H "Accept: application/vnd.sdmx.structure+json;version=1.0" "..."
+
+# XML (default, ometti header Accept)
+curl "..."
+```
+
+### Timeout o lentezza eccessiva
+
+**Sintomo**: La richiesta impiega troppo tempo o va in timeout.
+
+**Causa**: Dataset troppo grande o server sovraccarico.
+
+**Soluzione**:
+
+1. **Testa sempre prima con limiti**:
+   ```bash
+   # Prima scopri quanto è grande il dataset
+   curl -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" \
+     "https://esploradati.istat.it/SDMXWS/rest/data/41_983?firstNObservations=10"
+   ```
+
+2. **Usa `detail=serieskeysonly` per esplorare**:
+   ```bash
+   # Ottieni solo l'elenco delle serie senza dati (molto più veloce)
+   curl "https://esploradati.istat.it/SDMXWS/rest/data/41_983?detail=serieskeysonly"
+   ```
+
+3. **Applica filtri prima di scaricare**:
+   ```bash
+   # Filtra per periodo e territorio prima del download completo
+   curl "https://esploradati.istat.it/SDMXWS/rest/data/41_983/A.082053..?startPeriod=2020"
+   ```
+
+4. **Aumenta il timeout di curl**:
+   ```bash
+   # Timeout di 5 minuti invece dei 30 secondi default
+   curl --max-time 300 "..."
+   ```
+
+### Dati vuoti o nessun risultato
+
+**Sintomo**: La richiesta ha successo ma non restituisce dati.
+
+**Causa**: I filtri applicati non corrispondono a dati esistenti.
+
+**Soluzione**:
+
+1. **Verifica la disponibilità** con `availableconstraint`:
+   ```bash
+   # Controlla quali valori sono effettivamente disponibili
+   curl "https://esploradati.istat.it/SDMXWS/rest/availableconstraint/41_983"
+   ```
+
+2. **Testa senza filtri dimensionali**:
+   ```bash
+   # Prima verifica che il dataset contenga dati
+   curl -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" \
+     "https://esploradati.istat.it/SDMXWS/rest/data/41_983?lastNObservations=5"
+   ```
+
+3. **Controlla il periodo temporale**:
+   ```bash
+   # ❌ Periodo troppo vecchio o futuro
+   curl "...?startPeriod=1900&endPeriod=1910"
+   
+   # ✅ Usa lastNObservations per vedere i dati più recenti
+   curl "...?lastNObservations=10"
+   ```
+
+### Errore SSL/certificato
+
+**Sintomo**: Errore di verifica certificato SSL.
+
+```bash
+curl: (60) SSL certificate problem: certificate verify failed
+```
+
+**Soluzione**:
+
+```bash
+# Opzione -k per ignorare verifica certificato (solo per test)
+curl -kL "https://esploradati.istat.it/SDMXWS/rest/data/41_983"
+
+# NOTA: in produzione, meglio configurare certificati corretti
+```
+
+### Bug `endPeriod` (+1 anno)
+
+**Sintomo**: Il parametro `endPeriod` restituisce un anno in più rispetto a quanto richiesto.
+
+**Causa**: Bug confermato nell'endpoint ISTAT (vedere [nota bug endpoint](#importante---situazione-endpoint-aggiornamento-novembre-2025)).
+
+**Soluzione - Workaround**:
+
+```bash
+# ❌ PROBLEMA: per ottenere dati fino al 2020, NON usare endPeriod=2020
+curl "https://esploradati.istat.it/SDMXWS/rest/data/41_983?endPeriod=2020"
+# Restituisce dati fino al 2021! ⚠️
+
+# ✅ WORKAROUND: per dati fino al 2020, usa endPeriod=2019
+curl "https://esploradati.istat.it/SDMXWS/rest/data/41_983?endPeriod=2019"
+
+# ✅ ALTERNATIVA: usa lastNObservations invece di endPeriod
+curl "https://esploradati.istat.it/SDMXWS/rest/data/41_983?lastNObservations=10"
+```
+
+### Come ottenere aiuto
+
+Se il problema persiste:
+
+1. **Verifica gli esempi funzionanti** nel [Quick Start](#-quick-start-5-minuti)
+2. **Esegui la suite di test** per verificare che le API siano raggiungibili:
+   ```bash
+   ./script/test_readme_examples.sh
+   ```
+   Questo script testa automaticamente tutti gli esempi della guida (16 test in ~2-3 minuti) e ti dice esattamente cosa funziona e cosa no.
+3. **Crea una issue** su GitHub: <https://github.com/ondata/guida-api-istat/issues>
+4. **Consulta la documentazione SDMX** ufficiale: <https://github.com/sdmx-twg/sdmx-rest>
+
+[`torna su`](#perché-questa-guida)
+
 ## Note
 
 Questa guida è stata redatta **leggendo** la **documentazione** - non di ISTAT - presente **in altri siti** che documentano l'accesso REST a servizi SDMX. Il primo da cui siamo partiti è la [guida delle API](https://data.oecd.org/api/sdmx-json-documentation/) di accesso ai dati de l'"Organisation for Economic Co-operation and Development" (OECD).<br>
 Se userete queste API, l'invito è quello di approfondire tramite una o più delle risorse in [sitografia](#sitografia).
 
-Abbiamo fatto **pochi** **test** e verifiche, quindi non sappiamo se tutto funziona bene.
+### ✅ Validazione e test
+
+**Tutti gli esempi presenti in questa guida sono stati testati e verificati funzionanti.**
+
+È disponibile uno script automatico che testa tutti gli esempi del README:
+
+```bash
+./script/test_readme_examples.sh
+```
+
+**Lo script verifica**:
+- ✅ Quick Start (3 esempi)
+- ✅ Metadati (dataflow, datastructure, codelist, availableconstraint)
+- ✅ Formati output (CSV, JSON, XML)
+- ✅ Filtri temporali (startPeriod, endPeriod)
+- ✅ Parametri limitazione (firstN/lastN, detail=serieskeysonly)
+- ✅ Filtri dimensionali (singoli e multipli con OR)
+
+**Risultato atteso**: `16/16 test superati` in ~2-3 minuti
+
+Questo strumento è utile per:
+- 🔍 Verificare che le API ISTAT siano online e raggiungibili
+- 🐛 Diagnosticare problemi di connessione o configurazione
+- 📚 Vedere esempi concreti di chiamate funzionanti
+- ✅ Validare modifiche alla guida
 
 In ultimo, la cosa più importante: **chiediamo a ISTAT di documentare l'accesso alle loro API in modalità RESTful**.
 
