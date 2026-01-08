@@ -1,6 +1,6 @@
 # Note endpoint esploradati.istat.it
 
-## Situazione attuale (novembre 2025)
+## Situazione attuale (gennaio 2026)
 
 ### Endpoint disponibili
 
@@ -14,7 +14,7 @@
 
 #### 1. Endpoint `/rest/v2/data` non attivo
 
-La documentazione OpenAPI (`https://esploradati.istat.it/SDMXWS/swagger/v2/sdmx-rest.yaml`) documenta l'endpoint `/rest/v2/data`, ma **non è ancora implementato**.
+La documentazione OpenAPI pubblicata su `esploradati.istat.it` (`https://esploradati.istat.it/HVD/swagger/v2/sdmx-rest.yaml`) documenta l'endpoint `/rest/v2/data`, ma **non è ancora implementato**.
 
 Query come questa **non funzionano**:
 

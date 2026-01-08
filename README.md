@@ -3,6 +3,11 @@ Per <strong>domande</strong> e/o <strong>suggerimenti</strong> su questa guida, 
 </div>
 <br>
 
+- [🚀 Quick Start (5 minuti)](#-quick-start-5-minuti)
+  - [Esempio 1: Il tuo primo dato ISTAT](#esempio-1-il-tuo-primo-dato-istat)
+  - [Esempio 2: Trova tutti i dataset disponibili](#esempio-2-trova-tutti-i-dataset-disponibili)
+  - [Esempio 3: Dati specifici (Palermo, feriti, ultimi 10 record)](#esempio-3-dati-specifici-palermo-feriti-ultimi-10-record)
+  - [🎯 Prossimi passi](#-prossimi-passi)
 - [Perché questa guida](#perché-questa-guida)
 - [Specifiche OpenAPI ufficiali](#specifiche-openapi-ufficiali)
 - [Come interrogare le API](#come-interrogare-le-api)
@@ -32,6 +37,96 @@ Per <strong>domande</strong> e/o <strong>suggerimenti</strong> su questa guida, 
 
 
 
+## 🚀 Quick Start (5 minuti)
+
+Vuoi iniziare subito? Ecco 3 esempi che puoi copiare e provare immediatamente.
+
+### Esempio 1: Il tuo primo dato ISTAT
+
+Scarica gli **ultimi 5 record** sugli incidenti stradali in formato **CSV**:
+
+```bash
+curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" \
+  "https://esploradati.istat.it/SDMXWS/rest/data/41_983?lastNObservations=5"
+```
+
+**Output:**
+
+```csv
+DATAFLOW,FREQ,REF_AREA,DATA_TYPE,RESULT,TIME_PERIOD,OBS_VALUE,...
+IT1:41_983(1.0),A,001001,KILLINJ,F,2024,5,...
+IT1:41_983(1.0),A,001001,KILLINJ,F,2023,6,...
+IT1:41_983(1.0),A,001001,KILLINJ,F,2022,5,...
+```
+
+✅ **Cosa hai fatto:**
+
+- Interrogato dataset `41_983` (Incidenti stradali - comuni)
+- Richiesto formato CSV con header `Accept`
+- Limitato a 5 osservazioni più recenti con `lastNObservations`
+
+### Esempio 2: Trova tutti i dataset disponibili
+
+Scarica l'elenco di **tutti i dataset** ISTAT interrogabili (circa 450):
+
+```bash
+curl -kL "https://esploradati.istat.it/SDMXWS/rest/dataflow
+/IT1" > dataflow.xml
+```
+
+Apri `dataflow.xml` e cerca dataset di tuo interesse. Ogni `<structure:Dataflow id="...">` è un dataset disponibile.
+
+**Esempio blocco XML:**
+
+```xml
+<structure:Dataflow id="41_983" ...>
+  <common:Name xml:lang="it">Incidenti, morti e feriti - comuni</common:Name>
+  <common:Name xml:lang="en">Road accidents, killed and injured - municipalities</common:Name>
+</structure:Dataflow>
+```
+
+💡 **Tip:** Puoi consultare [l'elenco CSV già pronto](https://github.com/ondata/guida-api-istat/blob/master/processing/dataflow.csv) invece di processare l'XML.
+
+### Esempio 3: Dati specifici (Palermo, feriti, ultimi 10 record)
+
+Scarica solo i **feriti negli incidenti stradali a Palermo**, ultimi 10 record disponibili:
+
+```bash
+curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" \
+  "https://esploradati.istat.it/SDMXWS/rest/data/41_983/A.082053.KILLINJ.F?lastNObservations=10"
+```
+
+**Output:**
+
+```csv
+DATAFLOW,FREQ,REF_AREA,DATA_TYPE,RESULT,TIME_PERIOD,OBS_VALUE,...
+IT1:41_983(1.0),A,082053,KILLINJ,F,2024,2576,...
+IT1:41_983(1.0),A,082053,KILLINJ,F,2023,2503,...
+IT1:41_983(1.0),A,082053,KILLINJ,F,2022,2346,...
+```
+
+✅ **Cosa hai fatto:**
+
+- Applicato filtri dimensionali: `A.082053.KILLINJ.F`
+  - `A` = frequenza Annuale
+  - `082053` = codice comune Palermo
+  - `KILLINJ` = tipo dato (killed/injured)
+  - `F` = feriti
+- Richiesto ultimi 10 record con `lastNObservations=10` (in questo caso 10 anni perché frequenza è annuale)
+
+### 🎯 Prossimi passi
+
+Ora che hai visto le API in azione:
+
+1. **Capire come funziona**: Vai a [Come interrogare le API](#come-interrogare-le-api)
+2. **Altri esempi pratici**: Vedi [Qualche esempio](#qualche-esempio)
+3. **Filtrare per tue esigenze**: Leggi [Applicare dei filtri](#applicare-dei-filtri)
+4. **Reference completa**: Consulta [Cheatsheet di riferimento](#cheatsheet-di-riferimento)
+
+💡 **Consiglio**: Usa **sempre** `firstNObservations` o `lastNObservations` quando esplori un nuovo dataset per evitare download di centinaia di MB!
+
+---
+
 ## Perché questa guida
 
 L'**Istituto nazionale di statistica** (ISTAT) consente di accedere ai dati del proprio *warehouse* ([http://dati.istat.it/](http://dati.istat.it/)) in molte modalità. L'accesso via ***API REST*** è poco noto, molto comodo, ma **poco documentato**.<br>
@@ -45,12 +140,39 @@ Se vuoi proporre una modifica/integrazione/correzione a questa guida, [questo](h
 ## Specifiche OpenAPI ufficiali
 
 A partire dal 2024, il Team per la Trasformazione Digitale ha pubblicato le **specifiche OpenAPI v3** ufficiali delle API ISTAT SDMX (versione **2.0.0**).
+Dal **gennaio 2026** ISTAT espone anche una specifica OpenAPI aggiornata su `esploradati.istat.it` (ambiente HVD).
 
 **Risorse ufficiali:**
 
-- **Specifica OpenAPI completa**: [istat-sdmx-rest.yaml](https://raw.githubusercontent.com/teamdigitale/api-openapi-samples/master/external-apis/istat-sdmx-rest.yaml)
+- **Specifica OpenAPI ISTAT (HVD)**: `https://esploradati.istat.it/HVD/swagger/v2/sdmx-rest.yaml`
+- **Specifica OpenAPI completa (mirror Team Digitale)**: [istat-sdmx-rest.yaml](https://raw.githubusercontent.com/teamdigitale/api-openapi-samples/master/external-apis/istat-sdmx-rest.yaml)
 - **Endpoint base corrente**: `https://esploradati.istat.it/SDMXWS/rest`
 - **Documentazione ISTAT**: [Web Service SDMX](https://www.istat.it/it/metodi-e-strumenti/web-service-sdmx)
+- **Documentazione SDMX REST (sdmx-twg)**: https://github.com/sdmx-twg/sdmx-rest/tree/develop/v2_1/ws/rest/docs
+
+### Esempi HVD (SDMX 3.0 / OpenAPI)
+
+La specifica HVD descrive la sintassi SDMX 3.0 con path diversi dal legacy `/rest` (SDMX 2.1). Gli esempi sotto seguono **la specifica HVD** e usano l’endpoint `/rest/v2` (che potrebbe non essere attivo lato server).
+
+```bash
+# DATA (SDMX 3.0)
+curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=2.0.0" \
+  "https://esploradati.istat.it/SDMXWS/rest/v2/data/dataflow/IT1/41_983/1.0/*"
+
+# STRUCTURE (dataflow)
+curl -kL -H "Accept: application/vnd.sdmx.structure+json;version=2.0.0" \
+  "https://esploradati.istat.it/SDMXWS/rest/v2/structure/dataflow/IT1/41_983/1.0"
+
+# CODELIST (structure)
+curl -kL -H "Accept: application/vnd.sdmx.structure+json;version=2.0.0" \
+  "https://esploradati.istat.it/SDMXWS/rest/v2/structure/codelist/IT1/CL_FREQ/1.0"
+
+# AVAILABILITY (per componente)
+curl -kL \
+  "https://esploradati.istat.it/SDMXWS/rest/v2/availability/dataflow/IT1/41_983/1.0/*/REF_AREA"
+```
+
+**Nota:** nella OpenAPI HVD non sono previsti `startPeriod`/`endPeriod`; sono invece previsti parametri come `firstNObservations`, `lastNObservations` e `detail`.
 
 Le specifiche OpenAPI documentano in dettaglio:
 
@@ -64,22 +186,36 @@ Le specifiche OpenAPI documentano in dettaglio:
 
 **⚠️ IMPORTANTE - Situazione endpoint (aggiornamento novembre 2025):**
 
-L'endpoint ufficiale `https://esploradati.istat.it/SDMXWS/rest` presenta alcuni problemi confermati da ISTAT Contact Centre:
+L'endpoint ufficiale `https://esploradati.istat.it/SDMXWS/rest` presenta alcuni problemi confermati da ISTAT Contact Centre e test verificati:
 
 1. **`/rest/v2/data`** documentato ma non ancora implementato
-2. **`/rest/data`** funzionante ma con **bug filtri temporali**: per anno N usare `endperiod=N-1`
+2. **`/rest/data`** funzionante ma con **bug critico filtri temporali `endPeriod`**:
+   - ⚠️ **Il parametro `endPeriod` restituisce sempre un anno in più rispetto a quanto richiesto**
+   - Esempio: `endPeriod=2020` restituisce dati fino al **2021** incluso
+   - Esempio: `endPeriod=2015` restituisce dati fino al **2016** incluso
+   - **Workaround**: per ottenere dati fino all'anno N, usare `endPeriod=N-1`
 3. **Performance**: più lento (2+ minuti) rispetto endpoint legacy
 
 **Raccomandazione attuale:**
 
-Usare **endpoint ufficiale** `https://esploradati.istat.it/SDMXWS/rest/data` applicando workaround temporale.
+Usare **endpoint ufficiale** `https://esploradati.istat.it/SDMXWS/rest/data` ma **prestare attenzione al bug `endPeriod`**.
 
-**Esempio workaround bug:**
+**Esempi workaround bug verificato:**
 
 ```bash
-# Per dati 2023, usare endperiod=2022 (bug confermato ISTAT)
-curl -kL -H "Accept: text/csv" \
-  "https://esploradati.istat.it/SDMXWS/rest/data/IT1,22_289/A..JAN.9.TOTAL.99/?startperiod=2023&endperiod=2022"
+# ❌ ERRATO: per ottenere dati fino al 2020, NON usare endPeriod=2020
+curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" \
+  "https://esploradati.istat.it/SDMXWS/rest/data/41_983?endPeriod=2020"
+# Restituisce dati fino al 2021! ⚠️
+
+# ✅ CORRETTO: per dati fino al 2020, usare endPeriod=2019
+curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" \
+  "https://esploradati.istat.it/SDMXWS/rest/data/41_983?endPeriod=2019"
+
+# ✅ CORRETTO: per dati 2020-2021, usare startPeriod=2020&endPeriod=2020
+curl -kL -H "Accept: application/vnd.sdmx.data+csv;version=1.0.0" \
+  "https://esploradati.istat.it/SDMXWS/rest/data/41_983?startPeriod=2020&endPeriod=2020"
+# Restituisce 2020 e 2021
 ```
 
 📄 **Dettagli completi bug e workaround**: [processing/note-endpoint-esploradati.md](processing/note-endpoint-esploradati.md)
@@ -290,10 +426,12 @@ curl -kL -H "Accept: application/vnd.sdmx.structure+json;version=1.0" "https://e
 
 Usare `startPeriod` e `endPeriod` per limitare l'intervallo temporale.
 
+⚠️ **ATTENZIONE BUG `endPeriod`**: Il parametro `endPeriod` restituisce sempre un anno in più. Per ottenere dati fino all'anno N, usare `endPeriod=N-1`. Vedi [sezione bug endpoint](#importante---situazione-endpoint-aggiornamento-novembre-2025) per dettagli completi.
+
 **Formati ISO 8601:**
 
 ```bash
-# Anno
+# Anno - ATTENZIONE: endPeriod=2021 restituirà dati fino al 2022!
 curl -kL "https://esploradati.istat.it/SDMXWS/rest/data/41_983?startPeriod=2020&endPeriod=2021" >./41_983_2020-2021.xml
 
 # Mese
@@ -497,12 +635,12 @@ https://esploradati.istat.it/SDMXWS/rest/data/flowRef/dim1.dim2.dim3.dim4.dim5/
 
 Dal `datastructure` `DCIS_INCIDMORFER_COM` abbiamo 4 dimensioni in questo ordine:
 1. `FREQ` (frequenza) - posizione 1
-2. `REF_AREA` (territorio/comune) - posizione 2  
+2. `REF_AREA` (territorio/comune) - posizione 2
 3. `DATA_TYPE` (tipo dato) - posizione 3
 4. `RESULT` (risultato) - posizione 4
 
 **Caso 1 - Tutti i feriti a Palermo:**
-- FREQ: `A` (annuale) 
+- FREQ: `A` (annuale)
 - REF_AREA: `082053` (Palermo)
 - DATA_TYPE: `KILLINJ` (incidenti)
 - RESULT: `F` (feriti)
@@ -641,7 +779,8 @@ Se vuoi **sostenere** le nostre **attività**, puoi farlo [donando il tuo **5x10
 
 **ISTAT e specifiche ufficiali:**
 
-- Specifiche OpenAPI v3 ufficiali ISTAT SDMX REST API v2.0.0 <https://raw.githubusercontent.com/teamdigitale/api-openapi-samples/master/external-apis/istat-sdmx-rest.yaml>
+- Specifiche OpenAPI v3 ISTAT (HVD) <https://esploradati.istat.it/HVD/swagger/v2/sdmx-rest.yaml>
+- Specifiche OpenAPI v3 ufficiali ISTAT SDMX REST API v2.0.0 (mirror Team Digitale) <https://raw.githubusercontent.com/teamdigitale/api-openapi-samples/master/external-apis/istat-sdmx-rest.yaml>
 - I.Stat data warehouse <http://dati.istat.it/>
 - Pagina dei Web Service di ISTAT <https://www.istat.it/it/metodi-e-strumenti/web-service-sdmx>
 - Registro delle meta informazione dei dati statistici di diffusione di ISTAT in formato SDMX <http://sdmx.istat.it/sdmxMetaRepository/>
@@ -681,11 +820,11 @@ Lo **SDMX Technical Standards Working Group** ha creato un [*cheatsheet*](https:
 | **key** | Key of the series to be returned (e.g: D.NOK.EUR.SP00.A). Wildcarding (e.g: D..EUR.SP00.A) and OR (e.g: D.NOK+RUB.EUR.SP00.A) supported. | all |
 | providerRef | Data provider (e.g.: IT1) | all |
 | **startPeriod** | Start period (inclusive). ISO8601 (e.g. 2014-01) or SDMX reporting period (e.g. 2014-Q3). | |
-| **endPeriod** | End period (inclusive). ISO8601 (e.g. 2014-01-01) or SDMX reporting period (e.g. 2014-W53). | |
+| **endPeriod** | ⚠️ **BUG**: restituisce sempre anno+1. Per anno N usare N-1. ISO8601 (e.g. 2014-01-01) or SDMX reporting period (e.g. 2014-W53). | |
 | **updatedAfter** | Last time the query was performed. Used to retrieve deltas. Must be percent-encoded (e.g.: 2009-05-15T14%3A15%3A00%2B01%3A00) | |
 | **firstNObservations** | Maximum number of observations starting from the first observation | |
 | **lastNObservations** | Maximum number of observations counting back from the most recent observation | |
-| **dimensionAtObservation** | Id fof the dimension attached at the observation level | TIME_PERIOD |
+| **dimensionAtObservation** | Id of the dimension attached at the observation level | TIME_PERIOD |
 | **detail** | Desired amount of information to be returned. Values: full, dataonly, serieskeysonly, nodata | full |
 | **includeHistory** | Whether to return vintages | false |
 
@@ -700,17 +839,20 @@ Lo **SDMX Technical Standards Working Group** ha creato un [*cheatsheet*](https:
 
 **Supported formats**
 
-| Formats | Syntax |
-| --- | --- |
-| SDMX-ML Generic Data | application/vnd.sdmx.genericdata+xml;version=2.1 |
-| SDMX-ML StructureSpecific Data | application/vnd.sdmx.structurespecificdata+xml;version=2.1 |
-| SDMX-JSON Data | application/vnd.sdmx.data+json;version=1.0.0 |
-| SDMX-CSV Data | application/vnd.sdmx.data+csv;version=1.0.0 |
-| SDMX-ML Structure | application/vnd.sdmx.structure+xml;version=2.1 |
-| SDMX-JSON Structure | application/vnd.sdmx.structure+json;version=1.0.0 |
-| SDMX-ML Schemas | application/vnd.sdmx.schema+xml;version=2.1 |
-| SDMX-ML Generic Metadata | application/vnd.sdmx.genericmetadata+xml;version=2.1 |
-| SDMX-ML StructureSpecific Meta | application/vnd.sdmx.structurespecificmetadata+xml;version=2.1 |
+**Nota**: ISTAT supporta solo selezione formato tramite header `Accept`, non tramite parametro `format` nell'URL.
+
+| Formats | Syntax | Testato ✅ |
+| --- | --- | --- |
+| SDMX-ML Generic Data | application/vnd.sdmx.genericdata+xml;version=2.1 | |
+| SDMX-ML StructureSpecific Data | application/vnd.sdmx.structurespecificdata+xml;version=2.1 | |
+| SDMX-JSON Data (semplificato) | application/json | ✅ |
+| SDMX-JSON Data (completo) | application/vnd.sdmx.data+json;version=1.0.0 | |
+| SDMX-CSV Data | application/vnd.sdmx.data+csv;version=1.0.0 | ✅ |
+| SDMX-ML Structure | application/vnd.sdmx.structure+xml;version=2.1 | |
+| SDMX-JSON Structure | application/vnd.sdmx.structure+json;version=1.0.0 | ✅ |
+| SDMX-ML Schemas | application/vnd.sdmx.schema+xml;version=2.1 | |
+| SDMX-ML Generic Metadata | application/vnd.sdmx.genericmetadata+xml;version=2.1 | |
+| SDMX-ML StructureSpecific Meta | application/vnd.sdmx.structurespecificmetadata+xml;version=2.1 | |
 
 
 **Period formats**
