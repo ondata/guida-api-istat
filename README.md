@@ -3,18 +3,23 @@ Per <strong>domande</strong> e/o <strong>suggerimenti</strong> su questa guida, 
 </div>
 <br>
 
-> [!IMPORTANT]
-> Per evitare il sovraccarico del servizio web SDMX, è stato impostato un limite di **5 query al minuto per ogni IP**. Una volta superato questo limite, viene attivato un blocco di accesso della durata compresa tra **1 e 2 giorni**.
->
-> Fonte: <https://www.istat.it/en/classifications-and-tools/sdmx-web-services/>
+---
+
+**IMPORTANTE**: per evitare il sovraccarico del servizio web SDMX, è stato impostato un limite di **5 query al minuto per ogni IP**. Una volta superato questo limite, viene attivato un blocco di accesso della durata compresa tra **1 e 2 giorni**.
+
+---
+
+Fonte: <https://www.istat.it/en/classifications-and-tools/sdmx-web-services/>
 
 - [🚀 Quick Start (5 minuti)](#-quick-start-5-minuti)
   - [Esempio 1: Il tuo primo dato ISTAT](#esempio-1-il-tuo-primo-dato-istat)
   - [Esempio 2: Trova tutti i dataset disponibili](#esempio-2-trova-tutti-i-dataset-disponibili)
   - [Esempio 3: Dati specifici (Palermo, feriti, ultimi 10 record)](#esempio-3-dati-specifici-palermo-feriti-ultimi-10-record)
   - [🎯 Prossimi passi](#-prossimi-passi)
+  - [🧪 Testa tutti gli esempi](#-testa-tutti-gli-esempi)
 - [Perché questa guida](#perché-questa-guida)
 - [Specifiche OpenAPI ufficiali](#specifiche-openapi-ufficiali)
+  - [Esempi HVD (SDMX 3.0 / OpenAPI)](#esempi-hvd-sdmx-30--openapi)
 - [Come interrogare le API](#come-interrogare-le-api)
   - [SEP (Single Exit Point)](#sep-single-exit-point)
   - [Che strumenti usare](#che-strumenti-usare)
@@ -42,7 +47,7 @@ Per <strong>domande</strong> e/o <strong>suggerimenti</strong> su questa guida, 
   - [Timeout o lentezza eccessiva](#timeout-o-lentezza-eccessiva)
   - [Dati vuoti o nessun risultato](#dati-vuoti-o-nessun-risultato)
   - [Errore SSL/certificato](#errore-sslcertificato)
-  - [Bug endPeriod (+1 anno)](#bug-endperiod-1-anno)
+  - [Bug `endPeriod` (+1 anno)](#bug-endperiod-1-anno)
   - [Come ottenere aiuto](#come-ottenere-aiuto)
 - [Note](#note)
   - [✅ Validazione e test](#-validazione-e-test)
@@ -821,7 +826,7 @@ curl: (22) The requested URL returned error: 413
    ```bash
    # ❌ EVITA: scarica tutto il dataset
    curl "https://esploradati.istat.it/SDMXWS/rest/data/41_983"
-   
+
    # ✅ USA: limita agli ultimi 3 anni
    curl "https://esploradati.istat.it/SDMXWS/rest/data/41_983?startPeriod=2021"
    ```
@@ -984,7 +989,7 @@ curl "..."
    ```bash
    # ❌ Periodo troppo vecchio o futuro
    curl "...?startPeriod=1900&endPeriod=1910"
-   
+
    # ✅ Usa lastNObservations per vedere i dati più recenti
    curl "...?lastNObservations=10"
    ```
