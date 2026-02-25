@@ -66,6 +66,7 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: calc(var(--header-h) + 16px);
   font-size: 16px;
+  overflow-x: hidden; /* evita scroll orizzontale */
 }
 
 body {
@@ -73,6 +74,7 @@ body {
   font-size: 1rem;
   line-height: 1.75;
   color: var(--text-body);
+  overflow-x: hidden;
   background: var(--bg-page);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -96,9 +98,16 @@ body {
 }
 .skip-link:focus { top: 0; }
 
+/* Focus visibile robusto — contrasto garantito su qualsiasi sfondo */
 *:focus-visible {
   outline: 3px solid var(--blue);
-  outline-offset: 2px;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+/* Su sfondi scuri (header, footer) il focus diventa bianco */
+.site-header *:focus-visible,
+.it-header-slim *:focus-visible {
+  outline-color: #fff;
 }
 
 /* ── Fascia istituzionale superiore ──────────────────────────── */
@@ -329,6 +338,8 @@ body {
   border-left: 3px solid transparent;
   transition: color var(--transition), border-color var(--transition), background var(--transition);
   position: relative;
+  word-break: break-word;   /* wrap testo lungo nel ToC */
+  overflow-wrap: break-word;
 }
 
 .toc-link:hover {
@@ -743,6 +754,17 @@ body {
   .back-to-top { bottom: 20px; right: 20px; }
   .notice-rate-limit { padding: 10px 16px; }
   .it-header-slim { display: none; }
+}
+
+/* ── Riduzione movimento (prefers-reduced-motion) ───────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+  html { scroll-behavior: auto !important; }
+  .back-to-top { transition: none; }
 }
 
 /* ── Stampa ─────────────────────────────────────────────────── */
