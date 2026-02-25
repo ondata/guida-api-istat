@@ -80,6 +80,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Evita overflow orizzontale su token lunghi senza spazi */
+.content-article p,
+.content-article li,
+.content-article td {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 /* ── Accessibilità ──────────────────────────────────────────── */
 .skip-link {
   position: fixed;
