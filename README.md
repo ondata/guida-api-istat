@@ -5,11 +5,12 @@ Per <strong>domande</strong> e/o <strong>suggerimenti</strong> su questa guida, 
 
 ---
 
-**IMPORTANTE**: per evitare il sovraccarico del servizio web SDMX, è stato impostato un limite di **5 query al minuto per ogni IP**. Una volta superato questo limite, viene attivato un blocco di accesso della durata compresa tra **1 e 2 giorni**.
+**IMPORTANTE**: per evitare il sovraccarico del servizio web SDMX, ISTAT ha impostato un limite di **5 query al minuto per ogni IP**. Una volta superato questo limite, viene attivato un blocco di accesso della durata compresa tra **1 e 2 giorni**.
+
+Fonte: <https://www.istat.it/en/classifications-and-tools/sdmx-web-services/>
 
 ---
 
-Fonte: <https://www.istat.it/en/classifications-and-tools/sdmx-web-services/>
 
 - [🚀 Quick Start (5 minuti)](#-quick-start-5-minuti)
   - [Esempio 1: Il tuo primo dato ISTAT](#esempio-1-il-tuo-primo-dato-istat)
