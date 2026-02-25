@@ -5,56 +5,246 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
   <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:description" content="{{ site.description }}" />
   <meta property="og:image" content="https://i.imgur.com/LYzbOxY.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="https://i.imgur.com/LYzbOxY.png" />
-  <meta name="twitter:title" content="Guida all'uso delle API REST di ISTAT" />
-  <meta name="twitter:description" content="Le nozioni di base e qualche esempio" />
+  <meta name="twitter:title" content="{{ site.title }}" />
+  <meta name="twitter:description" content="{{ site.description }}" />
 
-  {% seo %}
-  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-  <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
 
-  <!-- librerie vega lite -->
-  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-  <!-- librerie vega lite -->
+  <!-- Vega-Lite per grafici -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6" defer></script>
 
-  <!-- stile per vega-lite -->
-  <style>
-    .vl-responsive {
-      width: 100%;
-    }
-
-    details {
-      display: none !important;
-    }
-  </style>
-  <!-- stile per vega-lite -->
-
+  <style>.vl-responsive { width: 100%; }</style>
 </head>
 
 <body>
-  <div class="container-lg px-3 my-5 markdown-body">
-    <a href="https://ondata.it/"><img src="./imgs/ondata_logo.png" width="143" alt="onData homepage"></a>
-    {% if site.title and site.title != page.title %}
-    <h1>{{ site.title }}</h1>
-    {% endif %}
 
-    {{ content }}
+  <!-- Accessibilità: salta al contenuto -->
+  <a href="#main-content" class="skip-link">Vai al contenuto principale</a>
 
-    {% if site.github.private != true and site.github.license %}
-    <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-      "Guida all'uso delle API REST di ISTAT" - Un progetto di <span title="Label: default label"
-        class="Label bg-blue"><a class="" href="https://ondata.it">onData</a></span>
+  <!-- Fascia istituzionale superiore -->
+  <div class="it-header-slim">
+    <div class="it-header-slim__wrapper">
+      <a href="https://ondata.it/" class="it-header-slim__org">onData APS</a>
+      <div class="it-header-slim__sep" aria-hidden="true"></div>
+      <span class="it-header-slim__type">Guida tecnica open data</span>
     </div>
-    {% endif %}
   </div>
+
+  <!-- Header principale -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <div class="header-brand">
+        <a href="https://ondata.it/" class="brand-logo" aria-label="onData homepage">
+          <img src="{{ "/imgs/ondata_logo.png" | relative_url }}" alt="onData" width="110" height="auto">
+        </a>
+        <div class="brand-sep" aria-hidden="true"></div>
+        <div class="brand-info">
+          <span class="brand-label">Guida tecnica</span>
+          <span class="brand-name">API REST ISTAT</span>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <a href="https://github.com/ondata/guida-api-istat" class="header-btn header-btn--ghost" target="_blank" rel="noopener" aria-label="Repository GitHub">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.02c-3.34.72-4.04-1.61-4.04-1.61-.54-1.38-1.33-1.75-1.33-1.75-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02.005 2.04.138 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.24 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          <span>GitHub</span>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Apri/chiudi indice" aria-expanded="false" aria-controls="sidebar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Overlay mobile -->
+  <div class="sidebar-overlay" id="sidebarOverlay" role="presentation"></div>
+
+  <!-- Layout a due colonne -->
+  <div class="page-layout">
+
+    <!-- Sidebar con indice -->
+    <aside class="sidebar" id="sidebar" role="complementary" aria-label="Indice dei contenuti">
+      <div class="sidebar-inner">
+        <div class="sidebar-head">
+          <span class="sidebar-head__label">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9h14V7H3v2zm0 4h14v-2H3v2zm0 4h14v-2H3v2zm16 0h2v-2h-2v2zm0-10v2h2V7h-2zm0 6h2v-2h-2v2z"/></svg>
+            Indice dei contenuti
+          </span>
+        </div>
+
+        <nav id="toc" class="toc-nav" aria-label="Navigazione sezioni"></nav>
+
+        <div class="sidebar-foot">
+          <a href="https://github.com/ondata/guida-api-istat/issues/new" class="sidebar-foot__link" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+            Segnala un problema
+          </a>
+          <a href="https://www.istat.it/en/classifications-and-tools/sdmx-web-services/" class="sidebar-foot__link" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z"/></svg>
+            ISTAT SDMX Web Services
+          </a>
+          <a href="{{ "/lista" | relative_url }}" class="sidebar-foot__link">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+            Lista dataset
+          </a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Contenuto principale -->
+    <main class="main-content" id="main-content" role="main">
+      <article class="content-article">
+        {{ content }}
+      </article>
+
+      <footer class="content-footer" role="contentinfo">
+        <div class="footer-inner">
+          <div class="footer-license">
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">
+              <img alt="CC BY 4.0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" width="88" height="31">
+            </a>
+            <span>Distribuita con licenza <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribuzione 4.0</a></span>
+          </div>
+          <div class="footer-credit">
+            Un progetto di <a href="https://ondata.it" target="_blank" rel="noopener">onData</a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+  </div><!-- /page-layout -->
+
+  <!-- Torna su -->
+  <button class="back-to-top" id="backToTop" aria-label="Torna in cima alla pagina">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
+  </button>
+
+  <!-- AnchorJS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
     integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-  <script>anchors.add();</script>
+
+  <script>
+  (function () {
+
+    // ── Indice automatico ToC ────────────────────────────────
+    var toc = document.getElementById('toc');
+    var article = document.querySelector('.content-article');
+    if (toc && article) {
+      var headings = article.querySelectorAll('h2, h3');
+      if (headings.length) {
+        var ul = document.createElement('ul');
+        ul.className = 'toc-list';
+        headings.forEach(function (h) {
+          var li = document.createElement('li');
+          li.className = 'toc-item' + (h.tagName === 'H3' ? ' toc-item--h3' : '');
+          var a = document.createElement('a');
+          a.className = 'toc-link';
+          a.href = '#' + h.id;
+          // Rimuove emoji e spazi iniziali per il testo del link
+          a.textContent = h.textContent.replace(/^[\s\u{1F000}-\u{1FFFF}\u{2600}-\u{27BF}]+/u, '').trim();
+          li.appendChild(a);
+          ul.appendChild(li);
+        });
+        toc.appendChild(ul);
+
+        // Evidenzia sezione attiva durante lo scroll
+        var tocLinks = toc.querySelectorAll('.toc-link');
+        var observer = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              tocLinks.forEach(function (l) { l.classList.remove('is-active'); });
+              var active = toc.querySelector('[href="#' + entry.target.id + '"]');
+              if (active) active.classList.add('is-active');
+            }
+          });
+        }, { rootMargin: '-15% 0px -75% 0px' });
+        headings.forEach(function (h) { observer.observe(h); });
+      }
+    }
+
+    // ── AnchorJS ─────────────────────────────────────────────
+    if (typeof anchors !== 'undefined') {
+      anchors.options = { placement: 'right' };
+      anchors.add('.content-article h2, .content-article h3');
+    }
+
+    // ── Pulsante copia per blocchi di codice ─────────────────
+    document.querySelectorAll('.content-article pre').forEach(function (pre) {
+      var btn = document.createElement('button');
+      btn.className = 'copy-btn';
+      btn.setAttribute('aria-label', 'Copia codice');
+      btn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 1H4C2.9 1 2 1.9 2 3v14h2V3h12V1zm3 4H8C6.9 5 6 5.9 6 7v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg> Copia';
+      pre.appendChild(btn);
+      btn.addEventListener('click', function () {
+        var code = pre.querySelector('code');
+        var text = code ? code.textContent : pre.textContent;
+        navigator.clipboard.writeText(text).then(function () {
+          btn.classList.add('is-copied');
+          btn.setAttribute('aria-label', 'Copiato!');
+          btn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Copiato';
+          setTimeout(function () {
+            btn.classList.remove('is-copied');
+            btn.setAttribute('aria-label', 'Copia codice');
+            btn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 1H4C2.9 1 2 1.9 2 3v14h2V3h12V1zm3 4H8C6.9 5 6 5.9 6 7v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg> Copia';
+          }, 2200);
+        });
+      });
+    });
+
+    // ── Torna su ─────────────────────────────────────────────
+    var btnTop = document.getElementById('backToTop');
+    if (btnTop) {
+      window.addEventListener('scroll', function () {
+        btnTop.classList.toggle('is-visible', window.scrollY > 480);
+      }, { passive: true });
+      btnTop.addEventListener('click', function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+
+    // ── Menu mobile ──────────────────────────────────────────
+    var toggle   = document.getElementById('menuToggle');
+    var sidebar  = document.getElementById('sidebar');
+    var overlay  = document.getElementById('sidebarOverlay');
+    function closeSidebar() {
+      sidebar.classList.remove('is-open');
+      overlay.classList.remove('is-open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+    if (toggle && sidebar) {
+      toggle.addEventListener('click', function () {
+        var open = sidebar.classList.toggle('is-open');
+        overlay.classList.toggle('is-open', open);
+        toggle.setAttribute('aria-expanded', String(open));
+      });
+      overlay.addEventListener('click', closeSidebar);
+      // Chiude sidebar cliccando un link ToC su mobile
+      toc && toc.addEventListener('click', function (e) {
+        if (e.target.classList.contains('toc-link') && window.innerWidth < 940) closeSidebar();
+      });
+    }
+
+    // ── Link esterni in nuova scheda ─────────────────────────
+    document.querySelectorAll('a[href^="http"]').forEach(function (a) {
+      if (!a.target) {
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+      }
+    });
+
+  })();
+  </script>
+
   {% if site.google_analytics %}
   <script>
     (function (i, s, o, g, r, a, m) {
@@ -68,18 +258,5 @@
   </script>
   {% endif %}
 
-  <!-- target blank -->
-  <script>
-    (function () {
-      var links = document.getElementsByTagName('a');
-      for (var i = 0; i < links.length; i++) {
-        if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
-          links[i].target = '_blank';
-        }
-      }
-    })();
-  </script>
-  <!-- target blank -->
 </body>
-
 </html>
