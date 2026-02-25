@@ -204,6 +204,14 @@ body {
   min-width: 0;
 }
 
+.brand-home {
+  color: inherit;
+  text-decoration: none;
+}
+.brand-home:hover .brand-name {
+  text-decoration: underline;
+}
+
 .brand-label {
   font-size: .6rem;
   text-transform: uppercase;
