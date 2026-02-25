@@ -2,7 +2,11 @@
 
 ## Introduzione
 
-Ricetta per scaricare i dati sulla popolazione residente regionale per gli anni da 2012 a 2020. Utilizzeremo le API ISTAT e concateneremo le [NUTS2](https://it.wikipedia.org/wiki/Nomenclatura_delle_unit%C3%A0_territoriali_statistiche) (ITC1+ITC2+ITC3+ITC4+ITD1+ITD2+ITD3+ITD4+ITD5+ITE1+ITE2+ITE3+ITE4+ITF1+ITF2+ITF3+ITF4+ITF5+ITF6+ITG1+ITG2) delle 21 regioni.
+Ricetta per scaricare i dati sulla popolazione residente regionale. Useremo le API ISTAT e concateneremo le [NUTS2](https://it.wikipedia.org/wiki/Nomenclatura_delle_unit%C3%A0_territoriali_statistiche) (ITC1+ITC2+ITC3+ITC4+ITD1+ITD2+ITD3+ITD4+ITD5+ITE1+ITE2+ITE3+ITE4+ITF1+ITF2+ITF3+ITF4+ITF5+ITF6+ITG1+ITG2) delle 21 regioni.
+
+## Crediti
+
+Ricetta proposta da [@pigreco](https://github.com/pigreco) nella issue [#9](https://github.com/ondata/guida-api-istat/issues/9).
 
 ## Cosa serve
 
@@ -29,7 +33,7 @@ curl -kL -H "Accept: text/csv" \
 
 **Nota**: il comando richiede circa 2 minuti per completare.
 
-In output si ottiene un file CSV con 18 campi, molti dei quali sono inutili e vanno eliminati; quelli da conservare sono `ITTER107` (che contiene i _NUTS2_), `TIME_PERIOD` (gli _anni_) e `OBS_VALUEQ` (valori della _popolazione_):
+In output si ottiene un file CSV con molti campi, ma per questa ricetta quelli essenziali sono `REF_AREA` (che contiene i _NUTS2_), `TIME_PERIOD` (gli _anni_) e `OBS_VALUE` (valori della _popolazione_):
 
 <img src = "../ricette/imgs/img_01.png" width =800>
 

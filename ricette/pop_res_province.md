@@ -6,6 +6,10 @@ Ricetta per scaricare i dati sulla popolazione residente per province (livello N
 
 Le province sono identificate da codici NUTS3 di 5 caratteri (es. ITC11 = Torino, ITG28 = Ragusa).
 
+## Crediti
+
+Ricetta proposta da [@pigreco](https://github.com/pigreco) nella issue [#9](https://github.com/ondata/guida-api-istat/issues/9).
+
 ## Cosa serve
 
 1. Shell Linux
@@ -37,20 +41,20 @@ curl -kL -H "Accept: text/csv" \
 - `..` = tutti i territori (Italia, ripartizioni, regioni, province, comuni)
 - `.9.99` = tutti gli stati civili, tutte le età
 - `..` = dati a gennaio (popolazione fine anno precedente)
-- `startPeriod=2023&endPeriod=2024` = anni 2023 e 2024
+- `startPeriod=2023&endPeriod=2023` = anno 2023
 
 ## Estrai solo province con DuckDB
 
 ```bash
 duckdb -c "COPY (
   SELECT
-    ITTER107 as codice_provincia,
+    REF_AREA as codice_provincia,
     TIME_PERIOD as anno,
     OBS_VALUE as popolazione
   FROM 'pop_tutti_territori.csv'
-  WHERE LENGTH(ITTER107) = 5
-    AND REGEXP_MATCHES(ITTER107, '^IT[A-Z][0-9]')
-  ORDER BY ITTER107, TIME_PERIOD
+  WHERE LENGTH(REF_AREA) = 5
+    AND REGEXP_MATCHES(REF_AREA, '^IT[A-Z][0-9]')
+  ORDER BY REF_AREA, TIME_PERIOD
 ) TO 'popolazione_province.csv' (HEADER, DELIMITER ',')"
 ```
 

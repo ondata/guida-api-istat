@@ -2,7 +2,11 @@
 
 ## Introduzione
 
-Ricetta per scaricare i dati sulla popolazione residente comunali per gli anni da 2012 a 2020 della Regione Sicilia. Utilizzeremo le API ISTAT e ...
+Ricetta per scaricare i dati sulla popolazione residente comunale. Il download di base include tutti i comuni italiani, con focus operativo sul filtro dei comuni siciliani.
+
+## Crediti
+
+Ricetta proposta da [@pigreco](https://github.com/pigreco) nella issue [#9](https://github.com/ondata/guida-api-istat/issues/9).
 
 ## Cosa serve
 
@@ -29,7 +33,7 @@ curl -kL -H "Accept: text/csv" \
 
 **Nota**: il comando richiede diversi minuti per completare (scarica tutti i comuni italiani).
 
-In output si ottiene un file CSV con 18 campi, molti dei quali sono inutili e vanno eliminati; quelli da conservare sono `ITTER107` (che contiene i codici ISTAT dei comuni), `TIME_PERIOD` (gli _anni_) e `OBS_VALUEQ` (valori della _popolazione_):
+In output si ottiene un file CSV con molti campi, ma per questa ricetta quelli essenziali sono `REF_AREA` (che contiene i codici territoriali), `TIME_PERIOD` (gli _anni_) e `OBS_VALUE` (valori della _popolazione_):
 
 <img src = "../ricette/imgs/img_03.png" width =800>
 
@@ -46,7 +50,7 @@ Per salvarlo definitivamente nel PC, digitare `Ctrl + s` e poi nome del file.
 ## Comuni della Sicilia
 
 Per ottenere solo i Comuni siciliani (sono 390) occorre selezionare le righe relative e cancellare le restanti righe. In VisiData:
-1. posizionarsi nella prima comonna `ITTER107`;
+1. posizionarsi nella prima colonna `REF_AREA`;
 2. digitare `Shift + |` (pipe) e la regex `^08[1-9]...`
 3. invio;
 4. digitare `Shift + 2` per creare un nuovo foglio con le righe selezionate;
