@@ -203,6 +203,21 @@
       });
     });
 
+    // ── Immagini: apri in nuova scheda (se non già linkate) ──
+    document.querySelectorAll('.content-article img').forEach(function (img) {
+      if (img.closest('a')) return;
+      var src = img.currentSrc || img.getAttribute('src');
+      if (!src) return;
+      var link = document.createElement('a');
+      link.href = src;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.className = 'image-zoom-link';
+      link.setAttribute('aria-label', 'Apri immagine in nuova scheda');
+      img.parentNode.insertBefore(link, img);
+      link.appendChild(img);
+    });
+
     // ── Torna su ─────────────────────────────────────────────
     var btnTop = document.getElementById('backToTop');
     if (btnTop) {

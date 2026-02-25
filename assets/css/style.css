@@ -617,6 +617,15 @@ body {
   display: block;
 }
 
+.content-article .image-zoom-link {
+  display: inline-block;
+  max-width: 100%;
+  cursor: zoom-in;
+}
+.content-article .image-zoom-link img {
+  cursor: zoom-in;
+}
+
 /* ── Video iframe ───────────────────────────────────────────── */
 .content-article iframe {
   max-width: 100%;
