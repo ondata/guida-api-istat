@@ -640,6 +640,11 @@ body {
   font-size: .9rem;
 }
 
+/* Riduce il vuoto iniziale tra box intro e primo separatore del README */
+.content-article .container-lg.border + hr {
+  margin-top: 16px;
+}
+
 /* ── Banner avvisi rate-limit ───────────────────────────────── */
 .notice-rate-limit {
   display: flex;

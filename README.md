@@ -1,7 +1,6 @@
 <div class="container-lg clearfix border p-2 bg-blue-light my-">
 Per <strong>domande</strong> e/o <strong>suggerimenti</strong> su questa guida, è possibile creare una nuova issue <a href="https://github.com/ondata/guida-api-istat/issues/new">qui</a>
 </div>
-<br>
 
 ---
 
