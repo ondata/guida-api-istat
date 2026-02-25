@@ -724,7 +724,12 @@ body {
 
 /* ── Responsive ─────────────────────────────────────────────── */
 @media (max-width: 940px) {
-  .page-layout { flex-direction: column; }
+  .page-layout {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .main-content { width: 100%; }
 
   .sidebar {
     position: fixed;
