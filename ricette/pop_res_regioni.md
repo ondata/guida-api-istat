@@ -51,4 +51,4 @@ Per salvarlo definitivamente nel PC, digitare `Ctrl + s` e poi nome del file.
 
 - [Curl](https://curl.se/)
 - [VisiData](https://www.visidata.org/)
-- [Guida italiana a VisiData](https://github.com/ondata/guidaVisiData/blob/master/testo/README.md)
+- [Guida italiana a VisiData](https://ondata.github.io/guidaVisiData/)

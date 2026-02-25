@@ -87,4 +87,4 @@ Sardegna|20|111,95,90,91,92
 
 - [Curl](https://curl.se/)
 - [VisiData](https://www.visidata.org/)
-- [Guida italiana a VisiData](https://github.com/ondata/guidaVisiData/blob/master/testo/README.md)
+- [Guida italiana a VisiData](https://ondata.github.io/guidaVisiData/)
