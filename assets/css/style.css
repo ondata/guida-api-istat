@@ -305,7 +305,7 @@ body {
   position: sticky;
   top: var(--header-h);
   height: calc(100vh - var(--header-h));
-  overflow-y: auto;
+  overflow: hidden;
   background: var(--bg-white);
   border-right: 1px solid var(--border);
   scrollbar-width: thin;
@@ -316,6 +316,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  min-height: 0;
 }
 
 .sidebar-head {
@@ -340,7 +341,7 @@ body {
 }
 
 /* ToC */
-.toc-nav { flex: 1; overflow-y: auto; padding: 8px 0; }
+.toc-nav { flex: 1; overflow-y: auto; min-height: 0; padding: 8px 0; }
 
 .toc-list { list-style: none; }
 
