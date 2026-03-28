@@ -968,14 +968,20 @@ curl "..."
 
 **Sintomo**: La richiesta ha successo ma non restituisce dati.
 
-**Causa**: I filtri applicati non corrispondono a dati esistenti.
+**Causa**: I filtri applicati non corrispondono a dati esistenti, oppure è stato usato un header `Accept` errato.
+
+> **Attenzione**: l'endpoint `availableconstraint` con header `Accept: application/json` generico restituisce `"data": {}` (vuoto). Per ottenere i dati in JSON, usare l'header specifico SDMX: `Accept: application/vnd.sdmx.structure+json; version=1.0`. Senza header `Accept`, la risposta è in XML (sempre funzionante).
 
 **Soluzione**:
 
 1. **Verifica la disponibilità** con `availableconstraint`:
    ```bash
-   # Controlla quali valori sono effettivamente disponibili
+   # XML (default, funziona sempre)
    curl "https://esploradati.istat.it/SDMXWS/rest/availableconstraint/41_983"
+
+   # JSON (usare header SDMX specifico, NON application/json)
+   curl -H "Accept: application/vnd.sdmx.structure+json; version=1.0" \
+     "https://esploradati.istat.it/SDMXWS/rest/availableconstraint/41_983"
    ```
 
 2. **Testa senza filtri dimensionali**:
